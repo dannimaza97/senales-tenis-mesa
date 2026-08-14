@@ -484,6 +484,19 @@ def main():
     candidatas = []
     for nombre_liga, league_id in LIGAS.items():
         proximos = obtener_partidos_proximos(league_id, paginas=6)
+
+        ultima_hora_jugador = {}
+        for ev in proximos:
+            h = ev.get("home", {}).get("name")
+            a = ev.get("away", {}).get("name")
+            try:
+                ts_ev = int(ev.get("time"))
+            except (TypeError, ValueError):
+                continue
+            for jugador in (h, a):
+                if jugador:
+                    ultima_hora_jugador[jugador] = max(ultima_hora_jugador.get(jugador, 0), ts_ev)
+
         for ev in proximos:
             home = ev.get("home", {}).get("name")
             away = ev.get("away", {}).get("name")
