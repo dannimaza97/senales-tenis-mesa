@@ -29,8 +29,9 @@ jobs:
           git config user.email "actions@github.com"
           for f in historico_partidos.json predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json; do
             if [ -f "$f" ]; then
-              git add "$f"
+              git add -f "$f"
             fi
           done
-          git commit -m "Actualizar datos" || echo "Sin cambios"
-          git push
+          git commit -m "Actualizar datos" || echo "Sin cambios que guardar"
+          git pull --rebase --strategy-option=ours || true
+          git push || echo "No se pudo subir, se intentara en el proximo ciclo"
