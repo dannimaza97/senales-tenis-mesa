@@ -2,7 +2,7 @@ name: Ejecutar señales
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * * * *' (kick 16:18 UTC)
   workflow_dispatch:
 
 jobs:
