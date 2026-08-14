@@ -1,0 +1,31 @@
+Señales generadas el 14/08/2026 a las 23:58
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 10 tras reintento, me detengo aqui)
+  TT Elite Series: 12 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Setka Cup: 8 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  Czech Liga Pro: 5 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  TT Cup: 1 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 3362
+Jugadores con rating calculado: 755
+
+Buscando proximos partidos...
+
+======================================================================
+TOP 25 SEÑALES DEL DIA (de 2 candidatas con umbral >=70%)
+======================================================================
+🟡 11:40  TT Cup             Jan Skvrna           vs Frantisek Chaloupka  | Ambos ganan set:  73.0%  [P(Jan Skvrna)=81.9% · P(Frantisek Chaloupka)=89.2%] (H2H n=4)
+🟢 13:30  Czech Liga Pro     Tadeas Zika          vs Ondrej Paril         | Ambos ganan set:  75.0%  [P(Tadeas Zika)=91.9% · P(Ondrej Paril)=81.6%] (H2H n=0)
