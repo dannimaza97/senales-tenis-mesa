@@ -576,18 +576,9 @@ def main():
                 "ultimo_torneo": ultimo_torneo,
             })
 
-    candidatas.sort(key=lambda x: x["probabilidad"], reverse=True)
-    principales = candidatas[:TOP_N]
-
-    ids_principales = {(c["home"], c["away"], c["hora_ts"]) for c in principales}
-    extra_bajo_riesgo = [
-        c for c in candidatas[TOP_N:]
-        if c["senal_3_0"] <= 0.10 and (c["home"], c["away"], c["hora_ts"]) not in ids_principales
-    ]
-
-    seleccion = principales + extra_bajo_riesgo
+    candidatas.sort(key=lambda x: x["score"], reverse=True)
+    seleccion = candidatas[:TOP_N]
     seleccion.sort(key=lambda x: x["hora_ts"])
-
     print(f"\n{'='*70}")
     print(f"TOP {TOP_N} SEÑALES DEL DIA (de {len(candidatas)} candidatas con umbral >=70%)")
     print(f"{'='*70}")
