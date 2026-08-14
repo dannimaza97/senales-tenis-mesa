@@ -8,6 +8,9 @@ import requests
 import time
 import datetime
 from dataclasses import dataclass, field
+from zoneinfo import ZoneInfo
+
+MADRID_TZ = ZoneInfo("Europe/Madrid")
 
 TOKEN = "263677-RrcfMZxfq5BJXV"
 BASE_URL = "https://api.b365api.com/v1"
