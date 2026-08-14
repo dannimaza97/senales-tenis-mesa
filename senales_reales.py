@@ -516,6 +516,11 @@ def main():
             if hora_dt_madrid is not None and not (8 <= hora_dt_madrid.hour < 23):
                 continue
 
+            n_partidos_home = len(partidos_de_jugador(home, todos_partidos))
+            n_partidos_away = len(partidos_de_jugador(away, todos_partidos))
+            if n_partidos_home < 15 or n_partidos_away < 15:
+                continue  # muestra demasiado pequena, no es fiable
+
             p_home, n_h2h = prob_jugador_gana_set(home, away, todos_partidos)
             p_away, _ = prob_jugador_gana_set(away, home, todos_partidos)
             p_ambos = p_home * p_away
