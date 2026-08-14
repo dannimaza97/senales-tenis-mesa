@@ -538,7 +538,15 @@ def main():
             })
 
     candidatas.sort(key=lambda x: x["probabilidad"], reverse=True)
-    seleccion = candidatas[:TOP_N]
+    principales = candidatas[:TOP_N]
+
+    ids_principales = {(c["home"], c["away"], c["hora_ts"]) for c in principales}
+    extra_bajo_riesgo = [
+        c for c in candidatas[TOP_N:]
+        if c["senal_3_0"] <= 0.10 and (c["home"], c["away"], c["hora_ts"]) not in ids_principales
+    ]
+
+    seleccion = principales + extra_bajo_riesgo
     seleccion.sort(key=lambda x: x["hora_ts"])
 
     print(f"\n{'='*70}")
