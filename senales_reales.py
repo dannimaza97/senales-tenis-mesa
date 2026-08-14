@@ -588,8 +588,9 @@ def formatear_mensaje_individual(s):
     aviso_away = " ⚠️" if s['racha_away'] <= -3 else ""
     fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
 
+    bandera = "  🏁" if s.get("ultimo_torneo") else ""
     lineas = [
-        f"{emoji_color[s['color']]} {s['liga']}  |  {etiqueta_color[s['color']]}  |  ⏳ empieza en 1h",
+        f"{emoji_color[s['color']]} {s['liga']}  |  {etiqueta_color[s['color']]}  |  ⏳ empieza en 1h{bandera}",
         f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
         f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}%",
         f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}%  ·  {s['away']} {s['impulso_away']*100:+.0f}%",
