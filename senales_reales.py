@@ -483,7 +483,7 @@ def main():
     print("\nBuscando proximos partidos...")
     candidatas = []
     for nombre_liga, league_id in LIGAS.items():
-        proximos = obtener_partidos_proximos(league_id)
+        proximos = obtener_partidos_proximos(league_id, paginas=6)
         for ev in proximos:
             home = ev.get("home", {}).get("name")
             away = ev.get("away", {}).get("name")
