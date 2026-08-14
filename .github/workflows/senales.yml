@@ -1,0 +1,28 @@
+name: Ejecutar señales
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ejecutar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - run: python senales_reales.py
+
+      - name: Guardar datos actualizados
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add historico_partidos.json predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json 2>/dev/null || true
+          git commit -m "Actualizar datos" || echo "Sin cambios"
+          git push
