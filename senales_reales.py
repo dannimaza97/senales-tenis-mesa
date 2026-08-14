@@ -26,7 +26,7 @@ LIGAS = {
 TELEGRAM_TOKEN = "7754060707:AAFpXx9tCw1Zrksi544pQtfE6hskyPcAyao"
 TELEGRAM_CHAT_IDS = ["663483538", "-1004364860113"]
 
-TOP_N = 25
+TOP_N = 40
 
 
 def enviar_telegram(texto):
