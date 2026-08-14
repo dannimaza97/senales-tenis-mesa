@@ -584,7 +584,76 @@ def formatear_mensaje_individual(s):
     return "\n".join(lineas)
 
 
-ARCHIVO_AVISOS = "avisos_enviados.json"
+def formatear_mensaje_actualizacion(s, prob_anterior):
+    emoji_color = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
+    diferencia = (s["probabilidad"] - prob_anterior) * 100
+    flecha = "📈" if diferencia > 0 else ("📉" if diferencia < 0 else "➡️")
+    fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
+
+    lineas = [
+        f"🔄 ACTUALIZACIÓN  |  {emoji_color[s['color']]} {s['liga']}",
+        f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
+        f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}%  {flecha} ({diferencia:+.1f} pts desde el ultimo aviso)",
+        f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}%  ·  {s['away']} {s['impulso_away']*100:+.0f}%",
+        f"🔥 Racha: {s['home']} {s['racha_home']:+d}  ·  {s['away']} {s['racha_away']:+d}",
+        f"🤝 H2H: {s['n_h2h']} partidos (ultimo: {fecha_h2h})",
+        f"🔑 Termina 3-0: {s['senal_3_0']*100:.0f}%  ·  4+ sets: {s['senal_4mas']*100:.0f}%",
+    ]
+    return "\n".join(lineas)
+
+
+ARCHIVO_ACTUALIZACIONES = "ultima_actualizacion.json"
+
+
+def cargar_actualizaciones():
+    import json
+    import os
+    if not os.path.exists(ARCHIVO_ACTUALIZACIONES):
+        return {}
+    try:
+        with open(ARCHIVO_ACTUALIZACIONES, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def guardar_actualizaciones(datos):
+    import json
+    with open(ARCHIVO_ACTUALIZACIONES, "w", encoding="utf-8") as f:
+        json.dump(datos, f, ensure_ascii=False)
+
+
+def enviar_actualizaciones_periodicas(seleccion):
+    actualizaciones = cargar_actualizaciones()
+    ahora = time.time()
+    intervalo = 2.5 * 3600
+    enviadas = 0
+
+    ids_vistos = set()
+    for s in seleccion:
+        eid = str(s.get("event_id"))
+        if not eid or eid == "None":
+            continue
+        ids_vistos.add(eid)
+        if s["hora_ts"] <= ahora:
+            continue
+
+        anterior = actualizaciones.get(eid)
+        if anterior is None:
+            actualizaciones[eid] = {"prob": s["probabilidad"], "ts": ahora}
+            continue
+
+        if ahora - anterior["ts"] >= intervalo:
+            mensaje = formatear_mensaje_actualizacion(s, anterior["prob"])
+            enviar_telegram(mensaje)
+            actualizaciones[eid] = {"prob": s["probabilidad"], "ts": ahora}
+            enviadas += 1
+
+    actualizaciones_limpias = {eid: v for eid, v in actualizaciones.items() if eid in ids_vistos}
+    guardar_actualizaciones(actualizaciones_limpias)
+
+    print(f"Actualizaciones periodicas enviadas en esta ejecucion: {enviadas}")
+    return enviadas ARCHIVO_AVISOS = "avisos_enviados.json"
 
 
 def cargar_avisos():
