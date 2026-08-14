@@ -206,23 +206,28 @@ def comprobar_predicciones_anteriores():
 def obtener_partidos_finalizados(league_id, paginas=3):
     partidos = []
     page = 1
+    inicio = time.time()
+    presupuesto_segundos = 90
     while page <= paginas:
+        if time.time() - inicio > presupuesto_segundos:
+            print(f" (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina {page})")
+            break
         intentos = 0
         resp = None
-        while intentos < 3:
+        while intentos < 2:
             try:
                 resp = requests.get(f"{BASE_URL}/events/ended", params={
                     "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
                     "league_id": league_id, "page": page,
-                }, timeout=30)
+                }, timeout=20)
                 break
             except requests.exceptions.RequestException:
                 intentos += 1
-                if intentos < 3:
-                    print(f" (aviso: tiempo de espera agotado en pagina {page}, reintento {intentos}/2)")
-                    time.sleep(3 * intentos)
+                if intentos < 2:
+                    print(f" (aviso: tiempo de espera agotado en pagina {page}, reintento)")
+                    time.sleep(2)
                 else:
-                    print(f" (aviso: tiempo de espera agotado en pagina {page} tras 3 intentos, me detengo aqui)")
+                    print(f" (aviso: tiempo de espera agotado en pagina {page} tras reintento, me detengo aqui)")
         if resp is None:
             break
         try:
@@ -238,26 +243,32 @@ def obtener_partidos_finalizados(league_id, paginas=3):
         page += 1
     return partidos
 
+
 def obtener_partidos_proximos(league_id, paginas=3):
     partidos = []
     page = 1
+    inicio = time.time()
+    presupuesto_segundos = 45
     while page <= paginas:
+        if time.time() - inicio > presupuesto_segundos:
+            print(f" (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina {page})")
+            break
         intentos = 0
         resp = None
-        while intentos < 3:
+        while intentos < 2:
             try:
                 resp = requests.get(f"{BASE_URL}/events/upcoming", params={
                     "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
                     "league_id": league_id, "page": page,
-                }, timeout=30)
+                }, timeout=20)
                 break
             except requests.exceptions.RequestException:
                 intentos += 1
-                if intentos < 3:
-                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page}, reintento {intentos}/2)")
-                    time.sleep(3 * intentos)
+                if intentos < 2:
+                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page}, reintento)")
+                    time.sleep(2)
                 else:
-                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page} tras 3 intentos, me detengo aqui)")
+                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page} tras reintento, me detengo aqui)")
         if resp is None:
             break
         try:
