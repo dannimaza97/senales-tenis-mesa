@@ -754,6 +754,7 @@ if __name__ == "__main__":
         fecha_hora_str = datetime.datetime.now().strftime('%d/%m %H:%M')
         enviar_avisos_pendientes(seleccion_hoy)
         print("Avisos individuales revisados.")
+        enviar_actualizaciones_periodicas(seleccion_hoy)
 
         limpiar_archivos_antiguos(dias=7)
     finally:
