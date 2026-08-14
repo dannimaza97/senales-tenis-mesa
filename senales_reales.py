@@ -544,9 +544,19 @@ def main():
                 and hora_ts >= ultima_hora_jugador.get(away, 0)
             )
 
+            # Puntuacion combinada: probabilidad principal, penalizada por riesgo
+            # de barrida, y con pequeños extras por partidos reñidos (4+ sets)
+            # y por tener mas historial H2H directo (mas fiable)
+            score = (
+                p_ambos
+                - p_3_0
+                + (0.05 * p_4mas)
+                + (0.05 * min(n_h2h, 20) / 20)
+            )
+
             candidatas.append({
                 "liga": nombre_liga, "home": home, "away": away,
-                "probabilidad": p_ambos, "color": color, "n_h2h": n_h2h,
+                "probabilidad": p_ambos, "score": score, "color": color, "n_h2h": n_h2h,
                 "p_home_individual": p_home, "p_away_individual": p_away,
                 "hora": hora, "event_id": event_id, "hora_ts": hora_ts,
                 "impulso_home": calcular_impulso(home, todos_partidos),
