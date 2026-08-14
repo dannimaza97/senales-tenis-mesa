@@ -1,7 +1,8 @@
 """
 Motor de senales de tenis de mesa con datos reales de BetsAPI.
-Version con paquete completo: impulso, racha, % barridos, H2H detallado
-y señales clave (1-1 al 2do, disputado al 3ro, termina 3-0, 4+ sets).
+Version con paquete completo: impulso, racha, % barridos, H2H detallado,
+señales clave, chequeo de consistencia, ultimo del torneo y actualizaciones
+periodicas.
 """
 
 import requests
@@ -222,7 +223,7 @@ def obtener_partidos_finalizados(league_id, paginas=3):
         if not data.get("success") or not data.get("results"):
             break
         partidos.extend(data["results"])
-        time.sleep(0.5)
+        time.sleep(0.2)
     return partidos
 
 
@@ -393,7 +394,7 @@ def color_semaforo(p):
     return None
 
 
-def calcular_impulso(jugador, partidos, n_reciente=10):
+def calcular_impulso(jugador, partidos, n_reciente=20):
     juegos = partidos_de_jugador(jugador, partidos)
     if not juegos:
         return 0.0
@@ -455,7 +456,7 @@ def main():
     print("Cargando historico acumulado guardado...")
     historico_guardado = cargar_historico()
     primera_vez = len(historico_guardado) == 0
-    paginas_por_liga = 60 if primera_vez else 30
+    paginas_por_liga = 150
     if primera_vez:
         print("  (reconstruyendo historico con detalle de sets, puede tardar varios minutos)")
 
@@ -519,7 +520,7 @@ def main():
             n_partidos_home = len(partidos_de_jugador(home, todos_partidos))
             n_partidos_away = len(partidos_de_jugador(away, todos_partidos))
             if n_partidos_home < 15 or n_partidos_away < 15:
-                continue  # muestra demasiado pequena, no es fiable
+                continue
 
             p_home, n_h2h = prob_jugador_gana_set(home, away, todos_partidos)
             p_away, _ = prob_jugador_gana_set(away, home, todos_partidos)
@@ -535,13 +536,15 @@ def main():
 
             h2h_info = h2h_detalle(home, away, todos_partidos)
 
+            consistencia = abs((p_ambos + p_3_0) - 1.0)
+            discrepancia = consistencia > 0.12
+
             ultimo_torneo = (
                 hora_ts >= ultima_hora_jugador.get(home, 0)
                 and hora_ts >= ultima_hora_jugador.get(away, 0)
             )
 
             candidatas.append({
-                "ultimo_torneo": ultimo_torneo,
                 "liga": nombre_liga, "home": home, "away": away,
                 "probabilidad": p_ambos, "color": color, "n_h2h": n_h2h,
                 "p_home_individual": p_home, "p_away_individual": p_away,
@@ -559,6 +562,8 @@ def main():
                 "h2h_ultima_fecha": h2h_info["ultima_fecha"],
                 "senal_1_1": p_1_1, "senal_3er": p_3er,
                 "senal_3_0": p_3_0, "senal_4mas": p_4mas,
+                "discrepancia": discrepancia,
+                "ultimo_torneo": ultimo_torneo,
             })
 
     candidatas.sort(key=lambda x: x["probabilidad"], reverse=True)
@@ -574,7 +579,7 @@ def main():
     seleccion.sort(key=lambda x: x["hora_ts"])
 
     print(f"\n{'='*70}")
-    print(f"TOP {TOP_N} SEÑALES DEL DIA (de {len(candidatas)} candidatas con umbral >=60%)")
+    print(f"TOP {TOP_N} SEÑALES DEL DIA (de {len(candidatas)} candidatas con umbral >=70%)")
     print(f"{'='*70}")
     simbolo = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
     for s in seleccion:
@@ -592,8 +597,9 @@ def formatear_mensaje_individual(s):
     aviso_home = " ⚠️" if s['racha_home'] <= -3 else ""
     aviso_away = " ⚠️" if s['racha_away'] <= -3 else ""
     fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
-
     bandera = "  🏁" if s.get("ultimo_torneo") else ""
+    discrepancia_txt = "\n⚠️ DISCREPANCIA: nuestros modelos internos no coinciden del todo, señal menos fiable" if s.get("discrepancia") else ""
+
     lineas = [
         f"{emoji_color[s['color']]} {s['liga']}  |  {etiqueta_color[s['color']]}  |  ⏳ empieza en 1h{bandera}",
         f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
@@ -604,7 +610,7 @@ def formatear_mensaje_individual(s):
         f"🧹 % barrido 3-0 (ganando): {s['home']} {s['barrido_home']*100:.0f}%  ·  {s['away']} {s['barrido_away']*100:.0f}%",
         f"💥 % fue barrido 0-3: {s['home']} {s['fue_barrido_home']*100:.0f}%  ·  {s['away']} {s['fue_barrido_away']*100:.0f}%",
         f"🤝 H2H: {s['n_h2h']} partidos (ultimo: {fecha_h2h})",
-        f"🔑 Señales: 1-1 al 2do set {s['senal_1_1']*100:.0f}%  ·  llega al 3er set {s['senal_3er']*100:.0f}%  ·  termina 3-0 {s['senal_3_0']*100:.0f}%  ·  4+ sets {s['senal_4mas']*100:.0f}%",
+        f"🔑 Señales: 1-1 al 2do set {s['senal_1_1']*100:.0f}%  ·  llega al 3er set {s['senal_3er']*100:.0f}%  ·  termina 3-0 {s['senal_3_0']*100:.0f}%  ·  4+ sets {s['senal_4mas']*100:.0f}%{discrepancia_txt}",
     ]
     return "\n".join(lineas)
 
@@ -614,8 +620,8 @@ def formatear_mensaje_actualizacion(s, prob_anterior):
     diferencia = (s["probabilidad"] - prob_anterior) * 100
     flecha = "📈" if diferencia > 0 else ("📉" if diferencia < 0 else "➡️")
     fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
-
     bandera = "  🏁" if s.get("ultimo_torneo") else ""
+
     lineas = [
         f"🔄 ACTUALIZACIÓN  |  {emoji_color[s['color']]} {s['liga']}{bandera}",
         f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
@@ -679,7 +685,10 @@ def enviar_actualizaciones_periodicas(seleccion):
     guardar_actualizaciones(actualizaciones_limpias)
 
     print(f"Actualizaciones periodicas enviadas en esta ejecucion: {enviadas}")
-    return enviadas ARCHIVO_AVISOS = "avisos_enviados.json"
+    return enviadas
+
+
+ARCHIVO_AVISOS = "avisos_enviados.json"
 
 
 def cargar_avisos():
@@ -777,9 +786,9 @@ if __name__ == "__main__":
             f.write(salida)
         print(f"\nGuardado en: {nombre_archivo}")
 
-        fecha_hora_str = datetime.datetime.now().strftime('%d/%m %H:%M')
         enviar_avisos_pendientes(seleccion_hoy)
         print("Avisos individuales revisados.")
+
         enviar_actualizaciones_periodicas(seleccion_hoy)
 
         limpiar_archivos_antiguos(dias=7)
