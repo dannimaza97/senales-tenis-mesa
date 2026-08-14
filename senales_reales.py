@@ -205,38 +205,60 @@ def comprobar_predicciones_anteriores():
 
 def obtener_partidos_finalizados(league_id, paginas=3):
     partidos = []
-    for page in range(1, paginas + 1):
-        try:
-            resp = requests.get(f"{BASE_URL}/events/ended", params={
-                "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
-                "league_id": league_id, "page": page,
-            }, timeout=15)
-        except requests.exceptions.RequestException:
-            print("  (aviso: tiempo de espera agotado, saltando esta pagina)")
+    page = 1
+    while page <= paginas:
+        intentos = 0
+        resp = None
+        while intentos < 3:
+            try:
+                resp = requests.get(f"{BASE_URL}/events/ended", params={
+                    "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
+                    "league_id": league_id, "page": page,
+                }, timeout=30)
+                break
+            except requests.exceptions.RequestException:
+                intentos += 1
+                if intentos < 3:
+                    print(f" (aviso: tiempo de espera agotado en pagina {page}, reintento {intentos}/2)")
+                    time.sleep(3 * intentos)
+                else:
+                    print(f" (aviso: tiempo de espera agotado en pagina {page} tras 3 intentos, me detengo aqui)")
+        if resp is None:
             break
         try:
             data = resp.json()
         except ValueError:
-            print("  (aviso: respuesta no valida de la API, esperando y continuando)")
+            print(" (aviso: respuesta no valida de la API, esperando y continuando)")
             time.sleep(3)
             break
         if not data.get("success") or not data.get("results"):
             break
         partidos.extend(data["results"])
         time.sleep(0.2)
+        page += 1
     return partidos
-
 
 def obtener_partidos_proximos(league_id, paginas=3):
     partidos = []
-    for page in range(1, paginas + 1):
-        try:
-            resp = requests.get(f"{BASE_URL}/events/upcoming", params={
-                "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
-                "league_id": league_id, "page": page,
-            }, timeout=15)
-        except requests.exceptions.RequestException:
-            print("  (aviso: tiempo de espera agotado buscando proximos, saltando)")
+    page = 1
+    while page <= paginas:
+        intentos = 0
+        resp = None
+        while intentos < 3:
+            try:
+                resp = requests.get(f"{BASE_URL}/events/upcoming", params={
+                    "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
+                    "league_id": league_id, "page": page,
+                }, timeout=30)
+                break
+            except requests.exceptions.RequestException:
+                intentos += 1
+                if intentos < 3:
+                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page}, reintento {intentos}/2)")
+                    time.sleep(3 * intentos)
+                else:
+                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page} tras 3 intentos, me detengo aqui)")
+        if resp is None:
             break
         try:
             data = resp.json()
@@ -246,8 +268,8 @@ def obtener_partidos_proximos(league_id, paginas=3):
             break
         partidos.extend(data["results"])
         time.sleep(0.3)
+        page += 1
     return partidos
-
 
 def parsear_partido(evento):
     home = evento.get("home", {}).get("name")
