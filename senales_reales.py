@@ -530,7 +530,13 @@ def main():
 
             h2h_info = h2h_detalle(home, away, todos_partidos)
 
+            ultimo_torneo = (
+                hora_ts >= ultima_hora_jugador.get(home, 0)
+                and hora_ts >= ultima_hora_jugador.get(away, 0)
+            )
+
             candidatas.append({
+                "ultimo_torneo": ultimo_torneo,
                 "liga": nombre_liga, "home": home, "away": away,
                 "probabilidad": p_ambos, "color": color, "n_h2h": n_h2h,
                 "p_home_individual": p_home, "p_away_individual": p_away,
