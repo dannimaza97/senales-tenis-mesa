@@ -722,6 +722,59 @@ def enviar_actualizaciones_periodicas(seleccion):
     return enviadas
 
 
+ARCHIVO_RESUMEN_DIARIO = "resumen_diario_enviado.json"
+
+
+def cargar_resumen_diario_estado():
+    import json
+    import os
+    if not os.path.exists(ARCHIVO_RESUMEN_DIARIO):
+        return {}
+    try:
+        with open(ARCHIVO_RESUMEN_DIARIO, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def guardar_resumen_diario_estado(datos):
+    import json
+    with open(ARCHIVO_RESUMEN_DIARIO, "w", encoding="utf-8") as f:
+        json.dump(datos, f, ensure_ascii=False)
+
+
+def enviar_resumen_diario(seleccion):
+    ahora_madrid = datetime.datetime.now(MADRID_TZ)
+    hoy = ahora_madrid.strftime("%Y-%m-%d")
+
+    if ahora_madrid.hour < 8:
+        return False
+
+    estado = cargar_resumen_diario_estado()
+    if estado.get("ultima_fecha") == hoy:
+        return False
+
+    ahora = time.time()
+    proximas = [s for s in seleccion if s["hora_ts"] > ahora]
+    proximas.sort(key=lambda x: x["hora_ts"])
+
+    simbolo = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
+    if proximas:
+        lineas = [f"📋 RESUMEN DEL DIA — {hoy}", f"Mejores pronosticos de hoy ({len(proximas)}):", ""]
+        for s in proximas:
+            lineas.append(
+                f"{simbolo[s['color']]} {s['hora']}  {s['liga']}  {s['home']} vs {s['away']} | "
+                f"Ambos ganan set: {s['probabilidad']*100:.1f}%"
+            )
+        mensaje = "\n".join(lineas)
+    else:
+        mensaje = f"📋 RESUMEN DEL DIA — {hoy}\nNo hay señales sobre el umbral con los partidos disponibles ahora mismo."
+
+    enviar_telegram(mensaje)
+    estado["ultima_fecha"] = hoy
+    guardar_resumen_diario_estado(estado)
+    return True
+
 ARCHIVO_AVISOS = "avisos_enviados.json"
 
 
@@ -824,6 +877,8 @@ if __name__ == "__main__":
         print("Avisos individuales revisados.")
 
         enviar_actualizaciones_periodicas(seleccion_hoy)
+
+        enviar_resumen_diario(seleccion_hoy)
 
         limpiar_archivos_antiguos(dias=7)
     finally:
