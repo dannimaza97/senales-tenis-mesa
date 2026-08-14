@@ -27,6 +27,10 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add historico_partidos.json predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json 2>/dev/null || true
+          for f in historico_partidos.json predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            fi
+          done
           git commit -m "Actualizar datos" || echo "Sin cambios"
           git push
