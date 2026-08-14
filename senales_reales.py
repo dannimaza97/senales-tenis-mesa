@@ -32,7 +32,7 @@ def enviar_telegram(texto):
     for chat_id in TELEGRAM_CHAT_IDS:
         for trozo in trozos:
             try:
-                requests.post(url, data={"chat_id": chat_id, "text": trozo})
+                requests.post(url, data={"chat_id": chat_id, "text": trozo}, timeout=15)
             except Exception as e:
                 print(f"Error enviando a Telegram (chat {chat_id}): {e}")
 
@@ -95,7 +95,10 @@ def guardar_pendientes(pendientes):
 
 
 def obtener_resultado_partido(event_id):
-    resp = requests.get(f"{BASE_URL}/event/view", params={"token": TOKEN, "event_id": event_id})
+    try:
+        resp = requests.get(f"{BASE_URL}/event/view", params={"token": TOKEN, "event_id": event_id}, timeout=15)
+    except requests.exceptions.RequestException:
+        return None
     try:
         data = resp.json()
     except ValueError:
@@ -199,10 +202,14 @@ def comprobar_predicciones_anteriores():
 def obtener_partidos_finalizados(league_id, paginas=3):
     partidos = []
     for page in range(1, paginas + 1):
-        resp = requests.get(f"{BASE_URL}/events/ended", params={
-            "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
-            "league_id": league_id, "page": page,
-        })
+        try:
+            resp = requests.get(f"{BASE_URL}/events/ended", params={
+                "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
+                "league_id": league_id, "page": page,
+            }, timeout=15)
+        except requests.exceptions.RequestException:
+            print("  (aviso: tiempo de espera agotado, saltando esta pagina)")
+            break
         try:
             data = resp.json()
         except ValueError:
@@ -219,11 +226,18 @@ def obtener_partidos_finalizados(league_id, paginas=3):
 def obtener_partidos_proximos(league_id, paginas=3):
     partidos = []
     for page in range(1, paginas + 1):
-        resp = requests.get(f"{BASE_URL}/events/upcoming", params={
-            "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
-            "league_id": league_id, "page": page,
-        })
-        data = resp.json()
+        try:
+            resp = requests.get(f"{BASE_URL}/events/upcoming", params={
+                "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
+                "league_id": league_id, "page": page,
+            }, timeout=15)
+        except requests.exceptions.RequestException:
+            print("  (aviso: tiempo de espera agotado buscando proximos, saltando)")
+            break
+        try:
+            data = resp.json()
+        except ValueError:
+            break
         if not data.get("success") or not data.get("results"):
             break
         partidos.extend(data["results"])
@@ -375,6 +389,7 @@ def color_semaforo(p):
         return "AMARILLO"
     return None
 
+
 def calcular_impulso(jugador, partidos, n_reciente=10):
     juegos = partidos_de_jugador(jugador, partidos)
     if not juegos:
@@ -437,7 +452,7 @@ def main():
     print("Cargando historico acumulado guardado...")
     historico_guardado = cargar_historico()
     primera_vez = len(historico_guardado) == 0
-    paginas_por_liga = 150 if primera_vez else 5
+    paginas_por_liga = 60 if primera_vez else 5
     if primera_vez:
         print("  (reconstruyendo historico con detalle de sets, puede tardar varios minutos)")
 
