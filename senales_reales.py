@@ -455,7 +455,7 @@ def main():
     print("Cargando historico acumulado guardado...")
     historico_guardado = cargar_historico()
     primera_vez = len(historico_guardado) == 0
-    paginas_por_liga = 60 if primera_vez else 5
+    paginas_por_liga = 60 if primera_vez else 20
     if primera_vez:
         print("  (reconstruyendo historico con detalle de sets, puede tardar varios minutos)")
 
