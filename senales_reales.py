@@ -610,8 +610,9 @@ def formatear_mensaje_actualizacion(s, prob_anterior):
     flecha = "📈" if diferencia > 0 else ("📉" if diferencia < 0 else "➡️")
     fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
 
+    bandera = "  🏁" if s.get("ultimo_torneo") else ""
     lineas = [
-        f"🔄 ACTUALIZACIÓN  |  {emoji_color[s['color']]} {s['liga']}",
+        f"🔄 ACTUALIZACIÓN  |  {emoji_color[s['color']]} {s['liga']}{bandera}",
         f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
         f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}%  {flecha} ({diferencia:+.1f} pts desde el ultimo aviso)",
         f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}%  ·  {s['away']} {s['impulso_away']*100:+.0f}%",
