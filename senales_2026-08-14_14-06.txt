@@ -1,0 +1,21 @@
+Señales generadas el 14/08/2026 a las 14:06
+
+Cargando historico acumulado guardado...
+  (aviso: tiempo de espera agotado, saltando esta pagina)
+  TT Elite Series: 61 partidos nuevos anadidos
+  (aviso: tiempo de espera agotado, saltando esta pagina)
+  Setka Cup: 86 partidos nuevos anadidos
+  (aviso: tiempo de espera agotado, saltando esta pagina)
+  Czech Liga Pro: 46 partidos nuevos anadidos
+  (aviso: tiempo de espera agotado, saltando esta pagina)
+  TT Cup: 51 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 1824
+Jugadores con rating calculado: 569
+
+Buscando proximos partidos...
+
+======================================================================
+TOP 25 SEÑALES DEL DIA (de 1 candidatas con umbral >=70%)
+======================================================================
+🟢 13:30  Czech Liga Pro     Tadeas Zika          vs Ondrej Paril         | Ambos ganan set:  75.0%  [P(Tadeas Zika)=91.9% · P(Ondrej Paril)=81.6%] (H2H n=0)
