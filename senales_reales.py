@@ -491,11 +491,16 @@ def main():
             hora_raw = ev.get("time")
             try:
                 hora_ts = int(hora_raw)
-                hora = datetime.datetime.fromtimestamp(hora_ts).strftime("%H:%M")
+                hora_dt_madrid = datetime.datetime.fromtimestamp(hora_ts, tz=MADRID_TZ)
+                hora = hora_dt_madrid.strftime("%H:%M")
             except (TypeError, ValueError):
                 hora_ts = 999999999999
                 hora = "--:--"
+                hora_dt_madrid = None
             if not home or not away:
+                continue
+
+            if hora_dt_madrid is not None and not (8 <= hora_dt_madrid.hour < 23):
                 continue
 
             p_home, n_h2h = prob_jugador_gana_set(home, away, todos_partidos)
