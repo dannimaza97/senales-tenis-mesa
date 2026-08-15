@@ -1,0 +1,77 @@
+Señales generadas el 15/08/2026 a las 22:10
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 15, reintento)
+ (aviso: tiempo de espera agotado en pagina 15 tras reintento, me detengo aqui)
+  TT Elite Series: 2 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: tiempo de espera agotado en pagina 9 tras reintento, me detengo aqui)
+  Setka Cup: 2 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 5 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 15, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 16)
+  TT Cup: 2 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 10880
+Jugadores con rating calculado: 1190
+
+Buscando proximos partidos...
+   (busqueda directa de Kacper Kwiatkowski: +89 partidos anadidos)
+   (busqueda directa de Rafal Ogon: +93 partidos anadidos)
+   (busqueda directa de Daniil Habrelyan: +42 partidos anadidos)
+   (busqueda directa de Vitalii Boyko: +90 partidos anadidos)
+   (busqueda directa de Vadym Kucheriavyi: +96 partidos anadidos)
+   (busqueda directa de Volodymyr Varchenko: +95 partidos anadidos)
+   (busqueda directa de Michal Stibor: +99 partidos anadidos)
+   (busqueda directa de Mikhail Taranko: +99 partidos anadidos)
+   (busqueda directa de Vitalii Mukhin: +90 partidos anadidos)
+   (busqueda directa de Serhii Semenets: +73 partidos anadidos)
+   (busqueda directa de Ihor Kvak: +98 partidos anadidos)
+   (busqueda directa de Yurii Bondarenko: +96 partidos anadidos)
+   (busqueda directa de Anatolii Kovalenko: +87 partidos anadidos)
+   (busqueda directa de Tomas Hucko: +87 partidos anadidos)
+   (busqueda directa de Oleksandr Maslovskyi: +90 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 136 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟡 08:10  TT Cup             Jan Gembala          vs Frantisek Chaloupka  | Ambos ganan set:  73.2%  [P(Jan Gembala)=79.7% · P(Frantisek Chaloupka)=91.8%] (H2H n=7)
+🟡 08:15  Setka Cup          Michal Stibor        vs Lukas Rulc           | Ambos ganan set:  74.2%  [P(Michal Stibor)=88.0% · P(Lukas Rulc)=84.2%] (H2H n=8)
+🟢 08:55  TT Elite Series    Kacper Petas         vs Marcin Jadczyk       | Ambos ganan set:  80.8%  [P(Kacper Petas)=86.9% · P(Marcin Jadczyk)=93.0%] (H2H n=10)
+🟡 09:05  Setka Cup          Anton Shypilov       vs Valerii Vlasenko     | Ambos ganan set:  74.7%  [P(Anton Shypilov)=84.3% · P(Valerii Vlasenko)=88.6%] (H2H n=3)
+🟢 09:20  TT Elite Series    Jakub Kosowski       vs Jakub Kuzmicz        | Ambos ganan set:  85.4%  [P(Jakub Kosowski)=94.2% · P(Jakub Kuzmicz)=90.7%] (H2H n=0)
+🟡 09:45  Setka Cup          Lukas Rulc           vs Josef Chalupa        | Ambos ganan set:  74.5%  [P(Lukas Rulc)=87.5% · P(Josef Chalupa)=85.1%] (H2H n=0)
+🟡 10:05  Setka Cup          Valerii Vlasenko     vs Serhii Kalenyk       | Ambos ganan set:  74.9%  [P(Valerii Vlasenko)=87.2% · P(Serhii Kalenyk)=85.8%] (H2H n=10)
+🟢 10:10  TT Elite Series    Yurij Fomin          vs Piotr Staniszewski   | Ambos ganan set:  79.7%  [P(Yurij Fomin)=87.7% · P(Piotr Staniszewski)=90.8%] (H2H n=0)
+🟢 10:30  TT Elite Series    Kacper Petas         vs Jakub Kosowski       | Ambos ganan set:  81.0%  [P(Kacper Petas)=88.4% · P(Jakub Kosowski)=91.7%] (H2H n=2)
+🟢 11:00  TT Elite Series    Marian Lebek         vs Piotr Staniszewski   | Ambos ganan set:  81.7%  [P(Marian Lebek)=90.0% · P(Piotr Staniszewski)=90.8%] (H2H n=0)
+🟡 11:05  Setka Cup          Vitalii Boyko        vs Valerii Vlasenko     | Ambos ganan set:  73.8%  [P(Vitalii Boyko)=82.7% · P(Valerii Vlasenko)=89.3%] (H2H n=7)
+🟡 11:05  Setka Cup          Oleh Stopin          vs Mykhailo Khalenko    | Ambos ganan set:  72.8%  [P(Oleh Stopin)=81.7% · P(Mykhailo Khalenko)=89.1%] (H2H n=0)
+🟢 11:35  Setka Cup          Anton Shypilov       vs Orest Hura           | Ambos ganan set:  76.4%  [P(Anton Shypilov)=84.6% · P(Orest Hura)=90.3%] (H2H n=1)
+🟢 11:45  Setka Cup          Miroslav Hajek       vs Petr Semrad          | Ambos ganan set:  76.2%  [P(Miroslav Hajek)=92.5% · P(Petr Semrad)=82.4%] (H2H n=0)
+🟡 12:10  TT Cup             Jan Gembala          vs Frantisek Chaloupka  | Ambos ganan set:  73.2%  [P(Jan Gembala)=79.7% · P(Frantisek Chaloupka)=91.8%] (H2H n=7)
+🟢 12:25  TT Elite Series    Marcin Jadczyk       vs Krystian Kolodziej   | Ambos ganan set:  87.5%  [P(Marcin Jadczyk)=95.6% · P(Krystian Kolodziej)=91.5%] (H2H n=0)
+🟡 12:25  Setka Cup          Mykola Slozka        vs Taras Gil            | Ambos ganan set:  73.9%  [P(Mykola Slozka)=84.1% · P(Taras Gil)=87.9%] (H2H n=9)
+🟢 12:40  TT Cup             Bruno Mrowetz        vs Frantisek Chaloupka  | Ambos ganan set:  88.2%  [P(Bruno Mrowetz)=93.2% · P(Frantisek Chaloupka)=94.6%] (H2H n=0)
+🟢 12:45  Setka Cup          Miroslav Hajek       vs Leon Kolman          | Ambos ganan set:  75.9%  [P(Miroslav Hajek)=90.1% · P(Leon Kolman)=84.2%] (H2H n=2)
+🟢 13:00  Setka Cup          Pavel Hala           vs Roman Merkl          | Ambos ganan set:  84.0%  [P(Pavel Hala)=92.5% · P(Roman Merkl)=90.8%] (H2H n=0)
+🟡 13:05  Setka Cup          Valerii Vlasenko     vs Yurii Shmyndra       | Ambos ganan set:  73.3%  [P(Valerii Vlasenko)=88.7% · P(Yurii Shmyndra)=82.6%] (H2H n=4)
+🟢 13:15  Setka Cup          Tomas Hucko          vs Miroslav Hajek       | Ambos ganan set:  76.9%  [P(Tomas Hucko)=84.5% · P(Miroslav Hajek)=91.0%] (H2H n=10)
+🟢 13:15  TT Elite Series    Kacper Petas         vs Krystian Kolodziej   | Ambos ganan set:  78.6%  [P(Kacper Petas)=88.3% · P(Krystian Kolodziej)=89.0%] (H2H n=4)
+🟢 13:25  TT Elite Series    Yurij Fomin          vs Piotr Staniszewski   | Ambos ganan set:  79.7%  [P(Yurij Fomin)=87.7% · P(Piotr Staniszewski)=90.8%] (H2H n=0)
+🟢 13:35  Setka Cup          Orest Hura           vs Serhii Kalenyk       | Ambos ganan set:  78.0%  [P(Orest Hura)=89.5% · P(Serhii Kalenyk)=87.1%] (H2H n=5)
+🟢 13:40  TT Cup             Bruno Mrowetz        vs Jan Gembala          | Ambos ganan set:  76.0%  [P(Bruno Mrowetz)=93.2% · P(Jan Gembala)=81.6%] (H2H n=0)
+🟡 14:05  TT Cup             Jakub Horky          vs Martin Chmelicek     | Ambos ganan set:  71.7%  [P(Jakub Horky)=83.1% · P(Martin Chmelicek)=86.3%] (H2H n=14)
+🟢 14:30  TT Elite Series    Kacper Petas         vs Jakub Kosowski       | Ambos ganan set:  81.0%  [P(Kacper Petas)=88.4% · P(Jakub Kosowski)=91.7%] (H2H n=2)
+🟡 14:30  Czech Liga Pro     Mihail Trinta        vs Tibor Kolenic        | Ambos ganan set:  72.7%  [P(Mihail Trinta)=87.2% · P(Tibor Kolenic)=83.3%] (H2H n=3)
+🟢 15:45  TT Elite Series    Kacper Petas         vs Marcin Jadczyk       | Ambos ganan set:  80.8%  [P(Kacper Petas)=86.9% · P(Marcin Jadczyk)=93.0%] (H2H n=10)
+🟢 16:10  TT Elite Series    Jakub Kosowski       vs Krystian Kolodziej   | Ambos ganan set:  86.2%  [P(Jakub Kosowski)=94.2% · P(Krystian Kolodziej)=91.5%] (H2H n=0)
+🟡 16:55  Setka Cup          Oleksandr Maslovskyi vs Mykolay Treschetka   | Ambos ganan set:  72.6%  [P(Oleksandr Maslovskyi)=88.4% · P(Mykolay Treschetka)=82.1%] (H2H n=19)
+🟢 17:25  TT Elite Series    Dominik Solilo       vs Bartlomiej Mleczko   | Ambos ganan set:  79.0%  [P(Dominik Solilo)=87.6% · P(Bartlomiej Mleczko)=90.2%] (H2H n=1)
+🟢 17:30  Czech Liga Pro     Milan Kolar          vs Jakub Stolfa         | Ambos ganan set:  76.1%  [P(Milan Kolar)=85.5% · P(Jakub Stolfa)=89.1%] (H2H n=0)
+🔴 18:30  Czech Liga Pro     Julius Didi          vs Martin Stefek        | Ambos ganan set:  68.2%  [P(Julius Didi)=80.7% · P(Martin Stefek)=84.5%] (H2H n=5)
