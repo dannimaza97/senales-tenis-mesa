@@ -129,3 +129,41 @@ def guardar_estadisticas_supabase(estadisticas):
     except requests.exceptions.RequestException as e:
         print(f" (aviso: error de red guardando estadisticas en Supabase: {e})")
 
+
+def guardar_resultado_supabase(resultado):
+    """Recibe un dict con el resultado ya resuelto de una señal
+    (event_id, liga, home, away, acierto, probabilidad, color, hora_ts,
+    fecha) y hace upsert (por event_id) en la tabla `resultados` de
+    Supabase. Esto alimenta el historial de aciertos por liga y por
+    dia que se muestra en la web."""
+    if not _habilitado() or not resultado:
+        return
+
+    event_id = resultado.get("event_id")
+    if not event_id:
+        return
+
+    fila = {
+        "event_id": str(event_id),
+        "liga": resultado.get("liga"),
+        "home": resultado.get("home"),
+        "away": resultado.get("away"),
+        "acierto": bool(resultado.get("acierto")),
+        "probabilidad": resultado.get("probabilidad"),
+        "color": resultado.get("color"),
+        "hora_ts": resultado.get("hora_ts"),
+        "fecha": resultado.get("fecha"),
+    }
+
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/resultados",
+            headers=_headers(prefer="resolution=merge-duplicates"),
+            params={"on_conflict": "event_id"},
+            json=[fila],
+            timeout=20,
+        )
+        if resp.status_code >= 300:
+            print(f" (aviso: Supabase respondio {resp.status_code} al guardar resultado: {resp.text[:300]})")
+    except requests.exceptions.RequestException as e:
+        print(f" (aviso: error de red guardando resultado en Supabase: {e})")
