@@ -424,6 +424,8 @@ def color_semaforo(p):
         return "VERDE"
     if p >= 0.70:
         return "AMARILLO"
+    if p >= 0.65:
+        return "ROJO"
     return None
 
 
@@ -613,7 +615,7 @@ def main():
     seleccion = candidatas[:TOP_N]
     seleccion.sort(key=lambda x: x["hora_ts"])
     print(f"\n{'='*70}")
-    print(f"TOP {TOP_N} SEÑALES DEL DIA (de {len(candidatas)} candidatas con umbral >=70%)")
+    print(f"TOP {TOP_N} SEÑALES DEL DIA (de {len(candidatas)} candidatas con umbral >=65%)")
     print(f"{'='*70}")
     simbolo = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
     for s in seleccion:
