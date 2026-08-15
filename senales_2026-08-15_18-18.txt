@@ -1,0 +1,58 @@
+Señales generadas el 15/08/2026 a las 18:18
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 2 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  Setka Cup: 6 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Czech Liga Pro: 4 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Cup: 3 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 9049
+Jugadores con rating calculado: 1109
+
+Buscando proximos partidos...
+   (busqueda directa de Ondrej Chadima: +45 partidos anadidos)
+   (busqueda directa de Oleksii Rodin: +96 partidos anadidos)
+   (busqueda directa de Oleksandr Alieksieev: +43 partidos anadidos)
+ (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina 5)
+   (busqueda directa de Marek Volny: +47 partidos anadidos)
+   (busqueda directa de Miroslav Kowolowski: +83 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 27/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 27 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🔴 19:20  TT Elite Series    Adrian Myszewski     vs Mateusz Misiak       | Ambos ganan set:  65.2%  [P(Adrian Myszewski)=75.3% · P(Mateusz Misiak)=86.5%] (H2H n=1)
+🟡 20:10  TT Elite Series    Jakub Michalczyk     vs Kamil Rudomina       | Ambos ganan set:  73.4%  [P(Jakub Michalczyk)=83.2% · P(Kamil Rudomina)=88.2%] (H2H n=1)
+🟢 20:25  Setka Cup          Valeriy Melnik       vs Roman Cherevko       | Ambos ganan set:  76.7%  [P(Valeriy Melnik)=84.3% · P(Roman Cherevko)=91.0%] (H2H n=10)
+🔴 20:25  TT Elite Series    Zbigniew Nocun       vs Henryk Tkaczyk       | Ambos ganan set:  69.3%  [P(Zbigniew Nocun)=80.9% · P(Henryk Tkaczyk)=85.7%] (H2H n=2)
+🟢 20:30  TT Elite Series    Alan Wos             vs Filip Mlynarski      | Ambos ganan set:  77.8%  [P(Alan Wos)=89.2% · P(Filip Mlynarski)=87.2%] (H2H n=3)
+🟢 20:30  Czech Liga Pro     Marek Volny          vs Miroslav Kowolowski  | Ambos ganan set:  77.4%  [P(Marek Volny)=88.1% · P(Miroslav Kowolowski)=87.8%] (H2H n=1)
+🔴 20:45  TT Elite Series    Igor Szymanski       vs Lukasz Oracz         | Ambos ganan set:  67.0%  [P(Igor Szymanski)=80.4% · P(Lukasz Oracz)=83.3%] (H2H n=0)
+🟡 20:50  TT Elite Series    Kamil Kostyk         vs Krystian Kolodziej   | Ambos ganan set:  73.0%  [P(Kamil Kostyk)=81.7% · P(Krystian Kolodziej)=89.4%] (H2H n=1)
+🔴 20:55  Setka Cup          Mykola Slozka        vs Ivan Pytsko          | Ambos ganan set:  69.2%  [P(Mykola Slozka)=86.9% · P(Ivan Pytsko)=79.7%] (H2H n=6)
+🟢 20:55  TT Elite Series    Oskar Jedrzejowski   vs Miroslaw Lewczuk     | Ambos ganan set:  79.8%  [P(Oskar Jedrzejowski)=89.0% · P(Miroslaw Lewczuk)=89.6%] (H2H n=0)
+🟢 21:00  Czech Liga Pro     Marcel Heczko        vs Marek Volny          | Ambos ganan set:  75.4%  [P(Marcel Heczko)=89.5% · P(Marek Volny)=84.3%] (H2H n=12)
+🟡 21:05  Setka Cup          Orest Hura           vs Yurii Shmyndra       | Ambos ganan set:  73.3%  [P(Orest Hura)=87.4% · P(Yurii Shmyndra)=83.9%] (H2H n=3)
+🔴 21:10  TT Elite Series    Artur Kubiak         vs Zbigniew Nocun       | Ambos ganan set:  66.4%  [P(Artur Kubiak)=84.3% · P(Zbigniew Nocun)=78.8%] (H2H n=2)
+🟢 21:15  TT Cup             Dalibor Velky Jr     vs Jan Krupnik          | Ambos ganan set:  75.6%  [P(Dalibor Velky Jr)=83.5% · P(Jan Krupnik)=90.5%] (H2H n=1)
+🟡 21:15  Setka Cup          Tomas Hybl           vs Ondrej Chadima       | Ambos ganan set:  71.5%  [P(Tomas Hybl)=88.1% · P(Ondrej Chadima)=81.1%] (H2H n=1)
+🔴 21:15  TT Elite Series    Patryk Jendrzejewski vs Dawid Jadam          | Ambos ganan set:  69.2%  [P(Patryk Jendrzejewski)=85.0% · P(Dawid Jadam)=81.4%] (H2H n=9)
+🟢 21:20  TT Elite Series    Kamil Rudomina       vs Mateusz Misiak       | Ambos ganan set:  76.3%  [P(Kamil Rudomina)=88.2% · P(Mateusz Misiak)=86.5%] (H2H n=1)
+🟢 21:40  TT Elite Series    Alan Wos             vs Krystian Kolodziej   | Ambos ganan set:  83.4%  [P(Alan Wos)=91.7% · P(Krystian Kolodziej)=91.0%] (H2H n=0)
+🟡 21:45  TT Cup             Daniel Vitasek       vs Jan Krupnik          | Ambos ganan set:  72.8%  [P(Daniel Vitasek)=80.5% · P(Jan Krupnik)=90.5%] (H2H n=1)
+🔴 21:45  Setka Cup          David Brichacek      vs Leon Kolman          | Ambos ganan set:  65.4%  [P(David Brichacek)=76.4% · P(Leon Kolman)=85.7%] (H2H n=2)
+🟡 22:00  Setka Cup          Jaroslav Puk         vs Petr Kotrbacek       | Ambos ganan set:  71.4%  [P(Jaroslav Puk)=77.9% · P(Petr Kotrbacek)=91.7%] (H2H n=0)
+🔴 22:00  TT Elite Series    Cezary Pawlik        vs Zbigniew Nocun       | Ambos ganan set:  69.8%  [P(Cezary Pawlik)=85.0% · P(Zbigniew Nocun)=82.1%] (H2H n=0)
+🟡 22:05  TT Elite Series    Filip Mlynarski      vs Dawid Jadam          | Ambos ganan set:  73.8%  [P(Filip Mlynarski)=89.4% · P(Dawid Jadam)=82.5%] (H2H n=0)
+🟡 22:25  Setka Cup          Roman Cherevko       vs Alexander Tuzhylin   | Ambos ganan set:  74.0%  [P(Roman Cherevko)=90.8% · P(Alexander Tuzhylin)=81.5%] (H2H n=1)
+🟢 22:30  Czech Liga Pro     Marcel Heczko        vs Miroslav Kowolowski  | Ambos ganan set:  79.6%  [P(Marcel Heczko)=89.1% · P(Miroslav Kowolowski)=89.3%] (H2H n=0)
+🟡 22:30  TT Elite Series    Kamil Kostyk         vs Patryk Jendrzejewski | Ambos ganan set:  74.3%  [P(Kamil Kostyk)=84.3% · P(Patryk Jendrzejewski)=88.2%] (H2H n=0)
+🟢 22:30  TT Elite Series    Oskar Jedrzejowski   vs Grzegorz Mucha       | Ambos ganan set:  75.4%  [P(Oskar Jedrzejowski)=89.0% · P(Grzegorz Mucha)=84.7%] (H2H n=0)
