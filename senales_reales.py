@@ -10,6 +10,7 @@ import time
 import datetime
 from dataclasses import dataclass, field
 from zoneinfo import ZoneInfo
+from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
@@ -202,6 +203,7 @@ def comprobar_predicciones_anteriores():
     guardar_pendientes(aun_pendientes)
     guardar_resultados_notificados(notificados)
     guardar_estadisticas(estadisticas)
+    guardar_estadisticas_supabase(estadisticas)
 
 
 def obtener_partidos_finalizados(league_id, paginas=3):
@@ -959,6 +961,7 @@ if __name__ == "__main__":
                 if eid and str(eid) not in notificados:
                     pendientes[str(eid)] = s
             guardar_pendientes(pendientes)
+            guardar_senales_supabase(seleccion_hoy)
 
         fecha = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
         nombre_archivo = f"senales_{fecha}.txt"
