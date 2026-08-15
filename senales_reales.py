@@ -281,10 +281,50 @@ def obtener_partidos_proximos(league_id, paginas=3):
         time.sleep(0.3)
         page += 1
     return partidos
+MAX_BUSQUEDAS_DIRECTAS_POR_EJECUCION = 15
+
+
+def obtener_partidos_por_jugador(team_id, paginas=2):
+    partidos = []
+    for page in range(1, paginas + 1):
+        try:
+            resp = requests.get(f"{BASE_URL}/events/ended", params={
+                "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
+                "team_id": team_id, "page": page,
+            }, timeout=15)
+            data = resp.json()
+        except Exception:
+            break
+        if not data.get("success") or not data.get("results"):
+            break
+        partidos.extend(data["results"])
+        time.sleep(0.2)
+    return partidos
+
+
+def completar_historico_jugador(team_id, nombre, historico_guardado, todos_partidos):
+    if not team_id:
+        return 0
+    nuevos = 0
+    for ev in obtener_partidos_por_jugador(team_id):
+        eid = str(ev.get("id"))
+        if eid in historico_guardado:
+            continue
+        p = parsear_partido(ev)
+        if p:
+            historico_guardado[eid] = p
+            todos_partidos.append(p)
+            nuevos += 1
+    if nuevos:
+        print(f"   (busqueda directa de {nombre}: +{nuevos} partidos anadidos)")
+    return nuevos
+
 
 def parsear_partido(evento):
     home = evento.get("home", {}).get("name")
     away = evento.get("away", {}).get("name")
+    home_id = evento.get("home", {}).get("id")
+    away_id = evento.get("away", {}).get("id")
     ss = evento.get("ss")
     if not ss or "-" not in ss:
         return None
@@ -320,6 +360,7 @@ def parsear_partido(evento):
 
     return {
         "id": evento.get("id"),
+        "jugador_a_id": home_id, "jugador_b_id": away_id,
         "jugador_a": home, "jugador_b": away,
         "ganador": ganador, "perdedor": perdedor,
         "sets_ganador": sets_ganador, "sets_perdedor": sets_perdedor,
@@ -518,6 +559,7 @@ def main():
 
     print("\nBuscando proximos partidos...")
     candidatas = []
+    busquedas_directas_restantes = MAX_BUSQUEDAS_DIRECTAS_POR_EJECUCION
     for nombre_liga, league_id in LIGAS.items():
         proximos = obtener_partidos_proximos(league_id, paginas=6)
 
@@ -554,6 +596,17 @@ def main():
 
             n_partidos_home = len(partidos_de_jugador(home, todos_partidos))
             n_partidos_away = len(partidos_de_jugador(away, todos_partidos))
+            if (n_partidos_home < 15 or n_partidos_away < 15) and busquedas_directas_restantes > 0:
+                home_id = ev.get("home", {}).get("id")
+                away_id = ev.get("away", {}).get("id")
+                if n_partidos_home < 15 and home_id and busquedas_directas_restantes > 0:
+                    completar_historico_jugador(home_id, home, historico_guardado, todos_partidos)
+                    busquedas_directas_restantes -= 1
+                if n_partidos_away < 15 and away_id and busquedas_directas_restantes > 0:
+                    completar_historico_jugador(away_id, away, historico_guardado, todos_partidos)
+                    busquedas_directas_restantes -= 1
+                n_partidos_home = len(partidos_de_jugador(home, todos_partidos))
+                n_partidos_away = len(partidos_de_jugador(away, todos_partidos))
             if n_partidos_home < 15 or n_partidos_away < 15:
                 continue
 
@@ -611,6 +664,7 @@ def main():
                 "ultimo_torneo": ultimo_torneo,
             })
 
+    guardar_historico(historico_guardado)
     candidatas.sort(key=lambda x: x["score"], reverse=True)
     seleccion = candidatas[:TOP_N]
     seleccion.sort(key=lambda x: x["hora_ts"])
