@@ -1,0 +1,56 @@
+Señales generadas el 15/08/2026 a las 09:15
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  TT Elite Series: 14 partidos nuevos anadidos
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Setka Cup: 18 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 9 partidos nuevos anadidos
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 9 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 4806
+Jugadores con rating calculado: 876
+
+Buscando proximos partidos...
+   (busqueda directa de Michal Gawlas: +95 partidos anadidos)
+   (busqueda directa de Filip Jablonski: +93 partidos anadidos)
+   (busqueda directa de Alan Wos: +49 partidos anadidos)
+   (busqueda directa de Michal Paszkiewicz: +89 partidos anadidos)
+   (busqueda directa de Kacper Petas: +91 partidos anadidos)
+   (busqueda directa de Bartosz Kwodawski: +97 partidos anadidos)
+   (busqueda directa de Oskar Jedrzejowski: +90 partidos anadidos)
+   (busqueda directa de Dariusz Maszczynski: +100 partidos anadidos)
+   (busqueda directa de Lukasz Pyda: +50 partidos anadidos)
+
+======================================================================
+TOP 25 SEÑALES DEL DIA (de 46 candidatas con umbral >=65%)
+======================================================================
+🟢 11:05  TT Elite Series    Patryk Jedrzejak     vs Daniel Morawiec      | Ambos ganan set:  76.9%  [P(Patryk Jedrzejak)=89.4% · P(Daniel Morawiec)=86.0%] (H2H n=8)
+🟡 11:25  TT Elite Series    Jaroslaw Rolak       vs Filip Jablonski      | Ambos ganan set:  74.1%  [P(Jaroslaw Rolak)=86.7% · P(Filip Jablonski)=85.5%] (H2H n=1)
+🟡 11:30  TT Elite Series    Michal Oracz         vs Filip Witczak        | Ambos ganan set:  74.9%  [P(Michal Oracz)=87.0% · P(Filip Witczak)=86.1%] (H2H n=0)
+🟢 11:40  TT Elite Series    Artur Grela          vs Marcin Jadczyk       | Ambos ganan set:  83.3%  [P(Artur Grela)=93.0% · P(Marcin Jadczyk)=89.6%] (H2H n=12)
+🟡 11:40  TT Cup             Jan Skvrna           vs Frantisek Chaloupka  | Ambos ganan set:  73.0%  [P(Jan Skvrna)=81.9% · P(Frantisek Chaloupka)=89.2%] (H2H n=4)
+🟡 11:50  TT Elite Series    Dawid Poloszczanski  vs Damian Wasilewski    | Ambos ganan set:  71.8%  [P(Dawid Poloszczanski)=82.2% · P(Damian Wasilewski)=87.4%] (H2H n=1)
+🟢 12:00  TT Elite Series    Jakub Kosowski       vs Dawid Michna         | Ambos ganan set:  75.9%  [P(Jakub Kosowski)=90.1% · P(Dawid Michna)=84.3%] (H2H n=6)
+🟢 12:05  TT Elite Series    Alan Wos             vs Adam Linek           | Ambos ganan set:  81.2%  [P(Alan Wos)=90.2% · P(Adam Linek)=90.0%] (H2H n=0)
+🟢 12:25  TT Elite Series    Marcin Jadczyk       vs Kacper Petas         | Ambos ganan set:  79.8%  [P(Marcin Jadczyk)=92.5% · P(Kacper Petas)=86.3%] (H2H n=9)
+🟡 12:35  TT Elite Series    Witold Buczynski     vs Piotr Staniszewski   | Ambos ganan set:  71.2%  [P(Witold Buczynski)=79.4% · P(Piotr Staniszewski)=89.7%] (H2H n=1)
+🔴 12:40  TT Elite Series    Daniel Morawiec      vs Grzegorz Sawicki     | Ambos ganan set:  68.6%  [P(Daniel Morawiec)=87.9% · P(Grzegorz Sawicki)=78.0%] (H2H n=4)
+🟡 12:50  TT Elite Series    Artur Grela          vs Michal Gawlas        | Ambos ganan set:  74.5%  [P(Artur Grela)=92.1% · P(Michal Gawlas)=80.8%] (H2H n=7)
+🟡 13:00  TT Elite Series    Dawid Poloszczanski  vs Filip Jablonski      | Ambos ganan set:  71.9%  [P(Dawid Poloszczanski)=84.0% · P(Filip Jablonski)=85.6%] (H2H n=5)
+🟡 13:30  Czech Liga Pro     Tadeas Zika          vs Ondrej Paril         | Ambos ganan set:  73.2%  [P(Tadeas Zika)=89.7% · P(Ondrej Paril)=81.6%] (H2H n=0)
+🟢 13:40  TT Elite Series    Jakub Kosowski       vs Artur Grela          | Ambos ganan set:  81.5%  [P(Jakub Kosowski)=91.0% · P(Artur Grela)=89.6%] (H2H n=9)
+🟡 14:05  TT Elite Series    Marcin Jadczyk       vs Michal Gawlas        | Ambos ganan set:  70.3%  [P(Marcin Jadczyk)=92.5% · P(Michal Gawlas)=76.1%] (H2H n=2)
+🔴 14:10  TT Cup             Tomas Krenek         vs Frantisek Chaloupka  | Ambos ganan set:  69.7%  [P(Tomas Krenek)=76.1% · P(Frantisek Chaloupka)=91.7%] (H2H n=0)
+🟢 14:30  TT Elite Series    Dawid Michna         vs Artur Grela          | Ambos ganan set:  79.8%  [P(Dawid Michna)=86.0% · P(Artur Grela)=92.8%] (H2H n=11)
+🟢 14:55  TT Elite Series    Jakub Kosowski       vs Marcin Jadczyk       | Ambos ganan set:  88.3%  [P(Jakub Kosowski)=92.9% · P(Marcin Jadczyk)=95.1%] (H2H n=0)
+🟡 15:30  TT Elite Series    Pawel Polok          vs Piotr Staniszewski   | Ambos ganan set:  74.7%  [P(Pawel Polok)=83.3% · P(Piotr Staniszewski)=89.7%] (H2H n=1)
+🟢 15:45  TT Elite Series    Dawid Michna         vs Marcin Jadczyk       | Ambos ganan set:  78.9%  [P(Dawid Michna)=85.3% · P(Marcin Jadczyk)=92.5%] (H2H n=9)
+🟢 16:10  TT Elite Series    Artur Grela          vs Kacper Petas         | Ambos ganan set:  75.8%  [P(Artur Grela)=91.9% · P(Kacper Petas)=82.5%] (H2H n=4)
+🟡 16:20  TT Elite Series    Rafal Skotniczny     vs Piotr Staniszewski   | Ambos ganan set:  73.1%  [P(Rafal Skotniczny)=81.5% · P(Piotr Staniszewski)=89.7%] (H2H n=1)
+🟡 16:35  TT Elite Series    Jakub Kosowski       vs Michal Gawlas        | Ambos ganan set:  71.3%  [P(Jakub Kosowski)=91.2% · P(Michal Gawlas)=78.2%] (H2H n=1)
+🟢 21:40  TT Elite Series    Alan Wos             vs Krystian Kolodziej   | Ambos ganan set:  81.1%  [P(Alan Wos)=90.4% · P(Krystian Kolodziej)=89.7%] (H2H n=0)
