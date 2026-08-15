@@ -28,6 +28,7 @@ TELEGRAM_TOKEN = "7754060707:AAFpXx9tCw1Zrksi544pQtfE6hskyPcAyao"
 TELEGRAM_CHAT_IDS = ["663483538", "-1004364860113"]
 
 TOP_N = 25
+MAX_SELECCION_DIARIA = 35
 
 
 def enviar_telegram(texto):
@@ -528,6 +529,28 @@ def h2h_detalle(a, b, partidos):
     return {"n": len(enfrentamientos), "ultima_fecha": fecha}
 
 
+ARCHIVO_SELECCION_DIARIA = "seleccion_diaria.json"
+
+def cargar_seleccion_diaria():
+    import json
+    import os
+    hoy = datetime.datetime.now(MADRID_TZ).strftime("%Y-%m-%d")
+    if not os.path.exists(ARCHIVO_SELECCION_DIARIA):
+        return {"fecha": hoy, "event_ids": []}
+    try:
+        with open(ARCHIVO_SELECCION_DIARIA, "r", encoding="utf-8") as f:
+            datos = json.load(f)
+        if datos.get("fecha") != hoy:
+            return {"fecha": hoy, "event_ids": []}
+        return datos
+    except Exception:
+        return {"fecha": hoy, "event_ids": []}
+
+def guardar_seleccion_diaria(datos):
+    import json
+    with open(ARCHIVO_SELECCION_DIARIA, "w", encoding="utf-8") as f:
+        json.dump(datos, f, ensure_ascii=False)
+
 def main():
     print("Cargando historico acumulado guardado...")
     historico_guardado = cargar_historico()
@@ -666,10 +689,25 @@ def main():
 
     guardar_historico(historico_guardado)
     candidatas.sort(key=lambda x: x["score"], reverse=True)
-    seleccion = candidatas[:TOP_N]
+
+    seleccion_diaria = cargar_seleccion_diaria()
+    ids_bloqueados_hoy = set(seleccion_diaria["event_ids"])
+
+    ya_elegidas_hoy = [c for c in candidatas if str(c["event_id"]) in ids_bloqueados_hoy]
+    candidatas_nuevas = [c for c in candidatas if str(c["event_id"]) not in ids_bloqueados_hoy]
+
+    huecos_libres_hoy = max(0, MAX_SELECCION_DIARIA - len(ids_bloqueados_hoy))
+    nuevas_admitidas = candidatas_nuevas[:huecos_libres_hoy]
+
+    seleccion = ya_elegidas_hoy + nuevas_admitidas
     seleccion.sort(key=lambda x: x["hora_ts"])
+
+    ids_bloqueados_hoy |= {str(c["event_id"]) for c in nuevas_admitidas if c.get("event_id")}
+    seleccion_diaria["event_ids"] = list(ids_bloqueados_hoy)
+    guardar_seleccion_diaria(seleccion_diaria)
+
     print(f"\n{'='*70}")
-    print(f"TOP {TOP_N} SEÑALES DEL DIA (de {len(candidatas)} candidatas con umbral >=65%)")
+    print(f"SELECCION DE HOY: {len(ids_bloqueados_hoy)}/{MAX_SELECCION_DIARIA} partidos bloqueados para el dia (primeros {TOP_N} intocables + hasta {MAX_SELECCION_DIARIA - TOP_N} extra si aparecen mejores candidatos; de {len(candidatas)} candidatas esta ejecucion, umbral >=65%)")
     print(f"{'='*70}")
     simbolo = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
     for s in seleccion:
