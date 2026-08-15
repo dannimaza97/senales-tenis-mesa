@@ -10,7 +10,7 @@ import time
 import datetime
 from dataclasses import dataclass, field
 from zoneinfo import ZoneInfo
-from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase
+from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase, guardar_resultado_supabase
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
@@ -199,6 +199,23 @@ def comprobar_predicciones_anteriores():
                 f"📊 Hoy: {estadisticas['ganadoras']} verdes / {estadisticas['perdidas']} rojas"
             )
             enviar_telegram(mensaje)
+
+        fecha_partido = (
+            datetime.datetime.fromtimestamp(pred["hora_ts"], tz=MADRID_TZ).strftime("%Y-%m-%d")
+            if pred.get("hora_ts")
+            else datetime.date.today().isoformat()
+        )
+        guardar_resultado_supabase({
+            "event_id": event_id,
+            "liga": pred.get("liga"),
+            "home": pred.get("home"),
+            "away": pred.get("away"),
+            "acierto": acerto,
+            "probabilidad": pred.get("probabilidad"),
+            "color": pred.get("color"),
+            "hora_ts": pred.get("hora_ts"),
+            "fecha": fecha_partido,
+        })
         notificados[event_id] = True
     guardar_pendientes(aun_pendientes)
     guardar_resultados_notificados(notificados)
