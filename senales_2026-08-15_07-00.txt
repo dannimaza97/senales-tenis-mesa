@@ -1,0 +1,33 @@
+Señales generadas el 15/08/2026 a las 07:00
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  TT Elite Series: 17 partidos nuevos anadidos
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Setka Cup: 21 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 8 tras reintento, me detengo aqui)
+  Czech Liga Pro: 9 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 6 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 3564
+Jugadores con rating calculado: 804
+
+Buscando proximos partidos...
+
+======================================================================
+TOP 25 SEÑALES DEL DIA (de 7 candidatas con umbral >=65%)
+======================================================================
+🔴 10:30  Czech Liga Pro     Petr Sebera          vs Jakub Tazler         | Ambos ganan set:  65.0%  [P(Petr Sebera)=75.6% · P(Jakub Tazler)=86.0%] (H2H n=2)
+🔴 11:25  TT Elite Series    Kacper Slawinski     vs Pawel Polok          | Ambos ganan set:  66.4%  [P(Kacper Slawinski)=82.2% · P(Pawel Polok)=80.8%] (H2H n=1)
+🟡 11:40  TT Cup             Jan Skvrna           vs Frantisek Chaloupka  | Ambos ganan set:  73.0%  [P(Jan Skvrna)=81.9% · P(Frantisek Chaloupka)=89.2%] (H2H n=4)
+🟢 13:30  Czech Liga Pro     Tadeas Zika          vs Ondrej Paril         | Ambos ganan set:  75.2%  [P(Tadeas Zika)=92.2% · P(Ondrej Paril)=81.6%] (H2H n=0)
+🟡 14:10  TT Cup             Tomas Krenek         vs Frantisek Chaloupka  | Ambos ganan set:  71.0%  [P(Tomas Krenek)=77.5% · P(Frantisek Chaloupka)=91.7%] (H2H n=0)
+🟡 16:00  Czech Liga Pro     Erik Mares           vs Michal Kratochvil    | Ambos ganan set:  70.1%  [P(Erik Mares)=88.8% · P(Michal Kratochvil)=78.9%] (H2H n=5)
+🔴 21:00  Czech Liga Pro     Mihail Trinta        vs Yurii Holovatiuk     | Ambos ganan set:  66.1%  [P(Mihail Trinta)=86.8% · P(Yurii Holovatiuk)=76.1%] (H2H n=0)
