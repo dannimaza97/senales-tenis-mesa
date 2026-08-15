@@ -1,0 +1,54 @@
+Señales generadas el 15/08/2026 a las 12:16
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 3 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  Setka Cup: 7 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Czech Liga Pro: 4 partidos nuevos anadidos
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Cup: 4 partidos nuevos anadidos
+
+Total partidos historicos acumulados: 7672
+Jugadores con rating calculado: 1041
+
+Buscando proximos partidos...
+   (busqueda directa de Eduard Populovskyi: +42 partidos anadidos)
+   (busqueda directa de Yurii Shmyndra: +47 partidos anadidos)
+   (busqueda directa de Dmytro Khairov: +42 partidos anadidos)
+   (busqueda directa de Josef Chalupa: +46 partidos anadidos)
+
+======================================================================
+TOP 25 SEÑALES DEL DIA (de 77 candidatas con umbral >=65%)
+======================================================================
+🟢 13:45  TT Elite Series    Alan Wos             vs Igor Dabrowski       | Ambos ganan set:  76.0%  [P(Alan Wos)=89.3% · P(Igor Dabrowski)=85.2%] (H2H n=1)
+🟡 14:20  TT Elite Series    Daniel Morawiec      vs Michal Oracz         | Ambos ganan set:  74.5%  [P(Daniel Morawiec)=88.0% · P(Michal Oracz)=84.6%] (H2H n=3)
+🟢 14:30  TT Elite Series    Dawid Michna         vs Artur Grela          | Ambos ganan set:  80.1%  [P(Dawid Michna)=86.2% · P(Artur Grela)=92.9%] (H2H n=11)
+🟢 14:35  TT Elite Series    Adam Linek           vs Igor Dabrowski       | Ambos ganan set:  77.1%  [P(Adam Linek)=90.5% · P(Igor Dabrowski)=85.2%] (H2H n=1)
+🟡 14:35  Setka Cup          Valerii Vlasenko     vs Yurii Shmyndra       | Ambos ganan set:  73.5%  [P(Valerii Vlasenko)=85.6% · P(Yurii Shmyndra)=85.8%] (H2H n=3)
+🟢 14:40  TT Elite Series    Jaroslaw Rolak       vs Dawid Poloszczanski  | Ambos ganan set:  75.8%  [P(Jaroslaw Rolak)=87.0% · P(Dawid Poloszczanski)=87.0%] (H2H n=0)
+🟢 14:55  TT Elite Series    Jakub Kosowski       vs Marcin Jadczyk       | Ambos ganan set:  89.2%  [P(Jakub Kosowski)=93.5% · P(Marcin Jadczyk)=95.4%] (H2H n=0)
+🟢 15:35  Setka Cup          Serhii Kalenyk       vs Yurii Shmyndra       | Ambos ganan set:  75.6%  [P(Serhii Kalenyk)=88.0% · P(Yurii Shmyndra)=85.8%] (H2H n=3)
+🟢 15:45  TT Elite Series    Dawid Michna         vs Marcin Jadczyk       | Ambos ganan set:  79.2%  [P(Dawid Michna)=85.5% · P(Marcin Jadczyk)=92.6%] (H2H n=9)
+🟢 15:55  TT Elite Series    Jaroslaw Rolak       vs Damian Wasilewski    | Ambos ganan set:  77.5%  [P(Jaroslaw Rolak)=87.0% · P(Damian Wasilewski)=89.0%] (H2H n=0)
+🟡 16:05  Setka Cup          Orest Hura           vs Anton Shypilov       | Ambos ganan set:  73.4%  [P(Orest Hura)=87.5% · P(Anton Shypilov)=83.9%] (H2H n=0)
+🟢 16:10  TT Elite Series    Artur Grela          vs Kacper Petas         | Ambos ganan set:  76.1%  [P(Artur Grela)=92.0% · P(Kacper Petas)=82.7%] (H2H n=4)
+🟢 17:05  Setka Cup          Serhii Kalenyk       vs Orest Hura           | Ambos ganan set:  75.6%  [P(Serhii Kalenyk)=88.1% · P(Orest Hura)=85.8%] (H2H n=4)
+🟢 17:25  TT Elite Series    Alan Wos             vs Patryk Jendrzejewski | Ambos ganan set:  77.2%  [P(Alan Wos)=89.3% · P(Patryk Jendrzejewski)=86.5%] (H2H n=1)
+🟡 17:40  Setka Cup          Roman Pomin          vs Yevhenii Holoborodko | Ambos ganan set:  71.8%  [P(Roman Pomin)=86.8% · P(Yevhenii Holoborodko)=82.7%] (H2H n=6)
+🟡 18:05  TT Elite Series    Kamil Kostyk         vs Alan Wos             | Ambos ganan set:  73.9%  [P(Kamil Kostyk)=83.4% · P(Alan Wos)=88.6%] (H2H n=2)
+🟡 18:05  Setka Cup          Valerii Vlasenko     vs Anton Shypilov       | Ambos ganan set:  70.6%  [P(Valerii Vlasenko)=85.7% · P(Anton Shypilov)=82.5%] (H2H n=2)
+🟢 19:05  Setka Cup          Valerii Vlasenko     vs Orest Hura           | Ambos ganan set:  76.6%  [P(Valerii Vlasenko)=87.5% · P(Orest Hura)=87.5%] (H2H n=0)
+🟡 20:05  Setka Cup          Serhii Kalenyk       vs Valerii Vlasenko     | Ambos ganan set:  73.2%  [P(Serhii Kalenyk)=86.5% · P(Valerii Vlasenko)=84.6%] (H2H n=9)
+🟢 20:05  TT Elite Series    Krystian Kolodziej   vs Patryk Jendrzejewski | Ambos ganan set:  76.1%  [P(Krystian Kolodziej)=88.3% · P(Patryk Jendrzejewski)=86.2%] (H2H n=4)
+🟢 20:30  TT Elite Series    Alan Wos             vs Filip Mlynarski      | Ambos ganan set:  77.0%  [P(Alan Wos)=88.5% · P(Filip Mlynarski)=87.0%] (H2H n=3)
+🟢 21:15  TT Cup             Dalibor Velky Jr     vs Jan Krupnik          | Ambos ganan set:  75.6%  [P(Dalibor Velky Jr)=83.5% · P(Jan Krupnik)=90.5%] (H2H n=1)
+🟢 21:40  TT Elite Series    Alan Wos             vs Krystian Kolodziej   | Ambos ganan set:  82.3%  [P(Alan Wos)=90.8% · P(Krystian Kolodziej)=90.6%] (H2H n=0)
+🟡 22:30  TT Elite Series    Kamil Kostyk         vs Patryk Jendrzejewski | Ambos ganan set:  74.7%  [P(Kamil Kostyk)=85.0% · P(Patryk Jendrzejewski)=87.9%] (H2H n=0)
+🟢 22:30  TT Elite Series    Oskar Jedrzejowski   vs Grzegorz Mucha       | Ambos ganan set:  76.2%  [P(Oskar Jedrzejowski)=88.8% · P(Grzegorz Mucha)=85.8%] (H2H n=0)
