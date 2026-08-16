@@ -1,0 +1,37 @@
+Señales generadas el 16/08/2026 a las 17:12
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  TT Elite Series: 19 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 526 partidos historicos (pagina 233, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Setka Cup: 19 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 205, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 105 partidos historicos (pagina 204, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Czech Liga Pro: 9 partidos nuevos anadidos
+  (backfill Czech Liga Pro: respuesta invalida en pagina 242, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 278 partidos historicos (pagina 241, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 14 partidos nuevos anadidos
+  TT Cup: backfill anadio 525 partidos historicos (pagina 257, agotado=False)
+
+Total partidos historicos acumulados: 33770
+Jugadores con rating calculado: 1594
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 88 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 19:30  Setka Cup          Marcel Cmil          vs Artur Akopyan        | Ambos ganan set:  77.8%  [P(Marcel Cmil)=87.6% · P(Artur Akopyan)=88.8%] (H2H n=10)
+🔴 19:40  TT Cup             Daniel Branny        vs Vladislav Reska      | Ambos ganan set:  67.6%  [P(Daniel Branny)=85.3% · P(Vladislav Reska)=79.3%] (H2H n=5)
+🟡 20:00  Czech Liga Pro     Ivo Taichman         vs Lukas Velicka        | Ambos ganan set:  72.1%  [P(Ivo Taichman)=86.5% · P(Lukas Velicka)=83.4%] (H2H n=5)
+🟢 20:30  Setka Cup          Marcel Cmil          vs Martin Holub         | Ambos ganan set:  80.5%  [P(Marcel Cmil)=90.0% · P(Martin Holub)=89.4%] (H2H n=1)
+🟢 21:30  Czech Liga Pro     Martin Biolek        vs Jan Dzida            | Ambos ganan set:  81.1%  [P(Martin Biolek)=88.0% · P(Jan Dzida)=92.1%] (H2H n=23)
+🟢 21:45  Setka Cup          Zdenek Sedivy        vs Michal Makara        | Ambos ganan set:  81.1%  [P(Zdenek Sedivy)=88.7% · P(Michal Makara)=91.4%] (H2H n=0)
+🟢 22:00  Setka Cup          Martin Holub         vs Artur Akopyan        | Ambos ganan set:  83.3%  [P(Martin Holub)=91.7% · P(Artur Akopyan)=90.8%] (H2H n=17)
+🟢 22:00  Czech Liga Pro     Ivo Taichman         vs Daniel Langer        | Ambos ganan set:  78.8%  [P(Ivo Taichman)=86.6% · P(Daniel Langer)=91.0%] (H2H n=1)
