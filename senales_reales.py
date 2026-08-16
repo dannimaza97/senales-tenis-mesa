@@ -741,7 +741,7 @@ def main():
     return seleccion
 
 
-def formatear_mensaje_individual(s):
+def formatear_mensaje_individual(s, ahora=None):
     emoji_color = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
     etiqueta_color = {"VERDE": "💪 FUERTE", "AMARILLO": "⭐ ELITE", "ROJO": "🔸 SEÑAL"}
     aviso_home = " ⚠️" if s['racha_home'] <= -3 else ""
@@ -750,8 +750,13 @@ def formatear_mensaje_individual(s):
     bandera = "  🏁" if s.get("ultimo_torneo") else ""
     discrepancia_txt = "\n⚠️ DISCREPANCIA: nuestros modelos internos no coinciden del todo, señal menos fiable" if s.get("discrepancia") else ""
 
+    if ahora is not None:
+        restante_min = max(0, round((s['hora_ts'] - ahora) / 60))
+        texto_cuenta = "empieza en menos de 1 min" if restante_min <= 1 else f"empieza en {restante_min} min"
+    else:
+        texto_cuenta = "empieza en 1h"
     lineas = [
-        f"{emoji_color[s['color']]} {s['liga']}  |  {etiqueta_color[s['color']]}  |  ⏳ empieza en 1h{bandera}",
+        f"{emoji_color[s['color']]} {s['liga']}  |  {etiqueta_color[s['color']]}  |  ⏳ {texto_cuenta}{bandera}",
         f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
         f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}%",
         f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}%  ·  {s['away']} {s['impulso_away']*100:+.0f}%",
@@ -926,7 +931,7 @@ def enviar_avisos_pendientes(seleccion):
             continue
         tiempo_partido = s["hora_ts"]
         if tiempo_partido - ventana_previa <= ahora < tiempo_partido:
-            mensaje = formatear_mensaje_individual(s)
+            mensaje = formatear_mensaje_individual(s, ahora)
             enviar_telegram(mensaje)
             avisos[eid] = True
             enviados_ahora += 1
