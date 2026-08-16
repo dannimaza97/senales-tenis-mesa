@@ -59,6 +59,8 @@ def limpiar_archivos_antiguos(dias=7):
 
 
 ARCHIVO_HISTORICO = "historico_partidos.json"
+ARCHIVO_BACKFILL = "backfill_estado.json"
+PRESUPUESTO_BACKFILL_SEGUNDOS = 240
 
 
 def cargar_historico():
@@ -77,6 +79,79 @@ def guardar_historico(historico):
     import json
     with open(ARCHIVO_HISTORICO, "w", encoding="utf-8") as f:
         json.dump(historico, f, ensure_ascii=False)
+
+
+def cargar_backfill_estado():
+    import json
+    import os
+    if not os.path.exists(ARCHIVO_BACKFILL):
+        return {}
+    try:
+        with open(ARCHIVO_BACKFILL, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def guardar_backfill_estado(estado):
+    import json
+    with open(ARCHIVO_BACKFILL, "w", encoding="utf-8") as f:
+        json.dump(estado, f, ensure_ascii=False)
+
+
+def backfill_historico(league_id, nombre_liga, estado, presupuesto_segundos):
+    """Sigue paginando events/ended mas alla de lo que cubre el fetch normal
+    (paginas_por_liga), retomando en cada corrida desde la ultima pagina
+    alcanzada la vez anterior, para ir completando poco a poco el historico
+    real de ligas muy activas (p. ej. TT Elite Series, con cientos de miles
+    de partidos, donde 150 paginas por corrida solo cubre una fraccion
+    minima). No se pierde nada: el progreso (numero de pagina) se guarda en
+    disco despues de cada corrida y los partidos se combinan por id, asi que
+    aunque la paginacion se solape un poco entre corridas nunca se pierde
+    historico, solo se puede re-procesar algo ya visto (inofensivo)."""
+    info = estado.setdefault(nombre_liga, {"pagina_actual": 150, "agotado": False})
+    if info.get("agotado"):
+        return []
+
+    partidos = []
+    page = info.get("pagina_actual", 150) + 1
+    inicio = time.time()
+
+    while time.time() - inicio < presupuesto_segundos:
+        intentos = 0
+        resp = None
+        while intentos < 2:
+            try:
+                resp = requests.get(f"{BASE_URL}/events/ended", params={
+                    "token": TOKEN, "sport_id": SPORT_ID_TENIS_MESA,
+                    "league_id": league_id, "page": page,
+                }, timeout=20)
+                break
+            except requests.exceptions.RequestException:
+                intentos += 1
+                if intentos < 2:
+                    time.sleep(2)
+        if resp is None:
+            print(f"  (backfill {nombre_liga}: sin respuesta en pagina {page}, seguimos en la proxima corrida)")
+            break
+        try:
+            data = resp.json()
+        except ValueError:
+            print(f"  (backfill {nombre_liga}: respuesta invalida en pagina {page}, seguimos en la proxima corrida)")
+            break
+
+        resultados = data.get("results") or []
+        if not resultados:
+            info["agotado"] = True
+            print(f"  (backfill {nombre_liga}: completado, no hay mas historico despues de la pagina {page - 1})")
+            break
+
+        partidos.extend(resultados)
+        info["pagina_actual"] = page
+        page += 1
+        time.sleep(0.2)
+
+    return partidos
 
 
 ARCHIVO_PENDIENTES = "predicciones_pendientes.json"
@@ -578,6 +653,8 @@ def main():
     if primera_vez:
         print("  (reconstruyendo historico con detalle de sets, puede tardar varios minutos)")
 
+    backfill_estado = cargar_backfill_estado()
+
     for nombre_liga, league_id in LIGAS.items():
         eventos = obtener_partidos_finalizados(league_id, paginas=paginas_por_liga)
         nuevos = 0
@@ -591,7 +668,21 @@ def main():
                 nuevos += 1
         print(f"  {nombre_liga}: {nuevos} partidos nuevos anadidos")
 
+        eventos_backfill = backfill_historico(league_id, nombre_liga, backfill_estado, PRESUPUESTO_BACKFILL_SEGUNDOS)
+        nuevos_backfill = 0
+        for ev in eventos_backfill:
+            eid = str(ev.get("id"))
+            if eid in historico_guardado:
+                continue
+            p = parsear_partido(ev)
+            if p:
+                historico_guardado[eid] = p
+                nuevos_backfill += 1
+        info_liga = backfill_estado.get(nombre_liga, {})
+        print(f"  {nombre_liga}: backfill anadio {nuevos_backfill} partidos historicos (pagina {info_liga.get('pagina_actual')}, agotado={info_liga.get('agotado')})")
+
     guardar_historico(historico_guardado)
+    guardar_backfill_estado(backfill_estado)
     todos_partidos = list(historico_guardado.values())
     print(f"\nTotal partidos historicos acumulados: {len(todos_partidos)}")
 
