@@ -1,0 +1,40 @@
+Señales generadas el 16/08/2026 a las 13:58
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 25 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 643 partidos historicos (pagina 195, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Setka Cup: 31 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 178, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 45 partidos historicos (pagina 177, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 19 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 195, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 568 partidos historicos (pagina 194, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Cup: 20 partidos nuevos anadidos
+  TT Cup: backfill anadio 834 partidos historicos (pagina 207, agotado=False)
+
+Total partidos historicos acumulados: 26870
+Jugadores con rating calculado: 1581
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 135 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 16:10  TT Elite Series    Jakub Kosowski       vs Krystian Kolodziej   | Ambos ganan set:  88.0%  [P(Jakub Kosowski)=93.6% · P(Krystian Kolodziej)=94.0%] (H2H n=0)
+🟡 16:15  Setka Cup          Jan Marhol           vs Adam Dvoracek        | Ambos ganan set:  74.4%  [P(Jan Marhol)=87.1% · P(Adam Dvoracek)=85.5%] (H2H n=5)
+🟢 17:25  TT Elite Series    Dominik Solilo       vs Bartlomiej Mleczko   | Ambos ganan set:  80.0%  [P(Dominik Solilo)=88.3% · P(Bartlomiej Mleczko)=90.6%] (H2H n=1)
+🟢 18:00  Setka Cup          Jakub Dufek Jnr      vs Jan Seeman           | Ambos ganan set:  80.0%  [P(Jakub Dufek Jnr)=90.5% · P(Jan Seeman)=88.4%] (H2H n=17)
+🟢 19:30  Setka Cup          Marcel Cmil          vs Artur Akopyan        | Ambos ganan set:  78.3%  [P(Marcel Cmil)=88.2% · P(Artur Akopyan)=88.8%] (H2H n=10)
+🔴 19:40  TT Cup             Daniel Branny        vs Vladislav Reska      | Ambos ganan set:  65.2%  [P(Daniel Branny)=85.8% · P(Vladislav Reska)=76.0%] (H2H n=4)
+🟡 20:00  Czech Liga Pro     Ivo Taichman         vs Lukas Velicka        | Ambos ganan set:  72.8%  [P(Ivo Taichman)=87.3% · P(Lukas Velicka)=83.4%] (H2H n=5)
+🟢 20:30  Setka Cup          Marcel Cmil          vs Martin Holub         | Ambos ganan set:  85.8%  [P(Marcel Cmil)=92.6% · P(Martin Holub)=92.7%] (H2H n=0)
+🟢 21:30  Czech Liga Pro     Martin Biolek        vs Jan Dzida            | Ambos ganan set:  81.0%  [P(Martin Biolek)=87.9% · P(Jan Dzida)=92.1%] (H2H n=23)
+🟢 21:45  Setka Cup          Zdenek Sedivy        vs Michal Makara        | Ambos ganan set:  81.1%  [P(Zdenek Sedivy)=88.7% · P(Michal Makara)=91.4%] (H2H n=0)
+🟢 22:00  Setka Cup          Martin Holub         vs Artur Akopyan        | Ambos ganan set:  84.1%  [P(Martin Holub)=92.6% · P(Artur Akopyan)=90.8%] (H2H n=17)
+🟢 22:00  Czech Liga Pro     Ivo Taichman         vs Daniel Langer        | Ambos ganan set:  79.5%  [P(Ivo Taichman)=87.6% · P(Daniel Langer)=90.7%] (H2H n=1)
