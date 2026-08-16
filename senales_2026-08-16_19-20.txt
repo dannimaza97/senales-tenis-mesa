@@ -1,0 +1,30 @@
+Señales generadas el 16/08/2026 a las 19:20
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  TT Elite Series: 14 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 253, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 252, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Setka Cup: 9 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 219, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 143 partidos historicos (pagina 218, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 9 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 585 partidos historicos (pagina 279, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 13 partidos nuevos anadidos
+  TT Cup: backfill anadio 801 partidos historicos (pagina 289, agotado=False)
+
+Total partidos historicos acumulados: 38343
+Jugadores con rating calculado: 1609
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 37 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:30  Czech Liga Pro     Martin Biolek        vs Jan Dzida            | Ambos ganan set:  81.4%  [P(Martin Biolek)=88.3% · P(Jan Dzida)=92.2%] (H2H n=23)
+🟢 22:00  Czech Liga Pro     Ivo Taichman         vs Daniel Langer        | Ambos ganan set:  80.2%  [P(Ivo Taichman)=87.0% · P(Daniel Langer)=92.1%] (H2H n=1)
