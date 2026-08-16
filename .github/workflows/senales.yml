@@ -5,6 +5,10 @@ on:
     - cron: '*/15 * * * *'  # Runs every 15 minutes
   workflow_dispatch:
 
+concurrency:
+  group: senales-cron
+  cancel-in-progress: false
+
 jobs:
   ejecutar:
     runs-on: ubuntu-latest
