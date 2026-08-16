@@ -1,0 +1,37 @@
+Señales generadas el 16/08/2026 a las 18:02
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 8 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 242, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 356 partidos historicos (pagina 241, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Setka Cup: 11 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 205, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 204, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 7 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 601 partidos historicos (pagina 255, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  TT Cup: 9 partidos nuevos anadidos
+  TT Cup: backfill anadio 662 partidos historicos (pagina 271, agotado=False)
+
+Total partidos historicos acumulados: 35424
+Jugadores con rating calculado: 1596
+
+Buscando proximos partidos...
+   (busqueda directa de Artem Azarov: +1 partidos anadidos)
+ (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina 6)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 70 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:30  Setka Cup          Marcel Cmil          vs Martin Holub         | Ambos ganan set:  80.5%  [P(Marcel Cmil)=90.0% · P(Martin Holub)=89.4%] (H2H n=1)
+🟢 21:30  Czech Liga Pro     Martin Biolek        vs Jan Dzida            | Ambos ganan set:  81.0%  [P(Martin Biolek)=88.0% · P(Jan Dzida)=92.1%] (H2H n=23)
+🟢 21:45  Setka Cup          Zdenek Sedivy        vs Michal Makara        | Ambos ganan set:  80.4%  [P(Zdenek Sedivy)=88.7% · P(Michal Makara)=90.6%] (H2H n=0)
+🟢 22:00  Setka Cup          Martin Holub         vs Artur Akopyan        | Ambos ganan set:  83.3%  [P(Martin Holub)=91.7% · P(Artur Akopyan)=90.8%] (H2H n=17)
+🟢 22:00  Czech Liga Pro     Ivo Taichman         vs Daniel Langer        | Ambos ganan set:  79.1%  [P(Ivo Taichman)=86.9% · P(Daniel Langer)=91.0%] (H2H n=1)
