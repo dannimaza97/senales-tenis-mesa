@@ -1,0 +1,45 @@
+Señales generadas el 17/08/2026 a las 11:28
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 12, reintento)
+ (aviso: tiempo de espera agotado en pagina 21, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 28)
+  TT Elite Series: 11 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 780, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 831 partidos historicos (pagina 779, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 25)
+  Setka Cup: 15 partidos nuevos anadidos
+  Setka Cup: backfill anadio 2411 partidos historicos (pagina 529, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 38)
+  Czech Liga Pro: 10 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 4327 partidos historicos (pagina 927, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 18, reintento)
+ (aviso: tiempo de espera agotado en pagina 34, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 35)
+  TT Cup: 11 partidos nuevos anadidos
+  (backfill TT Cup: sin respuesta en pagina 917, seguimos en la proxima corrida)
+  TT Cup: backfill anadio 834 partidos historicos (pagina 916, agotado=False)
+
+Total partidos historicos acumulados: 141801
+Jugadores con rating calculado: 1904
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 277 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 13:30  Setka Cup          Frantisek Schmidtmayer vs Filip Taller         | Ambos ganan set:  75.5%  [P(Frantisek Schmidtmayer)=85.9% · P(Filip Taller)=87.9%] (H2H n=7)
+🔴 13:45  TT Cup             Daniel Branny        vs Tomas Lysek          | Ambos ganan set:  67.1%  [P(Daniel Branny)=81.6% · P(Tomas Lysek)=82.2%] (H2H n=3)
+🟢 14:05  TT Elite Series    Marcin Jadczyk       vs Tibor Spanik         | Ambos ganan set:  77.9%  [P(Marcin Jadczyk)=91.3% · P(Tibor Spanik)=85.3%] (H2H n=22)
+🟡 14:10  Setka Cup          Vladimir Voronenko   vs Artem Yurkov         | Ambos ganan set:  71.4%  [P(Vladimir Voronenko)=77.5% · P(Artem Yurkov)=92.1%] (H2H n=18)
+🟢 14:30  TT Elite Series    Dawid Michna         vs Krystian Kolodziej   | Ambos ganan set:  79.7%  [P(Dawid Michna)=87.0% · P(Krystian Kolodziej)=91.7%] (H2H n=3)
+🟢 14:55  TT Elite Series    Adrian Wiecek        vs Marcin Jadczyk       | Ambos ganan set:  75.6%  [P(Adrian Wiecek)=87.9% · P(Marcin Jadczyk)=86.0%] (H2H n=27)
+🟢 15:45  TT Elite Series    Dawid Michna         vs Marcin Jadczyk       | Ambos ganan set:  77.5%  [P(Dawid Michna)=82.8% · P(Marcin Jadczyk)=93.5%] (H2H n=22)
+🟢 16:10  Setka Cup          Vitalii S Marushchak vs Artem Yurkov         | Ambos ganan set:  75.7%  [P(Vitalii S Marushchak)=86.8% · P(Artem Yurkov)=87.2%] (H2H n=26)
+🟢 16:40  TT Elite Series    Jakub Pruszkowski    vs Piotr Przewlocki     | Ambos ganan set:  76.4%  [P(Jakub Pruszkowski)=91.2% · P(Piotr Przewlocki)=83.8%] (H2H n=13)
+🟢 17:05  Setka Cup          Oleksii Korobov      vs Valentyn Chumak      | Ambos ganan set:  78.4%  [P(Oleksii Korobov)=90.4% · P(Valentyn Chumak)=86.7%] (H2H n=3)
+🟢 18:00  Setka Cup          Petr Kotrbacek       vs Miroslav Vana        | Ambos ganan set:  82.1%  [P(Petr Kotrbacek)=91.0% · P(Miroslav Vana)=90.3%] (H2H n=0)
+🟢 18:05  Setka Cup          Valentyn Chumak      vs Mykhailo Skliar      | Ambos ganan set:  77.0%  [P(Valentyn Chumak)=89.4% · P(Mykhailo Skliar)=86.1%] (H2H n=2)
+🟢 19:15  Setka Cup          Jan Simecek Jnr      vs Miroslav Hajek       | Ambos ganan set:  79.5%  [P(Jan Simecek Jnr)=86.2% · P(Miroslav Hajek)=92.2%] (H2H n=0)
+🟢 20:45  Setka Cup          Petr Orlowski        vs Miroslav Hajek       | Ambos ganan set:  79.8%  [P(Petr Orlowski)=86.6% · P(Miroslav Hajek)=92.2%] (H2H n=0)
+🟢 21:45  Setka Cup          Vit Herrmann         vs Miroslav Hajek       | Ambos ganan set:  81.4%  [P(Vit Herrmann)=88.3% · P(Miroslav Hajek)=92.2%] (H2H n=0)
