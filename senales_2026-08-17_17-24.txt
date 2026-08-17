@@ -1,0 +1,31 @@
+Señales generadas el 17/08/2026 a las 17:24
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 16)
+  TT Elite Series: 20 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 945, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 286 partidos historicos (pagina 944, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: tiempo de espera agotado en pagina 13 tras reintento, me detengo aqui)
+  Setka Cup: 23 partidos nuevos anadidos
+  Setka Cup: backfill anadio 1506 partidos historicos (pagina 723, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 19)
+  Czech Liga Pro: 10 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 1773 partidos historicos (pagina 1174, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 17, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 12 partidos nuevos anadidos
+  TT Cup: backfill anadio 2216 partidos historicos (pagina 1154, agotado=False)
+
+Total partidos historicos acumulados: 182586
+Jugadores con rating calculado: 2016
+
+Buscando proximos partidos...
+   (busqueda directa de Dariusz Gabrys: +2 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 115 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:45  Setka Cup          Petr Orlowski        vs Miroslav Hajek       | Ambos ganan set:  77.2%  [P(Petr Orlowski)=88.7% · P(Miroslav Hajek)=87.1%] (H2H n=0)
+🟢 21:45  Setka Cup          Vit Herrmann         vs Miroslav Hajek       | Ambos ganan set:  75.6%  [P(Vit Herrmann)=86.8% · P(Miroslav Hajek)=87.1%] (H2H n=0)
