@@ -152,6 +152,8 @@ def guardar_resultado_supabase(resultado):
         "probabilidad": resultado.get("probabilidad"),
         "color": resultado.get("color"),
         "hora_ts": resultado.get("hora_ts"),
+        "sets_home": resultado.get("sets_home"),
+        "sets_away": resultado.get("sets_away"),
         "fecha": resultado.get("fecha"),
     }
 
