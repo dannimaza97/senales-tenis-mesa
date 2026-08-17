@@ -904,7 +904,7 @@ def guardar_actualizaciones(datos):
 def enviar_actualizaciones_periodicas(seleccion):
     actualizaciones = cargar_actualizaciones()
     ahora = time.time()
-    intervalo = 2.5 * 3600
+    ventana_actualizacion = 3600  # solo si falta 1 hora o menos para el partido
     enviadas = 0
 
     ids_vistos = set()
@@ -918,13 +918,17 @@ def enviar_actualizaciones_periodicas(seleccion):
 
         anterior = actualizaciones.get(eid)
         if anterior is None:
-            actualizaciones[eid] = {"prob": s["probabilidad"], "ts": ahora}
+            actualizaciones[eid] = {"prob": s["probabilidad"], "enviada": False}
             continue
 
-        if ahora - anterior["ts"] >= intervalo:
+        if anterior.get("enviada"):
+            continue
+
+        restante = s["hora_ts"] - ahora
+        if restante <= ventana_actualizacion:
             mensaje = formatear_mensaje_actualizacion(s, anterior["prob"])
             enviar_telegram(mensaje)
-            actualizaciones[eid] = {"prob": s["probabilidad"], "ts": ahora}
+            actualizaciones[eid] = {"prob": s["probabilidad"], "enviada": True}
             enviadas += 1
 
     actualizaciones_limpias = {eid: v for eid, v in actualizaciones.items() if eid in ids_vistos}
