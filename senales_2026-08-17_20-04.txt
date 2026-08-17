@@ -1,0 +1,34 @@
+Señales generadas el 17/08/2026 a las 20:04
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 14, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  TT Elite Series: 21 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 1326 partidos historicos (pagina 990, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 16, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 21)
+  Setka Cup: 24 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 741, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 772 partidos historicos (pagina 740, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  Czech Liga Pro: 17 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 1217, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 892 partidos historicos (pagina 1216, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 25)
+  TT Cup: 22 partidos nuevos anadidos
+  TT Cup: backfill anadio 2260 partidos historicos (pagina 1245, agotado=False)
+
+Total partidos historicos acumulados: 192167
+Jugadores con rating calculado: 2039
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 25 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+No se encontraron señales sobre el umbral con los partidos próximos disponibles ahora mismo.
