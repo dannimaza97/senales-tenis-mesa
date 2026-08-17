@@ -1,0 +1,35 @@
+Señales generadas el 17/08/2026 a las 15:20
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 17, reintento)
+ (aviso: tiempo de espera agotado en pagina 42, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 43)
+  TT Elite Series: 8 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 1921 partidos historicos (pagina 905, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 18, reintento)
+ (aviso: tiempo de espera agotado en pagina 18 tras reintento, me detengo aqui)
+  Setka Cup: 21 partidos nuevos anadidos
+  Setka Cup: backfill anadio 1731 partidos historicos (pagina 666, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 12, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 21)
+  Czech Liga Pro: 10 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 2389 partidos historicos (pagina 1104, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 11 partidos nuevos anadidos
+  (backfill TT Cup: respuesta invalida en pagina 1075, seguimos en la proxima corrida)
+  TT Cup: backfill anadio 2743 partidos historicos (pagina 1074, agotado=False)
+
+Total partidos historicos acumulados: 170583
+Jugadores con rating calculado: 1997
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 161 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:00  Setka Cup          Petr Kotrbacek       vs Miroslav Vana        | Ambos ganan set:  82.2%  [P(Petr Kotrbacek)=91.0% · P(Miroslav Vana)=90.4%] (H2H n=0)
+🟢 18:05  Setka Cup          Valentyn Chumak      vs Mykhailo Skliar      | Ambos ganan set:  76.5%  [P(Valentyn Chumak)=88.5% · P(Mykhailo Skliar)=86.4%] (H2H n=2)
+🟡 19:15  Setka Cup          Jan Simecek Jnr      vs Miroslav Hajek       | Ambos ganan set:  71.5%  [P(Jan Simecek Jnr)=82.5% · P(Miroslav Hajek)=86.7%] (H2H n=2)
+🟢 20:45  Setka Cup          Petr Orlowski        vs Miroslav Hajek       | Ambos ganan set:  77.6%  [P(Petr Orlowski)=87.5% · P(Miroslav Hajek)=88.6%] (H2H n=0)
+🟢 21:45  Setka Cup          Vit Herrmann         vs Miroslav Hajek       | Ambos ganan set:  78.6%  [P(Vit Herrmann)=88.7% · P(Miroslav Hajek)=88.6%] (H2H n=0)
