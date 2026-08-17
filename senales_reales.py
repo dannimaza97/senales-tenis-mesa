@@ -255,6 +255,10 @@ def comprobar_predicciones_anteriores():
         resultado = parsear_partido(detalle)
         if resultado is None:
             continue
+        if resultado["ganador"] == resultado["jugador_a"]:
+            sets_home, sets_away = resultado["sets_ganador"], resultado["sets_perdedor"]
+        else:
+            sets_home, sets_away = resultado["sets_perdedor"], resultado["sets_ganador"]
         acerto = resultado["sets_perdedor"] >= 1
         if acerto:
             estadisticas["ganadoras"] += 1
@@ -289,6 +293,8 @@ def comprobar_predicciones_anteriores():
             "probabilidad": pred.get("probabilidad"),
             "color": pred.get("color"),
             "hora_ts": pred.get("hora_ts"),
+            "sets_home": sets_home,
+            "sets_away": sets_away,
             "fecha": fecha_partido,
         })
         notificados[event_id] = True
