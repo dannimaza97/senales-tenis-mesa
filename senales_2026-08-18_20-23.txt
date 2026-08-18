@@ -1,0 +1,31 @@
+Señales generadas el 18/08/2026 a las 20:23
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: tiempo de espera agotado en pagina 11 tras reintento, me detengo aqui)
+  TT Elite Series: 7 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 1487, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 91 partidos historicos (pagina 1486, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  Setka Cup: 4 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1267, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 44 partidos historicos (pagina 1266, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  Czech Liga Pro: 2 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 881 partidos historicos (pagina 1889, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  TT Cup: 5 partidos nuevos anadidos
+  TT Cup: backfill anadio 982 partidos historicos (pagina 2073, agotado=False)
+
+Total partidos historicos acumulados: 315766
+Jugadores con rating calculado: 2363
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 24 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:30  Czech Liga Pro     Marcel Heczko        vs Jakub Levicky        | Ambos ganan set:  79.4%  [P(Marcel Heczko)=87.6% · P(Jakub Levicky)=90.6%] (H2H n=75)
