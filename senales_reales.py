@@ -3,8 +3,62 @@ Motor de senales de tenis de mesa con datos reales de BetsAPI.
 Version con paquete completo: impulso, racha, % barridos, H2H detallado,
 señales clave, chequeo de consistencia, ultimo del torneo y actualizaciones
 periodicas.
+
+=== CAMBIOS DE CALIBRACION (revision solicitada por Dani, agosto 2026) ===
+El historial real (Supabase, tabla `resultados`) mostraba que las señales
+con probabilidad declarada >=75% acertaban MENOS (69.6%) que las de
+umbral >=60% (72.2%), y que Setka Cup rendia mucho mejor (80%) que TT Cup
+y TT Elite Series (63-67%). Investigando el codigo se encontraron dos
+causas concretas, y aqui se corrigen:
+
+1. `p_ambos` (la probabilidad que se muestra y decide el color/umbral) se
+   calculaba como `p_home_individual * p_away_individual`, es decir,
+   tratando "el local gana un set" y "el visitante gana un set" como
+   eventos INDEPENDIENTES. No lo son: ocurren en el mismo partido, y ese
+   producto tiende a sobrestimar la confianza justo en los casos con
+   probabilidades individuales altas -- lo que encaja con el patron
+   observado (las señales "mas fuertes" declaradas eran las menos
+   fiables en la practica). La funcion `p_3_0` (frecuencia real de
+   partidos que terminan en barrida, con su propio suavizado H2H) ya
+   media el mismo fenomeno sin esa asuncion de independencia. Ahora se
+   promedian ambas estimaciones (ver `main()`), y si siguen sin
+   coincidir se baja el color un escalon en vez de solo avisar.
+
+2. El rating Elo se calculaba (`actualizar_elo`) pero nunca se usaba en
+   el calculo de probabilidad -- codigo muerto. Ahora se usa como prior
+   bayesiano (funcion `prior_elo`) para suavizar la tasa empirica de
+   cada jugador segun la fuerza relativa del rival concreto, en vez de
+   suavizar siempre hacia un 50% plano. Esto deberia ayudar sobre todo
+   en TT Cup / TT Elite Series, donde el historial por jugador es mas
+   escaso. De paso se corrigio que `actualizar_elo` no procesaba los
+   partidos en orden cronologico (podia inflar/desinflar ratings segun
+   el orden de paginacion de la API, no segun cuando se jugo cada cosa).
+
+Estos cambios son deliberadamente conservadores: no se toca la formula
+de `score` (ranking interno para elegir las 35 señales del dia), ni se
+anaden columnas nuevas al guardado en Supabase (para no romper el
+guardado si la tabla `signals` no tiene esas columnas todavia). Recomendado
+dejar correr 2-3 semanas y volver a mirar el Historial por liga/umbral
+para confirmar que la mejora es real y no ruido de muestra pequeña.
+
+=== SEGURIDAD (mismo cambio, agosto 2026) ===
+TOKEN, TELEGRAM_TOKEN y TELEGRAM_CHAT_IDS estaban escritos directamente
+en este archivo (visibles para cualquiera con acceso al repo, aunque sea
+privado). Ahora se leen de variables de entorno, igual que ya haciais
+con SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY en supabase_bridge.py. Hace
+falta anadir 3 GitHub Secrets nuevos en el repo (Settings > Secrets and
+variables > Actions > New repository secret) y pasarlos en
+.github/workflows/senales.yml (ya actualizado):
+  BETSAPI_TOKEN       -> tu token de BetsAPI (antes el valor de TOKEN)
+  TELEGRAM_TOKEN       -> tu token del bot de Telegram
+  TELEGRAM_CHAT_IDS    -> tus chat ids separados por coma, ej: 663483538,-1004364860113
+Hasta que anadas esos 3 secrets, las llamadas a BetsAPI/Telegram
+fallaran silenciosamente cada 15 min (se ve en los logs de Actions) pero
+no se pierde nada: los ficheros de estado no se tocan y en cuanto anadas
+los secrets todo sigue donde lo dejo.
 """
 
+import os
 import requests
 import time
 import datetime
@@ -14,7 +68,7 @@ from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supab
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
-TOKEN = "263677-RrcfMZxfq5BJXV"
+TOKEN = os.environ.get("BETSAPI_TOKEN", "")
 BASE_URL = "https://api.b365api.com/v1"
 SPORT_ID_TENIS_MESA = 92
 
@@ -25,8 +79,8 @@ LIGAS = {
     "TT Cup": 29097,
 }
 
-TELEGRAM_TOKEN = "7754060707:AAFpXx9tCw1Zrksi544pQtfE6hskyPcAyao"
-TELEGRAM_CHAT_IDS = ["663483538", "-1004364860113"]
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+TELEGRAM_CHAT_IDS = [c.strip() for c in os.environ.get("TELEGRAM_CHAT_IDS", "").split(",") if c.strip()]
 
 TOP_N = 25
 MAX_SELECCION_DIARIA = 35
@@ -298,6 +352,7 @@ def comprobar_predicciones_anteriores():
             "fecha": fecha_partido,
         })
         notificados[event_id] = True
+        aun_pendientes.pop(event_id, None)
     guardar_pendientes(aun_pendientes)
     guardar_resultados_notificados(notificados)
     guardar_estadisticas(estadisticas)
@@ -311,7 +366,7 @@ def obtener_partidos_finalizados(league_id, paginas=3):
     presupuesto_segundos = 90
     while page <= paginas:
         if time.time() - inicio > presupuesto_segundos:
-            print(f" (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina {page})")
+            print(f"  (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina {page})")
             break
         intentos = 0
         resp = None
@@ -325,16 +380,16 @@ def obtener_partidos_finalizados(league_id, paginas=3):
             except requests.exceptions.RequestException:
                 intentos += 1
                 if intentos < 2:
-                    print(f" (aviso: tiempo de espera agotado en pagina {page}, reintento)")
+                    print(f"  (aviso: tiempo de espera agotado en pagina {page}, reintento)")
                     time.sleep(2)
                 else:
-                    print(f" (aviso: tiempo de espera agotado en pagina {page} tras reintento, me detengo aqui)")
+                    print(f"  (aviso: tiempo de espera agotado en pagina {page} tras reintento, me detengo aqui)")
         if resp is None:
             break
         try:
             data = resp.json()
         except ValueError:
-            print(" (aviso: respuesta no valida de la API, esperando y continuando)")
+            print("  (aviso: respuesta no valida de la API, esperando y continuando)")
             time.sleep(3)
             break
         if not data.get("success") or not data.get("results"):
@@ -352,7 +407,7 @@ def obtener_partidos_proximos(league_id, paginas=3):
     presupuesto_segundos = 45
     while page <= paginas:
         if time.time() - inicio > presupuesto_segundos:
-            print(f" (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina {page})")
+            print(f"  (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina {page})")
             break
         intentos = 0
         resp = None
@@ -366,10 +421,10 @@ def obtener_partidos_proximos(league_id, paginas=3):
             except requests.exceptions.RequestException:
                 intentos += 1
                 if intentos < 2:
-                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page}, reintento)")
+                    print(f"  (aviso: tiempo de espera agotado buscando proximos en pagina {page}, reintento)")
                     time.sleep(2)
                 else:
-                    print(f" (aviso: tiempo de espera agotado buscando proximos en pagina {page} tras reintento, me detengo aqui)")
+                    print(f"  (aviso: tiempo de espera agotado buscando proximos en pagina {page} tras reintento, me detengo aqui)")
         if resp is None:
             break
         try:
@@ -382,6 +437,8 @@ def obtener_partidos_proximos(league_id, paginas=3):
         time.sleep(0.3)
         page += 1
     return partidos
+
+
 MAX_BUSQUEDAS_DIRECTAS_POR_EJECUCION = 15
 
 
@@ -417,7 +474,7 @@ def completar_historico_jugador(team_id, nombre, historico_guardado, todos_parti
             todos_partidos.append(p)
             nuevos += 1
     if nuevos:
-        print(f"   (busqueda directa de {nombre}: +{nuevos} partidos anadidos)")
+        print(f"  (busqueda directa de {nombre}: +{nuevos} partidos anadidos)")
     return nuevos
 
 
@@ -478,7 +535,12 @@ class Jugador:
 
 
 def actualizar_elo(jugadores, partidos, k=20):
-    for p in partidos:
+    # FIX: antes se recorria `partidos` en el orden en que venia del
+    # historico guardado (orden de insercion / paginacion de la API), no
+    # en orden cronologico real. Para que el Elo refleje de verdad la
+    # evolucion de nivel de cada jugador hay que procesar los partidos
+    # del mas antiguo al mas reciente.
+    for p in sorted(partidos, key=lambda x: x.get("time") or 0):
         a = jugadores.setdefault(p["jugador_a"], Jugador(p["jugador_a"]))
         b = jugadores.setdefault(p["jugador_b"], Jugador(p["jugador_b"]))
         esperado_a = 1 / (1 + 10 ** ((b.rating - a.rating) / 400))
@@ -489,8 +551,44 @@ def actualizar_elo(jugadores, partidos, k=20):
         b.historial_rating.append(b.rating)
 
 
-def prop_suavizada(eventos, n, alpha=1.5):
-    return (eventos + alpha) / (n + 2 * alpha)
+def prior_elo(jugador, oponente, jugadores, base_favorito=0.80, sensibilidad=0.65):
+    """Convierte la diferencia de rating Elo entre `jugador` y `oponente`
+    en una probabilidad "a priori" de que `jugador` gane al menos un set
+    (es decir, de que no lo barran 3-0).
+
+    Se usa SOLO como prior bayesiano dentro de `prop_suavizada`: con poco
+    historial pesa mucho, con historial abundante la tasa real observada
+    domina y este prior deja de importar casi por completo. Antes el
+    Elo se calculaba pero no se usaba en ningun sitio del calculo de
+    probabilidad; esto lo aprovecha.
+
+    - En un cruce parejo segun Elo, el prior es `base_favorito` (~0.80),
+      aprox. la tasa historica global de "gana al menos un set" cuando no
+      hay ventaja clara.
+    - Cuanto mas favorito es `jugador` segun Elo, el prior sube (hasta
+      0.99). Cuanto mas claro es como perdedor esperado, baja (hasta
+      0.05), reflejando mas riesgo real de barrida.
+    - Si no hay rating para alguno de los dos (jugador nuevo que aun no
+      paso por `actualizar_elo`, p. ej. porque se anadio a mitad de
+      ejecucion via busqueda directa) se devuelve 0.5, el mismo prior
+      plano que se usaba antes -- degrada con seguridad, no rompe nada.
+    """
+    if not jugadores:
+        return 0.5
+    j = jugadores.get(jugador)
+    o = jugadores.get(oponente)
+    if j is None or o is None:
+        return 0.5
+    factor_elo = 1 / (1 + 10 ** (-(j.rating - o.rating) / 400))
+    prior = base_favorito + (factor_elo - 0.5) * 2 * sensibilidad
+    return min(0.99, max(0.05, prior))
+
+
+def prop_suavizada(eventos, n, alpha=1.5, prior=0.5):
+    # FIX: se anadio el parametro `prior` (antes siempre suavizaba hacia
+    # 0.5 de forma implicita). Con `prior=0.5` el comportamiento es
+    # identico al original: (eventos + alpha) / (n + 2*alpha).
+    return (eventos + alpha * 2 * prior) / (n + 2 * alpha)
 
 
 def peso_h2h(n, c=17):
@@ -503,18 +601,28 @@ def partidos_de_jugador(jugador, partidos):
     return juegos
 
 
-def prob_jugador_gana_set(jugador, oponente, partidos):
+def prob_jugador_gana_set(jugador, oponente, partidos, jugadores=None):
     juegos = partidos_de_jugador(jugador, partidos)
     n = len(juegos)
     eventos = sum(1 for p in juegos if not (p["perdedor"] == jugador and p["sets_perdedor"] == 0))
-    base = prop_suavizada(eventos, n)
+    # FIX: antes `base` se suavizaba siempre hacia 0.5 sin tener en cuenta
+    # quien es el rival. Ahora el prior depende de la diferencia de Elo
+    # frente a ESTE rival concreto (ver `prior_elo`), asi que con poco
+    # historial la estimacion se apoya en el nivel relativo real en vez
+    # de en un "empate" arbitrario al 50%.
+    prior_base = prior_elo(jugador, oponente, jugadores)
+    base = prop_suavizada(eventos, n, prior=prior_base)
 
     enfrentamientos = [p for p in partidos if {p["jugador_a"], p["jugador_b"]} == {jugador, oponente}]
     nh = len(enfrentamientos)
     if nh == 0:
         return base, nh
     eventos_h2h = sum(1 for p in enfrentamientos if not (p["perdedor"] == jugador and p["sets_perdedor"] == 0))
-    p_h2h = prop_suavizada(eventos_h2h, nh)
+    # FIX: el suavizado del H2H tambien apuntaba a 0.5 por defecto; ahora
+    # apunta a `base` (la tasa ya estimada para este jugador contra este
+    # tipo de rival), que es un prior mas informado cuando hay pocos
+    # cruces directos.
+    p_h2h = prop_suavizada(eventos_h2h, nh, prior=base)
     w = peso_h2h(nh)
     return w * p_h2h + (1 - w) * base, nh
 
@@ -534,7 +642,9 @@ def prob_patron(nombre_a, nombre_b, partidos, funcion_patron):
     if n == 0:
         return base, n
     eventos_h2h = sum(1 for p in enfrentamientos if funcion_patron(p))
-    p_h2h = prop_suavizada(eventos_h2h, n)
+    # FIX: mismo cambio que en prob_jugador_gana_set -- suavizar el H2H
+    # hacia `base` en vez de hacia 0.5 plano.
+    p_h2h = prop_suavizada(eventos_h2h, n, prior=base)
     w = peso_h2h(n)
     return w * p_h2h + (1 - w) * base, n
 
@@ -631,6 +741,7 @@ def h2h_detalle(a, b, partidos):
 
 ARCHIVO_SELECCION_DIARIA = "seleccion_diaria.json"
 
+
 def cargar_seleccion_diaria():
     import json
     import os
@@ -646,10 +757,12 @@ def cargar_seleccion_diaria():
     except Exception:
         return {"fecha": hoy, "event_ids": []}
 
+
 def guardar_seleccion_diaria(datos):
     import json
     with open(ARCHIVO_SELECCION_DIARIA, "w", encoding="utf-8") as f:
         json.dump(datos, f, ensure_ascii=False)
+
 
 def main():
     print("Cargando historico acumulado guardado...")
@@ -752,22 +865,40 @@ def main():
             if n_partidos_home < 15 or n_partidos_away < 15:
                 continue
 
-            p_home, n_h2h = prob_jugador_gana_set(home, away, todos_partidos)
-            p_away, _ = prob_jugador_gana_set(away, home, todos_partidos)
-            p_ambos = p_home * p_away
-            color = color_semaforo(p_ambos)
-            if color is None:
-                continue
+            p_home, n_h2h = prob_jugador_gana_set(home, away, todos_partidos, jugadores)
+            p_away, _ = prob_jugador_gana_set(away, home, todos_partidos, jugadores)
+            p_ambos_producto = p_home * p_away
 
             p_1_1, _ = prob_patron(home, away, todos_partidos, patron_1_1_al_2do_set)
             p_3er, _ = prob_patron(home, away, todos_partidos, patron_disputado_3er_set)
             p_3_0, _ = prob_patron(home, away, todos_partidos, patron_termina_3_0)
             p_4mas, _ = prob_patron(home, away, todos_partidos, patron_4_mas_sets)
 
-            h2h_info = h2h_detalle(home, away, todos_partidos)
+            # FIX (ver cabecera del archivo): `p_ambos_producto` asume
+            # independencia entre "home gana un set" y "away gana un
+            # set", pero ocurren en el mismo partido. `p_3_0` mide el
+            # mismo fenomeno (barrida si/no) sin esa asuncion. Se
+            # promedian para corregir el exceso de confianza que se veia
+            # en las señales de probabilidad declarada mas alta.
+            p_ambos = (p_ambos_producto + (1 - p_3_0)) / 2
 
-            consistencia = abs((p_ambos + p_3_0) - 1.0)
+            color = color_semaforo(p_ambos)
+            if color is None:
+                continue
+
+            consistencia = abs(p_ambos_producto - (1 - p_3_0))
             discrepancia = consistencia > 0.12
+            if discrepancia:
+                # Si los dos modelos internos siguen sin coincidir incluso
+                # tras combinarlos, es señal de historial escaso o
+                # contradictorio: se baja el color un escalon en vez de
+                # solo avisar, para no anunciar como "FUERTE" algo que
+                # nuestros propios calculos no tienen claro.
+                color = {"VERDE": "AMARILLO", "AMARILLO": "ROJO", "ROJO": None}.get(color)
+                if color is None:
+                    continue
+
+            h2h_info = h2h_detalle(home, away, todos_partidos)
 
             ultimo_torneo = (
                 hora_ts >= ultima_hora_jugador.get(home, 0)
@@ -786,7 +917,8 @@ def main():
 
             candidatas.append({
                 "liga": nombre_liga, "home": home, "away": away,
-                "probabilidad": p_ambos, "score": score, "color": color, "n_h2h": n_h2h,
+                "probabilidad": p_ambos, "probabilidad_producto": p_ambos_producto,
+                "score": score, "color": color, "n_h2h": n_h2h,
                 "p_home_individual": p_home, "p_away_individual": p_away,
                 "hora": hora, "event_id": event_id, "hora_ts": hora_ts,
                 "impulso_home": calcular_impulso(home, todos_partidos),
@@ -804,6 +936,8 @@ def main():
                 "senal_3_0": p_3_0, "senal_4mas": p_4mas,
                 "discrepancia": discrepancia,
                 "ultimo_torneo": ultimo_torneo,
+                "rating_home": jugadores[home].rating if home in jugadores else None,
+                "rating_away": jugadores[away].rating if away in jugadores else None,
             })
 
     guardar_historico(historico_guardado)
@@ -830,7 +964,7 @@ def main():
     print(f"{'='*70}")
     simbolo = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
     for s in seleccion:
-        print(f"{simbolo[s['color']]} {s['hora']}  {s['liga']:18s} {s['home']:20s} vs {s['away']:20s} | Ambos ganan set: {s['probabilidad']*100:5.1f}%  [P({s['home']})={s['p_home_individual']*100:.1f}% · P({s['away']})={s['p_away_individual']*100:.1f}%] (H2H n={s['n_h2h']})")
+        print(f"{simbolo[s['color']]} {s['hora']} {s['liga']:18s} {s['home']:20s} vs {s['away']:20s} | Ambos ganan set: {s['probabilidad']*100:5.1f}% [P({s['home']})={s['p_home_individual']*100:.1f}% · P({s['away']})={s['p_away_individual']*100:.1f}%] (H2H n={s['n_h2h']})")
 
     if not seleccion:
         print("No se encontraron señales sobre el umbral con los partidos próximos disponibles ahora mismo.")
@@ -844,7 +978,7 @@ def formatear_mensaje_individual(s, ahora=None):
     aviso_home = " ⚠️" if s['racha_home'] <= -3 else ""
     aviso_away = " ⚠️" if s['racha_away'] <= -3 else ""
     fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
-    bandera = "  🏁" if s.get("ultimo_torneo") else ""
+    bandera = " 🏁" if s.get("ultimo_torneo") else ""
     discrepancia_txt = "\n⚠️ DISCREPANCIA: nuestros modelos internos no coinciden del todo, señal menos fiable" if s.get("discrepancia") else ""
 
     if ahora is not None:
@@ -853,16 +987,16 @@ def formatear_mensaje_individual(s, ahora=None):
     else:
         texto_cuenta = "empieza en 1h"
     lineas = [
-        f"{emoji_color[s['color']]} {s['liga']}  |  {etiqueta_color[s['color']]}  |  ⏳ {texto_cuenta}{bandera}",
-        f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
+        f"{emoji_color[s['color']]} {s['liga']} | {etiqueta_color[s['color']]} | ⏳ {texto_cuenta}{bandera}",
+        f"🕐 {s['hora']} · {s['home']} vs {s['away']}",
         f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}%",
-        f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}%  ·  {s['away']} {s['impulso_away']*100:+.0f}%",
-        f"🔥 Racha: {s['home']} {s['racha_home']:+d}{aviso_home}  ·  {s['away']} {s['racha_away']:+d}{aviso_away}",
-        f"🏆 Tasa victorias: {s['home']} {s['tasa_home']*100:.0f}%  ·  {s['away']} {s['tasa_away']*100:.0f}%",
-        f"🧹 % barrido 3-0 (ganando): {s['home']} {s['barrido_home']*100:.0f}%  ·  {s['away']} {s['barrido_away']*100:.0f}%",
-        f"💥 % fue barrido 0-3: {s['home']} {s['fue_barrido_home']*100:.0f}%  ·  {s['away']} {s['fue_barrido_away']*100:.0f}%",
+        f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}% · {s['away']} {s['impulso_away']*100:+.0f}%",
+        f"🔥 Racha: {s['home']} {s['racha_home']:+d}{aviso_home} · {s['away']} {s['racha_away']:+d}{aviso_away}",
+        f"🏆 Tasa victorias: {s['home']} {s['tasa_home']*100:.0f}% · {s['away']} {s['tasa_away']*100:.0f}%",
+        f"🧹 % barrido 3-0 (ganando): {s['home']} {s['barrido_home']*100:.0f}% · {s['away']} {s['barrido_away']*100:.0f}%",
+        f"💥 % fue barrido 0-3: {s['home']} {s['fue_barrido_home']*100:.0f}% · {s['away']} {s['fue_barrido_away']*100:.0f}%",
         f"🤝 H2H: {s['n_h2h']} partidos (ultimo: {fecha_h2h})",
-        f"🔑 Señales: 1-1 al 2do set {s['senal_1_1']*100:.0f}%  ·  llega al 3er set {s['senal_3er']*100:.0f}%  ·  termina 3-0 {s['senal_3_0']*100:.0f}%  ·  4+ sets {s['senal_4mas']*100:.0f}%{discrepancia_txt}",
+        f"🔑 Señales: 1-1 al 2do set {s['senal_1_1']*100:.0f}% · llega al 3er set {s['senal_3er']*100:.0f}% · termina 3-0 {s['senal_3_0']*100:.0f}% · 4+ sets {s['senal_4mas']*100:.0f}%{discrepancia_txt}",
     ]
     return "\n".join(lineas)
 
@@ -872,16 +1006,16 @@ def formatear_mensaje_actualizacion(s, prob_anterior):
     diferencia = (s["probabilidad"] - prob_anterior) * 100
     flecha = "📈" if diferencia > 0 else ("📉" if diferencia < 0 else "➡️")
     fecha_h2h = s['h2h_ultima_fecha'] or "sin enfrentamientos previos"
-    bandera = "  🏁" if s.get("ultimo_torneo") else ""
+    bandera = " 🏁" if s.get("ultimo_torneo") else ""
 
     lineas = [
-        f"🔄 ACTUALIZACIÓN  |  {emoji_color[s['color']]} {s['liga']}{bandera}",
-        f"🕐 {s['hora']}  ·  {s['home']} vs {s['away']}",
-        f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}%  {flecha} ({diferencia:+.1f} pts desde el ultimo aviso)",
-        f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}%  ·  {s['away']} {s['impulso_away']*100:+.0f}%",
-        f"🔥 Racha: {s['home']} {s['racha_home']:+d}  ·  {s['away']} {s['racha_away']:+d}",
+        f"🔄 ACTUALIZACIÓN | {emoji_color[s['color']]} {s['liga']}{bandera}",
+        f"🕐 {s['hora']} · {s['home']} vs {s['away']}",
+        f"🎾 Ambos ganan set: {s['probabilidad']*100:.1f}% {flecha} ({diferencia:+.1f} pts desde el ultimo aviso)",
+        f"📈 Impulso: {s['home']} {s['impulso_home']*100:+.0f}% · {s['away']} {s['impulso_away']*100:+.0f}%",
+        f"🔥 Racha: {s['home']} {s['racha_home']:+d} · {s['away']} {s['racha_away']:+d}",
         f"🤝 H2H: {s['n_h2h']} partidos (ultimo: {fecha_h2h})",
-        f"🔑 Termina 3-0: {s['senal_3_0']*100:.0f}%  ·  4+ sets: {s['senal_4mas']*100:.0f}%",
+        f"🔑 Termina 3-0: {s['senal_3_0']*100:.0f}% · 4+ sets: {s['senal_4mas']*100:.0f}%",
     ]
     return "\n".join(lineas)
 
@@ -985,7 +1119,7 @@ def enviar_resumen_diario(seleccion):
         lineas = [f"📋 RESUMEN DEL DIA — {hoy}", f"Mejores pronosticos de hoy ({len(proximas)}):", ""]
         for s in proximas:
             lineas.append(
-                f"{simbolo[s['color']]} {s['hora']}  {s['liga']}  {s['home']} vs {s['away']} | "
+                f"{simbolo[s['color']]} {s['hora']} {s['liga']} {s['home']} vs {s['away']} | "
                 f"Ambos ganan set: {s['probabilidad']*100:.1f}%"
             )
         mensaje = "\n".join(lineas)
@@ -996,6 +1130,7 @@ def enviar_resumen_diario(seleccion):
     estado["ultima_fecha"] = hoy
     guardar_resumen_diario_estado(estado)
     return True
+
 
 ARCHIVO_AVISOS = "avisos_enviados.json"
 
@@ -1089,19 +1224,19 @@ if __name__ == "__main__":
             guardar_pendientes(pendientes)
             guardar_senales_supabase(seleccion_hoy)
 
-        fecha = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
-        nombre_archivo = f"senales_{fecha}.txt"
-        with open(nombre_archivo, "w", encoding="utf-8") as f:
-            f.write(f"Señales generadas el {datetime.datetime.now().strftime('%d/%m/%Y a las %H:%M')}\n\n")
-            f.write(salida)
-        print(f"\nGuardado en: {nombre_archivo}")
+            fecha = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
+            nombre_archivo = f"senales_{fecha}.txt"
+            with open(nombre_archivo, "w", encoding="utf-8") as f:
+                f.write(f"Señales generadas el {datetime.datetime.now().strftime('%d/%m/%Y a las %H:%M')}\n\n")
+                f.write(salida)
+            print(f"\nGuardado en: {nombre_archivo}")
 
-        enviar_avisos_pendientes(seleccion_hoy)
-        print("Avisos individuales revisados.")
+            enviar_avisos_pendientes(seleccion_hoy)
+            print("Avisos individuales revisados.")
 
-        enviar_actualizaciones_periodicas(seleccion_hoy)
+            enviar_actualizaciones_periodicas(seleccion_hoy)
 
-        enviar_resumen_diario(seleccion_hoy)
+            enviar_resumen_diario(seleccion_hoy)
 
         limpiar_archivos_antiguos(dias=7)
     finally:

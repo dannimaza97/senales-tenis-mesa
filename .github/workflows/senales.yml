@@ -2,7 +2,7 @@ name: Ejecutar señales
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Runs every 15 minutes
+    - cron: '*/15 * * * *' # Runs every 15 minutes
   workflow_dispatch:
 
 concurrency:
@@ -21,17 +21,21 @@ jobs:
         with:
           python-version: '3.11'
 
-
       - run: pip install -r requirements.txt
 
       - name: Diagnostico conexion BetsAPI
+        env:
+          BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
         run: |
-          curl -s -m 10 -o /dev/null -w "Codigo HTTP: %{http_code}\nTiempo: %{time_total}s\n" "https://api.b365api.com/v1/events/upcoming?token=263677-RrcfMZxfq5BJXV&sport_id=92&league_id=29097&page=1" || echo "FALLO: no se pudo conectar en 10 segundos"
+          curl -s -m 10 -o /dev/null -w "Codigo HTTP: %{http_code}\nTiempo: %{time_total}s\n" "https://api.b365api.com/v1/events/upcoming?token=${BETSAPI_TOKEN}&sport_id=92&league_id=29097&page=1" || echo "FALLO: no se pudo conectar en 10 segundos"
 
       - name: Ejecutar motor de senales
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
         run: python senales_reales.py
 
       - name: Guardar datos actualizados
