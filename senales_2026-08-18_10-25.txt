@@ -1,0 +1,55 @@
+Señales generadas el 18/08/2026 a las 10:25
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  TT Elite Series: 23 partidos nuevos anadidos
+  (backfill TT Elite Series: respuesta invalida en pagina 1341, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 1481 partidos historicos (pagina 1340, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Setka Cup: 32 partidos nuevos anadidos
+  Setka Cup: backfill anadio 1403 partidos historicos (pagina 1081, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 22, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 28)
+  Czech Liga Pro: 20 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 1648, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 27 partidos historicos (pagina 1647, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 26, reintento)
+ (aviso: tiempo de espera agotado en pagina 29, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 30)
+  TT Cup: 14 partidos nuevos anadidos
+  TT Cup: backfill anadio 2420 partidos historicos (pagina 1809, agotado=False)
+
+Total partidos historicos acumulados: 274690
+Jugadores con rating calculado: 2204
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 337 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 12:25  TT Elite Series    Dawid Michna         vs Adrian Wiecek        | Ambos ganan set:  76.9%  [P(Dawid Michna)=84.2% · P(Adrian Wiecek)=91.3%] (H2H n=28)
+🟢 12:30  Setka Cup          Serhii Miroshnychenko vs Dmytro Prylepa       | Ambos ganan set:  78.3%  [P(Serhii Miroshnychenko)=88.9% · P(Dmytro Prylepa)=88.1%] (H2H n=27)
+🟢 13:30  Czech Liga Pro     Tadeas Zika          vs Michael Sedlacek     | Ambos ganan set:  77.8%  [P(Tadeas Zika)=84.0% · P(Michael Sedlacek)=92.6%] (H2H n=98)
+🟢 14:00  Setka Cup          Artem Yurkov         vs Oleksandr Seliuchenko | Ambos ganan set:  79.4%  [P(Artem Yurkov)=90.7% · P(Oleksandr Seliuchenko)=87.5%] (H2H n=11)
+🟢 14:00  Czech Liga Pro     Michael Sedlacek     vs Michal Cabis         | Ambos ganan set:  79.1%  [P(Michael Sedlacek)=91.8% · P(Michal Cabis)=86.2%] (H2H n=13)
+🟢 14:15  TT Cup             Michal Raska         vs Dalibor Velky Jr     | Ambos ganan set:  82.8%  [P(Michal Raska)=89.2% · P(Dalibor Velky Jr)=92.8%] (H2H n=27)
+🟢 14:30  Setka Cup          Serhii Kushnirenko   vs Dmytro Kryshtal      | Ambos ganan set:  81.1%  [P(Serhii Kushnirenko)=88.2% · P(Dmytro Kryshtal)=92.0%] (H2H n=71)
+🟢 14:30  Czech Liga Pro     Jan Szotkowski       vs Tadeas Zika          | Ambos ganan set:  81.3%  [P(Jan Szotkowski)=95.5% · P(Tadeas Zika)=85.1%] (H2H n=167)
+🟢 14:50  TT Cup             Ondrej Knazik        vs Jan Osmera           | Ambos ganan set:  81.5%  [P(Ondrej Knazik)=91.5% · P(Jan Osmera)=89.1%] (H2H n=46)
+🟢 15:05  TT Elite Series    Wojciech Wojtaszczyk vs Piotr Przewlocki     | Ambos ganan set:  80.0%  [P(Wojciech Wojtaszczyk)=90.8% · P(Piotr Przewlocki)=88.2%] (H2H n=11)
+🟢 15:35  Setka Cup          Vladyslav Kovalchuk  vs Oleksandr Storozhenko | Ambos ganan set:  82.4%  [P(Vladyslav Kovalchuk)=91.1% · P(Oleksandr Storozhenko)=90.5%] (H2H n=28)
+🟢 16:00  Setka Cup          Dmytro Yurkov        vs Dmytro Kryshtal      | Ambos ganan set:  80.5%  [P(Dmytro Yurkov)=86.3% · P(Dmytro Kryshtal)=93.2%] (H2H n=88)
+🟢 16:00  Czech Liga Pro     Oleksandr Kolisnyk   vs Michal Jezek         | Ambos ganan set:  79.8%  [P(Oleksandr Kolisnyk)=90.8% · P(Michal Jezek)=87.9%] (H2H n=28)
+🟢 16:30  Czech Liga Pro     Jan Szotkowski       vs Tadeas Zika          | Ambos ganan set:  81.3%  [P(Jan Szotkowski)=95.5% · P(Tadeas Zika)=85.1%] (H2H n=167)
+🟡 16:40  TT Elite Series    Wojciech Wojtaszczyk vs Oskar Sokolowski     | Ambos ganan set:  73.4%  [P(Wojciech Wojtaszczyk)=92.8% · P(Oskar Sokolowski)=79.0%] (H2H n=21)
+🟢 17:00  Czech Liga Pro     Jan Dzida            vs Jan Szotkowski       | Ambos ganan set:  83.8%  [P(Jan Dzida)=89.4% · P(Jan Szotkowski)=93.7%] (H2H n=19)
+🟢 17:00  TT Elite Series    Krzysztof Schaniel   vs Jakub Pruszkowski    | Ambos ganan set:  80.7%  [P(Krzysztof Schaniel)=87.4% · P(Jakub Pruszkowski)=92.3%] (H2H n=73)
+🟢 17:30  Setka Cup          Dmytro Yurkov        vs Serhii Kushnirenko   | Ambos ganan set:  79.8%  [P(Dmytro Yurkov)=89.3% · P(Serhii Kushnirenko)=89.3%] (H2H n=44)
+🟢 18:00  Czech Liga Pro     Martin Biolek        vs Jan Szotkowski       | Ambos ganan set:  77.4%  [P(Martin Biolek)=90.4% · P(Jan Szotkowski)=85.6%] (H2H n=31)
+🟢 20:00  Czech Liga Pro     Dominik Oborny       vs Marcel Heczko        | Ambos ganan set:  82.8%  [P(Dominik Oborny)=93.7% · P(Marcel Heczko)=88.4%] (H2H n=73)
+🟢 21:05  Setka Cup          Ivan Fashchevskyi    vs Oleksandr Storozhenko | Ambos ganan set:  76.9%  [P(Ivan Fashchevskyi)=85.6% · P(Oleksandr Storozhenko)=89.8%] (H2H n=25)
+🟢 21:30  Czech Liga Pro     Jakub Levicky        vs Dominik Oborny       | Ambos ganan set:  81.0%  [P(Jakub Levicky)=91.9% · P(Dominik Oborny)=88.1%] (H2H n=79)
+🟢 22:30  Czech Liga Pro     Marcel Heczko        vs Jakub Levicky        | Ambos ganan set:  79.3%  [P(Marcel Heczko)=87.6% · P(Jakub Levicky)=90.5%] (H2H n=75)
