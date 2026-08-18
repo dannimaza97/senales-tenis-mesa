@@ -1,0 +1,32 @@
+Señales generadas el 18/08/2026 a las 18:26
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  TT Elite Series: 14 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 1467, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 1135 partidos historicos (pagina 1466, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Setka Cup: 22 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1250, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 564 partidos historicos (pagina 1249, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 13)
+  Czech Liga Pro: 9 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 1135 partidos historicos (pagina 1849, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 17)
+  TT Cup: 11 partidos nuevos anadidos
+  TT Cup: backfill anadio 1218 partidos historicos (pagina 2032, agotado=False)
+
+Total partidos historicos acumulados: 309968
+Jugadores con rating calculado: 2349
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 87 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:05  Setka Cup          Ivan Fashchevskyi    vs Oleksandr Storozhenko | Ambos ganan set:  77.0%  [P(Ivan Fashchevskyi)=85.6% · P(Oleksandr Storozhenko)=90.0%] (H2H n=26)
+🟢 21:30  Czech Liga Pro     Jakub Levicky        vs Dominik Oborny       | Ambos ganan set:  81.0%  [P(Jakub Levicky)=91.9% · P(Dominik Oborny)=88.1%] (H2H n=79)
+🟢 22:30  Czech Liga Pro     Marcel Heczko        vs Jakub Levicky        | Ambos ganan set:  79.3%  [P(Marcel Heczko)=87.6% · P(Jakub Levicky)=90.5%] (H2H n=75)
