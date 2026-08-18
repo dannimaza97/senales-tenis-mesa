@@ -1,0 +1,39 @@
+Señales generadas el 18/08/2026 a las 16:20
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 14, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  TT Elite Series: 25 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 1421, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 1777 partidos historicos (pagina 1420, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Setka Cup: 35 partidos nuevos anadidos
+  (backfill Setka Cup: respuesta invalida en pagina 1207, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 1568 partidos historicos (pagina 1206, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 17 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 1199 partidos historicos (pagina 1798, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 21)
+  TT Cup: 23 partidos nuevos anadidos
+  (backfill TT Cup: sin respuesta en pagina 1986, seguimos en la proxima corrida)
+  TT Cup: backfill anadio 624 partidos historicos (pagina 1985, agotado=False)
+
+Total partidos historicos acumulados: 300819
+Jugadores con rating calculado: 2334
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 145 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:00  Czech Liga Pro     Dominik Oborny       vs Marcel Heczko        | Ambos ganan set:  82.9%  [P(Dominik Oborny)=93.7% · P(Marcel Heczko)=88.4%] (H2H n=73)
+🟢 21:05  Setka Cup          Ivan Fashchevskyi    vs Oleksandr Storozhenko | Ambos ganan set:  77.0%  [P(Ivan Fashchevskyi)=85.6% · P(Oleksandr Storozhenko)=90.0%] (H2H n=26)
+🟢 21:30  Czech Liga Pro     Jakub Levicky        vs Dominik Oborny       | Ambos ganan set:  81.0%  [P(Jakub Levicky)=91.9% · P(Dominik Oborny)=88.1%] (H2H n=79)
+🟢 22:30  Czech Liga Pro     Marcel Heczko        vs Jakub Levicky        | Ambos ganan set:  79.3%  [P(Marcel Heczko)=87.6% · P(Jakub Levicky)=90.5%] (H2H n=75)
