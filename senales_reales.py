@@ -5,6 +5,7 @@ señales clave, chequeo de consistencia, ultimo del torneo y actualizaciones
 periodicas.
 """
 
+import os
 import requests
 import time
 import datetime
@@ -14,7 +15,7 @@ from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supab
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
-TOKEN = "263677-RrcfMZxfq5BJXV"
+TOKEN = os.environ["BETSAPI_TOKEN"]
 BASE_URL = "https://api.b365api.com/v1"
 SPORT_ID_TENIS_MESA = 92
 
@@ -25,7 +26,7 @@ LIGAS = {
     "TT Cup": 29097,
 }
 
-TELEGRAM_TOKEN = "7754060707:AAFpXx9tCw1Zrksi544pQtfE6hskyPcAyao"
+TELEGRAM_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_IDS = ["663483538", "-1004364860113"]
 
 TOP_N = 25
