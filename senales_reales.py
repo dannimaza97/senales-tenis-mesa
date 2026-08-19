@@ -304,7 +304,7 @@ def comprobar_predicciones_anteriores():
     guardar_estadisticas_supabase(estadisticas)
 
 
-def obtener_partidos_finalizados(league_id, paginas=3):
+def obtener_partidos_finalizados(league_id, paginas=3, historico_conocido=None):
     partidos = []
     page = 1
     inicio = time.time()
@@ -340,6 +340,7 @@ def obtener_partidos_finalizados(league_id, paginas=3):
         if not data.get("success") or not data.get("results"):
             break
         partidos.extend(data["results"])
+                if historico_conocido is not None and data["results"] and all(str(ev.get("id")) in historico_conocido for ev in data["results"]): print(f" (pagina {page}: sin partidos nuevos, ya al dia, freno aqui)"); break
         time.sleep(0.2)
         page += 1
     return partidos
@@ -662,7 +663,7 @@ def main():
     backfill_estado = cargar_backfill_estado()
 
     for nombre_liga, league_id in LIGAS.items():
-        eventos = obtener_partidos_finalizados(league_id, paginas=paginas_por_liga)
+        eventos = obtener_partidos_finalizados(league_id, paginas=paginas_por_liga, historico_conocido=historico_guardado)
         nuevos = 0
         for ev in eventos:
             eid = str(ev.get("id"))
