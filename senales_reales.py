@@ -341,7 +341,9 @@ def obtener_partidos_finalizados(league_id, paginas=3, historico_conocido=None):
         if not data.get("success") or not data.get("results"):
             break
         partidos.extend(data["results"])
-                if historico_conocido is not None and data["results"] and all(str(ev.get("id")) in historico_conocido for ev in data["results"]): print(f" (pagina {page}: sin partidos nuevos, ya al dia, freno aqui)"); break
+        if historico_conocido is not None and data["results"] and all(str(ev.get("id")) in historico_conocido for ev in data["results"]):
+            print(f" (pagina {page}: sin partidos nuevos, ya al dia, freno aqui)")
+            break
         time.sleep(0.2)
         page += 1
     return partidos
