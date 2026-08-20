@@ -169,3 +169,56 @@ def guardar_resultado_supabase(resultado):
             print(f" (aviso: Supabase respondio {resp.status_code} al guardar resultado: {resp.text[:300]})")
     except requests.exceptions.RequestException as e:
         print(f" (aviso: error de red guardando resultado en Supabase: {e})")
+
+def obtener_signals_sin_resultado(horas_atras=72):
+    """Red de seguridad para reconciliar señales huerfanas: devuelve las
+    filas de la tabla `signals` de las ultimas `horas_atras` horas que
+    todavia no tienen una fila correspondiente en `resultados`.
+
+    Existe porque `signals` se escribe por HTTP en cuanto una señal se
+    selecciona, sin depender de que el commit de git de esa misma
+    ejecucion consiga hacer push (a diferencia de
+    predicciones_pendientes.json, que vive solo en el checkout local y
+    se pierde si ese push falla, o si el partido ya no aparece en
+    events/upcoming de BetsAPI la siguiente vez que main() corre). Por
+    eso `signals` es la fuente de verdad mas fiable de "que señales
+    existen" para ir a rellenar el resultado que falte."""
+    if not _habilitado():
+        return []
+
+    ahora = datetime.datetime.now(datetime.timezone.utc)
+    desde_ts = int((ahora - datetime.timedelta(hours=horas_atras)).timestamp())
+
+    try:
+        resp_signals = requests.get(
+            f"{SUPABASE_URL}/rest/v1/signals",
+            headers=_headers(),
+            params={
+                "select": "event_id,liga,home,away,hora,hora_ts,probabilidad,color",
+                "hora_ts": f"gte.{desde_ts}",
+                "order": "hora_ts.asc",
+            },
+            timeout=20,
+        )
+        senales = resp_signals.json() if resp_signals.status_code == 200 else []
+    except requests.exceptions.RequestException as e:
+        print(f"    (aviso: error de red consultando señales de Supabase para reconciliacion: {e})")
+        return []
+
+    if not senales:
+        return []
+
+    try:
+        resp_resultados = requests.get(
+            f"{SUPABASE_URL}/rest/v1/resultados",
+            headers=_headers(),
+            params={"select": "event_id", "hora_ts": f"gte.{desde_ts}"},
+            timeout=20,
+        )
+        ya_resueltos = {str(r["event_id"]) for r in resp_resultados.json()} if resp_resultados.status_code == 200 else set()
+    except requests.exceptions.RequestException as e:
+        print(f"    (aviso: error de red consultando resultados de Supabase para reconciliacion: {e})")
+        return []
+
+    return [s for s in senales if str(s.get("event_id")) not in ya_resueltos]
+
