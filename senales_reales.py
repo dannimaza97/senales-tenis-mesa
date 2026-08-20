@@ -11,7 +11,7 @@ import time
 import datetime
 from dataclasses import dataclass, field
 from zoneinfo import ZoneInfo
-from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase, guardar_resultado_supabase
+from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase, guardar_resultado_supabase, obtener_signals_sin_resultado
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
@@ -312,6 +312,70 @@ def comprobar_predicciones_anteriores():
     guardar_resultados_notificados(notificados)
     guardar_estadisticas(estadisticas)
     guardar_estadisticas_supabase(estadisticas)
+
+def reconciliar_senales_huerfanas():
+    """Red de seguridad contra señales huerfanas: usa Supabase (tabla
+    `signals`, escrita por HTTP, independiente de si el commit de git de
+    esa ejecucion consiguio hacer push) en vez de
+    predicciones_pendientes.json (que vive solo en el checkout local de
+    cada ejecucion y puede perder una señal si ese push fallo, o si el
+    partido ya no aparece en events/upcoming de BetsAPI la siguiente vez
+    que main() corre, con lo que nunca vuelve a tener otra oportunidad de
+    entrar en pendientes). Sin esto, esas señales quedan visibles en el
+    dashboard via `signals` pero sin marcador para siempre.
+
+    No manda avisos de Telegram: son partidos que ya sucedieron hace
+    tiempo si llegaron hasta aqui, y avisar ahora seria confuso. Solo
+    rellena el resultado que falte en Supabase."""
+    try:
+        huerfanas = obtener_signals_sin_resultado(horas_atras=72)
+    except Exception as e:
+        print(f"  (DIAG reconciliacion: fallo inesperado obteniendo señales huerfanas: {e})")
+        return
+
+    if not huerfanas:
+        return
+
+    print(f"  (DIAG reconciliacion: {len(huerfanas)} señales sin resultado en Supabase, comprobando BetsAPI...)")
+    reparadas = 0
+    for s in huerfanas:
+        event_id = str(s.get("event_id") or "")
+        if not event_id or event_id == "None":
+            continue
+        detalle = obtener_resultado_partido(event_id)
+        if detalle is None:
+            continue
+        if str(detalle.get("time_status")) != "3":
+            continue
+        resultado = parsear_partido(detalle)
+        if resultado is None:
+            print(f"  (DIAG reconciliacion {event_id}: time_status=3 pero parsear_partido devolvio None, se omite; ss={detalle.get('ss')!r})")
+            continue
+        if resultado["ganador"] == resultado["jugador_a"]:
+            sets_home, sets_away = resultado["sets_ganador"], resultado["sets_perdedor"]
+        else:
+            sets_home, sets_away = resultado["sets_perdedor"], resultado["sets_ganador"]
+        acerto = resultado["sets_perdedor"] >= 1
+        hora_ts = s.get("hora_ts")
+        fecha_partido = (
+            datetime.datetime.fromtimestamp(hora_ts, tz=MADRID_TZ).strftime("%Y-%m-%d")
+            if hora_ts else datetime.date.today().isoformat()
+        )
+        guardar_resultado_supabase({
+            "event_id": event_id,
+            "liga": s.get("liga"),
+            "home": s.get("home"),
+            "away": s.get("away"),
+            "acierto": acerto,
+            "probabilidad": s.get("probabilidad"),
+            "color": s.get("color"),
+            "hora_ts": hora_ts,
+            "sets_home": sets_home,
+            "sets_away": sets_away,
+            "fecha": fecha_partido,
+        })
+        reparadas += 1
+    print(f"  (DIAG reconciliacion: {reparadas}/{len(huerfanas)} señales huerfanas reparadas)")
 
 
 def obtener_partidos_finalizados(league_id, paginas=3, historico_conocido=None):
@@ -1080,6 +1144,7 @@ if __name__ == "__main__":
 
     try:
         comprobar_predicciones_anteriores()
+        reconciliar_senales_huerfanas()
 
         buffer = io.StringIO()
         stdout_original = sys.stdout
