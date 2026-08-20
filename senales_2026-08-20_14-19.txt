@@ -1,0 +1,45 @@
+Señales generadas el 20/08/2026 a las 14:19
+
+Cargando historico acumulado guardado...
+ (pagina 7: sin partidos nuevos, ya al dia, freno aqui)
+  TT Elite Series: 298 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 1550 partidos historicos (pagina 1682, agotado=False)
+ (pagina 9: sin partidos nuevos, ya al dia, freno aqui)
+  Setka Cup: 311 partidos nuevos anadidos
+  Setka Cup: backfill anadio 1562 partidos historicos (pagina 1458, agotado=False)
+ (pagina 6: sin partidos nuevos, ya al dia, freno aqui)
+  Czech Liga Pro: 190 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 2587 partidos historicos (pagina 2072, agotado=False)
+ (pagina 5: sin partidos nuevos, ya al dia, freno aqui)
+  TT Cup: 180 partidos nuevos anadidos
+  TT Cup: backfill anadio 1898 partidos historicos (pagina 2318, agotado=False)
+
+Total partidos historicos acumulados: 346978
+Jugadores con rating calculado: 2431
+
+Buscando proximos partidos...
+   (busqueda directa de Miroslav Klimenta: +94 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 194 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 15:30  TT Elite Series    Bartosz Sulkowski    vs Michal Minda         | Ambos ganan set:  75.3%  [P(Bartosz Sulkowski)=85.5% · P(Michal Minda)=88.0%] (H2H n=43)
+🟢 16:30  Czech Liga Pro     Jan Szotkowski       vs Tadeas Zika          | Ambos ganan set:  80.0%  [P(Jan Szotkowski)=94.6% · P(Tadeas Zika)=84.6%] (H2H n=174)
+🟢 16:30  Setka Cup          Oleh Torianyk        vs Dmytro Tsys          | Ambos ganan set:  77.9%  [P(Oleh Torianyk)=85.8% · P(Dmytro Tsys)=90.8%] (H2H n=17)
+🟢 16:30  Setka Cup          Zdenek Kuksa         vs Pavel Hala           | Ambos ganan set:  80.5%  [P(Zdenek Kuksa)=90.6% · P(Pavel Hala)=88.8%] (H2H n=0)
+🟢 16:35  TT Elite Series    Jan Zandecki         vs Artur Grela          | Ambos ganan set:  81.2%  [P(Jan Zandecki)=91.2% · P(Artur Grela)=89.1%] (H2H n=40)
+🟢 16:40  TT Cup             Lukas Krupnik Jr     vs Dominik Stefek       | Ambos ganan set:  77.1%  [P(Lukas Krupnik Jr)=89.6% · P(Dominik Stefek)=86.0%] (H2H n=3)
+🟢 17:00  Czech Liga Pro     Pavel Wawrosz        vs Jan Szotkowski       | Ambos ganan set:  77.8%  [P(Pavel Wawrosz)=84.2% · P(Jan Szotkowski)=92.5%] (H2H n=12)
+🟢 17:00  Czech Liga Pro     Jan Kanera           vs Michal Zahradka      | Ambos ganan set:  75.7%  [P(Jan Kanera)=85.4% · P(Michal Zahradka)=88.6%] (H2H n=39)
+🟢 17:15  Setka Cup          Stepan Rejent        vs Tomas Hlavacek       | Ambos ganan set:  84.4%  [P(Stepan Rejent)=90.1% · P(Tomas Hlavacek)=93.6%] (H2H n=0)
+🟢 17:25  TT Elite Series    Marcin Kowalczyk     vs Jaroslaw Rolak       | Ambos ganan set:  82.0%  [P(Marcin Kowalczyk)=88.4% · P(Jaroslaw Rolak)=92.8%] (H2H n=58)
+🟢 17:30  Czech Liga Pro     Tadeas Zika          vs Martin Biolek        | Ambos ganan set:  75.7%  [P(Tadeas Zika)=83.3% · P(Martin Biolek)=90.8%] (H2H n=57)
+🟢 18:00  Czech Liga Pro     Martin Biolek        vs Jan Szotkowski       | Ambos ganan set:  77.5%  [P(Martin Biolek)=90.2% · P(Jan Szotkowski)=85.9%] (H2H n=32)
+🟢 18:30  Czech Liga Pro     Pavel Wawrosz        vs Tadeas Zika          | Ambos ganan set:  81.0%  [P(Pavel Wawrosz)=89.7% · P(Tadeas Zika)=90.3%] (H2H n=41)
+🟢 18:35  TT Elite Series    Henryk Tkaczyk       vs Zbigniew Nocun       | Ambos ganan set:  77.2%  [P(Henryk Tkaczyk)=87.6% · P(Zbigniew Nocun)=88.2%] (H2H n=76)
+🟢 19:45  TT Cup             Rostislav Niezgoda   vs Antonin Baros        | Ambos ganan set:  76.4%  [P(Rostislav Niezgoda)=91.3% · P(Antonin Baros)=83.6%] (H2H n=67)
+🟢 20:30  Czech Liga Pro     Pavel Fojt           vs Tomas Dousa          | Ambos ganan set:  75.4%  [P(Pavel Fojt)=88.5% · P(Tomas Dousa)=85.3%] (H2H n=27)
+🟢 20:30  TT Elite Series    Artur Daniel         vs Krystian Kolodziej   | Ambos ganan set:  78.0%  [P(Artur Daniel)=86.9% · P(Krystian Kolodziej)=89.7%] (H2H n=24)
+🟢 21:00  Setka Cup          Ladislav Hendrych    vs Petr Kotrbacek       | Ambos ganan set:  80.4%  [P(Ladislav Hendrych)=90.3% · P(Petr Kotrbacek)=89.1%] (H2H n=6)
+🟢 21:15  Setka Cup          Jan Simecek Jnr      vs Petr Orlowski        | Ambos ganan set:  76.8%  [P(Jan Simecek Jnr)=87.4% · P(Petr Orlowski)=87.9%] (H2H n=21)
+🟢 22:15  Setka Cup          Mykhailo Potapov     vs Oleksandr Storozhenko | Ambos ganan set:  81.8%  [P(Mykhailo Potapov)=90.2% · P(Oleksandr Storozhenko)=90.7%] (H2H n=19)
