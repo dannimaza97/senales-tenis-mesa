@@ -179,13 +179,18 @@ def guardar_pendientes(pendientes):
 def obtener_resultado_partido(event_id):
     try:
         resp = requests.get(f"{BASE_URL}/event/view", params={"token": TOKEN, "event_id": event_id}, timeout=15)
-    except requests.exceptions.RequestException:
+    except requests.exceptions.RequestException as e:
+        print(f"  (DIAG resultado {event_id}: fallo de red en event/view: {e})")
         return None
+    if resp.status_code != 200:
+        print(f"  (DIAG resultado {event_id}: event/view respondio HTTP {resp.status_code}: {resp.text[:300]})")
     try:
         data = resp.json()
-    except ValueError:
+    except ValueError as e:
+        print(f"  (DIAG resultado {event_id}: respuesta no es JSON valido ({e}): {resp.text[:300]})")
         return None
     if not data.get("success") or not data.get("results"):
+        print(f"  (DIAG resultado {event_id}: BetsAPI success={data.get('success')!r} results={data.get('results')!r} data={str(data)[:300]})")
         return None
     return data["results"][0]
 
@@ -240,6 +245,7 @@ def comprobar_predicciones_anteriores():
     pendientes = cargar_pendientes()
     if not pendientes:
         return
+    print(f"  (DIAG resultado: comprobando {len(pendientes)} predicciones pendientes)")
     notificados = cargar_resultados_notificados()
     estadisticas = cargar_estadisticas()
     aun_pendientes = {}
@@ -255,6 +261,7 @@ def comprobar_predicciones_anteriores():
             continue
         resultado = parsear_partido(detalle)
         if resultado is None:
+            print(f"  (DIAG resultado {event_id}: time_status=3 pero parsear_partido devolvio None, se descarta la senal sin guardar resultado; ss={detalle.get('ss')!r} scores={str(detalle.get('scores'))[:200]})")
             continue
         if resultado["ganador"] == resultado["jugador_a"]:
             sets_home, sets_away = resultado["sets_ganador"], resultado["sets_perdedor"]
@@ -299,6 +306,8 @@ def comprobar_predicciones_anteriores():
             "fecha": fecha_partido,
         })
         notificados[event_id] = True
+    resueltas = len(pendientes) - len(aun_pendientes)
+    print(f"  (DIAG resultado: {resueltas} resueltas en esta ejecucion, {len(aun_pendientes)} siguen pendientes)")
     guardar_pendientes(aun_pendientes)
     guardar_resultados_notificados(notificados)
     guardar_estadisticas(estadisticas)
