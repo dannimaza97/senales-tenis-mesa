@@ -1,0 +1,36 @@
+Señales generadas el 20/08/2026 a las 16:29
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 6 tras reintento, me detengo aqui)
+  TT Elite Series: 250 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 1050 partidos historicos (pagina 1709, agotado=False)
+ (pagina 10: sin partidos nuevos, ya al dia, freno aqui)
+  Setka Cup: 351 partidos nuevos anadidos
+  Setka Cup: backfill anadio 1172 partidos historicos (pagina 1482, agotado=False)
+ (pagina 6: sin partidos nuevos, ya al dia, freno aqui)
+  Czech Liga Pro: 216 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 1035 partidos historicos (pagina 2127, agotado=False)
+ (pagina 6: sin partidos nuevos, ya al dia, freno aqui)
+  TT Cup: 207 partidos nuevos anadidos
+  TT Cup: backfill anadio 771 partidos historicos (pagina 2375, agotado=False)
+
+Total partidos historicos acumulados: 343454
+Jugadores con rating calculado: 2422
+
+Buscando proximos partidos...
+   (busqueda directa de Miroslav Klimenta: +92 partidos anadidos)
+   (busqueda directa de Krystof Lahodny: +1 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 130 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 17:25  TT Elite Series    Marcin Kowalczyk     vs Jaroslaw Rolak       | Ambos ganan set:  82.0%  [P(Marcin Kowalczyk)=88.4% · P(Jaroslaw Rolak)=92.8%] (H2H n=58)
+🟢 18:30  Czech Liga Pro     Pavel Wawrosz        vs Tadeas Zika          | Ambos ganan set:  81.1%  [P(Pavel Wawrosz)=89.7% · P(Tadeas Zika)=90.4%] (H2H n=41)
+🟢 18:35  TT Elite Series    Henryk Tkaczyk       vs Zbigniew Nocun       | Ambos ganan set:  77.2%  [P(Henryk Tkaczyk)=87.6% · P(Zbigniew Nocun)=88.1%] (H2H n=76)
+🟢 19:45  TT Cup             Rostislav Niezgoda   vs Antonin Baros        | Ambos ganan set:  76.4%  [P(Rostislav Niezgoda)=91.4% · P(Antonin Baros)=83.6%] (H2H n=67)
+🟢 20:30  Czech Liga Pro     Pavel Fojt           vs Tomas Dousa          | Ambos ganan set:  75.5%  [P(Pavel Fojt)=88.5% · P(Tomas Dousa)=85.3%] (H2H n=27)
+🟢 20:30  TT Elite Series    Artur Daniel         vs Krystian Kolodziej   | Ambos ganan set:  77.9%  [P(Artur Daniel)=86.8% · P(Krystian Kolodziej)=89.7%] (H2H n=24)
+🟢 21:00  Setka Cup          Ladislav Hendrych    vs Petr Kotrbacek       | Ambos ganan set:  80.4%  [P(Ladislav Hendrych)=90.3% · P(Petr Kotrbacek)=89.1%] (H2H n=6)
+🟢 21:15  Setka Cup          Jan Simecek Jnr      vs Petr Orlowski        | Ambos ganan set:  76.9%  [P(Jan Simecek Jnr)=87.6% · P(Petr Orlowski)=87.8%] (H2H n=21)
+🟢 22:15  Setka Cup          Mykhailo Potapov     vs Oleksandr Storozhenko | Ambos ganan set:  81.3%  [P(Mykhailo Potapov)=89.7% · P(Oleksandr Storozhenko)=90.7%] (H2H n=19)
