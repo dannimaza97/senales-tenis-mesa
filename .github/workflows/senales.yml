@@ -42,7 +42,14 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          for f in historico_partidos.json predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json ultima_actualizacion.json seleccion_diaria.json backfill_estado.json; do
+          # historico_partidos.json ya NO se sube: supero el limite de 100MB de GitHub
+          # (ver commit de este cambio) y cada push fallido dejaba SIN GUARDAR el resto
+          # de archivos de este mismo commit (predicciones_pendientes/resultados_notificados/
+          # estadisticas), asi que cada ejecucion repetia desde cero las mismas resoluciones
+          # pendientes y volvia a mandar los avisos de Telegram ya enviados. Se sigue
+          # escribiendo localmente en cada run (para Elo/H2H de esa ejecucion) pero deja de
+          # versionarse hasta que tenga poda de tamano o se migre a otro almacenamiento.
+          for f in predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json ultima_actualizacion.json seleccion_diaria.json backfill_estado.json; do
             if [ -f "$f" ]; then
               git add -f "$f"
             fi
