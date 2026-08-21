@@ -38,6 +38,17 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python senales_reales.py
 
+      - name: Ejecutar motor de senales (primer set)
+        # continue-on-error: si esta señal nueva falla por lo que sea (token
+        # todavia no configurado, bug, etc.) nunca debe bloquear el paso de
+        # abajo que guarda los datos de la señal original.
+        continue-on-error: true
+        env:
+          BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN_PRIMER_SET: ${{ secrets.TELEGRAM_BOT_TOKEN_PRIMER_SET }}
+        run: python senales_primer_set.py
+
       - name: Guardar datos actualizados
         run: |
           git config user.name "github-actions"
@@ -49,7 +60,8 @@ jobs:
           # pendientes y volvia a mandar los avisos de Telegram ya enviados. Se sigue
           # escribiendo localmente en cada run (para Elo/H2H de esa ejecucion) pero deja de
           # versionarse hasta que tenga poda de tamano o se migre a otro almacenamiento.
-          for f in predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json ultima_actualizacion.json seleccion_diaria.json backfill_estado.json; do
+          for f in predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json ultima_actualizacion.json seleccion_diaria.json backfill_estado.json \
+                   predicciones_pendientes_primer_set.json resultados_notificados_primer_set.json avisos_enviados_primer_set.json estadisticas_primer_set.json ultima_actualizacion_primer_set.json seleccion_diaria_primer_set.json resumen_diario_enviado_primer_set.json; do
             if [ -f "$f" ]; then
               git add -f "$f"
             fi
