@@ -1,0 +1,31 @@
+Señales generadas el 21/08/2026 a las 19:07
+
+Cargando historico acumulado guardado...
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 350 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 1958, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 499 partidos historicos (pagina 1957, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  Setka Cup: 298 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1799, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 150 partidos historicos (pagina 1798, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Czech Liga Pro: 287 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 497 partidos historicos (pagina 2462, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  TT Cup: 250 partidos nuevos anadidos
+  (backfill TT Cup: sin respuesta en pagina 2784, seguimos en la proxima corrida)
+  TT Cup: backfill anadio 0 partidos historicos (pagina 2783, agotado=False)
+
+Total partidos historicos acumulados: 340733
+Jugadores con rating calculado: 2414
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 56 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:30  Setka Cup          Orest Hura           vs Anton Shypilov       | Ambos ganan set:  76.4%  [P(Orest Hura)=90.4% · P(Anton Shypilov)=84.5%] (H2H n=36)
