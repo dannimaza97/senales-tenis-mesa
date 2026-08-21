@@ -1,0 +1,35 @@
+Señales generadas el 21/08/2026 a las 16:20
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 300 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 600 partidos historicos (pagina 1944, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  Setka Cup: 250 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1784, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 247 partidos historicos (pagina 1783, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 382 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 2444, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 249 partidos historicos (pagina 2443, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 350 partidos nuevos anadidos
+  TT Cup: backfill anadio 699 partidos historicos (pagina 2776, agotado=False)
+
+Total partidos historicos acumulados: 341479
+Jugadores con rating calculado: 2429
+
+Buscando proximos partidos...
+   (busqueda directa de Milan Langer: +10 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 122 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:15  Setka Cup          Roman Merkl          vs Leon Kolman          | Ambos ganan set:  81.4%  [P(Roman Merkl)=89.4% · P(Leon Kolman)=91.0%] (H2H n=19)
+🟢 21:00  Czech Liga Pro     Michal Chalupa       vs Roman Hudeczek       | Ambos ganan set:  78.5%  [P(Michal Chalupa)=86.1% · P(Roman Hudeczek)=91.2%] (H2H n=36)
+🟢 21:00  Czech Liga Pro     Tomas Dousek         vs Tadeas Zika          | Ambos ganan set:  77.2%  [P(Tomas Dousek)=89.5% · P(Tadeas Zika)=86.2%] (H2H n=73)
+🟢 21:05  Setka Cup          Yevhen Bielokon      vs Ivan Elfemov         | Ambos ganan set:  76.7%  [P(Yevhen Bielokon)=84.5% · P(Ivan Elfemov)=90.8%] (H2H n=18)
+🟢 22:30  Setka Cup          Orest Hura           vs Anton Shypilov       | Ambos ganan set:  76.3%  [P(Orest Hura)=90.2% · P(Anton Shypilov)=84.5%] (H2H n=36)
