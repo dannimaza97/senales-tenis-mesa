@@ -425,7 +425,12 @@ def main():
                 favorito, prob_favorito = away, p_away
 
             color = color_semaforo(prob_favorito)
-            if color is None:
+            # Señal de primer set: solo se emite si la probabilidad del
+            # favorito es >=75% (equivalente al tramo VERDE de
+            # color_semaforo). AMARILLO/ROJO (65-75%) quedan descartados
+            # aunque color_semaforo() los admita, porque para esta señal
+            # en particular solo queremos avisos de alta confianza.
+            if color != "VERDE":
                 continue
 
             h2h_info = h2h_detalle(home, away, todos_partidos)
@@ -470,7 +475,7 @@ def main():
 
     print(f"\n{'=' * 70}")
     print(f"SELECCION PRIMER SET DE HOY: {len(ids_bloqueados_hoy)}/{MAX_SELECCION_DIARIA} partidos bloqueados "
-          f"(de {len(candidatas)} candidatas esta ejecucion, umbral >=65%)")
+          f"(de {len(candidatas)} candidatas esta ejecucion, umbral >=75%)")
     print(f"{'=' * 70}")
     simbolo = {"VERDE": "🟢", "AMARILLO": "🟡", "ROJO": "🔴"}
     for s in seleccion:
