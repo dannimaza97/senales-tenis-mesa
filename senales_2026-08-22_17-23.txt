@@ -1,0 +1,39 @@
+Señales generadas el 22/08/2026 a las 17:23
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 299 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 2080, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 49 partidos historicos (pagina 2079, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  Setka Cup: 249 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1936, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 1935, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Czech Liga Pro: 287 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 536 partidos historicos (pagina 2670, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 350 partidos nuevos anadidos
+  TT Cup: backfill anadio 488 partidos historicos (pagina 3035, agotado=False)
+
+Total partidos historicos acumulados: 340660
+Jugadores con rating calculado: 2435
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 90 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 19:20  TT Elite Series    Alan Wos             vs Jakub Chmielowski    | Ambos ganan set:  76.9%  [P(Alan Wos)=85.5% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
+🟢 19:45  Setka Cup          Tomas Liska          vs Radovan Pisa         | Ambos ganan set:  80.0%  [P(Tomas Liska)=87.8% · P(Radovan Pisa)=91.2%] (H2H n=30)
+🟢 20:45  Setka Cup          Tomas Liska          vs Michal Makara        | Ambos ganan set:  80.5%  [P(Tomas Liska)=89.1% · P(Michal Makara)=90.3%] (H2H n=55)
+🟡 20:55  Setka Cup          Ivan Pytsko          vs Mykola Slozka        | Ambos ganan set:  74.3%  [P(Ivan Pytsko)=87.5% · P(Mykola Slozka)=84.9%] (H2H n=24)
+🟢 21:45  Setka Cup          Radovan Pisa         vs Michal Makara        | Ambos ganan set:  83.7%  [P(Radovan Pisa)=93.0% · P(Michal Makara)=90.0%] (H2H n=43)
