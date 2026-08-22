@@ -44,6 +44,8 @@ jobs:
         # abajo que guarda los datos de la señal original.
         continue-on-error: true
         env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_BOT_TOKEN_PRIMER_SET: ${{ secrets.TELEGRAM_BOT_TOKEN_PRIMER_SET }}
