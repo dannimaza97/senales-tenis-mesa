@@ -1,24 +1,4 @@
 {
-  "12472272": {
-    "liga": "Setka Cup",
-    "home": "Roman Boklah",
-    "away": "Ihor Serdiuk",
-    "favorito": "Ihor Serdiuk",
-    "probabilidad": 0.6918716204430491,
-    "score": 0.7530563998109681,
-    "color": "ROJO",
-    "n_h2h": 25,
-    "p_home_individual": 0.31904564151241893,
-    "p_away_individual": 0.6918716204430491,
-    "hora": "11:00",
-    "event_id": "12472272",
-    "hora_ts": 1787389200,
-    "racha_home": -1,
-    "racha_away": -2,
-    "tasa_home": 0.4463087248322148,
-    "tasa_away": 0.5816993464052288,
-    "h2h_ultima_fecha": "22/07/2026"
-  },
   "12470095": {
     "liga": "TT Elite Series",
     "home": "Petr David",

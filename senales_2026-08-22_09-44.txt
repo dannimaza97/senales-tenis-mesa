@@ -1,0 +1,60 @@
+Señales generadas el 22/08/2026 a las 09:44
+
+Cargando historico acumulado guardado...
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 300 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 2077, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2076, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  Setka Cup: 194 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1920, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 393 partidos historicos (pagina 1919, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Czech Liga Pro: 283 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 2637, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 146 partidos historicos (pagina 2636, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  TT Cup: 250 partidos nuevos anadidos
+  TT Cup: backfill anadio 594 partidos historicos (pagina 3005, agotado=False)
+
+Total partidos historicos acumulados: 340562
+Jugadores con rating calculado: 2436
+
+Buscando proximos partidos...
+   (busqueda directa de Slawomir Dosz: +45 partidos anadidos)
+ (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina 5)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 252 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 11:40  TT Elite Series    Adam Dosz            vs Amirreza Abbasi      | Ambos ganan set:  79.5%  [P(Adam Dosz)=91.4% · P(Amirreza Abbasi)=87.0%] (H2H n=8)
+🟢 11:45  Setka Cup          Ondrej Mezera        vs Lukas Rulc           | Ambos ganan set:  78.6%  [P(Ondrej Mezera)=87.5% · P(Lukas Rulc)=89.8%] (H2H n=2)
+🟢 12:00  Setka Cup          Vladimir Lopata      vs Petr Maly            | Ambos ganan set:  81.4%  [P(Vladimir Lopata)=92.1% · P(Petr Maly)=88.4%] (H2H n=0)
+🟢 12:15  Setka Cup          Jakub Senk           vs Lukas Rulc           | Ambos ganan set:  77.3%  [P(Jakub Senk)=86.2% · P(Lukas Rulc)=89.7%] (H2H n=5)
+🟢 13:00  Setka Cup          Vladimir Lopata      vs Ludek Stoces         | Ambos ganan set:  83.6%  [P(Vladimir Lopata)=92.1% · P(Ludek Stoces)=90.8%] (H2H n=0)
+🟢 13:10  Setka Cup          Oleksandr Zhyrnov    vs Yevhenii Holoborodko | Ambos ganan set:  79.1%  [P(Oleksandr Zhyrnov)=90.9% · P(Yevhenii Holoborodko)=87.0%] (H2H n=39)
+🟢 13:15  Setka Cup          Jakub Senk           vs Ondrej Mezera        | Ambos ganan set:  82.0%  [P(Jakub Senk)=91.1% · P(Ondrej Mezera)=90.0%] (H2H n=13)
+🟢 13:45  Setka Cup          Lukas Rulc           vs Michal Makara        | Ambos ganan set:  78.1%  [P(Lukas Rulc)=89.5% · P(Michal Makara)=87.3%] (H2H n=45)
+🟢 14:00  Setka Cup          Petr Maly            vs Ludek Stoces         | Ambos ganan set:  80.3%  [P(Petr Maly)=88.4% · P(Ludek Stoces)=90.8%] (H2H n=0)
+🟢 15:10  Setka Cup          Oleksandr Zhyrnov    vs Oleg Varlamov        | Ambos ganan set:  75.4%  [P(Oleksandr Zhyrnov)=81.7% · P(Oleg Varlamov)=92.2%] (H2H n=25)
+🟢 15:30  Setka Cup          Dmytro Kryshtal      vs Serhii Kushnirenko   | Ambos ganan set:  81.1%  [P(Dmytro Kryshtal)=92.3% · P(Serhii Kushnirenko)=87.9%] (H2H n=76)
+🟢 16:10  Setka Cup          Oleg Varlamov        vs Yevhenii Holoborodko | Ambos ganan set:  79.3%  [P(Oleg Varlamov)=90.9% · P(Yevhenii Holoborodko)=87.2%] (H2H n=40)
+🟢 16:30  Setka Cup          Oleh Plyska          vs Miroslav Vana        | Ambos ganan set:  83.8%  [P(Oleh Plyska)=91.1% · P(Miroslav Vana)=91.9%] (H2H n=22)
+🟢 16:55  Setka Cup          Mykhailo Potapov     vs Ivan Pytsko          | Ambos ganan set:  77.6%  [P(Mykhailo Potapov)=87.9% · P(Ivan Pytsko)=88.3%] (H2H n=10)
+🟢 17:00  Setka Cup          Dmytro Kryshtal      vs Serhii Balabei       | Ambos ganan set:  76.8%  [P(Dmytro Kryshtal)=83.8% · P(Serhii Balabei)=91.6%] (H2H n=112)
+🟢 17:25  TT Elite Series    Alan Wos             vs Marcin Marchlewski   | Ambos ganan set:  78.4%  [P(Alan Wos)=86.9% · P(Marcin Marchlewski)=90.2%] (H2H n=33)
+🟢 17:30  Czech Liga Pro     Michal Zahradka      vs Ales Barton          | Ambos ganan set:  77.0%  [P(Michal Zahradka)=85.2% · P(Ales Barton)=90.4%] (H2H n=18)
+🟢 17:45  Setka Cup          Lukas Heinzl         vs Volodymyr Burylov    | Ambos ganan set:  82.0%  [P(Lukas Heinzl)=89.9% · P(Volodymyr Burylov)=91.2%] (H2H n=16)
+🟢 18:05  Setka Cup          Oleksii Mitla        vs Anton Shypilov       | Ambos ganan set:  83.5%  [P(Oleksii Mitla)=87.6% · P(Anton Shypilov)=95.3%] (H2H n=80)
+🟢 18:55  Setka Cup          Roman Cherevko       vs Evgeniy Pismenniy    | Ambos ganan set:  77.7%  [P(Roman Cherevko)=94.3% · P(Evgeniy Pismenniy)=82.3%] (H2H n=74)
+🟢 19:20  TT Elite Series    Alan Wos             vs Jakub Chmielowski    | Ambos ganan set:  76.7%  [P(Alan Wos)=85.3% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
+🟢 19:45  Setka Cup          Tomas Liska          vs Radovan Pisa         | Ambos ganan set:  80.5%  [P(Tomas Liska)=88.0% · P(Radovan Pisa)=91.4%] (H2H n=31)
+🟢 20:45  Setka Cup          Tomas Liska          vs Michal Makara        | Ambos ganan set:  80.1%  [P(Tomas Liska)=89.6% · P(Michal Makara)=89.4%] (H2H n=58)
+🟡 20:55  Setka Cup          Ivan Pytsko          vs Mykola Slozka        | Ambos ganan set:  74.3%  [P(Ivan Pytsko)=87.5% · P(Mykola Slozka)=84.9%] (H2H n=24)
+🟢 21:45  Setka Cup          Radovan Pisa         vs Michal Makara        | Ambos ganan set:  84.2%  [P(Radovan Pisa)=93.3% · P(Michal Makara)=90.3%] (H2H n=45)
