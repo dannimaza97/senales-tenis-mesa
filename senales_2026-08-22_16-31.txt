@@ -1,0 +1,43 @@
+Señales generadas el 22/08/2026 a las 16:31
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 6 tras reintento, me detengo aqui)
+  TT Elite Series: 250 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 2079, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2078, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 4 tras reintento, me detengo aqui)
+  Setka Cup: 150 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1936, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 1935, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  Czech Liga Pro: 189 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 2660, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 2659, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Cup: 300 partidos nuevos anadidos
+  (backfill TT Cup: sin respuesta en pagina 3026, seguimos en la proxima corrida)
+  TT Cup: backfill anadio 150 partidos historicos (pagina 3025, agotado=False)
+
+Total partidos historicos acumulados: 339441
+Jugadores con rating calculado: 2416
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 110 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 17:30  Czech Liga Pro     Michal Zahradka      vs Ales Barton          | Ambos ganan set:  77.0%  [P(Michal Zahradka)=85.2% · P(Ales Barton)=90.3%] (H2H n=18)
+🟢 18:55  Setka Cup          Roman Cherevko       vs Evgeniy Pismenniy    | Ambos ganan set:  78.4%  [P(Roman Cherevko)=95.4% · P(Evgeniy Pismenniy)=82.1%] (H2H n=73)
+🟢 19:20  TT Elite Series    Alan Wos             vs Jakub Chmielowski    | Ambos ganan set:  76.9%  [P(Alan Wos)=85.5% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
+🟢 19:45  Setka Cup          Tomas Liska          vs Radovan Pisa         | Ambos ganan set:  80.0%  [P(Tomas Liska)=87.8% · P(Radovan Pisa)=91.2%] (H2H n=30)
+🟢 20:45  Setka Cup          Tomas Liska          vs Michal Makara        | Ambos ganan set:  80.5%  [P(Tomas Liska)=89.1% · P(Michal Makara)=90.3%] (H2H n=55)
+🟢 20:55  Setka Cup          Ivan Pytsko          vs Mykola Slozka        | Ambos ganan set:  75.7%  [P(Ivan Pytsko)=89.6% · P(Mykola Slozka)=84.5%] (H2H n=23)
+🟢 21:45  Setka Cup          Radovan Pisa         vs Michal Makara        | Ambos ganan set:  83.7%  [P(Radovan Pisa)=93.0% · P(Michal Makara)=90.0%] (H2H n=43)
