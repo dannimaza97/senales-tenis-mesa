@@ -1,1 +1,22 @@
-{}
+{
+  "12477512": {
+    "liga": "Setka Cup",
+    "home": "Roman Boklah",
+    "away": "Viktor Ziakun",
+    "favorito": "Viktor Ziakun",
+    "probabilidad": 0.7615177776957678,
+    "score": 0.8265404176529252,
+    "color": "VERDE",
+    "n_h2h": 46,
+    "p_home_individual": 0.26076311245718814,
+    "p_away_individual": 0.7615177776957678,
+    "hora": "17:00",
+    "event_id": "12477512",
+    "hora_ts": 1787497200,
+    "racha_home": 1,
+    "racha_away": -4,
+    "tasa_home": 0.4411764705882353,
+    "tasa_away": 0.6421725239616614,
+    "h2h_ultima_fecha": "12/08/2026"
+  }
+}
