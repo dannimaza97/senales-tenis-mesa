@@ -1,24 +1,4 @@
 {
-  "12470504": {
-    "liga": "Czech Liga Pro",
-    "home": "Tadeas Zika",
-    "away": "Jan Dzida",
-    "favorito": "Jan Dzida",
-    "probabilidad": 0.7057291666666667,
-    "score": 0.7675182904755233,
-    "color": "AMARILLO",
-    "n_h2h": 47,
-    "p_home_individual": 0.3127583730381166,
-    "p_away_individual": 0.7057291666666667,
-    "hora": "17:30",
-    "event_id": "12470504",
-    "hora_ts": 1787412600,
-    "racha_home": 2,
-    "racha_away": -2,
-    "tasa_home": 0.4862436833239753,
-    "tasa_away": 0.5840220385674931,
-    "h2h_ultima_fecha": "18/08/2026"
-  },
   "12469368": {
     "liga": "TT Elite Series",
     "home": "Andriej Fomin",
