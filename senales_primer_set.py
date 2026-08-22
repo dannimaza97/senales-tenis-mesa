@@ -22,6 +22,12 @@ estadisticas_primer_set.json, avisos_enviados_primer_set.json,
 ultima_actualizacion_primer_set.json, resumen_diario_enviado_primer_set.json,
 seleccion_diaria_primer_set.json.
 
+También sube a Supabase (si SUPABASE_URL/SUPABASE_SERVICE_ROLE_KEY están
+configurados) a sus propias tablas hermanas: signals_primer_set,
+resultados_primer_set, daily_stats_primer_set — nunca a signals/
+resultados/daily_stats, que son de la señal original. Estas tablas las
+usa la pestaña "Primer set" del panel web (pulsopro-web).
+
 Requiere las mismas variables de entorno que senales_reales.py
 (BETSAPI_TOKEN, TELEGRAM_BOT_TOKEN) porque al importar funciones de ese
 módulo se ejecuta su código de nivel superior — además necesita su
@@ -32,6 +38,8 @@ señal a un bot/chat separado.
 import os
 import time
 import datetime
+
+import requests
 
 from senales_reales import (
     LIGAS,
@@ -59,7 +67,6 @@ MAX_SELECCION_DIARIA = 35
 
 
 def enviar_telegram(texto):
-    import requests
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     trozos = [texto[i:i + 3800] for i in range(0, len(texto), 3800)] or [texto]
     for chat_id in TELEGRAM_CHAT_IDS:
@@ -68,6 +75,141 @@ def enviar_telegram(texto):
                 requests.post(url, data={"chat_id": chat_id, "text": trozo}, timeout=15)
             except Exception as e:
                 print(f"Error enviando a Telegram primer set (chat {chat_id}): {e}")
+
+
+# --- Puente a Supabase (tablas propias, ver docstring del modulo) ---
+
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
+SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+
+
+def _supabase_headers(prefer=None):
+    headers = {
+        "apikey": SUPABASE_SERVICE_ROLE_KEY,
+        "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
+        "Content-Type": "application/json",
+    }
+    if prefer:
+        headers["Prefer"] = prefer
+    return headers
+
+
+def _supabase_habilitado():
+    if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
+        print(" (aviso: SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY no configurados, se omite guardado en Supabase)")
+        return False
+    return True
+
+
+def guardar_senales_supabase_primer_set(seleccion):
+    """Upsert por event_id en la tabla signals_primer_set."""
+    if not _supabase_habilitado() or not seleccion:
+        return
+
+    filas = []
+    for s in seleccion:
+        event_id = s.get("event_id")
+        if not event_id:
+            continue
+        filas.append({
+            "event_id": str(event_id),
+            "liga": s["liga"],
+            "home": s["home"],
+            "away": s["away"],
+            "hora": s["hora"],
+            "hora_ts": s["hora_ts"],
+            "favorito": s["favorito"],
+            "probabilidad": s["probabilidad"],
+            "color": s["color"],
+            "p_home_individual": s.get("p_home_individual"),
+            "p_away_individual": s.get("p_away_individual"),
+            "n_h2h": s.get("n_h2h"),
+            "racha_home": s.get("racha_home"),
+            "racha_away": s.get("racha_away"),
+            "tasa_home": s.get("tasa_home"),
+            "tasa_away": s.get("tasa_away"),
+            "h2h_ultima_fecha": s.get("h2h_ultima_fecha"),
+        })
+
+    if not filas:
+        return
+
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/signals_primer_set",
+            headers=_supabase_headers(prefer="resolution=merge-duplicates"),
+            params={"on_conflict": "event_id"},
+            json=filas,
+            timeout=20,
+        )
+        if resp.status_code >= 300:
+            print(f" (aviso: Supabase respondio {resp.status_code} al guardar señales primer set: {resp.text[:300]})")
+        else:
+            print(f" Guardadas {len(filas)} señales primer set en Supabase.")
+    except requests.exceptions.RequestException as e:
+        print(f" (aviso: error de red guardando señales primer set en Supabase: {e})")
+
+
+def guardar_estadisticas_supabase_primer_set(estadisticas):
+    if not _supabase_habilitado() or not estadisticas:
+        return
+
+    fila = {
+        "fecha": estadisticas.get("fecha") or datetime.date.today().isoformat(),
+        "ganadoras": estadisticas.get("ganadoras", 0),
+        "perdidas": estadisticas.get("perdidas", 0),
+    }
+
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/daily_stats_primer_set",
+            headers=_supabase_headers(prefer="resolution=merge-duplicates"),
+            params={"on_conflict": "fecha"},
+            json=[fila],
+            timeout=20,
+        )
+        if resp.status_code >= 300:
+            print(f" (aviso: Supabase respondio {resp.status_code} al guardar estadisticas primer set: {resp.text[:300]})")
+    except requests.exceptions.RequestException as e:
+        print(f" (aviso: error de red guardando estadisticas primer set en Supabase: {e})")
+
+
+def guardar_resultado_supabase_primer_set(resultado):
+    if not _supabase_habilitado() or not resultado:
+        return
+
+    event_id = resultado.get("event_id")
+    if not event_id:
+        return
+
+    fila = {
+        "event_id": str(event_id),
+        "liga": resultado.get("liga"),
+        "home": resultado.get("home"),
+        "away": resultado.get("away"),
+        "acierto": bool(resultado.get("acierto")),
+        "favorito": resultado.get("favorito"),
+        "probabilidad": resultado.get("probabilidad"),
+        "color": resultado.get("color"),
+        "hora_ts": resultado.get("hora_ts"),
+        # Marcador en PUNTOS del primer set (no cantidad de sets del partido).
+        "sets_home": resultado.get("sets_home"),
+        "sets_away": resultado.get("sets_away"),
+        "fecha": resultado.get("fecha"),
+    }
+
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/resultados_primer_set",
+            headers=_supabase_headers(prefer="resolution=merge-duplicates"),
+            params={"on_conflict": "event_id"},
+            json=[fila],
+            timeout=20,
+        )
+        if resp.status_code >= 300:
+            print(f" (aviso: Supabase respondio {resp.status_code} al guardar resultado primer set: {resp.text[:300]})")
+    except requests.exceptions.RequestException as e:
+        print(f" (aviso: error de red guardando resultado primer set en Supabase: {e})")
 
 
 # --- Archivos de estado propios de esta señal (independientes de senales_reales.py) ---
@@ -338,6 +480,8 @@ def main():
     if not seleccion:
         print("No se encontraron señales sobre el umbral con los partidos próximos disponibles ahora mismo.")
 
+    guardar_senales_supabase_primer_set(seleccion)
+
     return seleccion
 
 
@@ -430,11 +574,32 @@ def comprobar_predicciones_anteriores():
         enviar_telegram(mensaje)
         notificados[event_id] = True
 
+        fecha_partido = (
+            datetime.datetime.fromtimestamp(pred["hora_ts"], tz=MADRID_TZ).strftime("%Y-%m-%d")
+            if pred.get("hora_ts")
+            else datetime.date.today().isoformat()
+        )
+        guardar_resultado_supabase_primer_set({
+            "event_id": event_id,
+            "liga": pred.get("liga"),
+            "home": pred.get("home"),
+            "away": pred.get("away"),
+            "acierto": acerto,
+            "favorito": pred.get("favorito"),
+            "probabilidad": pred.get("probabilidad"),
+            "color": pred.get("color"),
+            "hora_ts": pred.get("hora_ts"),
+            "sets_home": marcador_set1[0],
+            "sets_away": marcador_set1[1],
+            "fecha": fecha_partido,
+        })
+
     resueltas = len(pendientes) - len(aun_pendientes)
     print(f" (DIAG resultado primer set: {resueltas} resueltas en esta ejecucion, {len(aun_pendientes)} siguen pendientes)")
     guardar_pendientes(aun_pendientes)
     guardar_resultados_notificados(notificados)
     guardar_estadisticas(estadisticas)
+    guardar_estadisticas_supabase_primer_set(estadisticas)
 
 
 def enviar_avisos_pendientes(seleccion):
