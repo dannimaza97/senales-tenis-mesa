@@ -1,24 +1,4 @@
 {
-  "12470438": {
-    "liga": "TT Elite Series",
-    "home": "Petr David",
-    "away": "Adam Dosz",
-    "favorito": "Petr David",
-    "probabilidad": 0.6524959305480196,
-    "score": 0.6629171242539339,
-    "color": "ROJO",
-    "n_h2h": 2,
-    "p_home_individual": 0.6524959305480196,
-    "p_away_individual": 0.47178947368421054,
-    "hora": "13:40",
-    "event_id": "12470438",
-    "hora_ts": 1787398800,
-    "racha_home": 1,
-    "racha_away": -2,
-    "tasa_home": 0.6476683937823834,
-    "tasa_away": 0.4918032786885246,
-    "h2h_ultima_fecha": "04/05/2026"
-  },
   "12470450": {
     "liga": "TT Elite Series",
     "home": "Marcin Lach",
