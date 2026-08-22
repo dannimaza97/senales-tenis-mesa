@@ -1,0 +1,28 @@
+Señales generadas el 22/08/2026 a las 19:27
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 350 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 700 partidos historicos (pagina 2104, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Setka Cup: 393 partidos nuevos anadidos
+  Setka Cup: backfill anadio 684 partidos historicos (pagina 1960, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Czech Liga Pro: 422 partidos nuevos anadidos
+  (backfill Czech Liga Pro: sin respuesta en pagina 2676, seguimos en la proxima corrida)
+  Czech Liga Pro: backfill anadio 48 partidos historicos (pagina 2675, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 349 partidos nuevos anadidos
+  TT Cup: backfill anadio 641 partidos historicos (pagina 3054, agotado=False)
+
+Total partidos historicos acumulados: 341989
+Jugadores con rating calculado: 2445
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 36 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:45  Setka Cup          Tomas Liska          vs Michal Makara        | Ambos ganan set:  80.5%  [P(Tomas Liska)=89.2% · P(Michal Makara)=90.3%] (H2H n=55)
+🟢 21:45  Setka Cup          Radovan Pisa         vs Michal Makara        | Ambos ganan set:  84.0%  [P(Radovan Pisa)=93.2% · P(Michal Makara)=90.2%] (H2H n=44)
