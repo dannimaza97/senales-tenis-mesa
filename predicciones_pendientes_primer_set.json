@@ -1,24 +1,4 @@
 {
-  "12470450": {
-    "liga": "TT Elite Series",
-    "home": "Marcin Lach",
-    "away": "Witold Buczynski",
-    "favorito": "Marcin Lach",
-    "probabilidad": 0.6594851166532583,
-    "score": 0.688384433167619,
-    "color": "ROJO",
-    "n_h2h": 8,
-    "p_home_individual": 0.6594851166532583,
-    "p_away_individual": 0.3628412328412328,
-    "hora": "15:55",
-    "event_id": "12470450",
-    "hora_ts": 1787406900,
-    "racha_home": 1,
-    "racha_away": 1,
-    "tasa_home": 0.6090909090909091,
-    "tasa_away": 0.4263233190271817,
-    "h2h_ultima_fecha": "10/08/2026"
-  },
   "12469352": {
     "liga": "TT Elite Series",
     "home": "Michal Guzik",
