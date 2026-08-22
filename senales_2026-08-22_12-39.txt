@@ -1,0 +1,48 @@
+Señales generadas el 22/08/2026 a las 12:39
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 298 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 2077, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2076, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 3 tras reintento, me detengo aqui)
+  Setka Cup: 100 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 1921, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 1920, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  Czech Liga Pro: 238 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 594 partidos historicos (pagina 2649, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 350 partidos nuevos anadidos
+  (backfill TT Cup: sin respuesta en pagina 3021, seguimos en la proxima corrida)
+  TT Cup: backfill anadio 95 partidos historicos (pagina 3020, agotado=False)
+
+Total partidos historicos acumulados: 340077
+Jugadores con rating calculado: 2424
+
+Buscando proximos partidos...
+   (busqueda directa de Slawomir Dosz: +42 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 202 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 15:10  Setka Cup          Oleksandr Zhyrnov    vs Oleg Varlamov        | Ambos ganan set:  75.3%  [P(Oleksandr Zhyrnov)=81.6% · P(Oleg Varlamov)=92.3%] (H2H n=25)
+🟢 15:30  Setka Cup          Dmytro Kryshtal      vs Serhii Kushnirenko   | Ambos ganan set:  81.0%  [P(Dmytro Kryshtal)=92.3% · P(Serhii Kushnirenko)=87.8%] (H2H n=76)
+🟢 16:10  Setka Cup          Oleg Varlamov        vs Yevhenii Holoborodko | Ambos ganan set:  79.3%  [P(Oleg Varlamov)=90.9% · P(Yevhenii Holoborodko)=87.2%] (H2H n=40)
+🟢 16:30  Setka Cup          Oleh Plyska          vs Miroslav Vana        | Ambos ganan set:  83.7%  [P(Oleh Plyska)=91.1% · P(Miroslav Vana)=91.9%] (H2H n=22)
+🟢 16:55  Setka Cup          Mykhailo Potapov     vs Ivan Pytsko          | Ambos ganan set:  77.1%  [P(Mykhailo Potapov)=87.5% · P(Ivan Pytsko)=88.1%] (H2H n=9)
+🟢 17:00  Setka Cup          Dmytro Kryshtal      vs Serhii Balabei       | Ambos ganan set:  76.6%  [P(Dmytro Kryshtal)=83.7% · P(Serhii Balabei)=91.5%] (H2H n=111)
+🟢 17:25  TT Elite Series    Alan Wos             vs Marcin Marchlewski   | Ambos ganan set:  78.5%  [P(Alan Wos)=87.0% · P(Marcin Marchlewski)=90.2%] (H2H n=33)
+🟢 17:30  Czech Liga Pro     Michal Zahradka      vs Ales Barton          | Ambos ganan set:  77.0%  [P(Michal Zahradka)=85.2% · P(Ales Barton)=90.4%] (H2H n=18)
+🟢 17:45  Setka Cup          Lukas Heinzl         vs Volodymyr Burylov    | Ambos ganan set:  82.0%  [P(Lukas Heinzl)=89.9% · P(Volodymyr Burylov)=91.2%] (H2H n=16)
+🟢 18:05  Setka Cup          Oleksii Mitla        vs Anton Shypilov       | Ambos ganan set:  83.4%  [P(Oleksii Mitla)=87.6% · P(Anton Shypilov)=95.3%] (H2H n=80)
+🟢 18:55  Setka Cup          Roman Cherevko       vs Evgeniy Pismenniy    | Ambos ganan set:  78.3%  [P(Roman Cherevko)=95.4% · P(Evgeniy Pismenniy)=82.1%] (H2H n=73)
+🟢 19:20  TT Elite Series    Alan Wos             vs Jakub Chmielowski    | Ambos ganan set:  76.7%  [P(Alan Wos)=85.4% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
+🟢 19:45  Setka Cup          Tomas Liska          vs Radovan Pisa         | Ambos ganan set:  80.0%  [P(Tomas Liska)=87.8% · P(Radovan Pisa)=91.2%] (H2H n=30)
+🟢 20:45  Setka Cup          Tomas Liska          vs Michal Makara        | Ambos ganan set:  80.5%  [P(Tomas Liska)=89.1% · P(Michal Makara)=90.3%] (H2H n=55)
+🟢 20:55  Setka Cup          Ivan Pytsko          vs Mykola Slozka        | Ambos ganan set:  75.7%  [P(Ivan Pytsko)=89.5% · P(Mykola Slozka)=84.5%] (H2H n=23)
+🟢 21:45  Setka Cup          Radovan Pisa         vs Michal Makara        | Ambos ganan set:  83.7%  [P(Radovan Pisa)=93.0% · P(Michal Makara)=90.0%] (H2H n=43)
