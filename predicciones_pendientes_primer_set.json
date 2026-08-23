@@ -1,1 +1,22 @@
-{}
+{
+  "12477666": {
+    "liga": "Setka Cup",
+    "home": "Ihor Serdiuk",
+    "away": "Roman Boklah",
+    "favorito": "Ihor Serdiuk",
+    "probabilidad": 0.7007566626160453,
+    "score": 0.7624787739811173,
+    "color": "AMARILLO",
+    "n_h2h": 26,
+    "p_home_individual": 0.7007566626160453,
+    "p_away_individual": 0.310019617113646,
+    "hora": "18:30",
+    "event_id": "12477666",
+    "hora_ts": 1787502600,
+    "racha_home": -1,
+    "racha_away": -3,
+    "tasa_home": 0.5875,
+    "tasa_away": 0.4407894736842105,
+    "h2h_ultima_fecha": "22/08/2026"
+  }
+}
