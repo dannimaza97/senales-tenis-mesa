@@ -1,0 +1,30 @@
+Señales generadas el 23/08/2026 a las 20:10
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 348 partidos nuevos anadidos
+  (backfill TT Elite Series: sin respuesta en pagina 2644, seguimos en la proxima corrida)
+  TT Elite Series: backfill anadio 395 partidos historicos (pagina 2643, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Setka Cup: 446 partidos nuevos anadidos
+  Setka Cup: backfill anadio 731 partidos historicos (pagina 2472, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 369 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 971 partidos historicos (pagina 3333, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  TT Cup: 548 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342210
+Jugadores con rating calculado: 2452
+
+Buscando proximos partidos...
+   (busqueda directa de Miroslav Dolezal: +21 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 21 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:30  Setka Cup          Nazar Danyliuk       vs Dmytro Zeniuk        | Ambos ganan set:  77.5%  [P(Nazar Danyliuk)=91.3% · P(Dmytro Zeniuk)=84.9%] (H2H n=29)
+🟡 22:45  Setka Cup          Iurii Hrekh          vs Dmytro Shchegelskyi  | Ambos ganan set:  74.9%  [P(Iurii Hrekh)=89.6% · P(Dmytro Shchegelskyi)=83.5%] (H2H n=19)
