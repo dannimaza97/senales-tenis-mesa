@@ -1,1 +1,42 @@
-{}
+{
+  "12481895": {
+    "liga": "Setka Cup",
+    "home": "Oleksandr Syksa",
+    "away": "Serhii Chuhai",
+    "favorito": "Serhii Chuhai",
+    "probabilidad": 0.734793629801069,
+    "score": 0.7991154309387501,
+    "color": "AMARILLO",
+    "n_h2h": 43,
+    "p_home_individual": 0.2574002585450319,
+    "p_away_individual": 0.734793629801069,
+    "hora": "11:00",
+    "event_id": "12481895",
+    "hora_ts": 1787562000,
+    "racha_home": 1,
+    "racha_away": -5,
+    "tasa_home": 0.4407894736842105,
+    "tasa_away": 0.5315487571701721,
+    "h2h_ultima_fecha": "17/08/2026"
+  },
+  "12480875": {
+    "liga": "TT Elite Series",
+    "home": "Krzysztof Hetnar",
+    "away": "Jakub Kaczmarek",
+    "favorito": "Krzysztof Hetnar",
+    "probabilidad": 0.7310975141936474,
+    "score": 0.7948349361433412,
+    "color": "AMARILLO",
+    "n_h2h": 32,
+    "p_home_individual": 0.7310975141936474,
+    "p_away_individual": 0.2731834492038574,
+    "hora": "13:00",
+    "event_id": "12480875",
+    "hora_ts": 1787569200,
+    "racha_home": 1,
+    "racha_away": -2,
+    "tasa_home": 0.6287978863936592,
+    "tasa_away": 0.3836549375709421,
+    "h2h_ultima_fecha": "11/08/2026"
+  }
+}
