@@ -1,0 +1,42 @@
+Señales generadas el 23/08/2026 a las 15:26
+
+Cargando historico acumulado guardado...
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 349 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 900 partidos historicos (pagina 2559, agotado=False)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Setka Cup: 346 partidos nuevos anadidos
+  (backfill Setka Cup: sin respuesta en pagina 2421, seguimos en la proxima corrida)
+  Setka Cup: backfill anadio 338 partidos historicos (pagina 2420, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Czech Liga Pro: 425 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 921 partidos historicos (pagina 3243, agotado=False)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Cup: 400 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342081
+Jugadores con rating calculado: 2432
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 132 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 17:30  Czech Liga Pro     Matyas Navedla       vs Pavel Wawrosz        | Ambos ganan set:  79.9%  [P(Matyas Navedla)=87.0% · P(Pavel Wawrosz)=91.8%] (H2H n=22)
+🟢 17:45  TT Elite Series    Jakub Kuzmicz        vs Krzysztof Kapik      | Ambos ganan set:  78.6%  [P(Jakub Kuzmicz)=90.2% · P(Krzysztof Kapik)=87.2%] (H2H n=61)
+🟢 17:45  Setka Cup          Volodymyr Burylov    vs Michal Makara        | Ambos ganan set:  75.7%  [P(Volodymyr Burylov)=86.1% · P(Michal Makara)=88.0%] (H2H n=7)
+🟢 17:50  TT Elite Series    Alan Wos             vs Marcin Marchlewski   | Ambos ganan set:  78.6%  [P(Alan Wos)=87.2% · P(Marcin Marchlewski)=90.2%] (H2H n=33)
+🟢 18:00  Czech Liga Pro     Pavel Wawrosz        vs Michal Vavrecka      | Ambos ganan set:  76.6%  [P(Pavel Wawrosz)=86.1% · P(Michal Vavrecka)=89.0%] (H2H n=40)
+🟢 18:05  TT Elite Series    Jakub Chmielowski    vs Maciej Kolek         | Ambos ganan set:  77.1%  [P(Jakub Chmielowski)=85.1% · P(Maciej Kolek)=90.6%] (H2H n=18)
+🟢 18:25  Setka Cup          Vasil Salivonchyk    vs Oleh Maksymkiv       | Ambos ganan set:  78.2%  [P(Vasil Salivonchyk)=91.8% · P(Oleh Maksymkiv)=85.1%] (H2H n=28)
+🟢 19:30  TT Elite Series    Krzysztof Schaniel   vs Wojciech Urban       | Ambos ganan set:  75.2%  [P(Krzysztof Schaniel)=87.7% · P(Wojciech Urban)=85.8%] (H2H n=75)
+🟢 19:40  TT Elite Series    Jakub Chmielowski    vs Jakub Kuzmicz        | Ambos ganan set:  80.1%  [P(Jakub Chmielowski)=88.2% · P(Jakub Kuzmicz)=90.8%] (H2H n=12)
+🟡 20:00  Czech Liga Pro     Radovan Polasek      vs Michal Kratochvil    | Ambos ganan set:  74.2%  [P(Radovan Polasek)=86.5% · P(Michal Kratochvil)=85.9%] (H2H n=8)
+🟢 20:30  Czech Liga Pro     Radim Pavelka        vs Vladimir Postelt     | Ambos ganan set:  81.6%  [P(Radim Pavelka)=87.5% · P(Vladimir Postelt)=93.3%] (H2H n=58)
+🟢 21:45  Setka Cup          Karel Farsky         vs Martin Vorel         | Ambos ganan set:  76.9%  [P(Karel Farsky)=86.4% · P(Martin Vorel)=89.0%] (H2H n=14)
+🟢 22:00  Setka Cup          Jan Seeman           vs Jakub Dufek Jnr      | Ambos ganan set:  79.9%  [P(Jan Seeman)=88.3% · P(Jakub Dufek Jnr)=90.5%] (H2H n=19)
+🟢 22:00  Czech Liga Pro     Radovan Polasek      vs Michal Vavrecka      | Ambos ganan set:  75.5%  [P(Radovan Polasek)=88.1% · P(Michal Vavrecka)=85.7%] (H2H n=54)
+🟢 22:30  Setka Cup          Nazar Danyliuk       vs Dmytro Zeniuk        | Ambos ganan set:  77.5%  [P(Nazar Danyliuk)=91.3% · P(Dmytro Zeniuk)=84.9%] (H2H n=29)
+🟡 22:45  Setka Cup          Iurii Hrekh          vs Dmytro Shchegelskyi  | Ambos ganan set:  74.9%  [P(Iurii Hrekh)=89.6% · P(Dmytro Shchegelskyi)=83.5%] (H2H n=19)
