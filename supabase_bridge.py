@@ -222,3 +222,66 @@ def obtener_signals_sin_resultado(horas_atras=72):
 
     return [s for s in senales if str(s.get("event_id")) not in ya_resueltos]
 
+
+def marcar_notificado_supabase(event_id):
+    """Registra en Supabase que ya se envio el aviso de Telegram
+    (GANADORA/PERDIDA) para este event_id.
+
+    Es la copia duradera de resultados_notificados.json: se escribe por
+    HTTP en el momento en que se manda el aviso, sin depender de que el
+    commit de git de esa ejecucion consiga hacer push. Sin esto, si ese
+    push falla y resultados_notificados.json vuelve a un estado
+    anterior en el siguiente checkout, la ejecucion siguiente puede
+    volver a mandar el mismo aviso de Telegram por segunda vez (el bug
+    de duplicados que ya se vio antes).
+
+    Requiere una tabla `resultados_notificados` en Supabase con columnas
+    `event_id text primary key` y `notificado_at timestamptz default
+    now()`. Si la tabla todavia no existe, esto simplemente avisa por
+    consola y no rompe nada (igual que el resto de integraciones con
+    Supabase de este archivo)."""
+    if not _habilitado() or not event_id:
+        return
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/resultados_notificados",
+            headers=_headers(prefer="resolution=merge-duplicates"),
+            params={"on_conflict": "event_id"},
+            json=[{"event_id": str(event_id)}],
+            timeout=20,
+        )
+        if resp.status_code >= 300:
+            print(f" (aviso: Supabase respondio {resp.status_code} al marcar notificado: {resp.text[:300]})")
+    except requests.exceptions.RequestException as e:
+        print(f" (aviso: error de red marcando notificado en Supabase: {e})")
+
+
+def obtener_notificados_supabase(horas_atras=72):
+    """Devuelve el conjunto de event_id marcados como notificados en
+    Supabase en las ultimas `horas_atras` horas.
+
+    Se usa para fusionar con resultados_notificados.json al arrancar
+    comprobar_predicciones_anteriores(), de forma que el registro de
+    "ya se aviso este resultado por Telegram" sobreviva aunque el
+    archivo local se haya reseteado por un push de git fallido."""
+    if not _habilitado():
+        return set()
+
+    ahora = datetime.datetime.now(datetime.timezone.utc)
+    desde = (ahora - datetime.timedelta(hours=horas_atras)).isoformat()
+
+    try:
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/resultados_notificados",
+            headers=_headers(),
+            params={"select": "event_id", "notificado_at": f"gte.{desde}"},
+            timeout=20,
+        )
+        if resp.status_code == 200:
+            return {str(r["event_id"]) for r in resp.json()}
+        if resp.status_code != 404:
+            print(f" (aviso: Supabase respondio {resp.status_code} consultando notificados: {resp.text[:300]})")
+    except requests.exceptions.RequestException as e:
+        print(f" (aviso: error de red consultando notificados de Supabase: {e})")
+    return set()
+
