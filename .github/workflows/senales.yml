@@ -76,3 +76,21 @@ jobs:
           git commit -m "Actualizar datos" || echo "Sin cambios que guardar"
           git pull --rebase --strategy-option=ours || true
           git push || echo "No se pudo subir, se intentara en el proximo ciclo"
+
+      - name: Avisar por Telegram si la ejecucion fallo
+        # Antes, si un paso fallaba (BetsAPI caida, secret vencido, bug en el
+        # motor, etc.) nadie se enteraba hasta notar que faltaban avisos en
+        # Telegram, a veces horas o dias despues. Este paso corre solo cuando
+        # algun paso anterior del job fallo (if: failure()) y manda un aviso
+        # inmediato con el link a los logs de esta ejecucion.
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          texto="⚠️ Ejecutar señales #${{ github.run_number }} FALLÓ (${{ github.event_name }}). Logs: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          for chat_id in "663483538" "-1004364860113"; do
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${chat_id}" \
+              --data-urlencode "text=${texto}" \
+              > /dev/null || true
+          done
