@@ -1,0 +1,45 @@
+Señales generadas el 24/08/2026 a las 09:47
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 21, reintento)
+ (aviso: tiempo de espera agotado en pagina 28, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 29)
+  TT Elite Series: 1400 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 28, reintento)
+ (pagina 33: sin partidos nuevos, ya al dia, freno aqui)
+  Setka Cup: 1479 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (pagina 21: sin partidos nuevos, ya al dia, freno aqui)
+  Czech Liga Pro: 934 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (pagina 18: sin partidos nuevos, ya al dia, freno aqui)
+  TT Cup: 807 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 343022
+Jugadores con rating calculado: 2410
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 280 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 12:00  Czech Liga Pro     Jan Mecl Jr          vs Oleksandr Kolisnyk   | Ambos ganan set:  78.2%  [P(Jan Mecl Jr)=92.3% · P(Oleksandr Kolisnyk)=84.7%] (H2H n=28)
+🟢 12:50  Setka Cup          Sergii Skhabitskiy   vs Volodymyr Melnykov   | Ambos ganan set:  76.2%  [P(Sergii Skhabitskiy)=86.2% · P(Volodymyr Melnykov)=88.4%] (H2H n=28)
+🟢 13:20  TT Cup             Jakub Rolik          vs Filip Musil          | Ambos ganan set:  78.0%  [P(Jakub Rolik)=86.7% · P(Filip Musil)=90.0%] (H2H n=37)
+🟢 13:25  TT Elite Series    Piotr Przewlocki     vs Wojciech Wojtaszczyk | Ambos ganan set:  81.9%  [P(Piotr Przewlocki)=89.2% · P(Wojciech Wojtaszczyk)=91.8%] (H2H n=17)
+🟢 13:30  Czech Liga Pro     Tomas Dousek         vs Michal Cabis         | Ambos ganan set:  78.1%  [P(Tomas Dousek)=88.3% · P(Michal Cabis)=88.4%] (H2H n=20)
+🟢 13:50  TT Elite Series    Sebastian Szostok    vs Krzysztof Hetnar     | Ambos ganan set:  79.0%  [P(Sebastian Szostok)=88.3% · P(Krzysztof Hetnar)=89.4%] (H2H n=14)
+🟢 14:05  TT Elite Series    Jan Zandecki         vs Jakub Kosowski       | Ambos ganan set:  79.9%  [P(Jan Zandecki)=92.0% · P(Jakub Kosowski)=86.8%] (H2H n=19)
+🟢 14:20  TT Cup             Jakub Rolik          vs Ondrej Sebek         | Ambos ganan set:  77.9%  [P(Jakub Rolik)=89.0% · P(Ondrej Sebek)=87.5%] (H2H n=40)
+🟢 14:30  Czech Liga Pro     Oleksandr Kolisnyk   vs Michal Zahradka      | Ambos ganan set:  82.2%  [P(Oleksandr Kolisnyk)=89.9% · P(Michal Zahradka)=91.4%] (H2H n=24)
+🟢 14:55  TT Elite Series    Adrian Wiecek        vs Jan Zandecki         | Ambos ganan set:  78.1%  [P(Adrian Wiecek)=86.9% · P(Jan Zandecki)=89.9%] (H2H n=20)
+🟢 15:05  TT Elite Series    Sebastian Szostok    vs Mariusz Baron        | Ambos ganan set:  79.8%  [P(Sebastian Szostok)=89.1% · P(Mariusz Baron)=89.6%] (H2H n=26)
+🟢 16:00  TT Cup             Wiekiera Arkadiusz   vs Kiejda Patryk        | Ambos ganan set:  82.6%  [P(Wiekiera Arkadiusz)=93.5% · P(Kiejda Patryk)=88.4%] (H2H n=24)
+🟢 17:30  Czech Liga Pro     Jiri Ruzicka         vs Martin Huk           | Ambos ganan set:  78.6%  [P(Jiri Ruzicka)=86.0% · P(Martin Huk)=91.4%] (H2H n=199)
+🟢 18:30  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  79.7%  [P(Roman Hudeczek)=91.8% · P(Michal Chalupa)=86.8%] (H2H n=39)
+🟢 20:00  Czech Liga Pro     Oleksandr Kolisnyk   vs Ondrej Svacha        | Ambos ganan set:  77.3%  [P(Oleksandr Kolisnyk)=86.6% · P(Ondrej Svacha)=89.3%] (H2H n=50)
+🟢 20:30  Czech Liga Pro     Martin Huk           vs Jiri Ruzicka         | Ambos ganan set:  78.6%  [P(Martin Huk)=91.4% · P(Jiri Ruzicka)=86.0%] (H2H n=199)
+🟢 21:00  Czech Liga Pro     Ondrej Svacha        vs Martin Huk           | Ambos ganan set:  84.0%  [P(Ondrej Svacha)=91.4% · P(Martin Huk)=91.9%] (H2H n=90)
+🟢 21:30  Czech Liga Pro     Zbynek Zientek       vs Filip Zurek          | Ambos ganan set:  80.5%  [P(Zbynek Zientek)=88.5% · P(Filip Zurek)=91.0%] (H2H n=68)
