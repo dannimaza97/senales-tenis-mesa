@@ -1,140 +1,4 @@
 {
-  "12481335": {
-    "liga": "Czech Liga Pro",
-    "home": "Oleksandr Kolisnyk",
-    "away": "Ondrej Svacha",
-    "probabilidad": 0.7729297704501288,
-    "score": 0.6359514745341986,
-    "color": "VERDE",
-    "n_h2h": 50,
-    "p_home_individual": 0.865301143285134,
-    "p_away_individual": 0.8932494501459742,
-    "hora": "20:00",
-    "event_id": "12481335",
-    "hora_ts": 1787594400,
-    "impulso_home": -0.0004061738424046002,
-    "impulso_away": 0.03994708994708995,
-    "racha_home": -5,
-    "racha_away": -3,
-    "tasa_home": 0.5004061738424046,
-    "tasa_away": 0.5100529100529101,
-    "barrido_home": 0.2711038961038961,
-    "barrido_away": 0.2697095435684647,
-    "fue_barrido_home": 0.22764227642276422,
-    "fue_barrido_away": 0.23326133909287258,
-    "h2h_ultima_fecha": "15/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "15/08/2026",
-        "ganador": "Oleksandr Kolisnyk",
-        "perdedor": "Ondrej Svacha",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
-      },
-      {
-        "fecha": "05/07/2026",
-        "ganador": "Oleksandr Kolisnyk",
-        "perdedor": "Ondrej Svacha",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "16/03/2026",
-        "ganador": "Oleksandr Kolisnyk",
-        "perdedor": "Ondrej Svacha",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "11/03/2026",
-        "ganador": "Oleksandr Kolisnyk",
-        "perdedor": "Ondrej Svacha",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "11/03/2026",
-        "ganador": "Oleksandr Kolisnyk",
-        "perdedor": "Ondrej Svacha",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      }
-    ],
-    "senal_1_1": 0.48573737550145457,
-    "senal_3er": 0.978524239409738,
-    "senal_3_0": 0.2256936151580288,
-    "senal_4mas": 0.7743063848419712,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
-  "12481346": {
-    "liga": "Czech Liga Pro",
-    "home": "Martin Huk",
-    "away": "Jiri Ruzicka",
-    "probabilidad": 0.7864982670256215,
-    "score": 0.6571791598029207,
-    "color": "VERDE",
-    "n_h2h": 200,
-    "p_home_individual": 0.9141830580398557,
-    "p_away_individual": 0.860329077539449,
-    "hora": "20:30",
-    "event_id": "12481346",
-    "hora_ts": 1787596200,
-    "impulso_home": 0.10823154540626656,
-    "impulso_away": -0.08448385053831536,
-    "racha_home": -1,
-    "racha_away": 1,
-    "tasa_home": 0.4917684545937334,
-    "tasa_away": 0.4844838505383154,
-    "barrido_home": 0.25161987041036715,
-    "barrido_away": 0.28888888888888886,
-    "fue_barrido_home": 0.2727272727272727,
-    "fue_barrido_away": 0.25307125307125306,
-    "h2h_ultima_fecha": "24/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "24/08/2026",
-        "ganador": "Martin Huk",
-        "perdedor": "Jiri Ruzicka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "20/08/2026",
-        "ganador": "Martin Huk",
-        "perdedor": "Jiri Ruzicka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "19/08/2026",
-        "ganador": "Jiri Ruzicka",
-        "perdedor": "Martin Huk",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "19/08/2026",
-        "ganador": "Martin Huk",
-        "perdedor": "Jiri Ruzicka",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
-      },
-      {
-        "fecha": "15/08/2026",
-        "ganador": "Martin Huk",
-        "perdedor": "Jiri Ruzicka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "senal_1_1": 0.5630566948132292,
-    "senal_3er": 0.9930798799267029,
-    "senal_3_0": 0.21839914973590555,
-    "senal_4mas": 0.7816008502640944,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "12481354": {
     "liga": "Czech Liga Pro",
     "home": "Ondrej Svacha",
@@ -207,24 +71,24 @@
     "liga": "Czech Liga Pro",
     "home": "Zbynek Zientek",
     "away": "Filip Zurek",
-    "probabilidad": 0.8050107048785172,
-    "score": 0.7113158451524337,
+    "probabilidad": 0.8051340334364886,
+    "score": 0.7115724401688065,
     "color": "VERDE",
     "n_h2h": 68,
-    "p_home_individual": 0.8849078513635001,
-    "p_away_individual": 0.9097113373309161,
+    "p_home_individual": 0.8849889789666381,
+    "p_away_individual": 0.9097672994488671,
     "hora": "21:30",
     "event_id": "12481337",
     "hora_ts": 1787599800,
-    "impulso_home": 0.09597855227882035,
-    "impulso_away": 0.038047808764940294,
-    "racha_home": 6,
-    "racha_away": 2,
-    "tasa_home": 0.5040214477211796,
-    "tasa_away": 0.5119521912350598,
+    "impulso_home": 0.09732620320855612,
+    "impulso_away": 0.08707753479125246,
+    "racha_home": -1,
+    "racha_away": 3,
+    "tasa_home": 0.5026737967914439,
+    "tasa_away": 0.5129224652087475,
     "barrido_home": 0.2393617021276596,
-    "barrido_away": 0.26459143968871596,
-    "fue_barrido_home": 0.3027027027027027,
+    "barrido_away": 0.26356589147286824,
+    "fue_barrido_home": 0.3010752688172043,
     "fue_barrido_away": 0.2857142857142857,
     "h2h_ultima_fecha": "06/07/2026",
     "h2h_historial": [
@@ -264,10 +128,10 @@
         "sets_perdedor": 2
       }
     ],
-    "senal_1_1": 0.5779250089752758,
-    "senal_3er": 0.9820065860721523,
-    "senal_3_0": 0.18446186546284238,
-    "senal_4mas": 0.8153401147351774,
+    "senal_1_1": 0.5778953193057761,
+    "senal_3er": 0.9820090139604678,
+    "senal_3_0": 0.18433496366167354,
+    "senal_4mas": 0.8154674078798284,
     "discrepancia": false,
     "ultimo_torneo": false
   }
