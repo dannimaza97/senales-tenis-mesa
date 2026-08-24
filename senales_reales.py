@@ -257,6 +257,10 @@ def comprobar_predicciones_anteriores():
             aun_pendientes[event_id] = pred
             continue
         if str(detalle.get("time_status")) != "3":
+            hora_ts_pred = pred.get("hora_ts")
+            if hora_ts_pred and (time.time() - hora_ts_pred) > 6 * 3600:
+                print(f"  (DIAG resultado {event_id}: time_status={detalle.get('time_status')!r} sigue sin ser 3 y el partido era de hace mas de 6h (hora_ts={hora_ts_pred}); BetsAPI probablemente lo cancelo/pospuso/interrumpio, se descarta sin resultado ni aviso para que no quede pendiente para siempre)")
+                continue
             print(f"  (DIAG resultado {event_id}: time_status={detalle.get('time_status')!r} time={detalle.get('time')!r} ss={detalle.get('ss')!r} home={detalle.get('home')!r} away={detalle.get('away')!r})")
             aun_pendientes[event_id] = pred
             continue
@@ -347,6 +351,10 @@ def reconciliar_senales_huerfanas():
         if detalle is None:
             continue
         if str(detalle.get("time_status")) != "3":
+            hora_ts_s = s.get("hora_ts")
+            if hora_ts_s and (time.time() - hora_ts_s) > 6 * 3600:
+                print(f"  (DIAG reconciliacion {event_id}: time_status={detalle.get('time_status')!r} sigue sin ser 3 y el partido era de hace mas de 6h, probablemente cancelado/pospuesto, se omite)")
+                continue
             print(f"  (DIAG reconciliacion {event_id}: time_status={detalle.get('time_status')!r} time={detalle.get('time')!r} ss={detalle.get('ss')!r})")
             continue
         resultado = parsear_partido(detalle)
