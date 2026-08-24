@@ -11,7 +11,7 @@ import time
 import datetime
 from dataclasses import dataclass, field
 from zoneinfo import ZoneInfo
-from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase, guardar_resultado_supabase, obtener_signals_sin_resultado
+from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase, guardar_resultado_supabase, obtener_signals_sin_resultado, marcar_notificado_supabase, obtener_notificados_supabase
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
@@ -247,6 +247,11 @@ def comprobar_predicciones_anteriores():
         return
     print(f"  (DIAG resultado: comprobando {len(pendientes)} predicciones pendientes)")
     notificados = cargar_resultados_notificados()
+    # Fusion con Supabase: si resultados_notificados.json se reseteo por un
+    # push de git fallido en una ejecucion anterior, esto evita volver a
+    # mandar por Telegram un aviso de GANADORA/PERDIDA ya enviado.
+    for event_id_notificado in obtener_notificados_supabase():
+        notificados.setdefault(event_id_notificado, True)
     estadisticas = cargar_estadisticas()
     aun_pendientes = {}
     for event_id, pred in pendientes.items():
@@ -311,6 +316,7 @@ def comprobar_predicciones_anteriores():
             "fecha": fecha_partido,
         })
         notificados[event_id] = True
+        marcar_notificado_supabase(event_id)
     resueltas = len(pendientes) - len(aun_pendientes)
     print(f"  (DIAG resultado: {resueltas} resueltas en esta ejecucion, {len(aun_pendientes)} siguen pendientes)")
     guardar_pendientes(aun_pendientes)
