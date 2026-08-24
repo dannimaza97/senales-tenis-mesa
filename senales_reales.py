@@ -709,17 +709,33 @@ def calcular_pct_fue_barrido(jugador, partidos):
     return sum(1 for p in derrotas if p["sets_perdedor"] == 0) / len(derrotas)
 
 
-def h2h_detalle(a, b, partidos):
+def h2h_detalle(a, b, partidos, n_historial=5):
     enfrentamientos = [p for p in partidos if {p["jugador_a"], p["jugador_b"]} == {a, b}]
     enfrentamientos.sort(key=lambda p: p["time"])
     if not enfrentamientos:
-        return {"n": 0, "ultima_fecha": None}
+        return {"n": 0, "ultima_fecha": None, "ultimos_5": []}
     ultimo = enfrentamientos[-1]
     if ultimo["time"]:
         fecha = datetime.datetime.fromtimestamp(ultimo["time"]).strftime("%d/%m/%Y")
     else:
         fecha = "desconocida"
-    return {"n": len(enfrentamientos), "ultima_fecha": fecha}
+
+    # Para que la web pueda mostrar "ultimos 5 enfrentamientos" con marcador y
+    # ganador de cada uno (no solo el % agregado que ya calculamos arriba).
+    ultimos_5 = []
+    for p in list(reversed(enfrentamientos))[:n_historial]:
+        ultimos_5.append({
+            "fecha": (
+                datetime.datetime.fromtimestamp(p["time"]).strftime("%d/%m/%Y")
+                if p["time"] else None
+            ),
+            "ganador": p["ganador"],
+            "perdedor": p["perdedor"],
+            "sets_ganador": p["sets_ganador"],
+            "sets_perdedor": p["sets_perdedor"],
+        })
+
+    return {"n": len(enfrentamientos), "ultima_fecha": fecha, "ultimos_5": ultimos_5}
 
 
 ARCHIVO_SELECCION_DIARIA = "seleccion_diaria.json"
@@ -893,6 +909,7 @@ def main():
                 "fue_barrido_home": calcular_pct_fue_barrido(home, todos_partidos),
                 "fue_barrido_away": calcular_pct_fue_barrido(away, todos_partidos),
                 "h2h_ultima_fecha": h2h_info["ultima_fecha"],
+                "h2h_historial": h2h_info["ultimos_5"],
                 "senal_1_1": p_1_1, "senal_3er": p_3er,
                 "senal_3_0": p_3_0, "senal_4mas": p_4mas,
                 "discrepancia": discrepancia,
