@@ -1,1 +1,42 @@
-{}
+{
+  "13004458": {
+    "liga": "TT Elite Series",
+    "home": "Dariusz Molenda",
+    "away": "Kacper Kwiatkowski",
+    "favorito": "Dariusz Molenda",
+    "probabilidad": 0.71597018296815,
+    "score": 0.7309758560724048,
+    "color": "AMARILLO",
+    "n_h2h": 2,
+    "p_home_individual": 0.71597018296815,
+    "p_away_individual": 0.38244774615965754,
+    "hora": "21:10",
+    "event_id": "13004458",
+    "hora_ts": 1787685000,
+    "racha_home": 14,
+    "racha_away": -1,
+    "tasa_home": 0.7377777777777778,
+    "tasa_away": 0.3780487804878049,
+    "h2h_ultima_fecha": "11/08/2026"
+  },
+  "13003776": {
+    "liga": "TT Elite Series",
+    "home": "Dariusz Molenda",
+    "away": "Andrzej Krezel",
+    "favorito": "Dariusz Molenda",
+    "probabilidad": 0.7296137339055794,
+    "score": 0.7372866892482737,
+    "color": "AMARILLO",
+    "n_h2h": 0,
+    "p_home_individual": 0.7296137339055794,
+    "p_away_individual": 0.47384855581576896,
+    "hora": "22:45",
+    "event_id": "13003776",
+    "hora_ts": 1787690700,
+    "racha_home": 14,
+    "racha_away": -3,
+    "tasa_home": 0.7377777777777778,
+    "tasa_away": 0.47368421052631576,
+    "h2h_ultima_fecha": null
+  }
+}

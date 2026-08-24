@@ -1,1 +1,2368 @@
-{}
+{
+  "13006812": {
+    "liga": "Setka Cup",
+    "home": "Jakub Mejzlik",
+    "away": "Jaroslav Puk",
+    "probabilidad": 0.7480432062568819,
+    "score": 0.6015245972694995,
+    "color": "AMARILLO",
+    "n_h2h": 11,
+    "p_home_individual": 0.8979209947452036,
+    "p_away_individual": 0.8330835459183674,
+    "hora": "08:00",
+    "event_id": "13006812",
+    "hora_ts": 1787637600,
+    "impulso_home": -0.2195121951219512,
+    "impulso_away": 0.09140127388535035,
+    "racha_home": -1,
+    "racha_away": -1,
+    "tasa_home": 0.4695121951219512,
+    "tasa_away": 0.4585987261146497,
+    "barrido_home": 0.2727272727272727,
+    "barrido_away": 0.19444444444444445,
+    "fue_barrido_home": 0.1724137931034483,
+    "fue_barrido_away": 0.2823529411764706,
+    "h2h_ultima_fecha": "19/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Jakub Mejzlik",
+        "perdedor": "Jaroslav Puk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "17/08/2026",
+        "ganador": "Jakub Mejzlik",
+        "perdedor": "Jaroslav Puk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "03/08/2026",
+        "ganador": "Jaroslav Puk",
+        "perdedor": "Jakub Mejzlik",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "14/07/2026",
+        "ganador": "Jaroslav Puk",
+        "perdedor": "Jakub Mejzlik",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "06/07/2026",
+        "ganador": "Jaroslav Puk",
+        "perdedor": "Jakub Mejzlik",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.505809824865575,
+    "senal_3er": 0.9505176986588049,
+    "senal_3_0": 0.21326449460772334,
+    "senal_4mas": 0.784917712406819,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002177": {
+    "liga": "TT Elite Series",
+    "home": "Marcin Jadczyk",
+    "away": "Adrian Wiecek",
+    "probabilidad": 0.7665049466968695,
+    "score": 0.6093706628935517,
+    "color": "VERDE",
+    "n_h2h": 49,
+    "p_home_individual": 0.8709073664430808,
+    "p_away_individual": 0.8801222451790633,
+    "hora": "08:05",
+    "event_id": "13002177",
+    "hora_ts": 1787637900,
+    "impulso_home": -0.14164535379369142,
+    "impulso_away": -0.16670467502850628,
+    "racha_home": -2,
+    "racha_away": -3,
+    "tasa_home": 0.5916453537936914,
+    "tasa_away": 0.5667046750285063,
+    "barrido_home": 0.3314121037463977,
+    "barrido_away": 0.22937625754527163,
+    "fue_barrido_home": 0.20668058455114824,
+    "fue_barrido_away": 0.2394736842105263,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Marcin Jadczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "17/08/2026",
+        "ganador": "Marcin Jadczyk",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "17/08/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Marcin Jadczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "12/08/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Marcin Jadczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Marcin Jadczyk",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5441583691380769,
+    "senal_3er": 0.9780537711747127,
+    "senal_3_0": 0.24488282505733805,
+    "senal_4mas": 0.7549708250804029,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002737": {
+    "liga": "Czech Liga Pro",
+    "home": "Martin Huk",
+    "away": "Jiri Ruzicka",
+    "probabilidad": 0.7883562615913962,
+    "score": 0.6611518226004938,
+    "color": "VERDE",
+    "n_h2h": 202,
+    "p_home_individual": 0.9149787776416578,
+    "p_away_individual": 0.861611526797781,
+    "hora": "08:30",
+    "event_id": "13002737",
+    "hora_ts": 1787639400,
+    "impulso_home": 0.10821409644939056,
+    "impulso_away": 0.01484523057485787,
+    "racha_home": -1,
+    "racha_away": 1,
+    "tasa_home": 0.4917859035506094,
+    "tasa_away": 0.48515476942514213,
+    "barrido_home": 0.2510775862068966,
+    "barrido_away": 0.2877604166666667,
+    "fue_barrido_home": 0.2721584984358707,
+    "fue_barrido_away": 0.252760736196319,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jiri Ruzicka",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jiri Ruzicka",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Martin Huk",
+        "perdedor": "Jiri Ruzicka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Martin Huk",
+        "perdedor": "Jiri Ruzicka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Jiri Ruzicka",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.567035682219289,
+    "senal_3er": 0.9931423350991596,
+    "senal_3_0": 0.2163851799913357,
+    "senal_4mas": 0.7836148200086643,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001846": {
+    "liga": "Czech Liga Pro",
+    "home": "Adrian Walek",
+    "away": "Samuel Byrtus",
+    "probabilidad": 0.7676268647000323,
+    "score": 0.6443400680668153,
+    "color": "VERDE",
+    "n_h2h": 21,
+    "p_home_individual": 0.8666018079017171,
+    "p_away_individual": 0.8857895952913708,
+    "hora": "08:30",
+    "event_id": "13001846",
+    "hora_ts": 1787639400,
+    "impulso_home": 0.03128342245989313,
+    "impulso_away": 0.09442379182156135,
+    "racha_home": 1,
+    "racha_away": -2,
+    "tasa_home": 0.5187165775401069,
+    "tasa_away": 0.5055762081784386,
+    "barrido_home": 0.19072164948453607,
+    "barrido_away": 0.2867647058823529,
+    "fue_barrido_home": 0.2388888888888889,
+    "fue_barrido_away": 0.2518796992481203,
+    "h2h_ultima_fecha": "23/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "23/08/2026",
+        "ganador": "Adrian Walek",
+        "perdedor": "Samuel Byrtus",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "23/08/2026",
+        "ganador": "Samuel Byrtus",
+        "perdedor": "Adrian Walek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Adrian Walek",
+        "perdedor": "Samuel Byrtus",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "14/08/2026",
+        "ganador": "Adrian Walek",
+        "perdedor": "Samuel Byrtus",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "13/08/2026",
+        "ganador": "Samuel Byrtus",
+        "perdedor": "Adrian Walek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5569000789769154,
+    "senal_3er": 0.9621166197183462,
+    "senal_3_0": 0.212547083260326,
+    "senal_4mas": 0.7852057325421793,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001311": {
+    "liga": "Czech Liga Pro",
+    "home": "Radovan Polasek",
+    "away": "Michal Vavrecka",
+    "probabilidad": 0.7610210993001563,
+    "score": 0.6152896974717961,
+    "color": "VERDE",
+    "n_h2h": 56,
+    "p_home_individual": 0.8839325117818144,
+    "p_away_individual": 0.8609493249276512,
+    "hora": "08:30",
+    "event_id": "13001311",
+    "hora_ts": 1787639400,
+    "impulso_home": -0.06085568326947638,
+    "impulso_away": -0.11056489866321684,
+    "racha_home": -2,
+    "racha_away": -1,
+    "tasa_home": 0.5108556832694764,
+    "tasa_away": 0.5105648986632169,
+    "barrido_home": 0.2425,
+    "barrido_away": 0.23733108108108109,
+    "fue_barrido_home": 0.2741514360313316,
+    "fue_barrido_away": 0.24933920704845816,
+    "h2h_ultima_fecha": "23/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "23/08/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Michal Vavrecka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "23/08/2026",
+        "ganador": "Michal Vavrecka",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "21/08/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Michal Vavrecka",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Michal Vavrecka",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Michal Vavrecka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5082420743711236,
+    "senal_3er": 0.9800991449528682,
+    "senal_3_0": 0.23403218502544462,
+    "senal_4mas": 0.7660156639416887,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13003374": {
+    "liga": "Czech Liga Pro",
+    "home": "Pavel Wawrosz",
+    "away": "Radovan Polasek",
+    "probabilidad": 0.8128071058875374,
+    "score": 0.741746817229752,
+    "color": "VERDE",
+    "n_h2h": 37,
+    "p_home_individual": 0.9057455776672195,
+    "p_away_individual": 0.8973900904721516,
+    "hora": "09:00",
+    "event_id": "13003374",
+    "hora_ts": 1787641200,
+    "impulso_home": -0.1030120481927711,
+    "impulso_away": -0.06085568326947638,
+    "racha_home": 1,
+    "racha_away": -2,
+    "tasa_home": 0.5030120481927711,
+    "tasa_away": 0.5108556832694764,
+    "barrido_home": 0.1377245508982036,
+    "barrido_away": 0.2425,
+    "fue_barrido_home": 0.21212121212121213,
+    "fue_barrido_away": 0.2741514360313316,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Pavel Wawrosz",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Pavel Wawrosz",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Pavel Wawrosz",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "17/08/2026",
+        "ganador": "Pavel Wawrosz",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "15/08/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Pavel Wawrosz",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      }
+    ],
+    "senal_1_1": 0.545165965831009,
+    "senal_3er": 0.9733003504529938,
+    "senal_3_0": 0.16292409700156274,
+    "senal_4mas": 0.837276166875546,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13007349": {
+    "liga": "Setka Cup",
+    "home": "Jakub Mejzlik",
+    "away": "Martin Vorel",
+    "probabilidad": 0.7854817805376373,
+    "score": 0.6192997160186066,
+    "color": "VERDE",
+    "n_h2h": 3,
+    "p_home_individual": 0.8785179640718563,
+    "p_away_individual": 0.894098712446352,
+    "hora": "09:00",
+    "event_id": "13007349",
+    "hora_ts": 1787641200,
+    "impulso_home": -0.2195121951219512,
+    "impulso_away": -0.26835853131749465,
+    "racha_home": -1,
+    "racha_away": -1,
+    "tasa_home": 0.4695121951219512,
+    "tasa_away": 0.5183585313174947,
+    "barrido_home": 0.2727272727272727,
+    "barrido_away": 0.20833333333333334,
+    "fue_barrido_home": 0.1724137931034483,
+    "fue_barrido_away": 0.16143497757847533,
+    "h2h_ultima_fecha": "19/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Martin Vorel",
+        "perdedor": "Jakub Mejzlik",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "10/08/2026",
+        "ganador": "Jakub Mejzlik",
+        "perdedor": "Martin Vorel",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "15/05/2026",
+        "ganador": "Martin Vorel",
+        "perdedor": "Jakub Mejzlik",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5342041774819459,
+    "senal_3er": 0.9502096129629154,
+    "senal_3_0": 0.2127356338824497,
+    "senal_4mas": 0.7810713872683817,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13005350": {
+    "liga": "Setka Cup",
+    "home": "Nazar Danyliuk",
+    "away": "Dmytro Zeniuk",
+    "probabilidad": 0.7675614034162306,
+    "score": 0.6144147235594651,
+    "color": "VERDE",
+    "n_h2h": 31,
+    "p_home_individual": 0.8956243249418412,
+    "p_away_individual": 0.8570126804741189,
+    "hora": "09:05",
+    "event_id": "13005350",
+    "hora_ts": 1787641500,
+    "impulso_home": -0.06929637526652455,
+    "impulso_away": 0.14220779220779217,
+    "racha_home": 1,
+    "racha_away": -1,
+    "tasa_home": 0.5692963752665245,
+    "tasa_away": 0.4577922077922078,
+    "barrido_home": 0.35580524344569286,
+    "barrido_away": 0.425531914893617,
+    "fue_barrido_home": 0.24257425742574257,
+    "fue_barrido_away": 0.2934131736526946,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Dmytro Zeniuk",
+        "perdedor": "Nazar Danyliuk",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "23/08/2026",
+        "ganador": "Dmytro Zeniuk",
+        "perdedor": "Nazar Danyliuk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "04/08/2026",
+        "ganador": "Nazar Danyliuk",
+        "perdedor": "Dmytro Zeniuk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "13/03/2026",
+        "ganador": "Nazar Danyliuk",
+        "perdedor": "Dmytro Zeniuk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "10/03/2026",
+        "ganador": "Nazar Danyliuk",
+        "perdedor": "Dmytro Zeniuk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5387856998571542,
+    "senal_3er": 0.9666873596286436,
+    "senal_3_0": 0.24097500212719292,
+    "senal_4mas": 0.7565664454085493,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13006879": {
+    "liga": "Setka Cup",
+    "home": "Michal Stibor",
+    "away": "Lukas Rulc",
+    "probabilidad": 0.8025066973768162,
+    "score": 0.7009664738494326,
+    "color": "VERDE",
+    "n_h2h": 19,
+    "p_home_individual": 0.8904995072677999,
+    "p_away_individual": 0.9011871324208138,
+    "hora": "09:15",
+    "event_id": "13006879",
+    "hora_ts": 1787642100,
+    "impulso_home": 0.020297029702970315,
+    "impulso_away": -0.2421052631578947,
+    "racha_home": -1,
+    "racha_away": 1,
+    "tasa_home": 0.5297029702970297,
+    "tasa_away": 0.4921052631578947,
+    "barrido_home": 0.24299065420560748,
+    "barrido_away": 0.2727272727272727,
+    "fue_barrido_home": 0.21052631578947367,
+    "fue_barrido_away": 0.15544041450777202,
+    "h2h_ultima_fecha": "16/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "16/08/2026",
+        "ganador": "Lukas Rulc",
+        "perdedor": "Michal Stibor",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "16/08/2026",
+        "ganador": "Michal Stibor",
+        "perdedor": "Lukas Rulc",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "08/08/2026",
+        "ganador": "Michal Stibor",
+        "perdedor": "Lukas Rulc",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "29/07/2026",
+        "ganador": "Lukas Rulc",
+        "perdedor": "Michal Stibor",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "18/06/2026",
+        "ganador": "Michal Stibor",
+        "perdedor": "Lukas Rulc",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.6313476338240714,
+    "senal_3er": 0.9595945524788738,
+    "senal_3_0": 0.18953276154527507,
+    "senal_4mas": 0.8098507603578291,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13002239": {
+    "liga": "TT Elite Series",
+    "home": "Adrian Wiecek",
+    "away": "Jan Zandecki",
+    "probabilidad": 0.785186492831781,
+    "score": 0.658907932956964,
+    "color": "VERDE",
+    "n_h2h": 21,
+    "p_home_individual": 0.8723833732057416,
+    "p_away_individual": 0.9000475214772391,
+    "hora": "09:20",
+    "event_id": "13002239",
+    "hora_ts": 1787642400,
+    "impulso_home": -0.16670467502850628,
+    "impulso_away": -0.06603773584905659,
+    "racha_home": -3,
+    "racha_away": -1,
+    "tasa_home": 0.5667046750285063,
+    "tasa_away": 0.5660377358490566,
+    "barrido_home": 0.22937625754527163,
+    "barrido_away": 0.30333333333333334,
+    "fue_barrido_home": 0.2394736842105263,
+    "fue_barrido_away": 0.21304347826086956,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "30/06/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Jan Zandecki",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "30/06/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "17/06/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Jan Zandecki",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.531968502854655,
+    "senal_3er": 0.9641955545257054,
+    "senal_3_0": 0.21549128623302244,
+    "senal_4mas": 0.7842545271641068,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13003451": {
+    "liga": "Czech Liga Pro",
+    "home": "Samuel Byrtus",
+    "away": "David Heczko",
+    "probabilidad": 0.810861269041027,
+    "score": 0.7264304479335381,
+    "color": "VERDE",
+    "n_h2h": 29,
+    "p_home_individual": 0.903953904805915,
+    "p_away_individual": 0.8970161694418748,
+    "hora": "09:30",
+    "event_id": "13003451",
+    "hora_ts": 1787643000,
+    "impulso_home": 0.09442379182156135,
+    "impulso_away": -0.05476190476190479,
+    "racha_home": -2,
+    "racha_away": -1,
+    "tasa_home": 0.5055762081784386,
+    "tasa_away": 0.5547619047619048,
+    "barrido_home": 0.2867647058823529,
+    "barrido_away": 0.2918454935622318,
+    "fue_barrido_home": 0.2518796992481203,
+    "fue_barrido_away": 0.32085561497326204,
+    "h2h_ultima_fecha": "23/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "23/08/2026",
+        "ganador": "David Heczko",
+        "perdedor": "Samuel Byrtus",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "21/08/2026",
+        "ganador": "Samuel Byrtus",
+        "perdedor": "David Heczko",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Samuel Byrtus",
+        "perdedor": "David Heczko",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "David Heczko",
+        "perdedor": "Samuel Byrtus",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "12/08/2026",
+        "ganador": "David Heczko",
+        "perdedor": "Samuel Byrtus",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.6011364377708925,
+    "senal_3er": 0.9678192650091985,
+    "senal_3_0": 0.1755625406582147,
+    "senal_4mas": 0.8226343910145156,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001858": {
+    "liga": "Czech Liga Pro",
+    "home": "Jiri Ruzicka",
+    "away": "Jan Mecl Jr",
+    "probabilidad": 0.7715570239983955,
+    "score": 0.6458585615943179,
+    "color": "VERDE",
+    "n_h2h": 35,
+    "p_home_individual": 0.8598088793134258,
+    "p_away_individual": 0.8973587532784018,
+    "hora": "09:30",
+    "event_id": "13001858",
+    "hora_ts": 1787643000,
+    "impulso_home": 0.01484523057485787,
+    "impulso_away": 0.27644539614561037,
+    "racha_home": 1,
+    "racha_away": 2,
+    "tasa_home": 0.48515476942514213,
+    "tasa_away": 0.5235546038543897,
+    "barrido_home": 0.2877604166666667,
+    "barrido_away": 0.2065439672801636,
+    "fue_barrido_home": 0.252760736196319,
+    "fue_barrido_away": 0.25842696629213485,
+    "h2h_ultima_fecha": "07/07/2026",
+    "h2h_historial": [
+      {
+        "fecha": "07/07/2026",
+        "ganador": "Jan Mecl Jr",
+        "perdedor": "Jiri Ruzicka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "07/07/2026",
+        "ganador": "Jiri Ruzicka",
+        "perdedor": "Jan Mecl Jr",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "26/06/2026",
+        "ganador": "Jan Mecl Jr",
+        "perdedor": "Jiri Ruzicka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "25/06/2026",
+        "ganador": "Jiri Ruzicka",
+        "perdedor": "Jan Mecl Jr",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "25/06/2026",
+        "ganador": "Jiri Ruzicka",
+        "perdedor": "Jan Mecl Jr",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5302762612237978,
+    "senal_3er": 0.973014898141774,
+    "senal_3_0": 0.21495091657531204,
+    "senal_4mas": 0.7850490834246879,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13005375": {
+    "liga": "Setka Cup",
+    "home": "Yurii Volkov",
+    "away": "Oleh Volynets",
+    "probabilidad": 0.7597995687801807,
+    "score": 0.6049984738379849,
+    "color": "VERDE",
+    "n_h2h": 37,
+    "p_home_individual": 0.8641428443006114,
+    "p_away_individual": 0.8792522831050227,
+    "hora": "09:30",
+    "event_id": "13005375",
+    "hora_ts": 1787643000,
+    "impulso_home": 0.04009779951100245,
+    "impulso_away": 0.07750865051903111,
+    "racha_home": 5,
+    "racha_away": 2,
+    "tasa_home": 0.5599022004889975,
+    "tasa_away": 0.5224913494809689,
+    "barrido_home": 0.30131004366812225,
+    "barrido_away": 0.3443708609271523,
+    "fue_barrido_home": 0.29444444444444445,
+    "fue_barrido_away": 0.2826086956521739,
+    "h2h_ultima_fecha": "19/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Oleh Volynets",
+        "perdedor": "Yurii Volkov",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "09/07/2026",
+        "ganador": "Yurii Volkov",
+        "perdedor": "Oleh Volynets",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "07/07/2026",
+        "ganador": "Oleh Volynets",
+        "perdedor": "Yurii Volkov",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "03/07/2026",
+        "ganador": "Yurii Volkov",
+        "perdedor": "Oleh Volynets",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "30/06/2026",
+        "ganador": "Yurii Volkov",
+        "perdedor": "Oleh Volynets",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      }
+    ],
+    "senal_1_1": 0.5237840372291429,
+    "senal_3er": 0.9541090041031854,
+    "senal_3_0": 0.24264951628713433,
+    "senal_4mas": 0.75696842689877,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13003372": {
+    "liga": "Czech Liga Pro",
+    "home": "David Heczko",
+    "away": "Adrian Walek",
+    "probabilidad": 0.7795073747054835,
+    "score": 0.6680157075759771,
+    "color": "VERDE",
+    "n_h2h": 25,
+    "p_home_individual": 0.8880053794567472,
+    "p_away_individual": 0.8778183023872679,
+    "hora": "10:00",
+    "event_id": "13003372",
+    "hora_ts": 1787644800,
+    "impulso_home": -0.05476190476190479,
+    "impulso_away": 0.03128342245989313,
+    "racha_home": -1,
+    "racha_away": 1,
+    "tasa_home": 0.5547619047619048,
+    "tasa_away": 0.5187165775401069,
+    "barrido_home": 0.2918454935622318,
+    "barrido_away": 0.19072164948453607,
+    "fue_barrido_home": 0.32085561497326204,
+    "fue_barrido_away": 0.2388888888888889,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Adrian Walek",
+        "perdedor": "David Heczko",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "David Heczko",
+        "perdedor": "Adrian Walek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "23/08/2026",
+        "ganador": "David Heczko",
+        "perdedor": "Adrian Walek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "David Heczko",
+        "perdedor": "Adrian Walek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Adrian Walek",
+        "perdedor": "David Heczko",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5393996181977001,
+    "senal_3er": 0.9655740912226083,
+    "senal_3_0": 0.20137228957714232,
+    "senal_4mas": 0.7976124489527172,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13001860": {
+    "liga": "Czech Liga Pro",
+    "home": "Jan Mecl Jr",
+    "away": "Martin Huk",
+    "probabilidad": 0.7791173143696377,
+    "score": 0.6567293489060223,
+    "color": "VERDE",
+    "n_h2h": 59,
+    "p_home_individual": 0.9033219528060693,
+    "p_away_individual": 0.8625023580456518,
+    "hora": "10:00",
+    "event_id": "13001860",
+    "hora_ts": 1787644800,
+    "impulso_home": 0.27644539614561037,
+    "impulso_away": 0.10821409644939056,
+    "racha_home": 2,
+    "racha_away": -1,
+    "tasa_home": 0.5235546038543897,
+    "tasa_away": 0.4917859035506094,
+    "barrido_home": 0.2065439672801636,
+    "barrido_away": 0.2510775862068966,
+    "fue_barrido_home": 0.25842696629213485,
+    "fue_barrido_away": 0.2721584984358707,
+    "h2h_ultima_fecha": "06/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "06/08/2026",
+        "ganador": "Jan Mecl Jr",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "29/06/2026",
+        "ganador": "Jan Mecl Jr",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "26/06/2026",
+        "ganador": "Jan Mecl Jr",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "25/06/2026",
+        "ganador": "Jan Mecl Jr",
+        "perdedor": "Martin Huk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "25/06/2026",
+        "ganador": "Martin Huk",
+        "perdedor": "Jan Mecl Jr",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5849402254421547,
+    "senal_3er": 0.9808320085160093,
+    "senal_3_0": 0.2117980623463004,
+    "senal_4mas": 0.7882019376536995,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13003577": {
+    "liga": "Czech Liga Pro",
+    "home": "Pavel Wawrosz",
+    "away": "Michal Vavrecka",
+    "probabilidad": 0.7558568428527622,
+    "score": 0.6139181696340019,
+    "color": "VERDE",
+    "n_h2h": 41,
+    "p_home_individual": 0.8475711177654051,
+    "p_away_individual": 0.8917916467535554,
+    "hora": "10:30",
+    "event_id": "13003577",
+    "hora_ts": 1787646600,
+    "impulso_home": -0.1030120481927711,
+    "impulso_away": -0.11056489866321684,
+    "racha_home": 1,
+    "racha_away": -1,
+    "tasa_home": 0.5030120481927711,
+    "tasa_away": 0.5105648986632169,
+    "barrido_home": 0.1377245508982036,
+    "barrido_away": 0.23733108108108109,
+    "fue_barrido_home": 0.21212121212121213,
+    "fue_barrido_away": 0.24933920704845816,
+    "h2h_ultima_fecha": "23/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "23/08/2026",
+        "ganador": "Michal Vavrecka",
+        "perdedor": "Pavel Wawrosz",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Pavel Wawrosz",
+        "perdedor": "Michal Vavrecka",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "17/08/2026",
+        "ganador": "Michal Vavrecka",
+        "perdedor": "Pavel Wawrosz",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "17/08/2026",
+        "ganador": "Michal Vavrecka",
+        "perdedor": "Pavel Wawrosz",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "15/08/2026",
+        "ganador": "Michal Vavrecka",
+        "perdedor": "Pavel Wawrosz",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      }
+    ],
+    "senal_1_1": 0.49691968397907427,
+    "senal_3er": 0.9750241516369778,
+    "senal_3_0": 0.2304117731190467,
+    "senal_4mas": 0.7694619980057269,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13001865": {
+    "liga": "Czech Liga Pro",
+    "home": "Jan Szotkowski",
+    "away": "Tadeas Zika",
+    "probabilidad": 0.8013068473394053,
+    "score": 0.6898278826325951,
+    "color": "VERDE",
+    "n_h2h": 175,
+    "p_home_individual": 0.9462292482679093,
+    "p_away_individual": 0.8468421884085836,
+    "hora": "12:00",
+    "event_id": "13001865",
+    "hora_ts": 1787652000,
+    "impulso_home": -0.015964240102171123,
+    "impulso_away": -0.050390189520624296,
+    "racha_home": 2,
+    "racha_away": -1,
+    "tasa_home": 0.5159642401021711,
+    "tasa_away": 0.4503901895206243,
+    "barrido_home": 0.2599009900990099,
+    "barrido_away": 0.25,
+    "fue_barrido_home": 0.11609498680738786,
+    "fue_barrido_away": 0.2525354969574036,
+    "h2h_ultima_fecha": "20/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5923166620539188,
+    "senal_3er": 0.9920252793026589,
+    "senal_3_0": 0.20140418107369157,
+    "senal_4mas": 0.7985043273376273,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13007142": {
+    "liga": "Setka Cup",
+    "home": "Tomas Hucko",
+    "away": "Miroslav Hajek",
+    "probabilidad": 0.7806680055419867,
+    "score": 0.6707399709418733,
+    "color": "VERDE",
+    "n_h2h": 24,
+    "p_home_individual": 0.8819326274658096,
+    "p_away_individual": 0.8851787327397084,
+    "hora": "12:15",
+    "event_id": "13007142",
+    "hora_ts": 1787652900,
+    "impulso_home": 0.11745562130177511,
+    "impulso_away": -0.062,
+    "racha_home": 3,
+    "racha_away": 1,
+    "tasa_home": 0.5325443786982249,
+    "tasa_away": 0.512,
+    "barrido_home": 0.17777777777777778,
+    "barrido_away": 0.19791666666666666,
+    "fue_barrido_home": 0.20253164556962025,
+    "fue_barrido_away": 0.18579234972677597,
+    "h2h_ultima_fecha": "18/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Tomas Hucko",
+        "perdedor": "Miroslav Hajek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "16/08/2026",
+        "ganador": "Tomas Hucko",
+        "perdedor": "Miroslav Hajek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "16/08/2026",
+        "ganador": "Tomas Hucko",
+        "perdedor": "Miroslav Hajek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "07/08/2026",
+        "ganador": "Tomas Hucko",
+        "perdedor": "Miroslav Hajek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "06/08/2026",
+        "ganador": "Miroslav Hajek",
+        "perdedor": "Tomas Hucko",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5856428961576439,
+    "senal_3er": 0.9643005324017802,
+    "senal_3_0": 0.19993146152391755,
+    "senal_4mas": 0.8000685384760824,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002232": {
+    "liga": "TT Elite Series",
+    "home": "Adrian Wiecek",
+    "away": "Jan Zandecki",
+    "probabilidad": 0.785186492831781,
+    "score": 0.658907932956964,
+    "color": "VERDE",
+    "n_h2h": 21,
+    "p_home_individual": 0.8723833732057416,
+    "p_away_individual": 0.9000475214772391,
+    "hora": "12:25",
+    "event_id": "13002232",
+    "hora_ts": 1787653500,
+    "impulso_home": -0.16670467502850628,
+    "impulso_away": -0.06603773584905659,
+    "racha_home": -3,
+    "racha_away": -1,
+    "tasa_home": 0.5667046750285063,
+    "tasa_away": 0.5660377358490566,
+    "barrido_home": 0.22937625754527163,
+    "barrido_away": 0.30333333333333334,
+    "fue_barrido_home": 0.2394736842105263,
+    "fue_barrido_away": 0.21304347826086956,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "30/06/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Jan Zandecki",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "30/06/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "17/06/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Jan Zandecki",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.531968502854655,
+    "senal_3er": 0.9641955545257054,
+    "senal_3_0": 0.21549128623302244,
+    "senal_4mas": 0.7842545271641068,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001852": {
+    "liga": "Czech Liga Pro",
+    "home": "Cesta Havrda",
+    "away": "Milan Smesny",
+    "probabilidad": 0.7547305393081477,
+    "score": 0.623497504849821,
+    "color": "VERDE",
+    "n_h2h": 29,
+    "p_home_individual": 0.873643314252637,
+    "p_away_individual": 0.8638886453950445,
+    "hora": "12:30",
+    "event_id": "13001852",
+    "hora_ts": 1787653800,
+    "impulso_home": -0.13283582089552237,
+    "impulso_away": 0.05865800865800869,
+    "racha_home": -2,
+    "racha_away": 2,
+    "tasa_home": 0.43283582089552236,
+    "tasa_away": 0.49134199134199136,
+    "barrido_home": 0.2896551724137931,
+    "barrido_away": 0.29515418502202645,
+    "fue_barrido_home": 0.26842105263157895,
+    "fue_barrido_away": 0.35319148936170214,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Milan Smesny",
+        "perdedor": "Cesta Havrda",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "24/06/2026",
+        "ganador": "Cesta Havrda",
+        "perdedor": "Milan Smesny",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "23/06/2026",
+        "ganador": "Cesta Havrda",
+        "perdedor": "Milan Smesny",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "16/06/2026",
+        "ganador": "Milan Smesny",
+        "perdedor": "Cesta Havrda",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "16/06/2026",
+        "ganador": "Milan Smesny",
+        "perdedor": "Cesta Havrda",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.4656816620261639,
+    "senal_3er": 0.9686348735169064,
+    "senal_3_0": 0.22022193757935882,
+    "senal_4mas": 0.7797780624206412,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002206": {
+    "liga": "TT Elite Series",
+    "home": "Jakub Kosowski",
+    "away": "Jan Zandecki",
+    "probabilidad": 0.8029588841246227,
+    "score": 0.6760944064834365,
+    "color": "VERDE",
+    "n_h2h": 20,
+    "p_home_individual": 0.8716301989072538,
+    "p_away_individual": 0.9212150808121116,
+    "hora": "13:15",
+    "event_id": "13002206",
+    "hora_ts": 1787656500,
+    "impulso_home": 0.03949938949938947,
+    "impulso_away": -0.06603773584905659,
+    "racha_home": 1,
+    "racha_away": -1,
+    "tasa_home": 0.6105006105006106,
+    "tasa_away": 0.5660377358490566,
+    "barrido_home": 0.356,
+    "barrido_away": 0.30333333333333334,
+    "fue_barrido_home": 0.25391849529780564,
+    "fue_barrido_away": 0.21304347826086956,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jakub Kosowski",
+        "perdedor": "Jan Zandecki",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Jakub Kosowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "15/08/2026",
+        "ganador": "Jakub Kosowski",
+        "perdedor": "Jan Zandecki",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "14/07/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Jakub Kosowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "14/07/2026",
+        "ganador": "Jan Zandecki",
+        "perdedor": "Jakub Kosowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.4843154535925317,
+    "senal_3er": 0.96340214572038,
+    "senal_3_0": 0.21604809886985116,
+    "senal_4mas": 0.7836724245733,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002214": {
+    "liga": "TT Elite Series",
+    "home": "Piotr Przewlocki",
+    "away": "Wojciech Wojtaszczyk",
+    "probabilidad": 0.7948443348740926,
+    "score": 0.6729341006408801,
+    "color": "VERDE",
+    "n_h2h": 17,
+    "p_home_individual": 0.8655427631578947,
+    "p_away_individual": 0.9183189655172415,
+    "hora": "13:25",
+    "event_id": "13002214",
+    "hora_ts": 1787657100,
+    "impulso_home": -0.03925619834710742,
+    "impulso_away": -0.12388167388167381,
+    "racha_home": 1,
+    "racha_away": 5,
+    "tasa_home": 0.48925619834710743,
+    "tasa_away": 0.6738816738816739,
+    "barrido_home": 0.20608108108108109,
+    "barrido_away": 0.3490364025695932,
+    "fue_barrido_home": 0.2783171521035599,
+    "fue_barrido_away": 0.26548672566371684,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Wojciech Wojtaszczyk",
+        "perdedor": "Piotr Przewlocki",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Piotr Przewlocki",
+        "perdedor": "Wojciech Wojtaszczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "19/08/2026",
+        "ganador": "Piotr Przewlocki",
+        "perdedor": "Wojciech Wojtaszczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Wojciech Wojtaszczyk",
+        "perdedor": "Piotr Przewlocki",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Piotr Przewlocki",
+        "perdedor": "Wojciech Wojtaszczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.6132113014216576,
+    "senal_3er": 0.9613444305807622,
+    "senal_3_0": 0.20420022307924984,
+    "senal_4mas": 0.7957997769207501,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13004376": {
+    "liga": "Czech Liga Pro",
+    "home": "Radovan Polasek",
+    "away": "Jan Szotkowski",
+    "probabilidad": 0.7669490674059284,
+    "score": 0.6244308459887551,
+    "color": "VERDE",
+    "n_h2h": 42,
+    "p_home_individual": 0.8264954500366585,
+    "p_away_individual": 0.9279531634105318,
+    "hora": "13:30",
+    "event_id": "13004376",
+    "hora_ts": 1787657400,
+    "impulso_home": -0.06085568326947638,
+    "impulso_away": -0.015964240102171123,
+    "racha_home": -2,
+    "racha_away": 2,
+    "tasa_home": 0.5108556832694764,
+    "tasa_away": 0.5159642401021711,
+    "barrido_home": 0.2425,
+    "barrido_away": 0.2599009900990099,
+    "fue_barrido_home": 0.2741514360313316,
+    "fue_barrido_away": 0.11609498680738786,
+    "h2h_ultima_fecha": "11/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "09/07/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "09/07/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "06/07/2026",
+        "ganador": "Radovan Polasek",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "06/07/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Radovan Polasek",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      }
+    ],
+    "senal_1_1": 0.47166084443869405,
+    "senal_3er": 0.9757213093543797,
+    "senal_3_0": 0.23098719109846033,
+    "senal_4mas": 0.7693793936257386,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13004121": {
+    "liga": "Czech Liga Pro",
+    "home": "Jan Szotkowski",
+    "away": "Ondrej Paril",
+    "probabilidad": 0.8099476649180575,
+    "score": 0.7104213123381539,
+    "color": "VERDE",
+    "n_h2h": 67,
+    "p_home_individual": 0.9256144951619324,
+    "p_away_individual": 0.8750377928949358,
+    "hora": "14:00",
+    "event_id": "13004121",
+    "hora_ts": 1787659200,
+    "impulso_home": -0.015964240102171123,
+    "impulso_away": 0.07330960854092528,
+    "racha_home": 2,
+    "racha_away": 1,
+    "tasa_home": 0.5159642401021711,
+    "tasa_away": 0.5266903914590747,
+    "barrido_home": 0.2599009900990099,
+    "barrido_away": 0.27702702702702703,
+    "fue_barrido_home": 0.11609498680738786,
+    "fue_barrido_away": 0.2907268170426065,
+    "h2h_ultima_fecha": "20/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Ondrej Paril",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Ondrej Paril",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "06/07/2026",
+        "ganador": "Ondrej Paril",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "29/06/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Ondrej Paril",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "25/06/2026",
+        "ganador": "Ondrej Paril",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5307790811630808,
+    "senal_3er": 0.9824160254396455,
+    "senal_3_0": 0.19057382621357422,
+    "senal_4mas": 0.8209494726734106,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002218": {
+    "liga": "TT Elite Series",
+    "home": "Martin Olejnik",
+    "away": "Adrian Wiecek",
+    "probabilidad": 0.7626511056398922,
+    "score": 0.6074360560269146,
+    "color": "VERDE",
+    "n_h2h": 43,
+    "p_home_individual": 0.8936933876811594,
+    "p_away_individual": 0.8533699769433466,
+    "hora": "14:55",
+    "event_id": "13002218",
+    "hora_ts": 1787662500,
+    "impulso_home": 0.0954713493530499,
+    "impulso_away": -0.16670467502850628,
+    "racha_home": 1,
+    "racha_away": -3,
+    "tasa_home": 0.5545286506469501,
+    "tasa_away": 0.5667046750285063,
+    "barrido_home": 0.36,
+    "barrido_away": 0.22937625754527163,
+    "fue_barrido_home": 0.2821576763485477,
+    "fue_barrido_away": 0.2394736842105263,
+    "h2h_ultima_fecha": "18/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Martin Olejnik",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Martin Olejnik",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Martin Olejnik",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Martin Olejnik",
+        "perdedor": "Adrian Wiecek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "21/07/2026",
+        "ganador": "Adrian Wiecek",
+        "perdedor": "Martin Olejnik",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5399317564229249,
+    "senal_3er": 0.97557693099473,
+    "senal_3_0": 0.24305428606719368,
+    "senal_4mas": 0.7567847290843215,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001859": {
+    "liga": "Czech Liga Pro",
+    "home": "Tadeas Zika",
+    "away": "Jan Szotkowski",
+    "probabilidad": 0.8013068473394053,
+    "score": 0.6898278826325951,
+    "color": "VERDE",
+    "n_h2h": 175,
+    "p_home_individual": 0.8468421884085836,
+    "p_away_individual": 0.9462292482679093,
+    "hora": "16:30",
+    "event_id": "13001859",
+    "hora_ts": 1787668200,
+    "impulso_home": -0.050390189520624296,
+    "impulso_away": -0.015964240102171123,
+    "racha_home": -1,
+    "racha_away": 2,
+    "tasa_home": 0.4503901895206243,
+    "tasa_away": 0.5159642401021711,
+    "barrido_home": 0.25,
+    "barrido_away": 0.2599009900990099,
+    "fue_barrido_home": 0.2525354969574036,
+    "fue_barrido_away": 0.11609498680738786,
+    "h2h_ultima_fecha": "20/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5923166620539188,
+    "senal_3er": 0.9920252793026589,
+    "senal_3_0": 0.20140418107369157,
+    "senal_4mas": 0.7985043273376273,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002967": {
+    "liga": "TT Elite Series",
+    "home": "Marcin Kowalczyk",
+    "away": "Jaroslaw Rolak",
+    "probabilidad": 0.8202942213743288,
+    "score": 0.7408655040038828,
+    "color": "VERDE",
+    "n_h2h": 58,
+    "p_home_individual": 0.8840020981762007,
+    "p_away_individual": 0.9279324371137708,
+    "hora": "17:25",
+    "event_id": "13002967",
+    "hora_ts": 1787671500,
+    "impulso_home": 0.05264550264550272,
+    "impulso_away": 0.0764102564102564,
+    "racha_home": -2,
+    "racha_away": -2,
+    "tasa_home": 0.4973544973544973,
+    "tasa_away": 0.4235897435897436,
+    "barrido_home": 0.3553191489361702,
+    "barrido_away": 0.26150121065375304,
+    "fue_barrido_home": 0.2926315789473684,
+    "fue_barrido_away": 0.2099644128113879,
+    "h2h_ultima_fecha": "18/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Marcin Kowalczyk",
+        "perdedor": "Jaroslaw Rolak",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Marcin Kowalczyk",
+        "perdedor": "Jaroslaw Rolak",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "13/08/2026",
+        "ganador": "Marcin Kowalczyk",
+        "perdedor": "Jaroslaw Rolak",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Jaroslaw Rolak",
+        "perdedor": "Marcin Kowalczyk",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "21/07/2026",
+        "ganador": "Marcin Kowalczyk",
+        "perdedor": "Jaroslaw Rolak",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.6018127861157402,
+    "senal_3er": 0.9806304575319829,
+    "senal_3_0": 0.17088449273375822,
+    "senal_4mas": 0.8291155072662417,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13004334": {
+    "liga": "Czech Liga Pro",
+    "home": "Vojtech Koubek",
+    "away": "Josef Medek",
+    "probabilidad": 0.8178677491450894,
+    "score": 0.7241450773633438,
+    "color": "VERDE",
+    "n_h2h": 37,
+    "p_home_individual": 0.8887723572091454,
+    "p_away_individual": 0.9202218571618214,
+    "hora": "17:30",
+    "event_id": "13004334",
+    "hora_ts": 1787671800,
+    "impulso_home": -0.08669724770642201,
+    "impulso_away": -0.13738738738738737,
+    "racha_home": 1,
+    "racha_away": -1,
+    "tasa_home": 0.536697247706422,
+    "tasa_away": 0.5873873873873874,
+    "barrido_home": 0.38461538461538464,
+    "barrido_away": 0.3374233128834356,
+    "fue_barrido_home": 0.3465346534653465,
+    "fue_barrido_away": 0.2794759825327511,
+    "h2h_ultima_fecha": "11/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Josef Medek",
+        "perdedor": "Vojtech Koubek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "23/06/2026",
+        "ganador": "Vojtech Koubek",
+        "perdedor": "Josef Medek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "02/06/2026",
+        "ganador": "Josef Medek",
+        "perdedor": "Vojtech Koubek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "31/05/2026",
+        "ganador": "Josef Medek",
+        "perdedor": "Vojtech Koubek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/05/2026",
+        "ganador": "Josef Medek",
+        "perdedor": "Vojtech Koubek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.6147245683911065,
+    "senal_3er": 0.973344578841707,
+    "senal_3_0": 0.18449778264928166,
+    "senal_4mas": 0.8155022173507183,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13004379": {
+    "liga": "Czech Liga Pro",
+    "home": "Jan Szotkowski",
+    "away": "Martin Biolek",
+    "probabilidad": 0.7795068047702071,
+    "score": 0.6330123320532153,
+    "color": "VERDE",
+    "n_h2h": 33,
+    "p_home_individual": 0.8611513994910942,
+    "p_away_individual": 0.9051913580246913,
+    "hora": "17:30",
+    "event_id": "13004379",
+    "hora_ts": 1787671800,
+    "impulso_home": -0.015964240102171123,
+    "impulso_away": 0.057711442786069655,
+    "racha_home": 2,
+    "racha_away": -1,
+    "tasa_home": 0.5159642401021711,
+    "tasa_away": 0.5422885572139303,
+    "barrido_home": 0.2599009900990099,
+    "barrido_away": 0.3394495412844037,
+    "fue_barrido_home": 0.11609498680738786,
+    "fue_barrido_away": 0.19021739130434784,
+    "h2h_ultima_fecha": "20/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Martin Biolek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "10/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Martin Biolek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5606857035152201,
+    "senal_3er": 0.9711261898030346,
+    "senal_3_0": 0.23476693996795778,
+    "senal_4mas": 0.7654493450193196,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001866": {
+    "liga": "Czech Liga Pro",
+    "home": "Martin Biolek",
+    "away": "Tadeas Zika",
+    "probabilidad": 0.7570867178022997,
+    "score": 0.5981634808135586,
+    "color": "VERDE",
+    "n_h2h": 61,
+    "p_home_individual": 0.9131501760842039,
+    "p_away_individual": 0.8290933272869312,
+    "hora": "18:00",
+    "event_id": "13001866",
+    "hora_ts": 1787673600,
+    "impulso_home": 0.057711442786069655,
+    "impulso_away": -0.050390189520624296,
+    "racha_home": -1,
+    "racha_away": -1,
+    "tasa_home": 0.5422885572139303,
+    "tasa_away": 0.4503901895206243,
+    "barrido_home": 0.3394495412844037,
+    "barrido_away": 0.25,
+    "fue_barrido_home": 0.19021739130434784,
+    "fue_barrido_away": 0.2525354969574036,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Tadeas Zika",
+        "perdedor": "Martin Biolek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "22/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      },
+      {
+        "fecha": "20/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Martin Biolek",
+        "perdedor": "Tadeas Zika",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.5107864262368007,
+    "senal_3er": 0.9804825316086851,
+    "senal_3_0": 0.24657623264227443,
+    "senal_4mas": 0.753059913070666,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13003752": {
+    "liga": "Czech Liga Pro",
+    "home": "Jan Dzida",
+    "away": "Jan Szotkowski",
+    "probabilidad": 0.8399254969220391,
+    "score": 0.7667717201947643,
+    "color": "VERDE",
+    "n_h2h": 20,
+    "p_home_individual": 0.8952996474735605,
+    "p_away_individual": 0.9381501481567861,
+    "hora": "18:30",
+    "event_id": "13003752",
+    "hora_ts": 1787675400,
+    "impulso_home": -0.04408602150537633,
+    "impulso_away": -0.015964240102171123,
+    "racha_home": 1,
+    "racha_away": 2,
+    "tasa_home": 0.5940860215053764,
+    "tasa_away": 0.5159642401021711,
+    "barrido_home": 0.2895927601809955,
+    "barrido_away": 0.2599009900990099,
+    "fue_barrido_home": 0.23841059602649006,
+    "fue_barrido_away": 0.11609498680738786,
+    "h2h_ultima_fecha": "18/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "18/08/2026",
+        "ganador": "Jan Dzida",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "11/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Jan Dzida",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "30/07/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Jan Dzida",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "28/07/2026",
+        "ganador": "Jan Dzida",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "23/07/2026",
+        "ganador": "Jan Dzida",
+        "perdedor": "Jan Szotkowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5640339220734176,
+    "senal_3er": 0.9621647963928084,
+    "senal_3_0": 0.16492227674073012,
+    "senal_4mas": 0.8353700002691041,
+    "discrepancia": false,
+    "ultimo_torneo": true
+  },
+  "13003785": {
+    "liga": "TT Elite Series",
+    "home": "Karol Strowski",
+    "away": "Kacper Glazowski",
+    "probabilidad": 0.811893856577406,
+    "score": 0.73584688457402,
+    "color": "VERDE",
+    "n_h2h": 34,
+    "p_home_individual": 0.8759487642982788,
+    "p_away_individual": 0.9268736821928311,
+    "hora": "19:20",
+    "event_id": "13003785",
+    "hora_ts": 1787678400,
+    "impulso_home": -0.08766233766233766,
+    "impulso_away": 0.09999999999999998,
+    "racha_home": 1,
+    "racha_away": -1,
+    "tasa_home": 0.5876623376623377,
+    "tasa_away": 0.5,
+    "barrido_home": 0.2154696132596685,
+    "barrido_away": 0.2532894736842105,
+    "fue_barrido_home": 0.30971128608923887,
+    "fue_barrido_away": 0.2730263157894737,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Kacper Glazowski",
+        "perdedor": "Karol Strowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Kacper Glazowski",
+        "perdedor": "Karol Strowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "10/08/2026",
+        "ganador": "Karol Strowski",
+        "perdedor": "Kacper Glazowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "16/06/2026",
+        "ganador": "Karol Strowski",
+        "perdedor": "Kacper Glazowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "26/05/2026",
+        "ganador": "Kacper Glazowski",
+        "perdedor": "Karol Strowski",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      }
+    ],
+    "senal_1_1": 0.6785105302973511,
+    "senal_3er": 0.9719345376234448,
+    "senal_3_0": 0.16765522136313296,
+    "senal_4mas": 0.8321649871949397,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13001862": {
+    "liga": "Czech Liga Pro",
+    "home": "Roman Hudeczek",
+    "away": "Michal Chalupa",
+    "probabilidad": 0.8034812599347178,
+    "score": 0.7135580349653011,
+    "color": "VERDE",
+    "n_h2h": 41,
+    "p_home_individual": 0.9203791897757415,
+    "p_away_individual": 0.8729893818334735,
+    "hora": "20:00",
+    "event_id": "13001862",
+    "hora_ts": 1787680800,
+    "impulso_home": 0.09850746268656718,
+    "impulso_away": -0.16454823889739667,
+    "racha_home": 2,
+    "racha_away": -4,
+    "tasa_home": 0.5014925373134328,
+    "tasa_away": 0.5145482388973966,
+    "barrido_home": 0.27976190476190477,
+    "barrido_away": 0.2261904761904762,
+    "fue_barrido_home": 0.2634730538922156,
+    "fue_barrido_away": 0.26813880126182965,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Roman Hudeczek",
+        "perdedor": "Michal Chalupa",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Roman Hudeczek",
+        "perdedor": "Michal Chalupa",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "21/08/2026",
+        "ganador": "Michal Chalupa",
+        "perdedor": "Roman Hudeczek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "21/08/2026",
+        "ganador": "Roman Hudeczek",
+        "perdedor": "Michal Chalupa",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "21/08/2026",
+        "ganador": "Roman Hudeczek",
+        "perdedor": "Michal Chalupa",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
+      }
+    ],
+    "senal_1_1": 0.5533136231813409,
+    "senal_3er": 0.9740353843970936,
+    "senal_3_0": 0.1808373385889843,
+    "senal_4mas": 0.8182822723913532,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13003414": {
+    "liga": "Czech Liga Pro",
+    "home": "Radim Pavelka",
+    "away": "Jiri Dedek",
+    "probabilidad": 0.7719151691413205,
+    "score": 0.6445921565198627,
+    "color": "VERDE",
+    "n_h2h": 39,
+    "p_home_individual": 0.8678143735238902,
+    "p_away_individual": 0.8894934132132928,
+    "hora": "20:00",
+    "event_id": "13003414",
+    "hora_ts": 1787680800,
+    "impulso_home": -0.04801587301587301,
+    "impulso_away": -0.06858736059479548,
+    "racha_home": 2,
+    "racha_away": 1,
+    "tasa_home": 0.498015873015873,
+    "tasa_away": 0.5185873605947955,
+    "barrido_home": 0.2290836653386454,
+    "barrido_away": 0.35842293906810035,
+    "fue_barrido_home": 0.26679841897233203,
+    "fue_barrido_away": 0.35714285714285715,
+    "h2h_ultima_fecha": "05/07/2026",
+    "h2h_historial": [
+      {
+        "fecha": "05/07/2026",
+        "ganador": "Jiri Dedek",
+        "perdedor": "Radim Pavelka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/06/2026",
+        "ganador": "Radim Pavelka",
+        "perdedor": "Jiri Dedek",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "18/06/2026",
+        "ganador": "Radim Pavelka",
+        "perdedor": "Jiri Dedek",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "25/05/2026",
+        "ganador": "Jiri Dedek",
+        "perdedor": "Radim Pavelka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "24/04/2026",
+        "ganador": "Jiri Dedek",
+        "perdedor": "Radim Pavelka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      }
+    ],
+    "senal_1_1": 0.6330769269822536,
+    "senal_3er": 0.9745412065555824,
+    "senal_3_0": 0.21649095800911838,
+    "senal_4mas": 0.7833589077532103,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  },
+  "13002983": {
+    "liga": "Czech Liga Pro",
+    "home": "Tomas Dousa",
+    "away": "Radim Pavelka",
+    "probabilidad": 0.7533891453787135,
+    "score": 0.6051298210448893,
+    "color": "VERDE",
+    "n_h2h": 51,
+    "p_home_individual": 0.8882308118592408,
+    "p_away_individual": 0.8481907352456314,
+    "hora": "21:30",
+    "event_id": "13002983",
+    "hora_ts": 1787686200,
+    "impulso_home": -0.04687108886107633,
+    "impulso_away": -0.04801587301587301,
+    "racha_home": -4,
+    "racha_away": 2,
+    "tasa_home": 0.49687108886107634,
+    "tasa_away": 0.498015873015873,
+    "barrido_home": 0.22670025188916876,
+    "barrido_away": 0.2290836653386454,
+    "fue_barrido_home": 0.27860696517412936,
+    "fue_barrido_away": 0.26679841897233203,
+    "h2h_ultima_fecha": "24/08/2026",
+    "h2h_historial": [
+      {
+        "fecha": "24/08/2026",
+        "ganador": "Tomas Dousa",
+        "perdedor": "Radim Pavelka",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "03/07/2026",
+        "ganador": "Radim Pavelka",
+        "perdedor": "Tomas Dousa",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "03/07/2026",
+        "ganador": "Tomas Dousa",
+        "perdedor": "Radim Pavelka",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      },
+      {
+        "fecha": "29/06/2026",
+        "ganador": "Tomas Dousa",
+        "perdedor": "Radim Pavelka",
+        "sets_ganador": 3,
+        "sets_perdedor": 1
+      },
+      {
+        "fecha": "29/06/2026",
+        "ganador": "Radim Pavelka",
+        "perdedor": "Tomas Dousa",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
+      }
+    ],
+    "senal_1_1": 0.5473942133209673,
+    "senal_3er": 0.9784679158927607,
+    "senal_3_0": 0.23642414220794863,
+    "senal_4mas": 0.7632963574824889,
+    "discrepancia": false,
+    "ultimo_torneo": false
+  }
+}
