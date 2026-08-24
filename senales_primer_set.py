@@ -65,6 +65,23 @@ TELEGRAM_CHAT_IDS = ["663483538"]
 TOP_N = 25
 MAX_SELECCION_DIARIA = 35
 
+# Backtest walk-forward sobre 337.485 partidos historicos reales (script
+# backtest_primer_set.py, corrido contra historico_partidos.json completo)
+# mostro que con los parametros originales de esta señal (historial minimo
+# de 15 partidos por jugador, alpha=1.5 de prop_suavizada) la señal
+# (VERDE+AMARILLO, prob>=70%) acertaba solo 67.1% de las veces en la
+# realidad -- bastante menos que el 70-80% que sugeria el propio numero,
+# sobre todo por ruido de historiales cortos / rachas puntuales inflando
+# la probabilidad. Subir el historial minimo exigido y el suavizado
+# (alpha) de prop_suavizada() para esta señal en particular sube el
+# acierto real medido en el mismo backtest a ~76% (VERDE 79.2%, AMARILLO
+# 75.0%), con ~0.7 señales/dia en promedio historico -- se probaron
+# combinaciones mas estrictas (hasta ~77.5% de acierto) pero bajaban el
+# volumen a ~0.45 señales/dia; este punto intermedio prioriza fiabilidad
+# sin sacrificar tanta cantidad.
+N_MINIMO_PARTIDOS = 40
+ALPHA_PRIMER_SET = 4.0
+
 
 def enviar_telegram(texto):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
@@ -330,7 +347,7 @@ def prob_jugador_gana_primer_set(jugador, oponente, partidos):
     juegos = partidos_con_set1(jugador, partidos)
     n = len(juegos)
     eventos = sum(1 for p in juegos if jugador_gano_primer_set(jugador, p))
-    base = prop_suavizada(eventos, n)
+    base = prop_suavizada(eventos, n, alpha=ALPHA_PRIMER_SET)
 
     enfrentamientos = [
         p for p in partidos
@@ -340,7 +357,7 @@ def prob_jugador_gana_primer_set(jugador, oponente, partidos):
     if nh == 0:
         return base, n, nh
     eventos_h2h = sum(1 for p in enfrentamientos if jugador_gano_primer_set(jugador, p))
-    p_h2h = prop_suavizada(eventos_h2h, nh)
+    p_h2h = prop_suavizada(eventos_h2h, nh, alpha=ALPHA_PRIMER_SET)
     w = peso_h2h(nh)
     return w * p_h2h + (1 - w) * base, n, nh
 
@@ -402,18 +419,18 @@ def main():
 
             n_home = len(partidos_con_set1(home, todos_partidos))
             n_away = len(partidos_con_set1(away, todos_partidos))
-            if (n_home < 15 or n_away < 15) and busquedas_directas_restantes > 0:
+            if (n_home < N_MINIMO_PARTIDOS or n_away < N_MINIMO_PARTIDOS) and busquedas_directas_restantes > 0:
                 home_id = ev.get("home", {}).get("id")
                 away_id = ev.get("away", {}).get("id")
-                if n_home < 15 and home_id and busquedas_directas_restantes > 0:
+                if n_home < N_MINIMO_PARTIDOS and home_id and busquedas_directas_restantes > 0:
                     completar_historico_jugador(home_id, home, historico_guardado, todos_partidos)
                     busquedas_directas_restantes -= 1
-                if n_away < 15 and away_id and busquedas_directas_restantes > 0:
+                if n_away < N_MINIMO_PARTIDOS and away_id and busquedas_directas_restantes > 0:
                     completar_historico_jugador(away_id, away, historico_guardado, todos_partidos)
                     busquedas_directas_restantes -= 1
                 n_home = len(partidos_con_set1(home, todos_partidos))
                 n_away = len(partidos_con_set1(away, todos_partidos))
-            if n_home < 15 or n_away < 15:
+            if n_home < N_MINIMO_PARTIDOS or n_away < N_MINIMO_PARTIDOS:
                 continue
 
             p_home, _, nh = prob_jugador_gana_primer_set(home, away, todos_partidos)
