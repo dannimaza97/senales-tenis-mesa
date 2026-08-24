@@ -1,0 +1,29 @@
+Señales generadas el 24/08/2026 a las 03:40
+
+Cargando historico acumulado guardado...
+ (pagina 18: sin partidos nuevos, ya al dia, freno aqui)
+  TT Elite Series: 624 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (pagina 25: sin partidos nuevos, ya al dia, freno aqui)
+  Setka Cup: 795 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (pagina 19: sin partidos nuevos, ya al dia, freno aqui)
+  Czech Liga Pro: 753 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (pagina 15: sin partidos nuevos, ya al dia, freno aqui)
+  TT Cup: 644 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 341218
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 48 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 08:00  Czech Liga Pro     Milan Chalupnicek    vs Jaroslav Strnad 1964 | Ambos ganan set:  75.9%  [P(Milan Chalupnicek)=86.0% · P(Jaroslav Strnad 1964)=88.4%] (H2H n=16)
+🟢 08:40  TT Cup             Tomas Krenek         vs Daniel Vitasek       | Ambos ganan set:  75.2%  [P(Tomas Krenek)=84.2% · P(Daniel Vitasek)=89.2%] (H2H n=26)
+🟢 13:20  TT Cup             Jakub Rolik          vs Filip Musil          | Ambos ganan set:  78.0%  [P(Jakub Rolik)=86.7% · P(Filip Musil)=90.0%] (H2H n=37)
+🟢 14:20  TT Cup             Jakub Rolik          vs Ondrej Sebek         | Ambos ganan set:  77.9%  [P(Jakub Rolik)=89.0% · P(Ondrej Sebek)=87.5%] (H2H n=40)
+🟢 16:00  TT Cup             Wiekiera Arkadiusz   vs Kiejda Patryk        | Ambos ganan set:  82.6%  [P(Wiekiera Arkadiusz)=93.5% · P(Kiejda Patryk)=88.4%] (H2H n=24)
