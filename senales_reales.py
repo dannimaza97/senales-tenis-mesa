@@ -257,6 +257,7 @@ def comprobar_predicciones_anteriores():
             aun_pendientes[event_id] = pred
             continue
         if str(detalle.get("time_status")) != "3":
+            print(f"  (DIAG resultado {event_id}: time_status={detalle.get('time_status')!r} time={detalle.get('time')!r} ss={detalle.get('ss')!r} home={detalle.get('home')!r} away={detalle.get('away')!r})")
             aun_pendientes[event_id] = pred
             continue
         resultado = parsear_partido(detalle)
@@ -346,6 +347,7 @@ def reconciliar_senales_huerfanas():
         if detalle is None:
             continue
         if str(detalle.get("time_status")) != "3":
+            print(f"  (DIAG reconciliacion {event_id}: time_status={detalle.get('time_status')!r} time={detalle.get('time')!r} ss={detalle.get('ss')!r})")
             continue
         resultado = parsear_partido(detalle)
         if resultado is None:
