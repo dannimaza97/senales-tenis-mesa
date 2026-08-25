@@ -9,7 +9,8 @@ import os
 import requests
 import time
 import datetime
-from dataclasses import dataclass, field
+import math
+from dataclasses import dataclass
 from zoneinfo import ZoneInfo
 from supabase_bridge import guardar_senales_supabase, guardar_estadisticas_supabase, guardar_resultado_supabase, obtener_signals_sin_resultado, marcar_notificado_supabase, obtener_notificados_supabase
 
@@ -566,20 +567,67 @@ def parsear_partido(evento):
 @dataclass
 class Jugador:
     nombre: str
-    rating: float = 50.0
-    historial_rating: list = field(default_factory=lambda: [50.0])
+    rating: float = 1500.0
+    n_partidos: int = 0
 
 
-def actualizar_elo(jugadores, partidos, k=20):
-    for p in partidos:
+def actualizar_elo(jugadores, partidos, k=10):
+    """Ratings Elo point-in-time (K=10, rating inicial 1500), con la misma
+    metodologia validada por backtest en backtest_ganador_partido.py: hay que
+    ordenar por tiempo real de juego antes de simular, si no el rating queda
+    mal calculado (bug que tenia esta funcion antes de esta correccion)."""
+    for p in sorted(partidos, key=lambda x: x["time"]):
         a = jugadores.setdefault(p["jugador_a"], Jugador(p["jugador_a"]))
         b = jugadores.setdefault(p["jugador_b"], Jugador(p["jugador_b"]))
         esperado_a = 1 / (1 + 10 ** ((b.rating - a.rating) / 400))
         resultado_a = 1.0 if p["ganador"] == a.nombre else 0.0
         a.rating += k * (resultado_a - esperado_a)
         b.rating += k * ((1 - resultado_a) - (1 - esperado_a))
-        a.historial_rating.append(a.rating)
-        b.historial_rating.append(b.rating)
+        a.n_partidos += 1
+        b.n_partidos += 1
+
+
+# Coeficientes fijos (intercepto, coef. diferencia de Elo, coef. ajuste H2H)
+# de la regresion logistica validada en backtest_ganador_partido.py contra
+# ~338k partidos reales (K=10, modelo "elo_mas_h2h"): en el set de validacion
+# nunca usado para ajustar, este modelo dio Brier=0.2380/log-loss=0.6683,
+# mejor que Elo solo (0.2417/0.6761) y que un baseline de 50/50 (0.25/0.6931),
+# con buena calibracion en todos los rangos de probabilidad. Se fija el valor
+# de estos coeficientes (no se reajustan en cada corrida) para no perder esa
+# validacion; lo que si cambia con cada corrida es el rating Elo de cada
+# jugador, recalculado con el historico mas reciente.
+ELO_BETA_FINAL = (-0.013415169195952219, 0.003096107390085248, 3.500777445526979)
+ELO_H2H_C = 17  # mismo peso que usa peso_h2h() para las demas senales
+
+
+def historial_h2h_partido(a, b, partidos):
+    """A diferencia de prob_jugador_gana_set (que mide victorias de set),
+    esto cuenta partidos GANADOS (el resultado final) entre a y b."""
+    enfrentamientos = [p for p in partidos if {p["jugador_a"], p["jugador_b"]} == {a, b}]
+    n = len(enfrentamientos)
+    if n == 0:
+        return 0, 0.5
+    victorias_a = sum(1 for p in enfrentamientos if p["ganador"] == a)
+    return n, victorias_a / n
+
+
+def prob_partido_gana(home, away, jugadores, partidos):
+    """Probabilidad de ganar EL PARTIDO (no de ganar un set), via Elo + ajuste
+    por historial cara a cara. p_home y p_away siempre suman 1.0 porque salen
+    de la MISMA regresion logistica (a diferencia de p_home_individual /
+    p_away_individual, que son dos proporciones independientes)."""
+    ja = jugadores.get(home)
+    jb = jugadores.get(away)
+    if ja is None or jb is None:
+        return None, None
+    diff = ja.rating - jb.rating
+    n_h2h, tasa_h2h = historial_h2h_partido(home, away, partidos)
+    peso = n_h2h / (n_h2h + ELO_H2H_C)
+    ajuste_h2h = peso * (tasa_h2h - 0.5)
+    b0, b1, b2 = ELO_BETA_FINAL
+    z = b0 + b1 * diff + b2 * ajuste_h2h
+    p_home = 1 / (1 + math.exp(-z))
+    return p_home, 1 - p_home
 
 
 def prop_suavizada(eventos, n, alpha=1.5):
@@ -874,6 +922,7 @@ def main():
             p_4mas, _ = prob_patron(home, away, todos_partidos, patron_4_mas_sets)
 
             h2h_info = h2h_detalle(home, away, todos_partidos)
+            prob_partido_home, prob_partido_away = prob_partido_gana(home, away, jugadores, todos_partidos)
 
             consistencia = abs((p_ambos + p_3_0) - 1.0)
             discrepancia = consistencia > 0.12
@@ -910,6 +959,7 @@ def main():
                 "fue_barrido_away": calcular_pct_fue_barrido(away, todos_partidos),
                 "h2h_ultima_fecha": h2h_info["ultima_fecha"],
                 "h2h_historial": h2h_info["ultimos_5"],
+                "prob_partido_home": prob_partido_home, "prob_partido_away": prob_partido_away,
                 "senal_1_1": p_1_1, "senal_3er": p_3er,
                 "senal_3_0": p_3_0, "senal_4mas": p_4mas,
                 "discrepancia": discrepancia,
