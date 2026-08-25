@@ -14,7 +14,7 @@
     "event_id": "13004458",
     "hora_ts": 1787685000,
     "racha_home": 14,
-    "racha_away": 4,
+    "racha_away": 5,
     "tasa_home": 0.7377777777777778,
     "tasa_away": 0.37721518987341773,
     "h2h_ultima_fecha": "11/08/2026"
@@ -25,18 +25,18 @@
     "away": "Andrzej Krezel",
     "favorito": "Dariusz Molenda",
     "probabilidad": 0.7296137339055794,
-    "score": 0.7372731739601299,
+    "score": 0.7372953029989521,
     "color": "AMARILLO",
     "n_h2h": 0,
     "p_home_individual": 0.7296137339055794,
-    "p_away_individual": 0.4742990654205608,
+    "p_away_individual": 0.4735614307931571,
     "hora": "22:45",
     "event_id": "13003776",
     "hora_ts": 1787690700,
     "racha_home": 14,
-    "racha_away": 2,
+    "racha_away": -1,
     "tasa_home": 0.7377777777777778,
-    "tasa_away": 0.47413793103448276,
+    "tasa_away": 0.47339593114241,
     "h2h_ultima_fecha": null
   }
 }
