@@ -80,6 +80,8 @@ def guardar_senales_supabase(seleccion):
             "fue_barrido_away": s.get("fue_barrido_away"),
             "h2h_ultima_fecha": s.get("h2h_ultima_fecha"),
             "h2h_historial": s.get("h2h_historial"),
+            "prob_partido_home": s.get("prob_partido_home"),
+            "prob_partido_away": s.get("prob_partido_away"),
             "senal_1_1": s.get("senal_1_1"),
             "senal_3er": s.get("senal_3er"),
             "discrepancia": s.get("discrepancia"),
