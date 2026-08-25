@@ -1,0 +1,29 @@
+Señales generadas el 25/08/2026 a las 17:59
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Elite Series: 500 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  Setka Cup: 674 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 17)
+  Czech Liga Pro: 763 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 13)
+  TT Cup: 593 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340932
+Jugadores con rating calculado: 2406
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 103 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:00  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  80.5%  [P(Roman Hudeczek)=91.3% · P(Michal Chalupa)=88.2%] (H2H n=37)
+🟢 20:00  Czech Liga Pro     Radim Pavelka        vs Jiri Dedek           | Ambos ganan set:  77.2%  [P(Radim Pavelka)=86.8% · P(Jiri Dedek)=88.9%] (H2H n=39)
