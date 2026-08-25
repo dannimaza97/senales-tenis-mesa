@@ -1,0 +1,27 @@
+Señales generadas el 25/08/2026 a las 16:22
+
+Cargando historico acumulado guardado...
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  TT Elite Series: 550 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Setka Cup: 624 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 625 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 17)
+  TT Cup: 793 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340994
+Jugadores con rating calculado: 2406
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 104 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 19:20  TT Elite Series    Karol Strowski       vs Kacper Glazowski     | Ambos ganan set:  81.2%  [P(Karol Strowski)=87.6% · P(Kacper Glazowski)=92.7%] (H2H n=34)
