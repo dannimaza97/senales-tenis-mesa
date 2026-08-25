@@ -265,7 +265,7 @@ def ajustar_logistica(X, y, iteraciones=50):
         pred = 1 / (1 + np.exp(-z))
         gradiente = Xb.T @ (y - pred)
         W = pred * (1 - pred)
-        H = -(Xb.T * W) @ Xb - 1e-: * np.eye(Xb.shape[1])
+        H = -(Xb.T * W) @ Xb - 1e-6 * np.eye(Xb.shape[1])
         try:
             paso = np.linalg.solve(H, gradiente)
         except np.linalg.LinAlgError:
