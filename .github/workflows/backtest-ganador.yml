@@ -1,0 +1,43 @@
+name: Backtest modelo probabilidad de ganar el partido
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repo (incluye historico_partidos.json)
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar backtest (Elo point-in-time)
+        env:
+          BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
+        run: python backtest_ganador_partido.py
+
+      - name: Mostrar reporte en el log
+        if: always()
+        run: |
+          echo "===== REPORTE MARKDOWN ====="
+          cat backtest_ganador_partido_report.md || echo "No se genero el reporte .md"
+          echo "===== REPORTE JSON ====="
+          cat backtest_ganador_partido_report.json || echo "No se genero el reporte .json"
+
+      - name: Subir reporte como artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-ganador-partido-report
+          path: |
+            backtest_ganador_partido_report.md
+            backtest_ganador_partido_report.json
+          if-no-files-found: warn
