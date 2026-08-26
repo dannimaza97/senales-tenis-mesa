@@ -2,7 +2,7 @@ name: Ejecutar señales
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Runs every 2 hours
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
   workflow_dispatch:
 
 concurrency:
@@ -11,10 +11,7 @@ concurrency:
 
 jobs:
   ejecutar:
-    runs-on: self-hosted
-    defaults:
-      run:
-        shell: bash
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
