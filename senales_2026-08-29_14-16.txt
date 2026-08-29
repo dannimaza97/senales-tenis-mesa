@@ -1,0 +1,45 @@
+Señales generadas el 29/08/2026 a las 14:16
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 3 tras reintento, me detengo aqui)
+  TT Elite Series: 99 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 1 tras reintento, me detengo aqui)
+  Setka Cup: 0 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 6 tras reintento, me detengo aqui)
+  Czech Liga Pro: 247 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 5)
+  TT Cup: 198 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 338946
+Jugadores con rating calculado: 2406
+
+Buscando proximos partidos...
+   (busqueda directa de Tomas Motacek: +4 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 178 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 16:10  TT Elite Series    Maciej Nowalinski    vs Maksymilian Miastowski | Ambos ganan set:  82.9%  [P(Maciej Nowalinski)=89.0% · P(Maksymilian Miastowski)=93.2%] (H2H n=32)
+🟢 16:45  Setka Cup          Ludek Stoces         vs Vladimir Lopata      | Ambos ganan set:  84.2%  [P(Ludek Stoces)=90.8% · P(Vladimir Lopata)=92.7%] (H2H n=0)
+🟢 17:00  Czech Liga Pro     Dalimil Machander    vs Richard Skacelik     | Ambos ganan set:  91.6%  [P(Dalimil Machander)=95.6% · P(Richard Skacelik)=95.8%] (H2H n=57)
+🟢 17:15  Setka Cup          Petr Maly            vs Ludek Stoces         | Ambos ganan set:  80.3%  [P(Petr Maly)=88.4% · P(Ludek Stoces)=90.8%] (H2H n=0)
+🟢 17:35  Setka Cup          Orest Hura           vs Anton Shypilov       | Ambos ganan set:  76.4%  [P(Orest Hura)=90.4% · P(Anton Shypilov)=84.5%] (H2H n=36)
+🟢 18:55  Setka Cup          Evgeniy Pismenniy    vs Roman Cherevko       | Ambos ganan set:  78.3%  [P(Evgeniy Pismenniy)=82.1% · P(Roman Cherevko)=95.4%] (H2H n=73)
+🟢 20:15  Setka Cup          Lukas Heinzl         vs Michal Makara        | Ambos ganan set:  79.3%  [P(Lukas Heinzl)=94.0% · P(Michal Makara)=84.4%] (H2H n=26)
+🟢 21:00  Czech Liga Pro     Kyryl Darin          vs Michal Vedmoch       | Ambos ganan set:  77.6%  [P(Kyryl Darin)=85.3% · P(Michal Vedmoch)=91.1%] (H2H n=95)
+🟢 21:05  Setka Cup          Oleksii Mitla        vs Anton Shypilov       | Ambos ganan set:  83.4%  [P(Oleksii Mitla)=87.6% · P(Anton Shypilov)=95.3%] (H2H n=80)
+🟢 21:15  Setka Cup          Lukas Heinzl         vs Volodymyr Burylov    | Ambos ganan set:  82.0%  [P(Lukas Heinzl)=89.9% · P(Volodymyr Burylov)=91.2%] (H2H n=16)
+🟢 21:30  Czech Liga Pro     Jiri Plachy          vs Pavel Fojt           | Ambos ganan set:  79.7%  [P(Jiri Plachy)=92.7% · P(Pavel Fojt)=85.9%] (H2H n=89)
+🟢 22:30  TT Elite Series    Szymon Sporek        vs Jakub Chmielowski    | Ambos ganan set:  77.3%  [P(Szymon Sporek)=86.0% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
