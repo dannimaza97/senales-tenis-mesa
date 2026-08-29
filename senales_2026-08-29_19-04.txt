@@ -1,0 +1,33 @@
+Señales generadas el 29/08/2026 a las 19:04
+
+Cargando historico acumulado guardado...
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 299 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  Setka Cup: 247 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Czech Liga Pro: 347 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Cup: 300 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339595
+Jugadores con rating calculado: 2407
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 50 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:05  Setka Cup          Oleksii Mitla        vs Anton Shypilov       | Ambos ganan set:  83.4%  [P(Oleksii Mitla)=87.6% · P(Anton Shypilov)=95.2%] (H2H n=80)
+🟢 21:15  Setka Cup          Lukas Heinzl         vs Volodymyr Burylov    | Ambos ganan set:  80.6%  [P(Lukas Heinzl)=87.9% · P(Volodymyr Burylov)=91.8%] (H2H n=18)
+🟢 21:30  Czech Liga Pro     Jiri Plachy          vs Pavel Fojt           | Ambos ganan set:  79.7%  [P(Jiri Plachy)=92.7% · P(Pavel Fojt)=85.9%] (H2H n=89)
+🟢 22:30  TT Elite Series    Szymon Sporek        vs Jakub Chmielowski    | Ambos ganan set:  77.3%  [P(Szymon Sporek)=86.0% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
