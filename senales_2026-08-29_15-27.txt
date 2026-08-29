@@ -1,0 +1,42 @@
+Señales generadas el 29/08/2026 a las 15:27
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 3 tras reintento, me detengo aqui)
+  TT Elite Series: 99 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 4)
+  Setka Cup: 147 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 5)
+  Czech Liga Pro: 197 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 5)
+  TT Cup: 197 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339042
+Jugadores con rating calculado: 2407
+
+Buscando proximos partidos...
+ (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina 6)
+   (busqueda directa de Tomas Motacek: +4 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 140 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 17:35  Setka Cup          Orest Hura           vs Anton Shypilov       | Ambos ganan set:  76.4%  [P(Orest Hura)=90.4% · P(Anton Shypilov)=84.6%] (H2H n=36)
+🟢 18:55  Setka Cup          Evgeniy Pismenniy    vs Roman Cherevko       | Ambos ganan set:  78.3%  [P(Evgeniy Pismenniy)=82.1% · P(Roman Cherevko)=95.4%] (H2H n=73)
+🟢 20:15  Setka Cup          Lukas Heinzl         vs Michal Makara        | Ambos ganan set:  79.3%  [P(Lukas Heinzl)=94.0% · P(Michal Makara)=84.4%] (H2H n=26)
+🟢 21:00  Czech Liga Pro     Kyryl Darin          vs Michal Vedmoch       | Ambos ganan set:  77.6%  [P(Kyryl Darin)=85.3% · P(Michal Vedmoch)=91.1%] (H2H n=95)
+🟢 21:05  Setka Cup          Oleksii Mitla        vs Anton Shypilov       | Ambos ganan set:  83.4%  [P(Oleksii Mitla)=87.6% · P(Anton Shypilov)=95.3%] (H2H n=80)
+🟢 21:15  Setka Cup          Lukas Heinzl         vs Volodymyr Burylov    | Ambos ganan set:  80.6%  [P(Lukas Heinzl)=87.8% · P(Volodymyr Burylov)=91.7%] (H2H n=18)
+🟢 21:30  Czech Liga Pro     Jiri Plachy          vs Pavel Fojt           | Ambos ganan set:  79.7%  [P(Jiri Plachy)=92.7% · P(Pavel Fojt)=85.9%] (H2H n=89)
+🟢 22:30  TT Elite Series    Szymon Sporek        vs Jakub Chmielowski    | Ambos ganan set:  77.3%  [P(Szymon Sporek)=86.0% · P(Jakub Chmielowski)=89.9%] (H2H n=27)
