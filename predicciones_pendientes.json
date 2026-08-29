@@ -1,74 +1,4 @@
 {
-  "13036691": {
-    "liga": "Czech Liga Pro",
-    "home": "Jiri Plachy",
-    "away": "Pavel Fojt",
-    "probabilidad": 0.7967691121023137,
-    "score": 0.6925361821742699,
-    "color": "VERDE",
-    "n_h2h": 89,
-    "p_home_individual": 0.9272065403833246,
-    "p_away_individual": 0.8593221438806011,
-    "hora": "21:30",
-    "event_id": "13036691",
-    "hora_ts": 1788031800,
-    "impulso_home": 0.09258168184252819,
-    "impulso_away": -0.08648648648648649,
-    "racha_home": 2,
-    "racha_away": 1,
-    "tasa_home": 0.45741831815747186,
-    "tasa_away": 0.4864864864864865,
-    "barrido_home": 0.26229508196721313,
-    "barrido_away": 0.25,
-    "fue_barrido_home": 0.25863770977295164,
-    "fue_barrido_away": 0.32057416267942584,
-    "h2h_ultima_fecha": "17/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "17/08/2026",
-        "ganador": "Jiri Plachy",
-        "perdedor": "Pavel Fojt",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "17/08/2026",
-        "ganador": "Jiri Plachy",
-        "perdedor": "Pavel Fojt",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "08/08/2026",
-        "ganador": "Pavel Fojt",
-        "perdedor": "Jiri Plachy",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "03/08/2026",
-        "ganador": "Jiri Plachy",
-        "perdedor": "Pavel Fojt",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "02/08/2026",
-        "ganador": "Jiri Plachy",
-        "perdedor": "Pavel Fojt",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "prob_partido_home": 0.5398915825472526,
-    "prob_partido_away": 0.46010841745274744,
-    "senal_1_1": 0.565636860571459,
-    "senal_3er": 0.9860131894095866,
-    "senal_3_0": 0.1945055103292487,
-    "senal_4mas": 0.805451608024096,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13037126": {
     "liga": "TT Elite Series",
     "home": "Szymon Sporek",
@@ -130,8 +60,8 @@
         "sets_perdedor": 2
       }
     ],
-    "prob_partido_home": 0.5543722435904884,
-    "prob_partido_away": 0.4456277564095116,
+    "prob_partido_home": 0.5540656643398405,
+    "prob_partido_away": 0.4459343356601595,
     "senal_1_1": 0.5657943476977567,
     "senal_3er": 0.9670664846517119,
     "senal_3_0": 0.20440562278630459,
