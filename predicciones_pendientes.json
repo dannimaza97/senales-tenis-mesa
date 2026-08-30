@@ -1,74 +1,4 @@
 {
-  "13042043": {
-    "liga": "Czech Liga Pro",
-    "home": "Jiri Dedek",
-    "away": "Radim Pavelka",
-    "probabilidad": 0.7721932905887909,
-    "score": 0.6450305947719776,
-    "color": "VERDE",
-    "n_h2h": 39,
-    "p_home_individual": 0.8897968792036588,
-    "p_away_individual": 0.8678309720302464,
-    "hora": "21:00",
-    "event_id": "13042043",
-    "hora_ts": 1788116400,
-    "impulso_home": -0.16935788479697833,
-    "impulso_away": -0.05049950049950053,
-    "racha_home": 1,
-    "racha_away": 6,
-    "tasa_home": 0.5193578847969783,
-    "tasa_away": 0.5004995004995005,
-    "barrido_home": 0.35454545454545455,
-    "barrido_away": 0.2315369261477046,
-    "fue_barrido_home": 0.3555992141453831,
-    "fue_barrido_away": 0.268,
-    "h2h_ultima_fecha": "05/07/2026",
-    "h2h_historial": [
-      {
-        "fecha": "05/07/2026",
-        "ganador": "Jiri Dedek",
-        "perdedor": "Radim Pavelka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "18/06/2026",
-        "ganador": "Radim Pavelka",
-        "perdedor": "Jiri Dedek",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "18/06/2026",
-        "ganador": "Radim Pavelka",
-        "perdedor": "Jiri Dedek",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "25/05/2026",
-        "ganador": "Jiri Dedek",
-        "perdedor": "Radim Pavelka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "24/04/2026",
-        "ganador": "Jiri Dedek",
-        "perdedor": "Radim Pavelka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "prob_partido_home": 0.4598396302873089,
-    "prob_partido_away": 0.5401603697126911,
-    "senal_1_1": 0.6330515750231711,
-    "senal_3er": 0.9745352119424986,
-    "senal_3_0": 0.21633822549266402,
-    "senal_4mas": 0.7835105935170115,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13042089": {
     "liga": "Czech Liga Pro",
     "home": "Tomas Janata",
@@ -139,76 +69,6 @@
     "discrepancia": false,
     "ultimo_torneo": false
   },
-  "13041830": {
-    "liga": "Czech Liga Pro",
-    "home": "Milan Kolar",
-    "away": "Michal Vedmoch",
-    "probabilidad": 0.7415281162862579,
-    "score": 0.5741968762287757,
-    "color": "AMARILLO",
-    "n_h2h": 30,
-    "p_home_individual": 0.8882240233726924,
-    "p_away_individual": 0.8348435718621834,
-    "hora": "21:30",
-    "event_id": "13041830",
-    "hora_ts": 1788118200,
-    "impulso_home": 0.058919202518363134,
-    "impulso_away": 0.02280334728033473,
-    "racha_home": -2,
-    "racha_away": -3,
-    "tasa_home": 0.4910807974816369,
-    "tasa_away": 0.5271966527196653,
-    "barrido_home": 0.3547008547008547,
-    "barrido_away": 0.2804232804232804,
-    "fue_barrido_home": 0.23711340206185566,
-    "fue_barrido_away": 0.3421828908554572,
-    "h2h_ultima_fecha": "15/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "15/08/2026",
-        "ganador": "Michal Vedmoch",
-        "perdedor": "Milan Kolar",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "15/08/2026",
-        "ganador": "Michal Vedmoch",
-        "perdedor": "Milan Kolar",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "23/06/2026",
-        "ganador": "Milan Kolar",
-        "perdedor": "Michal Vedmoch",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "21/03/2026",
-        "ganador": "Michal Vedmoch",
-        "perdedor": "Milan Kolar",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
-      },
-      {
-        "fecha": "15/02/2026",
-        "ganador": "Michal Vedmoch",
-        "perdedor": "Milan Kolar",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
-      }
-    ],
-    "prob_partido_home": 0.3514793851954085,
-    "prob_partido_away": 0.6485206148045914,
-    "senal_1_1": 0.5025544498102729,
-    "senal_3er": 0.9697580092644836,
-    "senal_3_0": 0.2545771713539518,
-    "senal_4mas": 0.7449186259293906,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13042322": {
     "liga": "Czech Liga Pro",
     "home": "Samuel Byrtus",
@@ -270,8 +130,8 @@
         "sets_perdedor": 1
       }
     ],
-    "prob_partido_home": 0.5141760346570161,
-    "prob_partido_away": 0.4858239653429839,
+    "prob_partido_home": 0.5144053598300384,
+    "prob_partido_away": 0.48559464016996157,
     "senal_1_1": 0.5805882310284146,
     "senal_3er": 0.9604318581364837,
     "senal_3_0": 0.2015699734344959,
