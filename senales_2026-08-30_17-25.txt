@@ -1,0 +1,38 @@
+Señales generadas el 30/08/2026 a las 17:25
+
+Cargando historico acumulado guardado...
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 349 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Setka Cup: 299 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Czech Liga Pro: 294 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Cup: 299 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339643
+Jugadores con rating calculado: 2407
+
+Buscando proximos partidos...
+ (aviso: presupuesto de tiempo agotado buscando proximos para esta liga, corto en pagina 6)
+   (busqueda directa de Miroslav Dolezal: +25 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 110 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟡 20:00  Czech Liga Pro     Samuel Byrtus        vs Dalimil Machander    | Ambos ganan set:  73.8%  [P(Samuel Byrtus)=86.7% · P(Dalimil Machander)=85.2%] (H2H n=7)
+🟢 21:00  Czech Liga Pro     Dalimil Machander    vs Adrian Walek         | Ambos ganan set:  80.4%  [P(Dalimil Machander)=91.0% · P(Adrian Walek)=88.4%] (H2H n=28)
+🟢 21:00  Czech Liga Pro     Jiri Dedek           vs Radim Pavelka        | Ambos ganan set:  77.2%  [P(Jiri Dedek)=89.0% · P(Radim Pavelka)=86.8%] (H2H n=39)
+🟢 21:30  Czech Liga Pro     Tomas Janata         vs Martin Vizek         | Ambos ganan set:  75.9%  [P(Tomas Janata)=82.9% · P(Martin Vizek)=91.6%] (H2H n=23)
+🟡 21:30  Czech Liga Pro     Milan Kolar          vs Michal Vedmoch       | Ambos ganan set:  74.1%  [P(Milan Kolar)=88.8% · P(Michal Vedmoch)=83.5%] (H2H n=30)
+🟢 22:00  Czech Liga Pro     Samuel Byrtus        vs Adrian Walek         | Ambos ganan set:  77.6%  [P(Samuel Byrtus)=90.4% · P(Adrian Walek)=85.8%] (H2H n=19)
