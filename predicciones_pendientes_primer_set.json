@@ -4,19 +4,19 @@
     "home": "Jakub Zochniak",
     "away": "Krystian Kolodziej",
     "favorito": "Krystian Kolodziej",
-    "probabilidad": 0.7929304622983715,
-    "score": 0.8586974702439777,
+    "probabilidad": 0.7929287068198523,
+    "score": 0.8586956621011029,
     "color": "VERDE",
     "n_h2h": 34,
     "p_home_individual": 0.26736353077816494,
-    "p_away_individual": 0.7929304622983715,
+    "p_away_individual": 0.7929287068198523,
     "hora": "21:40",
     "event_id": "13042565",
     "hora_ts": 1788118800,
     "racha_home": 2,
     "racha_away": 4,
     "tasa_home": 0.5164681149264191,
-    "tasa_away": 0.6655791190864601,
+    "tasa_away": 0.6655764513491415,
     "h2h_ultima_fecha": "21/07/2026"
   }
 }
