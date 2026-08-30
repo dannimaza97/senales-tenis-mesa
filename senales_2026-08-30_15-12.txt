@@ -1,0 +1,40 @@
+Señales generadas el 30/08/2026 a las 15:12
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Elite Series: 298 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 5)
+  Setka Cup: 200 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 395 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 1, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 6)
+  TT Cup: 250 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339545
+Jugadores con rating calculado: 2407
+
+Buscando proximos partidos...
+   (busqueda directa de Karol Kufel: +1 partidos anadidos)
+   (busqueda directa de Miroslav Dolezal: +25 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 175 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟡 17:30  Czech Liga Pro     Alfred Rinka         vs Dominik Oborny       | Ambos ganan set:  71.9%  [P(Alfred Rinka)=82.8% · P(Dominik Oborny)=86.8%] (H2H n=0)
+🟢 18:00  Czech Liga Pro     Daniel Tuma          vs Tomas Janata         | Ambos ganan set:  79.5%  [P(Daniel Tuma)=86.7% · P(Tomas Janata)=91.7%] (H2H n=83)
+🟡 18:30  Czech Liga Pro     Jiri Louda           vs Radim Urbaniec       | Ambos ganan set:  72.5%  [P(Jiri Louda)=77.1% · P(Radim Urbaniec)=94.0%] (H2H n=44)
+🟡 20:00  Czech Liga Pro     Samuel Byrtus        vs Dalimil Machander    | Ambos ganan set:  74.0%  [P(Samuel Byrtus)=86.8% · P(Dalimil Machander)=85.2%] (H2H n=8)
+🟢 21:00  Czech Liga Pro     Dalimil Machander    vs Adrian Walek         | Ambos ganan set:  80.2%  [P(Dalimil Machander)=90.8% · P(Adrian Walek)=88.4%] (H2H n=28)
+🟢 21:00  Czech Liga Pro     Jiri Dedek           vs Radim Pavelka        | Ambos ganan set:  77.2%  [P(Jiri Dedek)=89.0% · P(Radim Pavelka)=86.8%] (H2H n=39)
+🟢 21:30  Czech Liga Pro     Tomas Janata         vs Martin Vizek         | Ambos ganan set:  75.9%  [P(Tomas Janata)=82.9% · P(Martin Vizek)=91.6%] (H2H n=23)
+🟡 21:30  Czech Liga Pro     Milan Kolar          vs Michal Vedmoch       | Ambos ganan set:  74.1%  [P(Milan Kolar)=88.8% · P(Michal Vedmoch)=83.5%] (H2H n=30)
+🟢 22:00  Czech Liga Pro     Samuel Byrtus        vs Adrian Walek         | Ambos ganan set:  77.5%  [P(Samuel Byrtus)=90.3% · P(Adrian Walek)=85.8%] (H2H n=19)
