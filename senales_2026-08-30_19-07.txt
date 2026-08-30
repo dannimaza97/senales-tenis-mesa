@@ -1,0 +1,31 @@
+Señales generadas el 30/08/2026 a las 19:07
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Elite Series: 399 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  Setka Cup: 499 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Czech Liga Pro: 444 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Cup: 297 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340041
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+   (busqueda directa de Miroslav Dolezal: +26 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 63 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:30  Czech Liga Pro     Tomas Janata         vs Martin Vizek         | Ambos ganan set:  75.9%  [P(Tomas Janata)=82.8% · P(Martin Vizek)=91.6%] (H2H n=23)
+🟡 21:30  Czech Liga Pro     Milan Kolar          vs Michal Vedmoch       | Ambos ganan set:  74.2%  [P(Milan Kolar)=88.8% · P(Michal Vedmoch)=83.5%] (H2H n=30)
+🟢 22:00  Czech Liga Pro     Samuel Byrtus        vs Adrian Walek         | Ambos ganan set:  77.5%  [P(Samuel Byrtus)=90.3% · P(Adrian Walek)=85.9%] (H2H n=19)
