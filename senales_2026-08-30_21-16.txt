@@ -1,0 +1,32 @@
+Señales generadas el 30/08/2026 a las 21:16
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 16, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 17)
+  TT Elite Series: 798 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 14, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  Setka Cup: 695 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  Czech Liga Pro: 493 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  TT Cup: 646 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 341034
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 1 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+No se encontraron señales sobre el umbral con los partidos próximos disponibles ahora mismo.
