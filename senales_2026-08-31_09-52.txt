@@ -1,0 +1,55 @@
+Señales generadas el 31/08/2026 a las 09:52
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  TT Elite Series: 642 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 22)
+  Setka Cup: 1037 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 36)
+  Czech Liga Pro: 1699 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 26, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 27)
+  TT Cup: 1290 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 343070
+Jugadores con rating calculado: 2411
+
+Buscando proximos partidos...
+   (busqueda directa de Krystof Lahodny: +15 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 321 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 12:15  Setka Cup          Michal Stibor        vs Lukas Rulc           | Ambos ganan set:  80.3%  [P(Michal Stibor)=89.0% · P(Lukas Rulc)=90.2%] (H2H n=19)
+🟢 12:30  Setka Cup          Oleksandr Ziakun     vs Dmytro Prylepa       | Ambos ganan set:  81.3%  [P(Oleksandr Ziakun)=89.9% · P(Dmytro Prylepa)=90.5%] (H2H n=18)
+🟢 13:15  Setka Cup          Michal Stibor        vs Marek Vyskocil       | Ambos ganan set:  84.5%  [P(Michal Stibor)=89.5% · P(Marek Vyskocil)=94.4%] (H2H n=0)
+🟢 14:30  Setka Cup          Serhii Kushnirenko   vs Dmytro Yurkov        | Ambos ganan set:  80.4%  [P(Serhii Kushnirenko)=89.9% · P(Dmytro Yurkov)=89.4%] (H2H n=47)
+🟢 15:45  Setka Cup          Ondrej Mezera        vs Adam Radkovsky       | Ambos ganan set:  80.4%  [P(Ondrej Mezera)=88.2% · P(Adam Radkovsky)=91.1%] (H2H n=7)
+🟢 16:00  Setka Cup          Dmytro Kryshtal      vs Dmytro Yurkov        | Ambos ganan set:  79.8%  [P(Dmytro Kryshtal)=92.5% · P(Dmytro Yurkov)=86.3%] (H2H n=119)
+🟢 16:00  Czech Liga Pro     Radomir Revay        vs Tadeas Zika          | Ambos ganan set:  80.1%  [P(Radomir Revay)=85.9% · P(Tadeas Zika)=93.2%] (H2H n=111)
+🟢 16:00  Setka Cup          Lukas Provaznik      vs Leon Kolman          | Ambos ganan set:  81.9%  [P(Lukas Provaznik)=90.2% · P(Leon Kolman)=90.8%] (H2H n=4)
+🟢 16:20  TT Elite Series    Piotr Przewlocki     vs Wojciech Wojtaszczyk | Ambos ganan set:  81.9%  [P(Piotr Przewlocki)=89.2% · P(Wojciech Wojtaszczyk)=91.8%] (H2H n=17)
+🟢 16:30  TT Cup             Lukasz Buklat        vs Wiekiera Arkadiusz   | Ambos ganan set:  81.0%  [P(Lukasz Buklat)=85.8% · P(Wiekiera Arkadiusz)=94.4%] (H2H n=67)
+🟢 17:00  Czech Liga Pro     Tadeas Zika          vs Jan Szotkowski       | Ambos ganan set:  81.0%  [P(Tadeas Zika)=85.0% · P(Jan Szotkowski)=95.2%] (H2H n=179)
+🟢 17:25  Setka Cup          Oleksandr Melashenko vs Kostiantyn Hrynenko  | Ambos ganan set:  80.8%  [P(Oleksandr Melashenko)=92.3% · P(Kostiantyn Hrynenko)=87.5%] (H2H n=42)
+🟢 17:30  Czech Liga Pro     Lubor Sulava         vs Jan Pleskot          | Ambos ganan set:  83.5%  [P(Lubor Sulava)=96.8% · P(Jan Pleskot)=86.2%] (H2H n=132)
+🟢 17:30  Setka Cup          Dmytro Kryshtal      vs Serhii Kushnirenko   | Ambos ganan set:  81.0%  [P(Dmytro Kryshtal)=92.2% · P(Serhii Kushnirenko)=87.8%] (H2H n=76)
+🟢 17:40  Setka Cup          Andrii Hrabskyi      vs Artem Yurkov         | Ambos ganan set:  78.4%  [P(Andrii Hrabskyi)=85.2% · P(Artem Yurkov)=92.1%] (H2H n=80)
+🟢 18:00  Czech Liga Pro     Radomir Revay        vs Jan Szotkowski       | Ambos ganan set:  79.5%  [P(Radomir Revay)=83.1% · P(Jan Szotkowski)=95.6%] (H2H n=36)
+🟢 18:00  Setka Cup          Leon Kolman          vs Martin Skyba         | Ambos ganan set:  82.9%  [P(Leon Kolman)=90.8% · P(Martin Skyba)=91.3%] (H2H n=4)
+🟢 20:00  Czech Liga Pro     Ondrej Paril         vs Jan Szotkowski       | Ambos ganan set:  81.4%  [P(Ondrej Paril)=87.8% · P(Jan Szotkowski)=92.8%] (H2H n=69)
+🟢 20:00  Czech Liga Pro     Dominik Oborny       vs Jakub Levicky        | Ambos ganan set:  81.2%  [P(Dominik Oborny)=88.3% · P(Jakub Levicky)=92.0%] (H2H n=80)
+🟢 20:30  Czech Liga Pro     Tadeas Zika          vs Radomir Revay        | Ambos ganan set:  80.1%  [P(Tadeas Zika)=93.2% · P(Radomir Revay)=85.9%] (H2H n=111)
+🟢 21:00  Czech Liga Pro     Jan Szotkowski       vs Tadeas Zika          | Ambos ganan set:  81.0%  [P(Jan Szotkowski)=95.2% · P(Tadeas Zika)=85.0%] (H2H n=179)
+🟢 21:00  Czech Liga Pro     Jakub Levicky        vs Marcel Heczko        | Ambos ganan set:  79.6%  [P(Jakub Levicky)=90.6% · P(Marcel Heczko)=87.8%] (H2H n=76)
+🟢 21:30  Czech Liga Pro     Tomas Milota         vs Dominik Oborny       | Ambos ganan set:  80.1%  [P(Tomas Milota)=91.2% · P(Dominik Oborny)=87.8%] (H2H n=19)
+🟢 21:40  TT Elite Series    Andriej Fomin        vs Zbigniew Nocun       | Ambos ganan set:  79.6%  [P(Andriej Fomin)=85.7% · P(Zbigniew Nocun)=92.9%] (H2H n=28)
+🟢 22:00  Czech Liga Pro     Dominik Oborny       vs Marcel Heczko        | Ambos ganan set:  82.7%  [P(Dominik Oborny)=94.1% · P(Marcel Heczko)=87.9%] (H2H n=77)
+🟢 22:30  Czech Liga Pro     Jan Szotkowski       vs Radomir Revay        | Ambos ganan set:  79.5%  [P(Jan Szotkowski)=95.6% · P(Radomir Revay)=83.1%] (H2H n=36)
