@@ -1,74 +1,4 @@
 {
-  "13047561": {
-    "liga": "Czech Liga Pro",
-    "home": "Tomas Milota",
-    "away": "Dominik Oborny",
-    "probabilidad": 0.8012387135619593,
-    "score": 0.7016546178377682,
-    "color": "VERDE",
-    "n_h2h": 19,
-    "p_home_individual": 0.9125766594516594,
-    "p_away_individual": 0.8779960623180962,
-    "hora": "21:30",
-    "event_id": "13047561",
-    "hora_ts": 1788204600,
-    "impulso_home": -0.18375451263537906,
-    "impulso_away": 0.28211243611584336,
-    "racha_home": 1,
-    "racha_away": -1,
-    "tasa_home": 0.48375451263537905,
-    "tasa_away": 0.5178875638841567,
-    "barrido_home": 0.30597014925373134,
-    "barrido_away": 0.2993421052631579,
-    "fue_barrido_home": 0.20279720279720279,
-    "fue_barrido_away": 0.26855123674911663,
-    "h2h_ultima_fecha": "24/06/2026",
-    "h2h_historial": [
-      {
-        "fecha": "24/06/2026",
-        "ganador": "Dominik Oborny",
-        "perdedor": "Tomas Milota",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "14/05/2026",
-        "ganador": "Tomas Milota",
-        "perdedor": "Dominik Oborny",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "13/05/2026",
-        "ganador": "Tomas Milota",
-        "perdedor": "Dominik Oborny",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "12/05/2026",
-        "ganador": "Dominik Oborny",
-        "perdedor": "Tomas Milota",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "28/04/2026",
-        "ganador": "Tomas Milota",
-        "perdedor": "Dominik Oborny",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "prob_partido_home": 0.4025757670798292,
-    "prob_partido_away": 0.5974242329201708,
-    "senal_1_1": 0.5758822715655343,
-    "senal_3er": 0.9621499880768949,
-    "senal_3_0": 0.18769913878494388,
-    "senal_4mas": 0.8123008612150562,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13047926": {
     "liga": "TT Elite Series",
     "home": "Andriej Fomin",
@@ -213,25 +143,25 @@
     "liga": "Czech Liga Pro",
     "home": "Jan Szotkowski",
     "away": "Radomir Revay",
-    "probabilidad": 0.8107881493826018,
-    "score": 0.7241859701854513,
+    "probabilidad": 0.7975868237713926,
+    "score": 0.695657479898266,
     "color": "VERDE",
-    "n_h2h": 36,
-    "p_home_individual": 0.9552599523118392,
-    "p_away_individual": 0.8487617924528302,
+    "n_h2h": 37,
+    "p_home_individual": 0.9562196034418257,
+    "p_away_individual": 0.8341042380856356,
     "hora": "22:30",
     "event_id": "13048156",
     "hora_ts": 1788208200,
-    "impulso_home": -0.06472471190781054,
-    "impulso_away": -0.01756007393715342,
+    "impulso_home": -0.01584283903675543,
+    "impulso_away": -0.06824817518248177,
     "racha_home": 1,
     "racha_away": -1,
-    "tasa_home": 0.5147247119078106,
-    "tasa_away": 0.5175600739371534,
-    "barrido_home": 0.2537313432835821,
-    "barrido_away": 0.18571428571428572,
-    "fue_barrido_home": 0.11609498680738786,
-    "fue_barrido_away": 0.2413793103448276,
+    "tasa_home": 0.5158428390367554,
+    "tasa_away": 0.5182481751824818,
+    "barrido_home": 0.25552825552825553,
+    "barrido_away": 0.19014084507042253,
+    "fue_barrido_home": 0.11518324607329843,
+    "fue_barrido_away": 0.24242424242424243,
     "h2h_ultima_fecha": "31/08/2026",
     "h2h_historial": [
       {
@@ -240,6 +170,13 @@
         "perdedor": "Jan Szotkowski",
         "sets_ganador": 3,
         "sets_perdedor": 1
+      },
+      {
+        "fecha": "27/08/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Radomir Revay",
+        "sets_ganador": 3,
+        "sets_perdedor": 0
       },
       {
         "fecha": "14/08/2026",
@@ -261,21 +198,14 @@
         "perdedor": "Jan Szotkowski",
         "sets_ganador": 3,
         "sets_perdedor": 1
-      },
-      {
-        "fecha": "09/07/2026",
-        "ganador": "Jan Szotkowski",
-        "perdedor": "Radomir Revay",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
       }
     ],
-    "prob_partido_home": 0.5114376674569854,
-    "prob_partido_away": 0.4885623325430146,
-    "senal_1_1": 0.6531854895441487,
-    "senal_3er": 0.9725364973638222,
-    "senal_3_0": 0.17772610223334617,
-    "senal_4mas": 0.8224784607239122,
+    "prob_partido_home": 0.5235570313672933,
+    "prob_partido_away": 0.47644296863270674,
+    "senal_1_1": 0.6414897721077142,
+    "senal_3er": 0.9730075699014749,
+    "senal_3_0": 0.1923231249613837,
+    "senal_4mas": 0.8078756217651408,
     "discrepancia": false,
     "ultimo_torneo": true
   }

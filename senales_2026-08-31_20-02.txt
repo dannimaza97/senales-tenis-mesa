@@ -1,0 +1,30 @@
+Señales generadas el 31/08/2026 a las 20:02
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 19, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 20)
+  TT Elite Series: 948 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  Setka Cup: 545 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 24)
+  Czech Liga Pro: 1131 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 18, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 19)
+  TT Cup: 895 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 341921
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 28 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:30  Czech Liga Pro     Jan Szotkowski       vs Radomir Revay        | Ambos ganan set:  79.8%  [P(Jan Szotkowski)=95.6% · P(Radomir Revay)=83.4%] (H2H n=37)
