@@ -1,74 +1,4 @@
 {
-  "13047926": {
-    "liga": "TT Elite Series",
-    "home": "Andriej Fomin",
-    "away": "Zbigniew Nocun",
-    "probabilidad": 0.796402251537783,
-    "score": 0.6809263081745441,
-    "color": "VERDE",
-    "n_h2h": 28,
-    "p_home_individual": 0.8579145988420183,
-    "p_away_individual": 0.9283001508690231,
-    "hora": "21:40",
-    "event_id": "13047926",
-    "hora_ts": 1788205200,
-    "impulso_home": 0.04130434782608694,
-    "impulso_away": 0.1639194139194139,
-    "racha_home": -1,
-    "racha_away": 2,
-    "tasa_home": 0.6086956521739131,
-    "tasa_away": 0.5860805860805861,
-    "barrido_home": 0.29894179894179895,
-    "barrido_away": 0.30833333333333335,
-    "fue_barrido_home": 0.345679012345679,
-    "fue_barrido_away": 0.26253687315634217,
-    "h2h_ultima_fecha": "17/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "17/08/2026",
-        "ganador": "Zbigniew Nocun",
-        "perdedor": "Andriej Fomin",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "20/07/2026",
-        "ganador": "Andriej Fomin",
-        "perdedor": "Zbigniew Nocun",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "19/07/2026",
-        "ganador": "Zbigniew Nocun",
-        "perdedor": "Andriej Fomin",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "09/07/2026",
-        "ganador": "Zbigniew Nocun",
-        "perdedor": "Andriej Fomin",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "09/07/2026",
-        "ganador": "Zbigniew Nocun",
-        "perdedor": "Andriej Fomin",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      }
-    ],
-    "prob_partido_home": 0.47574101990324186,
-    "prob_partido_away": 0.5242589800967581,
-    "senal_1_1": 0.5451228120972941,
-    "senal_3er": 0.969093725535773,
-    "senal_3_0": 0.20521518415546552,
-    "senal_4mas": 0.7947848158445344,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13046924": {
     "liga": "Czech Liga Pro",
     "home": "Dominik Oborny",
@@ -143,25 +73,25 @@
     "liga": "Czech Liga Pro",
     "home": "Jan Szotkowski",
     "away": "Radomir Revay",
-    "probabilidad": 0.7975868237713926,
-    "score": 0.695657479898266,
+    "probabilidad": 0.8110533257827366,
+    "score": 0.7244070862805316,
     "color": "VERDE",
-    "n_h2h": 37,
-    "p_home_individual": 0.9562196034418257,
-    "p_away_individual": 0.8341042380856356,
+    "n_h2h": 36,
+    "p_home_individual": 0.9552599523118392,
+    "p_away_individual": 0.8490393885139789,
     "hora": "22:30",
     "event_id": "13048156",
     "hora_ts": 1788208200,
-    "impulso_home": -0.01584283903675543,
-    "impulso_away": -0.06824817518248177,
+    "impulso_home": -0.06472471190781054,
+    "impulso_away": -0.06743119266055048,
     "racha_home": 1,
-    "racha_away": -1,
-    "tasa_home": 0.5158428390367554,
-    "tasa_away": 0.5182481751824818,
-    "barrido_home": 0.25552825552825553,
-    "barrido_away": 0.19014084507042253,
-    "fue_barrido_home": 0.11518324607329843,
-    "fue_barrido_away": 0.24242424242424243,
+    "racha_away": -2,
+    "tasa_home": 0.5147247119078106,
+    "tasa_away": 0.5174311926605505,
+    "barrido_home": 0.2537313432835821,
+    "barrido_away": 0.1879432624113475,
+    "fue_barrido_home": 0.11609498680738786,
+    "fue_barrido_away": 0.23954372623574144,
     "h2h_ultima_fecha": "31/08/2026",
     "h2h_historial": [
       {
@@ -170,13 +100,6 @@
         "perdedor": "Jan Szotkowski",
         "sets_ganador": 3,
         "sets_perdedor": 1
-      },
-      {
-        "fecha": "27/08/2026",
-        "ganador": "Jan Szotkowski",
-        "perdedor": "Radomir Revay",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
       },
       {
         "fecha": "14/08/2026",
@@ -198,14 +121,21 @@
         "perdedor": "Jan Szotkowski",
         "sets_ganador": 3,
         "sets_perdedor": 1
+      },
+      {
+        "fecha": "09/07/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Radomir Revay",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
       }
     ],
-    "prob_partido_home": 0.5235570313672933,
-    "prob_partido_away": 0.47644296863270674,
-    "senal_1_1": 0.6414897721077142,
-    "senal_3er": 0.9730075699014749,
-    "senal_3_0": 0.1923231249613837,
-    "senal_4mas": 0.8078756217651408,
+    "prob_partido_home": 0.5121312226172574,
+    "prob_partido_away": 0.4878687773827426,
+    "senal_1_1": 0.6534404905770642,
+    "senal_3er": 0.9725440290398999,
+    "senal_3_0": 0.17776806442863607,
+    "senal_4mas": 0.8224364985286223,
     "discrepancia": false,
     "ultimo_torneo": true
   }
