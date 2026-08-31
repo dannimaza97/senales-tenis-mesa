@@ -1,0 +1,34 @@
+Señales generadas el 31/08/2026 a las 18:34
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 15, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 16)
+  TT Elite Series: 749 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  Setka Cup: 546 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 27, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 28)
+  Czech Liga Pro: 1327 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 18)
+  TT Cup: 842 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 341866
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 77 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:00  Czech Liga Pro     Jan Szotkowski       vs Tadeas Zika          | Ambos ganan set:  81.1%  [P(Jan Szotkowski)=95.3% · P(Tadeas Zika)=85.1%] (H2H n=180)
+🟢 21:00  Czech Liga Pro     Jakub Levicky        vs Marcel Heczko        | Ambos ganan set:  79.6%  [P(Jakub Levicky)=90.6% · P(Marcel Heczko)=87.8%] (H2H n=76)
+🟢 21:30  Czech Liga Pro     Tomas Milota         vs Dominik Oborny       | Ambos ganan set:  80.1%  [P(Tomas Milota)=91.2% · P(Dominik Oborny)=87.8%] (H2H n=19)
+🟢 21:40  TT Elite Series    Andriej Fomin        vs Zbigniew Nocun       | Ambos ganan set:  79.6%  [P(Andriej Fomin)=85.8% · P(Zbigniew Nocun)=92.8%] (H2H n=28)
+🟢 22:00  Czech Liga Pro     Dominik Oborny       vs Marcel Heczko        | Ambos ganan set:  83.5%  [P(Dominik Oborny)=94.0% · P(Marcel Heczko)=88.8%] (H2H n=76)
+🟢 22:30  Czech Liga Pro     Jan Szotkowski       vs Radomir Revay        | Ambos ganan set:  79.8%  [P(Jan Szotkowski)=95.6% · P(Radomir Revay)=83.5%] (H2H n=37)
