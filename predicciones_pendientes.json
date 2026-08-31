@@ -1,74 +1,4 @@
 {
-  "13046927": {
-    "liga": "Czech Liga Pro",
-    "home": "Jakub Levicky",
-    "away": "Marcel Heczko",
-    "probabilidad": 0.7955713668905354,
-    "score": 0.6875624996394871,
-    "color": "VERDE",
-    "n_h2h": 76,
-    "p_home_individual": 0.9063895836168957,
-    "p_away_individual": 0.8777366612222677,
-    "hora": "21:00",
-    "event_id": "13046927",
-    "hora_ts": 1788202800,
-    "impulso_home": 0.19843260188087775,
-    "impulso_away": 0.015260323159784539,
-    "racha_home": 4,
-    "racha_away": -1,
-    "tasa_home": 0.5015673981191222,
-    "tasa_away": 0.48473967684021546,
-    "barrido_home": 0.26875,
-    "barrido_away": 0.24074074074074073,
-    "fue_barrido_home": 0.28721174004192873,
-    "fue_barrido_away": 0.2508710801393728,
-    "h2h_ultima_fecha": "18/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "18/08/2026",
-        "ganador": "Jakub Levicky",
-        "perdedor": "Marcel Heczko",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "06/08/2026",
-        "ganador": "Jakub Levicky",
-        "perdedor": "Marcel Heczko",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "04/07/2026",
-        "ganador": "Marcel Heczko",
-        "perdedor": "Jakub Levicky",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "04/07/2026",
-        "ganador": "Jakub Levicky",
-        "perdedor": "Marcel Heczko",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
-      },
-      {
-        "fecha": "02/07/2026",
-        "ganador": "Marcel Heczko",
-        "perdedor": "Jakub Levicky",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "prob_partido_home": 0.5511787375836996,
-    "prob_partido_away": 0.4488212624163004,
-    "senal_1_1": 0.583496113371509,
-    "senal_3er": 0.9831029742865569,
-    "senal_3_0": 0.198065471126861,
-    "senal_4mas": 0.8011320775162523,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13047561": {
     "liga": "Czech Liga Pro",
     "home": "Tomas Milota",
@@ -270,8 +200,8 @@
         "sets_perdedor": 1
       }
     ],
-    "prob_partido_home": 0.5846698622746048,
-    "prob_partido_away": 0.4153301377253952,
+    "prob_partido_home": 0.5846859556316831,
+    "prob_partido_away": 0.41531404436831687,
     "senal_1_1": 0.6285243532577101,
     "senal_3er": 0.983847913696255,
     "senal_3_0": 0.16586216236767096,
@@ -283,25 +213,25 @@
     "liga": "Czech Liga Pro",
     "home": "Jan Szotkowski",
     "away": "Radomir Revay",
-    "probabilidad": 0.7977376794644714,
-    "score": 0.695707024447499,
+    "probabilidad": 0.8107881493826018,
+    "score": 0.7241859701854513,
     "color": "VERDE",
-    "n_h2h": 37,
-    "p_home_individual": 0.956400462962963,
-    "p_away_individual": 0.8341042380856356,
+    "n_h2h": 36,
+    "p_home_individual": 0.9552599523118392,
+    "p_away_individual": 0.8487617924528302,
     "hora": "22:30",
     "event_id": "13048156",
     "hora_ts": 1788208200,
-    "impulso_home": 0.08180677540777914,
-    "impulso_away": -0.06824817518248177,
+    "impulso_home": -0.06472471190781054,
+    "impulso_away": -0.01756007393715342,
     "racha_home": 1,
     "racha_away": -1,
-    "tasa_home": 0.5181932245922208,
-    "tasa_away": 0.5182481751824818,
-    "barrido_home": 0.2566585956416465,
-    "barrido_away": 0.19014084507042253,
-    "fue_barrido_home": 0.11458333333333333,
-    "fue_barrido_away": 0.24242424242424243,
+    "tasa_home": 0.5147247119078106,
+    "tasa_away": 0.5175600739371534,
+    "barrido_home": 0.2537313432835821,
+    "barrido_away": 0.18571428571428572,
+    "fue_barrido_home": 0.11609498680738786,
+    "fue_barrido_away": 0.2413793103448276,
     "h2h_ultima_fecha": "31/08/2026",
     "h2h_historial": [
       {
@@ -310,13 +240,6 @@
         "perdedor": "Jan Szotkowski",
         "sets_ganador": 3,
         "sets_perdedor": 1
-      },
-      {
-        "fecha": "27/08/2026",
-        "ganador": "Jan Szotkowski",
-        "perdedor": "Radomir Revay",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
       },
       {
         "fecha": "14/08/2026",
@@ -338,14 +261,21 @@
         "perdedor": "Jan Szotkowski",
         "sets_ganador": 3,
         "sets_perdedor": 1
+      },
+      {
+        "fecha": "09/07/2026",
+        "ganador": "Jan Szotkowski",
+        "perdedor": "Radomir Revay",
+        "sets_ganador": 3,
+        "sets_perdedor": 2
       }
     ],
-    "prob_partido_home": 0.5355998606953946,
-    "prob_partido_away": 0.46440013930460544,
-    "senal_1_1": 0.6414053047489413,
-    "senal_3er": 0.9730105511023728,
-    "senal_3_0": 0.19241951712374805,
-    "senal_4mas": 0.8077772421355112,
+    "prob_partido_home": 0.5114376674569854,
+    "prob_partido_away": 0.4885623325430146,
+    "senal_1_1": 0.6531854895441487,
+    "senal_3er": 0.9725364973638222,
+    "senal_3_0": 0.17772610223334617,
+    "senal_4mas": 0.8224784607239122,
     "discrepancia": false,
     "ultimo_torneo": true
   }
