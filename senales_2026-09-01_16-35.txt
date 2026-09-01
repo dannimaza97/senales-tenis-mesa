@@ -1,0 +1,41 @@
+Señales generadas el 01/09/2026 a las 16:35
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: tiempo de espera agotado en pagina 13 tras reintento, me detengo aqui)
+  TT Elite Series: 600 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Setka Cup: 395 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 13)
+  Czech Liga Pro: 580 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 95 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340072
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+   (busqueda directa de Iurii Chernyshov: +9 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 130 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:35  Setka Cup          Mykhailo Potapov     vs Ivan Pytsko          | Ambos ganan set:  78.1%  [P(Mykhailo Potapov)=88.0% · P(Ivan Pytsko)=88.7%] (H2H n=10)
+🟢 19:30  Setka Cup          Jakub Nemecek Snr    vs Jachym Juppa         | Ambos ganan set:  82.0%  [P(Jakub Nemecek Snr)=93.6% · P(Jachym Juppa)=87.6%] (H2H n=0)
+🟢 19:45  Setka Cup          Tomas Hucko          vs Miroslav Hajek       | Ambos ganan set:  78.1%  [P(Tomas Hucko)=88.2% · P(Miroslav Hajek)=88.5%] (H2H n=24)
+🟢 20:00  Czech Liga Pro     Michal Chalupa       vs Roman Hudeczek       | Ambos ganan set:  79.7%  [P(Michal Chalupa)=87.6% · P(Roman Hudeczek)=91.1%] (H2H n=35)
+🟢 20:15  Setka Cup          Petr Maly            vs Miroslav Hajek       | Ambos ganan set:  80.1%  [P(Petr Maly)=88.4% · P(Miroslav Hajek)=90.6%] (H2H n=0)
+🟢 20:30  TT Elite Series    Karol Strowski       vs Kacper Glazowski     | Ambos ganan set:  81.1%  [P(Karol Strowski)=87.6% · P(Kacper Glazowski)=92.6%] (H2H n=34)
+🟢 20:35  Setka Cup          Ivan Pytsko          vs Denys Maltsev        | Ambos ganan set:  81.8%  [P(Ivan Pytsko)=91.3% · P(Denys Maltsev)=89.6%] (H2H n=20)
+🟢 21:00  Czech Liga Pro     Daniel Tuma          vs Simon Kadavy         | Ambos ganan set:  78.3%  [P(Daniel Tuma)=86.9% · P(Simon Kadavy)=90.1%] (H2H n=39)
+🟢 21:00  Setka Cup          Marek Cizek          vs Jachym Juppa         | Ambos ganan set:  75.3%  [P(Marek Cizek)=86.0% · P(Jachym Juppa)=87.5%] (H2H n=17)

@@ -1,24 +1,4 @@
 {
-  "13055294": {
-    "liga": "Setka Cup",
-    "home": "Maksym Baday",
-    "away": "Andrii Lushchyk",
-    "favorito": "Maksym Baday",
-    "probabilidad": 0.7191166321601105,
-    "score": 0.7817835603567211,
-    "color": "AMARILLO",
-    "n_h2h": 76,
-    "p_home_individual": 0.7191166321601105,
-    "p_away_individual": 0.29688569227309053,
-    "hora": "17:30",
-    "event_id": "13055294",
-    "hora_ts": 1788276600,
-    "racha_home": -3,
-    "racha_away": -1,
-    "tasa_home": 0.6370757180156658,
-    "tasa_away": 0.4523809523809524,
-    "h2h_ultima_fecha": "18/08/2026"
-  },
   "13053425": {
     "liga": "TT Elite Series",
     "home": "Andriej Fomin",
@@ -38,5 +18,25 @@
     "tasa_home": 0.5602605863192183,
     "tasa_away": 0.7377777777777778,
     "h2h_ultima_fecha": "04/06/2026"
+  },
+  "13059673": {
+    "liga": "TT Elite Series",
+    "home": "Dariusz Molenda",
+    "away": "Aleksander Barton",
+    "favorito": "Dariusz Molenda",
+    "probabilidad": 0.7069815797190306,
+    "score": 0.7332552443966317,
+    "color": "AMARILLO",
+    "n_h2h": 6,
+    "p_home_individual": 0.7069815797190306,
+    "p_away_individual": 0.3311927571323297,
+    "hora": "21:10",
+    "event_id": "13059673",
+    "hora_ts": 1788289800,
+    "racha_home": 14,
+    "racha_away": 1,
+    "tasa_home": 0.7377777777777778,
+    "tasa_away": 0.3170731707317073,
+    "h2h_ultima_fecha": "09/07/2026"
   }
 }
