@@ -1,0 +1,48 @@
+Señales generadas el 01/09/2026 a las 12:46
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 18, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 19)
+  TT Elite Series: 899 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 21)
+  Setka Cup: 994 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: tiempo de espera agotado en pagina 21, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 22)
+  Czech Liga Pro: 1034 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 19)
+  TT Cup: 895 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342224
+Jugadores con rating calculado: 2410
+
+Buscando proximos partidos...
+   (busqueda directa de Nikita Priadko: +98 partidos anadidos)
+   (busqueda directa de Iurii Chernyshov: +9 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 261 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 15:20  TT Elite Series    Karol Strowski       vs Kacper Glazowski     | Ambos ganan set:  80.8%  [P(Karol Strowski)=87.3% · P(Kacper Glazowski)=92.5%] (H2H n=33)
+🟢 16:00  Setka Cup          Tadeas Bertho        vs Petr Kotrbacek       | Ambos ganan set:  77.5%  [P(Tadeas Bertho)=86.5% · P(Petr Kotrbacek)=89.6%] (H2H n=8)
+🟢 17:00  Setka Cup          Tadeas Bertho        vs Karel Farsky         | Ambos ganan set:  79.5%  [P(Tadeas Bertho)=90.2% · P(Karel Farsky)=88.1%] (H2H n=11)
+🟢 17:00  Setka Cup          Andrii Hrabskyi      vs Artem Yurkov         | Ambos ganan set:  78.6%  [P(Andrii Hrabskyi)=85.3% · P(Artem Yurkov)=92.1%] (H2H n=81)
+🟢 17:00  Czech Liga Pro     Oleksandr Kolisnyk   vs Tomas Postelt        | Ambos ganan set:  77.0%  [P(Oleksandr Kolisnyk)=86.6% · P(Tomas Postelt)=89.0%] (H2H n=12)
+🟢 18:10  Setka Cup          Yevhenii Holoborodko vs Ruslan Sopivnyk      | Ambos ganan set:  79.1%  [P(Yevhenii Holoborodko)=88.1% · P(Ruslan Sopivnyk)=89.8%] (H2H n=28)
+🟢 18:35  Setka Cup          Mykhailo Potapov     vs Ivan Pytsko          | Ambos ganan set:  78.0%  [P(Mykhailo Potapov)=88.0% · P(Ivan Pytsko)=88.6%] (H2H n=10)
+🟢 19:30  Setka Cup          Jakub Nemecek Snr    vs Jachym Juppa         | Ambos ganan set:  82.0%  [P(Jakub Nemecek Snr)=93.6% · P(Jachym Juppa)=87.6%] (H2H n=0)
+🟢 19:45  Setka Cup          Tomas Hucko          vs Miroslav Hajek       | Ambos ganan set:  78.1%  [P(Tomas Hucko)=88.2% · P(Miroslav Hajek)=88.6%] (H2H n=24)
+🟢 20:00  Czech Liga Pro     Michal Chalupa       vs Roman Hudeczek       | Ambos ganan set:  79.7%  [P(Michal Chalupa)=87.6% · P(Roman Hudeczek)=91.1%] (H2H n=35)
+🟢 20:15  Setka Cup          Petr Maly            vs Miroslav Hajek       | Ambos ganan set:  80.0%  [P(Petr Maly)=88.2% · P(Miroslav Hajek)=90.7%] (H2H n=0)
+🟢 20:30  TT Elite Series    Karol Strowski       vs Kacper Glazowski     | Ambos ganan set:  80.8%  [P(Karol Strowski)=87.3% · P(Kacper Glazowski)=92.5%] (H2H n=33)
+🟢 20:35  Setka Cup          Ivan Pytsko          vs Denys Maltsev        | Ambos ganan set:  81.8%  [P(Ivan Pytsko)=91.3% · P(Denys Maltsev)=89.6%] (H2H n=20)
+🟢 21:00  Czech Liga Pro     Daniel Tuma          vs Simon Kadavy         | Ambos ganan set:  77.5%  [P(Daniel Tuma)=85.7% · P(Simon Kadavy)=90.5%] (H2H n=41)
+🟢 21:00  Setka Cup          Marek Cizek          vs Jachym Juppa         | Ambos ganan set:  75.3%  [P(Marek Cizek)=86.0% · P(Jachym Juppa)=87.5%] (H2H n=17)
