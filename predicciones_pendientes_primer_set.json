@@ -1,22 +1,22 @@
 {
-  "13059673": {
+  "13060472": {
     "liga": "TT Elite Series",
     "home": "Dariusz Molenda",
-    "away": "Aleksander Barton",
+    "away": "Krystian Gudzik",
     "favorito": "Dariusz Molenda",
-    "probabilidad": 0.7078356426182513,
-    "score": 0.7341083554127033,
+    "probabilidad": 0.7307692307692307,
+    "score": 0.7369295958279009,
     "color": "AMARILLO",
-    "n_h2h": 6,
-    "p_home_individual": 0.7078356426182513,
-    "p_away_individual": 0.3320785494698538,
-    "hora": "21:10",
-    "event_id": "13059673",
-    "hora_ts": 1788289800,
+    "n_h2h": 0,
+    "p_home_individual": 0.7307692307692307,
+    "p_away_individual": 0.5254237288135594,
+    "hora": "22:45",
+    "event_id": "13060472",
+    "hora_ts": 1788295500,
     "racha_home": 15,
-    "racha_away": 2,
+    "racha_away": -2,
     "tasa_home": 0.7389380530973452,
-    "tasa_away": 0.31833910034602075,
-    "h2h_ultima_fecha": "09/07/2026"
+    "tasa_away": 0.5294117647058824,
+    "h2h_ultima_fecha": null
   }
 }
