@@ -1,0 +1,44 @@
+Señales generadas el 02/09/2026 a las 15:21
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Elite Series: 500 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  Setka Cup: 299 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 626 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Cup: 393 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340220
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+   (busqueda directa de Iurii Chernyshov: +12 partidos anadidos)
+   (busqueda directa de Denys Boltenkov: +15 partidos anadidos)
+   (busqueda directa de Artem Azarov: +9 partidos anadidos)
+   (busqueda directa de Ondrej Coufal: +4 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 169 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 17:15  Setka Cup          Petr Semrad          vs Lukas Provaznik      | Ambos ganan set:  80.9%  [P(Petr Semrad)=90.0% · P(Lukas Provaznik)=89.9%] (H2H n=36)
+🟢 17:30  Setka Cup          Dmytro Kryshtal      vs Serhii Kushnirenko   | Ambos ganan set:  81.0%  [P(Dmytro Kryshtal)=92.3% · P(Serhii Kushnirenko)=87.8%] (H2H n=76)
+🟢 17:55  Setka Cup          Yevhen Bielokon      vs Valentyn Chumak      | Ambos ganan set:  77.2%  [P(Yevhen Bielokon)=87.8% · P(Valentyn Chumak)=87.9%] (H2H n=21)
+🟢 18:00  Czech Liga Pro     Lukas Martinak       vs Richard Skacelik     | Ambos ganan set:  79.9%  [P(Lukas Martinak)=88.4% · P(Richard Skacelik)=90.5%] (H2H n=24)
+🟢 18:00  Czech Liga Pro     David Heczko         vs Samuel Byrtus        | Ambos ganan set:  78.8%  [P(David Heczko)=89.3% · P(Samuel Byrtus)=88.2%] (H2H n=28)
+🟢 20:00  Czech Liga Pro     Dominik Oborny       vs Tomas Milota         | Ambos ganan set:  80.4%  [P(Dominik Oborny)=88.0% · P(Tomas Milota)=91.3%] (H2H n=20)
+🟢 21:00  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  78.4%  [P(Roman Hudeczek)=89.3% · P(Michal Chalupa)=87.8%] (H2H n=36)
+🟢 21:30  Setka Cup          Jan Simecek Jnr      vs Roman Merkl          | Ambos ganan set:  80.8%  [P(Jan Simecek Jnr)=90.9% · P(Roman Merkl)=88.9%] (H2H n=26)
+🟢 22:00  Czech Liga Pro     Dominik Oborny       vs Jakub Levicky        | Ambos ganan set:  81.4%  [P(Dominik Oborny)=88.4% · P(Jakub Levicky)=92.1%] (H2H n=81)
+🟢 22:30  Czech Liga Pro     Martin Huk           vs Jiri Ruzicka         | Ambos ganan set:  78.5%  [P(Martin Huk)=91.3% · P(Jiri Ruzicka)=85.9%] (H2H n=198)
