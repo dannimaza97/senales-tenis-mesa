@@ -1,0 +1,48 @@
+Señales generadas el 02/09/2026 a las 12:34
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  TT Elite Series: 450 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: tiempo de espera agotado en pagina 12, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  Setka Cup: 695 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 626 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 13)
+  TT Cup: 590 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340763
+Jugadores con rating calculado: 2407
+
+Buscando proximos partidos...
+   (busqueda directa de Iurii Chernyshov: +10 partidos anadidos)
+   (busqueda directa de Denys Boltenkov: +15 partidos anadidos)
+   (busqueda directa de Artem Azarov: +8 partidos anadidos)
+   (busqueda directa de Ondrej Coufal: +4 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 252 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 14:55  TT Elite Series    Petr David           vs Marcin Jadczyk       | Ambos ganan set:  81.4%  [P(Petr David)=92.9% · P(Marcin Jadczyk)=87.6%] (H2H n=44)
+🟢 15:35  Setka Cup          Bohdan Chaikovskyi   vs Oleksandr Pohonov    | Ambos ganan set:  77.6%  [P(Bohdan Chaikovskyi)=87.2% · P(Oleksandr Pohonov)=89.0%] (H2H n=49)
+🟢 15:45  TT Elite Series    Piotr Cyrnek         vs Marcin Jadczyk       | Ambos ganan set:  83.2%  [P(Piotr Cyrnek)=90.0% · P(Marcin Jadczyk)=92.4%] (H2H n=19)
+🟢 17:00  Czech Liga Pro     Adrian Walek         vs Samuel Byrtus        | Ambos ganan set:  78.1%  [P(Adrian Walek)=86.1% · P(Samuel Byrtus)=90.7%] (H2H n=20)
+🟢 17:15  Setka Cup          Petr Semrad          vs Lukas Provaznik      | Ambos ganan set:  80.9%  [P(Petr Semrad)=90.0% · P(Lukas Provaznik)=89.9%] (H2H n=36)
+🟢 17:30  Setka Cup          Dmytro Kryshtal      vs Serhii Kushnirenko   | Ambos ganan set:  81.3%  [P(Dmytro Kryshtal)=92.4% · P(Serhii Kushnirenko)=88.0%] (H2H n=77)
+🟢 17:55  Setka Cup          Yevhen Bielokon      vs Valentyn Chumak      | Ambos ganan set:  77.4%  [P(Yevhen Bielokon)=87.9% · P(Valentyn Chumak)=88.0%] (H2H n=21)
+🟢 18:00  Czech Liga Pro     Lukas Martinak       vs Richard Skacelik     | Ambos ganan set:  79.9%  [P(Lukas Martinak)=88.3% · P(Richard Skacelik)=90.5%] (H2H n=24)
+🟢 18:00  Czech Liga Pro     David Heczko         vs Samuel Byrtus        | Ambos ganan set:  78.8%  [P(David Heczko)=89.3% · P(Samuel Byrtus)=88.2%] (H2H n=28)
+🟢 20:00  Czech Liga Pro     Dominik Oborny       vs Tomas Milota         | Ambos ganan set:  80.4%  [P(Dominik Oborny)=88.0% · P(Tomas Milota)=91.3%] (H2H n=20)
+🟢 21:00  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  78.4%  [P(Roman Hudeczek)=89.3% · P(Michal Chalupa)=87.8%] (H2H n=36)
+🟢 21:30  Setka Cup          Jan Simecek Jnr      vs Roman Merkl          | Ambos ganan set:  80.8%  [P(Jan Simecek Jnr)=90.9% · P(Roman Merkl)=88.9%] (H2H n=26)
+🟢 22:00  Czech Liga Pro     Dominik Oborny       vs Jakub Levicky        | Ambos ganan set:  81.4%  [P(Dominik Oborny)=88.4% · P(Jakub Levicky)=92.1%] (H2H n=81)
+🟢 22:30  Czech Liga Pro     Martin Huk           vs Jiri Ruzicka         | Ambos ganan set:  78.5%  [P(Martin Huk)=91.3% · P(Jiri Ruzicka)=85.9%] (H2H n=198)

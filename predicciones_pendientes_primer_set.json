@@ -1,24 +1,4 @@
 {
-  "13060807": {
-    "liga": "Setka Cup",
-    "home": "Serhii Kiilo",
-    "away": "Roman Horokh",
-    "favorito": "Roman Horokh",
-    "probabilidad": 0.7653547293806444,
-    "score": 0.8328662424365695,
-    "color": "VERDE",
-    "n_h2h": 36,
-    "p_home_individual": 0.18163762751647558,
-    "p_away_individual": 0.7653547293806444,
-    "hora": "14:00",
-    "event_id": "13060807",
-    "hora_ts": 1788350400,
-    "racha_home": -2,
-    "racha_away": 1,
-    "tasa_home": 0.26865671641791045,
-    "tasa_away": 0.5579268292682927,
-    "h2h_ultima_fecha": "11/08/2026"
-  },
   "13060606": {
     "liga": "Setka Cup",
     "home": "Viktor Ziakun",
