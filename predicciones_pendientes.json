@@ -1,74 +1,4 @@
 {
-  "13061230": {
-    "liga": "Setka Cup",
-    "home": "Jan Simecek Jnr",
-    "away": "Roman Merkl",
-    "probabilidad": 0.8084957155876287,
-    "score": 0.7218336790184374,
-    "color": "VERDE",
-    "n_h2h": 26,
-    "p_home_individual": 0.909590130938759,
-    "p_away_individual": 0.8888571765320343,
-    "hora": "21:30",
-    "event_id": "13061230",
-    "hora_ts": 1788377400,
-    "impulso_home": 0.05599999999999994,
-    "impulso_away": -0.04999999999999999,
-    "racha_home": -1,
-    "racha_away": -4,
-    "tasa_home": 0.544,
-    "tasa_away": 0.5,
-    "barrido_home": 0.2426470588235294,
-    "barrido_away": 0.20348837209302326,
-    "fue_barrido_home": 0.20175438596491227,
-    "fue_barrido_away": 0.18604651162790697,
-    "h2h_ultima_fecha": "15/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "15/08/2026",
-        "ganador": "Roman Merkl",
-        "perdedor": "Jan Simecek Jnr",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "15/08/2026",
-        "ganador": "Jan Simecek Jnr",
-        "perdedor": "Roman Merkl",
-        "sets_ganador": 3,
-        "sets_perdedor": 0
-      },
-      {
-        "fecha": "14/08/2026",
-        "ganador": "Jan Simecek Jnr",
-        "perdedor": "Roman Merkl",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "14/08/2026",
-        "ganador": "Roman Merkl",
-        "perdedor": "Jan Simecek Jnr",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "06/07/2026",
-        "ganador": "Roman Merkl",
-        "perdedor": "Jan Simecek Jnr",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "prob_partido_home": 0.5022567587468605,
-    "prob_partido_away": 0.4977432412531395,
-    "senal_1_1": 0.5479664162289206,
-    "senal_3er": 0.9661287898556403,
-    "senal_3_0": 0.17777336816113454,
-    "senal_4mas": 0.8222266318388656,
-    "discrepancia": false,
-    "ultimo_torneo": true
-  },
   "13060024": {
     "liga": "Czech Liga Pro",
     "home": "Dominik Oborny",
@@ -143,25 +73,25 @@
     "liga": "Czech Liga Pro",
     "home": "Martin Huk",
     "away": "Jiri Ruzicka",
-    "probabilidad": 0.7846703134639788,
-    "score": 0.6533268716295864,
+    "probabilidad": 0.7846305867362167,
+    "score": 0.6532679606627361,
     "color": "VERDE",
     "n_h2h": 198,
     "p_home_individual": 0.9134450397689928,
-    "p_away_individual": 0.8590230164941497,
+    "p_away_individual": 0.858979525396128,
     "hora": "22:30",
     "event_id": "13059598",
     "hora_ts": 1788381000,
     "impulso_home": 0.10825785828449652,
-    "impulso_away": -0.08380952380952378,
+    "impulso_away": -0.08350253807106595,
     "racha_home": 1,
-    "racha_away": 1,
+    "racha_away": -1,
     "tasa_home": 0.49174214171550346,
-    "tasa_away": 0.4838095238095238,
+    "tasa_away": 0.48350253807106597,
     "barrido_home": 0.2502708559046587,
     "barrido_away": 0.2874015748031496,
     "fue_barrido_home": 0.27148846960167716,
-    "fue_barrido_away": 0.25338253382533826,
+    "fue_barrido_away": 0.2542997542997543,
     "h2h_ultima_fecha": "19/08/2026",
     "h2h_historial": [
       {
@@ -200,12 +130,12 @@
         "sets_perdedor": 1
       }
     ],
-    "prob_partido_home": 0.635448558107068,
-    "prob_partido_away": 0.364551441892932,
-    "senal_1_1": 0.5590506083204648,
-    "senal_3er": 0.9930162034591052,
-    "senal_3_0": 0.22032708746132618,
-    "senal_4mas": 0.7796729125386739,
+    "prob_partido_home": 0.6383019456114074,
+    "prob_partido_away": 0.3616980543885926,
+    "senal_1_1": 0.5590383670281905,
+    "senal_3er": 0.9930162272594143,
+    "senal_3_0": 0.22034535816521966,
+    "senal_4mas": 0.7796546418347804,
     "discrepancia": false,
     "ultimo_torneo": false
   }
