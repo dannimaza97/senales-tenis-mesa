@@ -1,0 +1,35 @@
+Señales generadas el 03/09/2026 a las 16:52
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Elite Series: 400 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 6 tras reintento, me detengo aqui)
+  Setka Cup: 250 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Czech Liga Pro: 48 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 398 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339498
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+   (busqueda directa de Artem Azarov: +15 partidos anadidos)
+   (busqueda directa de Oleksii Nadporozhskyi: +88 partidos anadidos)
+   (busqueda directa de Denys Boltenkov: +17 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 98 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:55  TT Elite Series    Jakub Witkowski      vs Jakub Chmielowski    | Ambos ganan set:  78.7%  [P(Jakub Witkowski)=87.9% · P(Jakub Chmielowski)=89.5%] (H2H n=16)
+🟢 20:15  Setka Cup          Marek Vyskocil       vs Tomas Liska          | Ambos ganan set:  80.9%  [P(Marek Vyskocil)=91.9% · P(Tomas Liska)=88.1%] (H2H n=2)
+🟢 21:15  Setka Cup          Marek Vyskocil       vs Ales Brandtl Snr     | Ambos ganan set:  85.0%  [P(Marek Vyskocil)=94.4% · P(Ales Brandtl Snr)=90.0%] (H2H n=0)
