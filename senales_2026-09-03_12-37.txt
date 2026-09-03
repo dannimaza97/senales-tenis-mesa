@@ -1,0 +1,51 @@
+Señales generadas el 03/09/2026 a las 12:37
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 12, reintento)
+ (aviso: tiempo de espera agotado en pagina 16, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 17)
+  TT Elite Series: 800 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 17, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 18)
+  Setka Cup: 845 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: tiempo de espera agotado en pagina 12, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 619 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  TT Cup: 691 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 341357
+Jugadores con rating calculado: 2410
+
+Buscando proximos partidos...
+   (busqueda directa de Slawomir Dosz: +93 partidos anadidos)
+   (busqueda directa de Artem Azarov: +10 partidos anadidos)
+   (busqueda directa de Oleksii Nadporozhskyi: +91 partidos anadidos)
+   (busqueda directa de Denys Boltenkov: +14 partidos anadidos)
+   (busqueda directa de Nikita Priadko: +88 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 237 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 14:30  TT Elite Series    Petr David           vs Adrian Wiecek        | Ambos ganan set:  79.0%  [P(Petr David)=95.2% · P(Adrian Wiecek)=82.9%] (H2H n=34)
+🟢 15:15  Setka Cup          Adam Radkovsky       vs Ondrej Mezera        | Ambos ganan set:  80.1%  [P(Adam Radkovsky)=90.9% · P(Ondrej Mezera)=88.2%] (H2H n=7)
+🟢 15:45  Setka Cup          Jan Krames Sr        vs Stepan Rejent        | Ambos ganan set:  79.8%  [P(Jan Krames Sr)=90.7% · P(Stepan Rejent)=88.0%] (H2H n=39)
+🟢 17:25  TT Elite Series    Marcin Kowalczyk     vs Jaroslaw Rolak       | Ambos ganan set:  82.0%  [P(Marcin Kowalczyk)=88.4% · P(Jaroslaw Rolak)=92.8%] (H2H n=58)
+🟢 17:30  Czech Liga Pro     Martin Sobisek       vs Daniel Tuma          | Ambos ganan set:  78.4%  [P(Martin Sobisek)=88.2% · P(Daniel Tuma)=88.9%] (H2H n=77)
+🟢 18:00  Czech Liga Pro     Jan Kanera           vs Michal Jezek         | Ambos ganan set:  80.8%  [P(Jan Kanera)=91.1% · P(Michal Jezek)=88.7%] (H2H n=22)
+🟢 18:00  Czech Liga Pro     Matej Grundel        vs Martin Skotnica      | Ambos ganan set:  80.1%  [P(Matej Grundel)=91.3% · P(Martin Skotnica)=87.7%] (H2H n=28)
+🟢 18:55  TT Elite Series    Jakub Witkowski      vs Jakub Chmielowski    | Ambos ganan set:  78.8%  [P(Jakub Witkowski)=87.9% · P(Jakub Chmielowski)=89.6%] (H2H n=16)
+🟢 20:15  Setka Cup          Marek Vyskocil       vs Tomas Liska          | Ambos ganan set:  80.9%  [P(Marek Vyskocil)=91.9% · P(Tomas Liska)=88.0%] (H2H n=2)
+🟢 21:15  Setka Cup          Marek Vyskocil       vs Ales Brandtl Snr     | Ambos ganan set:  85.1%  [P(Marek Vyskocil)=94.5% · P(Ales Brandtl Snr)=90.0%] (H2H n=0)
