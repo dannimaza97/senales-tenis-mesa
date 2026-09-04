@@ -1,0 +1,32 @@
+Señales generadas el 04/09/2026 a las 16:11
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  TT Elite Series: 300 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Setka Cup: 350 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Czech Liga Pro: 241 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 199 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339492
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 133 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:05  TT Elite Series    Patryk Jendrzejewski vs Maciej Kolek         | Ambos ganan set:  80.2%  [P(Patryk Jendrzejewski)=91.6% · P(Maciej Kolek)=87.5%] (H2H n=24)
+🟢 19:25  Setka Cup          Mykhailo Potapov     vs Oleksandr Storozhenko | Ambos ganan set:  82.0%  [P(Mykhailo Potapov)=90.3% · P(Oleksandr Storozhenko)=90.9%] (H2H n=20)
+🟢 19:45  Setka Cup          David Gasparovic     vs Jan Krames Sr        | Ambos ganan set:  77.9%  [P(David Gasparovic)=87.0% · P(Jan Krames Sr)=89.5%] (H2H n=13)
+🟢 21:00  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  80.2%  [P(Roman Hudeczek)=91.2% · P(Michal Chalupa)=87.9%] (H2H n=36)
+🟢 21:00  Czech Liga Pro     Tomas Milota         vs Lukas Velicka        | Ambos ganan set:  75.1%  [P(Tomas Milota)=86.3% · P(Lukas Velicka)=87.0%] (H2H n=11)
+🟢 22:00  Czech Liga Pro     Lukas Kern           vs Michal Chalupa       | Ambos ganan set:  77.2%  [P(Lukas Kern)=88.9% · P(Michal Chalupa)=86.8%] (H2H n=16)
