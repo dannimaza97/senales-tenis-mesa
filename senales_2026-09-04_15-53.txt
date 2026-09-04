@@ -1,0 +1,40 @@
+Señales generadas el 04/09/2026 a las 15:53
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 6 tras reintento, me detengo aqui)
+  TT Elite Series: 250 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  Setka Cup: 298 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  Czech Liga Pro: 341 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  TT Cup: 643 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339934
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 143 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:00  Czech Liga Pro     Martin Skotnica      vs Matyas Navedla       | Ambos ganan set:  83.3%  [P(Martin Skotnica)=92.1% · P(Matyas Navedla)=90.4%] (H2H n=17)
+🟢 18:00  Czech Liga Pro     Radim Pavelka        vs Dmitro Parhomenko    | Ambos ganan set:  77.4%  [P(Radim Pavelka)=86.5% · P(Dmitro Parhomenko)=89.5%] (H2H n=38)
+🟢 18:00  Czech Liga Pro     Lukas Kern           vs Michal Chalupa       | Ambos ganan set:  77.1%  [P(Lukas Kern)=88.9% · P(Michal Chalupa)=86.8%] (H2H n=16)
+🟢 18:05  TT Elite Series    Patryk Jendrzejewski vs Maciej Kolek         | Ambos ganan set:  80.2%  [P(Patryk Jendrzejewski)=91.6% · P(Maciej Kolek)=87.5%] (H2H n=24)
+🟢 19:25  Setka Cup          Mykhailo Potapov     vs Oleksandr Storozhenko | Ambos ganan set:  81.8%  [P(Mykhailo Potapov)=90.0% · P(Oleksandr Storozhenko)=90.9%] (H2H n=20)
+🟢 19:45  Setka Cup          David Gasparovic     vs Jan Krames Sr        | Ambos ganan set:  77.8%  [P(David Gasparovic)=87.0% · P(Jan Krames Sr)=89.4%] (H2H n=13)
+🟢 21:00  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  80.1%  [P(Roman Hudeczek)=91.2% · P(Michal Chalupa)=87.9%] (H2H n=36)
+🟢 21:00  Czech Liga Pro     Tomas Milota         vs Lukas Velicka        | Ambos ganan set:  76.4%  [P(Tomas Milota)=87.0% · P(Lukas Velicka)=87.9%] (H2H n=13)
+🟢 22:00  Czech Liga Pro     Lukas Kern           vs Michal Chalupa       | Ambos ganan set:  77.1%  [P(Lukas Kern)=88.9% · P(Michal Chalupa)=86.8%] (H2H n=16)
