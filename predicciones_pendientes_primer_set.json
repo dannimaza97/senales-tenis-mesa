@@ -4,19 +4,19 @@
     "home": "Krystian Kolodziej",
     "away": "Mateusz Rutkowski",
     "favorito": "Krystian Kolodziej",
-    "probabilidad": 0.7693147616714495,
-    "score": 0.8344687333743828,
+    "probabilidad": 0.7673455155655803,
+    "score": 0.8323542316924313,
     "color": "VERDE",
-    "n_h2h": 83,
-    "p_home_individual": 0.7693147616714495,
-    "p_away_individual": 0.26418237157367597,
+    "n_h2h": 82,
+    "p_home_individual": 0.7673455155655803,
+    "p_away_individual": 0.2670549780038831,
     "hora": "21:15",
     "event_id": "13073792",
     "hora_ts": 1788549300,
     "racha_home": 1,
     "racha_away": 2,
-    "tasa_home": 0.6634615384615384,
-    "tasa_away": 0.5348460291734197,
-    "h2h_ultima_fecha": "31/08/2026"
+    "tasa_home": 0.6644951140065146,
+    "tasa_away": 0.5371428571428571,
+    "h2h_ultima_fecha": "17/08/2026"
   }
 }
