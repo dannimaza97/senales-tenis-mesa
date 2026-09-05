@@ -1,0 +1,28 @@
+Señales generadas el 05/09/2026 a las 19:49
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Elite Series: 500 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Setka Cup: 394 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  Czech Liga Pro: 689 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  TT Cup: 449 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340434
+Jugadores con rating calculado: 2413
+
+Buscando proximos partidos...
+   (busqueda directa de Krystof Lahodny: +27 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 29 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:00  Setka Cup          Mykhailo Potapov     vs Denys Maltsev        | Ambos ganan set:  80.7%  [P(Mykhailo Potapov)=90.5% · P(Denys Maltsev)=89.2%] (H2H n=9)
