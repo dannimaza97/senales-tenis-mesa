@@ -1,0 +1,34 @@
+Señales generadas el 05/09/2026 a las 11:16
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Elite Series: 400 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Setka Cup: 98 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Czech Liga Pro: 438 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 100 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339438
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+   (busqueda directa de Tomas Motacek: +12 partidos anadidos)
+   (busqueda directa de Krystof Lahodny: +27 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 104 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 17:30  Czech Liga Pro     Tadeas Zika          vs Tomas Dousek         | Ambos ganan set:  77.4%  [P(Tadeas Zika)=86.3% · P(Tomas Dousek)=89.6%] (H2H n=74)
+🟢 17:30  Czech Liga Pro     Denis Hofman         vs Martin Sychra        | Ambos ganan set:  76.5%  [P(Denis Hofman)=84.2% · P(Martin Sychra)=90.9%] (H2H n=44)
+🟢 20:00  Czech Liga Pro     Jan Mecl Jr          vs Jan Kanera           | Ambos ganan set:  83.0%  [P(Jan Mecl Jr)=92.3% · P(Jan Kanera)=89.9%] (H2H n=66)
+🟢 20:30  Czech Liga Pro     Michal Zahradka      vs Oleksandr Kolisnyk   | Ambos ganan set:  81.9%  [P(Michal Zahradka)=91.3% · P(Oleksandr Kolisnyk)=89.7%] (H2H n=23)
+🟢 21:30  Czech Liga Pro     Oleksandr Kolisnyk   vs Jan Mecl Jr          | Ambos ganan set:  78.2%  [P(Oleksandr Kolisnyk)=84.7% · P(Jan Mecl Jr)=92.3%] (H2H n=28)
