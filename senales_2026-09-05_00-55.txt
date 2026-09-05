@@ -1,0 +1,58 @@
+Señales generadas el 05/09/2026 a las 00:55
+
+Cargando historico acumulado guardado...
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Elite Series: 200 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 14, reintento)
+ (aviso: tiempo de espera agotado en pagina 14 tras reintento, me detengo aqui)
+  Setka Cup: 648 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  Czech Liga Pro: 539 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 17, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 18)
+  TT Cup: 843 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340632
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+   (busqueda directa de Mykola Zaiats: +7 partidos anadidos)
+   (busqueda directa de Nikita Priadko: +95 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 255 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 08:00  Czech Liga Pro     Michal Vavrecka      vs Pavel Wawrosz        | Ambos ganan set:  76.8%  [P(Michal Vavrecka)=89.0% · P(Pavel Wawrosz)=86.3%] (H2H n=40)
+🟢 08:35  Setka Cup          Oleh Napirko         vs Nazar Kovalchuk      | Ambos ganan set:  79.0%  [P(Oleh Napirko)=86.4% · P(Nazar Kovalchuk)=91.5%] (H2H n=20)
+🟢 09:00  Czech Liga Pro     Pavel Wawrosz        vs Matyas Navedla       | Ambos ganan set:  80.5%  [P(Pavel Wawrosz)=92.3% · P(Matyas Navedla)=87.3%] (H2H n=23)
+🟢 09:00  Czech Liga Pro     Adrian Walek         vs David Heczko         | Ambos ganan set:  76.3%  [P(Adrian Walek)=86.8% · P(David Heczko)=87.8%] (H2H n=22)
+🟢 09:15  Setka Cup          Matus Zelinka        vs David Gasparovic     | Ambos ganan set:  81.5%  [P(Matus Zelinka)=89.0% · P(David Gasparovic)=91.5%] (H2H n=2)
+🟢 09:30  Czech Liga Pro     Jaroslav Neuwirth Snr vs Lukas Martinak       | Ambos ganan set:  76.9%  [P(Jaroslav Neuwirth Snr)=88.4% · P(Lukas Martinak)=87.0%] (H2H n=11)
+🟢 11:30  Setka Cup          Artur Akopyan        vs Martin Holub         | Ambos ganan set:  84.8%  [P(Artur Akopyan)=92.2% · P(Martin Holub)=92.0%] (H2H n=40)
+🟢 11:45  TT Cup             Jan Skvrna           vs Erik Precek          | Ambos ganan set:  80.6%  [P(Jan Skvrna)=90.9% · P(Erik Precek)=88.8%] (H2H n=18)
+🟢 11:45  Setka Cup          Vit Herrmann         vs Vladimir Lopata      | Ambos ganan set:  79.1%  [P(Vit Herrmann)=85.3% · P(Vladimir Lopata)=92.7%] (H2H n=0)
+🟢 12:00  Setka Cup          Marcel Cmil          vs Lukas Krutina        | Ambos ganan set:  81.3%  [P(Marcel Cmil)=91.4% · P(Lukas Krutina)=88.9%] (H2H n=18)
+🟢 12:15  Setka Cup          Petr Maly            vs Vladimir Lopata      | Ambos ganan set:  82.0%  [P(Petr Maly)=88.4% · P(Vladimir Lopata)=92.7%] (H2H n=0)
+🟢 13:45  Setka Cup          Vladimir Lopata      vs Leon Kolman          | Ambos ganan set:  79.4%  [P(Vladimir Lopata)=88.8% · P(Leon Kolman)=89.3%] (H2H n=12)
+🟢 14:00  Setka Cup          Lukas Krutina        vs Martin Holub         | Ambos ganan set:  78.7%  [P(Lukas Krutina)=89.3% · P(Martin Holub)=88.1%] (H2H n=10)
+🟢 16:10  Setka Cup          Oleg Varlamov        vs Yevhenii Holoborodko | Ambos ganan set:  79.3%  [P(Oleg Varlamov)=90.9% · P(Yevhenii Holoborodko)=87.2%] (H2H n=40)
+🟢 17:30  Czech Liga Pro     Tadeas Zika          vs Tomas Dousek         | Ambos ganan set:  77.6%  [P(Tadeas Zika)=86.5% · P(Tomas Dousek)=89.8%] (H2H n=75)
+🟢 17:30  Czech Liga Pro     Denis Hofman         vs Martin Sychra        | Ambos ganan set:  76.5%  [P(Denis Hofman)=84.2% · P(Martin Sychra)=90.9%] (H2H n=44)
+🟢 18:05  Setka Cup          Orest Hura           vs Valerii Vlasenko     | Ambos ganan set:  78.0%  [P(Orest Hura)=90.9% · P(Valerii Vlasenko)=85.8%] (H2H n=28)
+🟢 18:10  Setka Cup          Yevhenii Holoborodko vs Ruslan Sopivnyk      | Ambos ganan set:  78.9%  [P(Yevhenii Holoborodko)=87.9% · P(Ruslan Sopivnyk)=89.8%] (H2H n=27)
+🟢 19:30  Setka Cup          Tomas Hanke          vs Jachym Juppa         | Ambos ganan set:  77.8%  [P(Tomas Hanke)=90.6% · P(Jachym Juppa)=85.8%] (H2H n=12)
+🟢 19:40  Setka Cup          Oleksandr Zhyrnov    vs Yevhenii Holoborodko | Ambos ganan set:  79.4%  [P(Oleksandr Zhyrnov)=91.1% · P(Yevhenii Holoborodko)=87.2%] (H2H n=40)
+🟢 19:45  Setka Cup          Ondrej Mezera        vs Jakub Senk           | Ambos ganan set:  81.0%  [P(Ondrej Mezera)=89.9% · P(Jakub Senk)=90.0%] (H2H n=13)
+🟢 20:00  Czech Liga Pro     Jan Mecl Jr          vs Jan Kanera           | Ambos ganan set:  83.0%  [P(Jan Mecl Jr)=92.3% · P(Jan Kanera)=89.9%] (H2H n=66)
+🟢 20:15  Setka Cup          Lukas Veigl          vs Jakub Senk           | Ambos ganan set:  75.9%  [P(Lukas Veigl)=86.5% · P(Jakub Senk)=87.7%] (H2H n=5)
+🟢 20:30  Czech Liga Pro     Michal Zahradka      vs Oleksandr Kolisnyk   | Ambos ganan set:  81.9%  [P(Michal Zahradka)=91.3% · P(Oleksandr Kolisnyk)=89.7%] (H2H n=23)
+🟢 20:55  Setka Cup          Evgeniy Pismenniy    vs Roman Cherevko       | Ambos ganan set:  78.6%  [P(Evgeniy Pismenniy)=82.3% · P(Roman Cherevko)=95.5%] (H2H n=74)
+🟢 21:00  Setka Cup          Ondrej Chadima       vs Jachym Juppa         | Ambos ganan set:  76.7%  [P(Ondrej Chadima)=86.5% · P(Jachym Juppa)=88.7%] (H2H n=21)
+🟢 21:30  Czech Liga Pro     Oleksandr Kolisnyk   vs Jan Mecl Jr          | Ambos ganan set:  78.2%  [P(Oleksandr Kolisnyk)=84.7% · P(Jan Mecl Jr)=92.3%] (H2H n=28)
+🟢 22:00  Setka Cup          Mykhailo Potapov     vs Denys Maltsev        | Ambos ganan set:  80.7%  [P(Mykhailo Potapov)=90.2% · P(Denys Maltsev)=89.5%] (H2H n=10)
