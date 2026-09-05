@@ -1,0 +1,32 @@
+Señales generadas el 05/09/2026 a las 19:04
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Elite Series: 350 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Setka Cup: 394 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Czech Liga Pro: 445 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 8)
+  TT Cup: 349 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339940
+Jugadores con rating calculado: 2411
+
+Buscando proximos partidos...
+   (busqueda directa de Krystof Lahodny: +28 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 45 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:30  Czech Liga Pro     Oleksandr Kolisnyk   vs Jan Mecl Jr          | Ambos ganan set:  78.2%  [P(Oleksandr Kolisnyk)=84.7% · P(Jan Mecl Jr)=92.3%] (H2H n=28)
+🟢 21:40  TT Elite Series    Jakub Kuzmicz        vs Patryk Jendrzejewski | Ambos ganan set:  79.0%  [P(Jakub Kuzmicz)=90.2% · P(Patryk Jendrzejewski)=87.5%] (H2H n=41)
+🟢 22:00  Setka Cup          Mykhailo Potapov     vs Denys Maltsev        | Ambos ganan set:  80.7%  [P(Mykhailo Potapov)=90.5% · P(Denys Maltsev)=89.2%] (H2H n=9)
