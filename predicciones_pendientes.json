@@ -1,74 +1,4 @@
 {
-  "13082500": {
-    "liga": "Czech Liga Pro",
-    "home": "Jiri Dedek",
-    "away": "Radim Pavelka",
-    "probabilidad": 0.771101610592067,
-    "score": 0.6437348146852354,
-    "color": "VERDE",
-    "n_h2h": 39,
-    "p_home_individual": 0.8892981727574751,
-    "p_away_individual": 0.8670900651927438,
-    "hora": "21:30",
-    "event_id": "13082500",
-    "hora_ts": 1788723000,
-    "impulso_home": -0.11865671641791042,
-    "impulso_away": -0.09850746268656713,
-    "racha_home": -1,
-    "racha_away": 1,
-    "tasa_home": 0.5186567164179104,
-    "tasa_away": 0.49850746268656715,
-    "barrido_home": 0.35431654676258995,
-    "barrido_away": 0.2275449101796407,
-    "fue_barrido_home": 0.35852713178294576,
-    "fue_barrido_away": 0.2718253968253968,
-    "h2h_ultima_fecha": "05/07/2026",
-    "h2h_historial": [
-      {
-        "fecha": "05/07/2026",
-        "ganador": "Jiri Dedek",
-        "perdedor": "Radim Pavelka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "18/06/2026",
-        "ganador": "Radim Pavelka",
-        "perdedor": "Jiri Dedek",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "18/06/2026",
-        "ganador": "Radim Pavelka",
-        "perdedor": "Jiri Dedek",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "25/05/2026",
-        "ganador": "Jiri Dedek",
-        "perdedor": "Radim Pavelka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "24/04/2026",
-        "ganador": "Jiri Dedek",
-        "perdedor": "Radim Pavelka",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      }
-    ],
-    "prob_partido_home": 0.47447146362995335,
-    "prob_partido_away": 0.5255285363700466,
-    "senal_1_1": 0.6327918388770236,
-    "senal_3er": 0.9745393043360755,
-    "senal_3_0": 0.2165326350986131,
-    "senal_4mas": 0.7833167838356272,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13084040": {
     "liga": "Setka Cup",
     "home": "Nazar Danyliuk",
@@ -213,25 +143,25 @@
     "liga": "Czech Liga Pro",
     "home": "Michal Vavrecka",
     "away": "Pavel Wawrosz",
-    "probabilidad": 0.7595236024257185,
-    "score": 0.6213452931239956,
+    "probabilidad": 0.7591804020745654,
+    "score": 0.6211332643338733,
     "color": "VERDE",
     "n_h2h": 42,
     "p_home_individual": 0.8937953470610698,
-    "p_away_individual": 0.8497735023158752,
+    "p_away_individual": 0.8493895214053887,
     "hora": "22:30",
     "event_id": "13083422",
     "hora_ts": 1788726600,
     "impulso_home": 0.038069414316702854,
-    "impulso_away": -0.05606060606060609,
+    "impulso_away": -0.10306748466257665,
     "racha_home": -1,
     "racha_away": -1,
     "tasa_home": 0.5119305856832972,
-    "tasa_away": 0.5060606060606061,
+    "tasa_away": 0.5030674846625767,
     "barrido_home": 0.23728813559322035,
-    "barrido_away": 0.1377245508982036,
+    "barrido_away": 0.13414634146341464,
     "fue_barrido_home": 0.248,
-    "fue_barrido_away": 0.2147239263803681,
+    "fue_barrido_away": 0.21604938271604937,
     "h2h_ultima_fecha": "05/09/2026",
     "h2h_historial": [
       {
@@ -270,12 +200,12 @@
         "sets_perdedor": 2
       }
     ],
-    "prob_partido_home": 0.4813547655299577,
-    "prob_partido_away": 0.5186452344700423,
-    "senal_1_1": 0.5030467286162289,
-    "senal_3er": 0.9754037587068607,
-    "senal_3_0": 0.2268305401868102,
-    "senal_4mas": 0.7730446177017426,
+    "prob_partido_home": 0.48875307624696757,
+    "prob_partido_away": 0.5112469237530324,
+    "senal_1_1": 0.5035372247792819,
+    "senal_3er": 0.9753958686881521,
+    "senal_3_0": 0.22670561489059027,
+    "senal_4mas": 0.7731695429979625,
     "discrepancia": false,
     "ultimo_torneo": false
   }
