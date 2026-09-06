@@ -5,18 +5,18 @@
     "away": "Roman Boklah",
     "favorito": "Viktor Ziakun",
     "probabilidad": 0.7402297713824193,
-    "score": 0.8039797887854628,
+    "score": 0.8039913666914973,
     "color": "AMARILLO",
     "n_h2h": 46,
     "p_home_individual": 0.7402297713824193,
-    "p_away_individual": 0.2818958579476379,
+    "p_away_individual": 0.28150992774648687,
     "hora": "14:00",
     "event_id": "13084525",
     "hora_ts": 1788696000,
     "racha_home": -4,
-    "racha_away": -4,
+    "racha_away": -5,
     "tasa_home": 0.6421725239616614,
-    "tasa_away": 0.4418604651162791,
+    "tasa_away": 0.44039735099337746,
     "h2h_ultima_fecha": "12/08/2026"
   }
 }
