@@ -1,0 +1,36 @@
+Señales generadas el 06/09/2026 a las 18:08
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  TT Elite Series: 300 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Setka Cup: 400 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  Czech Liga Pro: 493 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Cup: 399 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339994
+Jugadores con rating calculado: 2408
+
+Buscando proximos partidos...
+   (busqueda directa de Miroslav Dolezal: +29 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 87 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:45  Setka Cup          Leon Kolman          vs Miroslav Hajek       | Ambos ganan set:  78.9%  [P(Leon Kolman)=91.3% · P(Miroslav Hajek)=86.4%] (H2H n=8)
+🟢 21:15  TT Elite Series    Krzysztof Kapik      vs Jakub Kuzmicz        | Ambos ganan set:  78.6%  [P(Krzysztof Kapik)=87.2% · P(Jakub Kuzmicz)=90.2%] (H2H n=61)
+🟢 21:30  Czech Liga Pro     Pavel Wawrosz        vs Radovan Polasek      | Ambos ganan set:  80.8%  [P(Pavel Wawrosz)=90.3% · P(Radovan Polasek)=89.4%] (H2H n=35)
+🟢 21:30  Czech Liga Pro     Jiri Dedek           vs Radim Pavelka        | Ambos ganan set:  77.1%  [P(Jiri Dedek)=89.0% · P(Radim Pavelka)=86.7%] (H2H n=39)
+🟢 22:00  Setka Cup          Nazar Danyliuk       vs Dmytro Zeniuk        | Ambos ganan set:  77.5%  [P(Nazar Danyliuk)=91.3% · P(Dmytro Zeniuk)=84.9%] (H2H n=29)
+🟢 22:05  TT Elite Series    Lukasz Pietraszko    vs Jakub Kuzmicz        | Ambos ganan set:  77.8%  [P(Lukasz Pietraszko)=85.4% · P(Jakub Kuzmicz)=91.1%] (H2H n=13)
+🟢 22:30  Czech Liga Pro     Michal Vavrecka      vs Pavel Wawrosz        | Ambos ganan set:  76.0%  [P(Michal Vavrecka)=89.4% · P(Pavel Wawrosz)=85.1%] (H2H n=42)
