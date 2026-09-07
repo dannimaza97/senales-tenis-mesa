@@ -1,1 +1,42 @@
-{}
+{
+  "13094608": {
+    "liga": "Setka Cup",
+    "home": "Serhii Kiilo",
+    "away": "Roman Horokh",
+    "favorito": "Roman Horokh",
+    "probabilidad": 0.7653547293806444,
+    "score": 0.8328662424365695,
+    "color": "VERDE",
+    "n_h2h": 36,
+    "p_home_individual": 0.18163762751647558,
+    "p_away_individual": 0.7653547293806444,
+    "hora": "14:00",
+    "event_id": "13094608",
+    "hora_ts": 1788868800,
+    "racha_home": -2,
+    "racha_away": 1,
+    "tasa_home": 0.26865671641791045,
+    "tasa_away": 0.5579268292682927,
+    "h2h_ultima_fecha": "11/08/2026"
+  },
+  "13094702": {
+    "liga": "Setka Cup",
+    "home": "Maksym Baday",
+    "away": "Andrii Lushchyk",
+    "favorito": "Maksym Baday",
+    "probabilidad": 0.7197127351368997,
+    "score": 0.7823870302710287,
+    "color": "AMARILLO",
+    "n_h2h": 76,
+    "p_home_individual": 0.7197127351368997,
+    "p_away_individual": 0.2972362306659324,
+    "hora": "17:30",
+    "event_id": "13094702",
+    "hora_ts": 1788881400,
+    "racha_home": -1,
+    "racha_away": 1,
+    "tasa_home": 0.6404199475065617,
+    "tasa_away": 0.4543269230769231,
+    "h2h_ultima_fecha": "18/08/2026"
+  }
+}
