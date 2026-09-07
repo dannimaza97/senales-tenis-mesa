@@ -1,0 +1,37 @@
+Señales generadas el 07/09/2026 a las 18:06
+
+Cargando historico acumulado guardado...
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Elite Series: 240 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Setka Cup: 389 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 14)
+  Czech Liga Pro: 644 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Cup: 500 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340175
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+   (busqueda directa de Wydra Dariusz: +42 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 103 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:30  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  80.9%  [P(Roman Hudeczek)=91.6% · P(Michal Chalupa)=88.3%] (H2H n=38)
+🟢 20:30  TT Elite Series    Karol Strowski       vs Krzysztof Kapik      | Ambos ganan set:  80.2%  [P(Karol Strowski)=90.1% · P(Krzysztof Kapik)=89.0%] (H2H n=38)
+🟢 21:00  Czech Liga Pro     Vojtech Koubek       vs Josef Medek          | Ambos ganan set:  82.2%  [P(Vojtech Koubek)=89.1% · P(Josef Medek)=92.2%] (H2H n=38)
+🟢 21:15  Setka Cup          Tadeas Bertho        vs Zdenek Kuksa         | Ambos ganan set:  83.1%  [P(Tadeas Bertho)=91.2% · P(Zdenek Kuksa)=91.2%] (H2H n=26)
+🟢 21:30  Setka Cup          Petr Orlowski        vs Jan Simecek Jnr      | Ambos ganan set:  76.9%  [P(Petr Orlowski)=87.8% · P(Jan Simecek Jnr)=87.6%] (H2H n=21)
+🟢 22:15  Setka Cup          Denys Maltsev        vs Ivan Pytsko          | Ambos ganan set:  81.6%  [P(Denys Maltsev)=89.6% · P(Ivan Pytsko)=91.1%] (H2H n=20)
