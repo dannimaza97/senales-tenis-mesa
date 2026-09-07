@@ -1,0 +1,29 @@
+Señales generadas el 07/09/2026 a las 19:26
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  TT Elite Series: 290 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 20)
+  Setka Cup: 935 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 13)
+  Czech Liga Pro: 596 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Cup: 350 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340573
+Jugadores con rating calculado: 2412
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 52 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:30  Setka Cup          Petr Orlowski        vs Jan Simecek Jnr      | Ambos ganan set:  77.0%  [P(Petr Orlowski)=87.9% · P(Jan Simecek Jnr)=87.6%] (H2H n=21)
+🟢 22:15  Setka Cup          Denys Maltsev        vs Ivan Pytsko          | Ambos ganan set:  81.6%  [P(Denys Maltsev)=89.6% · P(Ivan Pytsko)=91.0%] (H2H n=20)
