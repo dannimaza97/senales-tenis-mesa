@@ -1,0 +1,34 @@
+Señales generadas el 07/09/2026 a las 17:52
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Elite Series: 490 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 15, reintento)
+ (aviso: tiempo de espera agotado en pagina 15 tras reintento, me detengo aqui)
+  Setka Cup: 690 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  Czech Liga Pro: 300 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: tiempo de espera agotado en pagina 9 tras reintento, me detengo aqui)
+  TT Cup: 400 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340282
+Jugadores con rating calculado: 2410
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 85 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 20:30  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  79.8%  [P(Roman Hudeczek)=91.1% · P(Michal Chalupa)=87.7%] (H2H n=35)
+🟢 20:30  TT Elite Series    Karol Strowski       vs Krzysztof Kapik      | Ambos ganan set:  80.2%  [P(Karol Strowski)=90.1% · P(Krzysztof Kapik)=89.0%] (H2H n=38)
+🟢 21:00  Czech Liga Pro     Vojtech Koubek       vs Josef Medek          | Ambos ganan set:  82.2%  [P(Vojtech Koubek)=89.1% · P(Josef Medek)=92.2%] (H2H n=38)
