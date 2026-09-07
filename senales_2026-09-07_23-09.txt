@@ -1,0 +1,67 @@
+Señales generadas el 07/09/2026 a las 23:09
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 13, reintento)
+ (aviso: tiempo de espera agotado en pagina 26, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 27)
+  TT Elite Series: 1289 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 10 tras reintento, me detengo aqui)
+  Setka Cup: 437 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 20)
+  Czech Liga Pro: 933 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 30, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 31)
+  TT Cup: 1490 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342551
+Jugadores con rating calculado: 2412
+
+Buscando proximos partidos...
+   (busqueda directa de Piotr Ostachowski: +72 partidos anadidos)
+   (busqueda directa de Radek Sedivy: +4 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 410 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 08:00  Czech Liga Pro     Milan Klement        vs Martin Sychra        | Ambos ganan set:  76.2%  [P(Milan Klement)=87.2% · P(Martin Sychra)=87.4%] (H2H n=42)
+🟢 08:30  Czech Liga Pro     Pavel Wawrosz        vs Matyas Navedla       | Ambos ganan set:  79.3%  [P(Pavel Wawrosz)=90.3% · P(Matyas Navedla)=87.9%] (H2H n=25)
+🟢 08:30  Czech Liga Pro     Jakub Levicky        vs Marcel Heczko        | Ambos ganan set:  79.8%  [P(Jakub Levicky)=90.8% · P(Marcel Heczko)=87.9%] (H2H n=77)
+🟡 08:40  TT Cup             Michal Macurak       vs Tomas Krenek         | Ambos ganan set:  72.7%  [P(Michal Macurak)=83.2% · P(Tomas Krenek)=87.4%] (H2H n=22)
+🟢 09:00  Czech Liga Pro     Dominik Oborny       vs Jakub Levicky        | Ambos ganan set:  81.4%  [P(Dominik Oborny)=88.4% · P(Jakub Levicky)=92.1%] (H2H n=81)
+🟡 09:00  Czech Liga Pro     Jakub Pilch          vs Pavel Wawrosz        | Ambos ganan set:  73.1%  [P(Jakub Pilch)=83.7% · P(Pavel Wawrosz)=87.3%] (H2H n=5)
+🟡 09:30  Czech Liga Pro     Matyas Navedla       vs Radovan Polasek      | Ambos ganan set:  74.1%  [P(Matyas Navedla)=89.5% · P(Radovan Polasek)=82.7%] (H2H n=42)
+🟡 09:30  Czech Liga Pro     Marcel Heczko        vs Petr Danko           | Ambos ganan set:  72.1%  [P(Marcel Heczko)=81.8% · P(Petr Danko)=88.2%] (H2H n=16)
+🟢 10:00  Czech Liga Pro     Radovan Polasek      vs Pavel Wawrosz        | Ambos ganan set:  79.8%  [P(Radovan Polasek)=89.8% · P(Pavel Wawrosz)=88.8%] (H2H n=37)
+🟢 10:00  Czech Liga Pro     Milan Klement        vs Sebastian Kasnik     | Ambos ganan set:  75.9%  [P(Milan Klement)=92.6% · P(Sebastian Kasnik)=81.9%] (H2H n=48)
+🟡 10:10  TT Cup             Tomas Krenek         vs Dalibor Velky Jr     | Ambos ganan set:  74.8%  [P(Tomas Krenek)=81.9% · P(Dalibor Velky Jr)=91.3%] (H2H n=53)
+🟢 10:30  Czech Liga Pro     Dominik Oborny       vs Marcel Heczko        | Ambos ganan set:  83.6%  [P(Dominik Oborny)=94.0% · P(Marcel Heczko)=88.9%] (H2H n=77)
+🟡 10:30  Czech Liga Pro     Jakub Pilch          vs Matyas Navedla       | Ambos ganan set:  74.3%  [P(Jakub Pilch)=88.3% · P(Matyas Navedla)=84.1%] (H2H n=33)
+🟡 12:00  Czech Liga Pro     Jiri Grohsgott       vs Ludek Madle          | Ambos ganan set:  73.2%  [P(Jiri Grohsgott)=80.1% · P(Ludek Madle)=91.4%] (H2H n=56)
+🟢 12:30  Czech Liga Pro     Jaroslav Neuwirth Snr vs Marcel Heczko        | Ambos ganan set:  76.5%  [P(Jaroslav Neuwirth Snr)=88.0% · P(Marcel Heczko)=87.0%] (H2H n=0)
+🟢 12:50  TT Cup             Vaclav Hejda Jr      vs David Sykora         | Ambos ganan set:  79.4%  [P(Vaclav Hejda Jr)=89.9% · P(David Sykora)=88.3%] (H2H n=28)
+🟢 13:50  TT Cup             Ales Langer          vs Vaclav Hejda Jr      | Ambos ganan set:  84.8%  [P(Ales Langer)=95.2% · P(Vaclav Hejda Jr)=89.2%] (H2H n=98)
+🟢 14:30  Czech Liga Pro     Jakub Levicky        vs Marcel Heczko        | Ambos ganan set:  79.8%  [P(Jakub Levicky)=90.8% · P(Marcel Heczko)=87.9%] (H2H n=77)
+🟡 14:30  Czech Liga Pro     Michal Regner        vs Karel Schopf         | Ambos ganan set:  71.9%  [P(Michal Regner)=83.7% · P(Karel Schopf)=85.9%] (H2H n=26)
+🟡 14:55  TT Cup             David Vesecky        vs Pavel Benes          | Ambos ganan set:  72.2%  [P(David Vesecky)=86.7% · P(Pavel Benes)=83.3%] (H2H n=45)
+🟡 16:00  Czech Liga Pro     Lukas Jindrak        vs Michal Zahradka      | Ambos ganan set:  74.0%  [P(Lukas Jindrak)=88.7% · P(Michal Zahradka)=83.4%] (H2H n=32)
+🟢 16:30  Czech Liga Pro     Adrian Walek         vs David Heczko         | Ambos ganan set:  76.5%  [P(Adrian Walek)=86.9% · P(David Heczko)=88.1%] (H2H n=23)
+🟢 16:30  Czech Liga Pro     Michal Koral         vs Ivo Taichman         | Ambos ganan set:  77.1%  [P(Michal Koral)=87.3% · P(Ivo Taichman)=88.3%] (H2H n=18)
+🟢 17:00  Czech Liga Pro     Daniel Langer        vs Adrian Walek         | Ambos ganan set:  79.8%  [P(Daniel Langer)=92.7% · P(Adrian Walek)=86.0%] (H2H n=1)
+🟢 18:30  Czech Liga Pro     Michal Zahradka      vs Tomas Postelt        | Ambos ganan set:  75.2%  [P(Michal Zahradka)=89.0% · P(Tomas Postelt)=84.5%] (H2H n=41)
+🟡 20:30  Czech Liga Pro     Yurii Holovatiuk     vs Kyryl Darin          | Ambos ganan set:  74.9%  [P(Yurii Holovatiuk)=88.6% · P(Kyryl Darin)=84.5%] (H2H n=44)
+🟡 20:30  Czech Liga Pro     Lukas Velicka        vs Radim Adam           | Ambos ganan set:  73.8%  [P(Lukas Velicka)=85.1% · P(Radim Adam)=86.7%] (H2H n=7)
+🟢 21:00  Czech Liga Pro     Tomas Milota         vs Lukas Velicka        | Ambos ganan set:  75.6%  [P(Tomas Milota)=86.7% · P(Lukas Velicka)=87.2%] (H2H n=12)
+🟡 21:00  Czech Liga Pro     Jan Varcl Jnr        vs Yurii Holovatiuk     | Ambos ganan set:  73.6%  [P(Jan Varcl Jnr)=86.8% · P(Yurii Holovatiuk)=84.8%] (H2H n=8)
+🟡 21:00  Czech Liga Pro     Jiri Dedek           vs Tomas Dousa          | Ambos ganan set:  72.3%  [P(Jiri Dedek)=85.5% · P(Tomas Dousa)=84.5%] (H2H n=25)
+🟢 21:30  Czech Liga Pro     Jiri Plachy          vs Jaroslav Prokupek    | Ambos ganan set:  82.8%  [P(Jiri Plachy)=92.1% · P(Jaroslav Prokupek)=89.9%] (H2H n=169)
+🟡 22:00  Czech Liga Pro     Lukas Krok           vs Yurii Holovatiuk     | Ambos ganan set:  72.1%  [P(Lukas Krok)=84.7% · P(Yurii Holovatiuk)=85.1%] (H2H n=42)
+🟢 22:30  Czech Liga Pro     Jan Varcl Jnr        vs Kyryl Darin          | Ambos ganan set:  78.0%  [P(Jan Varcl Jnr)=85.5% · P(Kyryl Darin)=91.2%] (H2H n=26)
+🟡 22:30  Czech Liga Pro     Tomas Milota         vs Radim Adam           | Ambos ganan set:  74.2%  [P(Tomas Milota)=89.5% · P(Radim Adam)=83.0%] (H2H n=12)
+🟡 22:30  Czech Liga Pro     Tomas Regner         vs Adam Svoboda         | Ambos ganan set:  73.8%  [P(Tomas Regner)=86.1% · P(Adam Svoboda)=85.7%] (H2H n=9)
