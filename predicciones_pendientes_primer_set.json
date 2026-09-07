@@ -4,19 +4,19 @@
     "home": "Jakub Kaczmarek",
     "away": "Krzysztof Hetnar",
     "favorito": "Krzysztof Hetnar",
-    "probabilidad": 0.7155655095184771,
-    "score": 0.7782842874172391,
+    "probabilidad": 0.7030021083378797,
+    "score": 0.7649989407030245,
     "color": "AMARILLO",
-    "n_h2h": 30,
-    "p_home_individual": 0.29160624622641024,
-    "p_away_individual": 0.7155655095184771,
+    "n_h2h": 31,
+    "p_home_individual": 0.3031076961663869,
+    "p_away_individual": 0.7030021083378797,
     "hora": "13:50",
     "event_id": "13087259",
     "hora_ts": 1788781800,
     "racha_home": 1,
-    "racha_away": -5,
-    "tasa_home": 0.3872093023255814,
-    "tasa_away": 0.6330150068212824,
-    "h2h_ultima_fecha": "11/08/2026"
+    "racha_away": 1,
+    "tasa_home": 0.38724373576309795,
+    "tasa_away": 0.6303763440860215,
+    "h2h_ultima_fecha": "03/09/2026"
   }
 }
