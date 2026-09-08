@@ -1,0 +1,31 @@
+Señales generadas el 08/09/2026 a las 20:23
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Elite Series: 250 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  Setka Cup: 198 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 11, reintento)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Czech Liga Pro: 592 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 11)
+  TT Cup: 500 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339942
+Jugadores con rating calculado: 2410
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 18 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:30  Czech Liga Pro     Jan Varcl Jnr        vs Kyryl Darin          | Ambos ganan set:  77.9%  [P(Jan Varcl Jnr)=85.4% · P(Kyryl Darin)=91.2%] (H2H n=26)
+🟡 22:30  Czech Liga Pro     Tomas Milota         vs Radim Adam           | Ambos ganan set:  74.1%  [P(Tomas Milota)=89.2% · P(Radim Adam)=83.0%] (H2H n=12)
+🟡 22:30  Czech Liga Pro     Tomas Regner         vs Adam Svoboda         | Ambos ganan set:  73.5%  [P(Tomas Regner)=86.1% · P(Adam Svoboda)=85.4%] (H2H n=9)
