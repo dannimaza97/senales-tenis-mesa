@@ -25,18 +25,18 @@
     "away": "Andrii Lushchyk",
     "favorito": "Maksym Baday",
     "probabilidad": 0.7197127351368997,
-    "score": 0.7823870302710287,
+    "score": 0.7823802667985266,
     "color": "AMARILLO",
     "n_h2h": 76,
     "p_home_individual": 0.7197127351368997,
-    "p_away_individual": 0.2972362306659324,
+    "p_away_individual": 0.2974616797493388,
     "hora": "17:30",
     "event_id": "13094702",
     "hora_ts": 1788881400,
     "racha_home": -1,
-    "racha_away": 1,
+    "racha_away": -2,
     "tasa_home": 0.6404199475065617,
-    "tasa_away": 0.4543269230769231,
+    "tasa_away": 0.45560747663551404,
     "h2h_ultima_fecha": "18/08/2026"
   }
 }
