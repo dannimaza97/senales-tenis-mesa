@@ -1,1 +1,42 @@
-{}
+{
+  "13103316": {
+    "liga": "TT Elite Series",
+    "home": "Michal Olbrycht",
+    "away": "Krystian Kolodziej",
+    "favorito": "Krystian Kolodziej",
+    "probabilidad": 0.7345798873306963,
+    "score": 0.797297418630752,
+    "color": "AMARILLO",
+    "n_h2h": 28,
+    "p_home_individual": 0.31066217732884394,
+    "p_away_individual": 0.7345798873306963,
+    "hora": "18:05",
+    "event_id": "13103316",
+    "hora_ts": 1789056300,
+    "racha_home": 1,
+    "racha_away": 2,
+    "tasa_home": 0.45569620253164556,
+    "tasa_away": 0.6644951140065146,
+    "h2h_ultima_fecha": "18/08/2026"
+  },
+  "13105563": {
+    "liga": "TT Elite Series",
+    "home": "Michal Guzik",
+    "away": "Dariusz Molenda",
+    "favorito": "Dariusz Molenda",
+    "probabilidad": 0.7307692307692307,
+    "score": 0.7326923076923076,
+    "color": "AMARILLO",
+    "n_h2h": 0,
+    "p_home_individual": 0.6666666666666666,
+    "p_away_individual": 0.7307692307692307,
+    "hora": "20:20",
+    "event_id": "13105563",
+    "hora_ts": 1789064400,
+    "racha_home": 1,
+    "racha_away": 15,
+    "tasa_home": 0.6976744186046512,
+    "tasa_away": 0.7389380530973452,
+    "h2h_ultima_fecha": null
+  }
+}
