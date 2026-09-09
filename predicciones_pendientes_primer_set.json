@@ -1,24 +1,4 @@
 {
-  "13098851": {
-    "liga": "TT Elite Series",
-    "home": "Mariusz Koczyba",
-    "away": "Adam Ruszkiewicz",
-    "favorito": "Mariusz Koczyba",
-    "probabilidad": 0.735477755748026,
-    "score": 0.7990189042875265,
-    "color": "AMARILLO",
-    "n_h2h": 20,
-    "p_home_individual": 0.735477755748026,
-    "p_away_individual": 0.2841061377646743,
-    "hora": "17:35",
-    "event_id": "13098851",
-    "hora_ts": 1788968100,
-    "racha_home": 1,
-    "racha_away": -2,
-    "tasa_home": 0.5931818181818181,
-    "tasa_away": 0.44952380952380955,
-    "h2h_ultima_fecha": "12/08/2026"
-  },
   "13100693": {
     "liga": "Setka Cup",
     "home": "Vadim Komar",

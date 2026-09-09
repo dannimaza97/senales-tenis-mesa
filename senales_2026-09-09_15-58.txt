@@ -1,0 +1,39 @@
+Señales generadas el 09/09/2026 a las 15:58
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 6 tras reintento, me detengo aqui)
+  TT Elite Series: 249 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 7 tras reintento, me detengo aqui)
+  Setka Cup: 299 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Czech Liga Pro: 483 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 17, reintento)
+ (aviso: tiempo de espera agotado en pagina 18, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 19)
+  TT Cup: 897 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340330
+Jugadores con rating calculado: 2410
+
+Buscando proximos partidos...
+   (busqueda directa de Oleksii Nadporozhskyi: +89 partidos anadidos)
+   (busqueda directa de Tomas Motacek: +13 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 147 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:00  Czech Liga Pro     Martin Skotnica      vs Matej Grundel        | Ambos ganan set:  80.1%  [P(Martin Skotnica)=87.8% · P(Matej Grundel)=91.3%] (H2H n=28)
+🟢 19:35  Setka Cup          Bohdan Chaikovskyi   vs Serhii Maksymiv      | Ambos ganan set:  78.2%  [P(Bohdan Chaikovskyi)=83.3% · P(Serhii Maksymiv)=93.9%] (H2H n=69)
+🟢 19:45  Setka Cup          Petr Orlowski        vs Jan Simecek Jnr      | Ambos ganan set:  76.9%  [P(Petr Orlowski)=87.8% · P(Jan Simecek Jnr)=87.6%] (H2H n=21)
+🟢 21:30  Czech Liga Pro     Lukas Kern           vs Michal Chalupa       | Ambos ganan set:  77.1%  [P(Lukas Kern)=88.9% · P(Michal Chalupa)=86.8%] (H2H n=16)
+🟢 21:30  Czech Liga Pro     Milan Klement        vs Denis Hofman         | Ambos ganan set:  76.8%  [P(Milan Klement)=93.2% · P(Denis Hofman)=82.3%] (H2H n=54)
+🟢 22:00  Czech Liga Pro     Michal Chalupa       vs Roman Hudeczek       | Ambos ganan set:  80.2%  [P(Michal Chalupa)=87.9% · P(Roman Hudeczek)=91.3%] (H2H n=36)
+🟢 22:15  Setka Cup          Anton Shypilov       vs Oleksii Mitla        | Ambos ganan set:  83.5%  [P(Anton Shypilov)=95.3% · P(Oleksii Mitla)=87.7%] (H2H n=81)
+🟢 22:45  Setka Cup          Valerii Vlasenko     vs Orest Hura           | Ambos ganan set:  77.4%  [P(Valerii Vlasenko)=85.4% · P(Orest Hura)=90.6%] (H2H n=27)
