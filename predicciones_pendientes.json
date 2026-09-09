@@ -1,74 +1,4 @@
 {
-  "13098855": {
-    "liga": "Czech Liga Pro",
-    "home": "Michal Chalupa",
-    "away": "Roman Hudeczek",
-    "probabilidad": 0.8021570677065092,
-    "score": 0.7139445701198235,
-    "color": "VERDE",
-    "n_h2h": 36,
-    "p_home_individual": 0.8790764491573116,
-    "p_away_individual": 0.912499781418854,
-    "hora": "22:00",
-    "event_id": "13098855",
-    "hora_ts": 1788984000,
-    "impulso_home": 0.07791798107255521,
-    "impulso_away": 0.09848024316109416,
-    "racha_home": 5,
-    "racha_away": 2,
-    "tasa_home": 0.5220820189274448,
-    "tasa_away": 0.5015197568389058,
-    "barrido_home": 0.2326283987915408,
-    "barrido_away": 0.2606060606060606,
-    "fue_barrido_home": 0.2739273927392739,
-    "fue_barrido_away": 0.2682926829268293,
-    "h2h_ultima_fecha": "07/09/2026",
-    "h2h_historial": [
-      {
-        "fecha": "07/09/2026",
-        "ganador": "Michal Chalupa",
-        "perdedor": "Roman Hudeczek",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "17/08/2026",
-        "ganador": "Roman Hudeczek",
-        "perdedor": "Michal Chalupa",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "17/08/2026",
-        "ganador": "Roman Hudeczek",
-        "perdedor": "Michal Chalupa",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "16/08/2026",
-        "ganador": "Roman Hudeczek",
-        "perdedor": "Michal Chalupa",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "30/06/2026",
-        "ganador": "Michal Chalupa",
-        "perdedor": "Roman Hudeczek",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      }
-    ],
-    "prob_partido_home": 0.4982097682512266,
-    "prob_partido_away": 0.5017902317487735,
-    "senal_1_1": 0.529971735227394,
-    "senal_3er": 0.9717863263129234,
-    "senal_3_0": 0.17920301656256257,
-    "senal_4mas": 0.8198103795175369,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13100924": {
     "liga": "Setka Cup",
     "home": "Anton Shypilov",
@@ -143,25 +73,25 @@
     "liga": "Setka Cup",
     "home": "Valerii Vlasenko",
     "away": "Orest Hura",
-    "probabilidad": 0.7740393198662818,
-    "score": 0.6620258147418598,
+    "probabilidad": 0.7720062160054647,
+    "score": 0.6590034347378573,
     "color": "VERDE",
     "n_h2h": 27,
     "p_home_individual": 0.8540324360105913,
-    "p_away_individual": 0.9063348032564451,
+    "p_away_individual": 0.9039542099966454,
     "hora": "22:45",
     "event_id": "13100945",
     "hora_ts": 1788986700,
     "impulso_home": -0.013202933985330068,
-    "impulso_away": -0.09056603773584904,
+    "impulso_away": -0.13507462686567168,
     "racha_home": 1,
-    "racha_away": -2,
+    "racha_away": -5,
     "tasa_home": 0.4132029339853301,
-    "tasa_away": 0.49056603773584906,
+    "tasa_away": 0.48507462686567165,
     "barrido_home": 0.23668639053254437,
     "barrido_away": 0.23846153846153847,
     "fue_barrido_home": 0.23333333333333334,
-    "fue_barrido_away": 0.2074074074074074,
+    "fue_barrido_away": 0.21739130434782608,
     "h2h_ultima_fecha": "16/08/2026",
     "h2h_historial": [
       {
@@ -200,12 +130,12 @@
         "sets_perdedor": 0
       }
     ],
-    "prob_partido_home": 0.35991459138224224,
-    "prob_partido_away": 0.6400854086177578,
-    "senal_1_1": 0.5700582754804969,
-    "senal_3er": 0.9663438928482038,
-    "senal_3_0": 0.20182664567717457,
-    "senal_4mas": 0.7962628110550513,
+    "prob_partido_home": 0.3662823240569245,
+    "prob_partido_away": 0.6337176759430755,
+    "senal_1_1": 0.5697058412828171,
+    "senal_3er": 0.9663638419537328,
+    "senal_3_0": 0.2027695733985142,
+    "senal_4mas": 0.795335842618135,
     "discrepancia": false,
     "ultimo_torneo": false
   }
