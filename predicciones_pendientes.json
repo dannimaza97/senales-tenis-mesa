@@ -1,74 +1,4 @@
 {
-  "13102972": {
-    "liga": "TT Elite Series",
-    "home": "Adrian Eliasz",
-    "away": "Jaroslaw Rolak",
-    "probabilidad": 0.7694969339528466,
-    "score": 0.6679450975860091,
-    "color": "VERDE",
-    "n_h2h": 16,
-    "p_home_individual": 0.8818352699931646,
-    "p_away_individual": 0.8726084793124811,
-    "hora": "17:25",
-    "event_id": "13102972",
-    "hora_ts": 1789053900,
-    "impulso_home": 0.06625708884688092,
-    "impulso_away": -0.07279792746113994,
-    "racha_home": -3,
-    "racha_away": 1,
-    "tasa_home": 0.3837429111531191,
-    "tasa_away": 0.4227979274611399,
-    "barrido_home": 0.18719211822660098,
-    "barrido_away": 0.2622549019607843,
-    "fue_barrido_home": 0.24846625766871167,
-    "fue_barrido_away": 0.2118491921005386,
-    "h2h_ultima_fecha": "18/08/2026",
-    "h2h_historial": [
-      {
-        "fecha": "18/08/2026",
-        "ganador": "Adrian Eliasz",
-        "perdedor": "Jaroslaw Rolak",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "18/08/2026",
-        "ganador": "Adrian Eliasz",
-        "perdedor": "Jaroslaw Rolak",
-        "sets_ganador": 3,
-        "sets_perdedor": 1
-      },
-      {
-        "fecha": "11/07/2026",
-        "ganador": "Adrian Eliasz",
-        "perdedor": "Jaroslaw Rolak",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "11/07/2026",
-        "ganador": "Jaroslaw Rolak",
-        "perdedor": "Adrian Eliasz",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      },
-      {
-        "fecha": "11/07/2026",
-        "ganador": "Jaroslaw Rolak",
-        "perdedor": "Adrian Eliasz",
-        "sets_ganador": 3,
-        "sets_perdedor": 2
-      }
-    ],
-    "prob_partido_home": 0.6073805798504814,
-    "prob_partido_away": 0.39261942014951856,
-    "senal_1_1": 0.561405215235685,
-    "senal_3er": 0.9601129396556756,
-    "senal_3_0": 0.18240726487518572,
-    "senal_4mas": 0.8171085701669651,
-    "discrepancia": false,
-    "ultimo_torneo": false
-  },
   "13105641": {
     "liga": "Setka Cup",
     "home": "Yevhenii Holoborodko",
@@ -213,25 +143,25 @@
     "liga": "TT Elite Series",
     "home": "Krystian Kolodziej",
     "away": "Krzysztof Kapik",
-    "probabilidad": 0.7937956446530142,
-    "score": 0.6490760598026402,
+    "probabilidad": 0.7938111817544554,
+    "score": 0.6491141775401202,
     "color": "VERDE",
     "n_h2h": 67,
     "p_home_individual": 0.901338493257919,
-    "p_away_individual": 0.8806853924365445,
+    "p_away_individual": 0.8807026302462658,
     "hora": "21:40",
     "event_id": "13103313",
     "hora_ts": 1789069200,
     "impulso_home": -0.1010560519902518,
-    "impulso_away": -0.0819476520400308,
+    "impulso_away": -0.0815384615384615,
     "racha_home": 1,
-    "racha_away": -1,
+    "racha_away": -2,
     "tasa_home": 0.7010560519902518,
-    "tasa_away": 0.5319476520400308,
+    "tasa_away": 0.5315384615384615,
     "barrido_home": 0.46929316338354576,
     "barrido_away": 0.3125904486251809,
     "fue_barrido_home": 0.21467391304347827,
-    "fue_barrido_away": 0.23519736842105263,
+    "fue_barrido_away": 0.2348111658456486,
     "h2h_ultima_fecha": "14/08/2026",
     "h2h_historial": [
       {
@@ -270,12 +200,12 @@
         "sets_perdedor": 2
       }
     ],
-    "prob_partido_home": 0.602653887707652,
-    "prob_partido_away": 0.39734611229234795,
-    "senal_1_1": 0.5691387111474834,
-    "senal_3er": 0.9823448560860708,
-    "senal_3_0": 0.23305085579656304,
-    "senal_4mas": 0.766625418923778,
+    "prob_partido_home": 0.6063741436733212,
+    "prob_partido_away": 0.3936258563266788,
+    "senal_1_1": 0.569176318202948,
+    "senal_3er": 0.9823450052020718,
+    "senal_3_0": 0.23302935326921176,
+    "senal_4mas": 0.7666469810975297,
     "discrepancia": false,
     "ultimo_torneo": false
   }

@@ -1,24 +1,4 @@
 {
-  "13103316": {
-    "liga": "TT Elite Series",
-    "home": "Michal Olbrycht",
-    "away": "Krystian Kolodziej",
-    "favorito": "Krystian Kolodziej",
-    "probabilidad": 0.7341710401359525,
-    "score": 0.7968837205914101,
-    "color": "AMARILLO",
-    "n_h2h": 28,
-    "p_home_individual": 0.31041502495403206,
-    "p_away_individual": 0.7341710401359525,
-    "hora": "18:05",
-    "event_id": "13103316",
-    "hora_ts": 1789056300,
-    "racha_home": -1,
-    "racha_away": -1,
-    "tasa_home": 0.4550359712230216,
-    "tasa_away": 0.6634066829665851,
-    "h2h_ultima_fecha": "18/08/2026"
-  },
   "13105563": {
     "liga": "TT Elite Series",
     "home": "Michal Guzik",
