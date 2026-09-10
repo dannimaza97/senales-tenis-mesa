@@ -1,0 +1,33 @@
+Señales generadas el 10/09/2026 a las 15:59
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  TT Elite Series: 550 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 12)
+  Setka Cup: 550 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 10, reintento)
+ (aviso: tiempo de espera agotado en pagina 10 tras reintento, me detengo aqui)
+  Czech Liga Pro: 426 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 15)
+  TT Cup: 698 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340626
+Jugadores con rating calculado: 2411
+
+Buscando proximos partidos...
+   (busqueda directa de Denys Boltenkov: +26 partidos anadidos)
+   (busqueda directa de Artem Azarov: +16 partidos anadidos)
+   (busqueda directa de Artem Zozulia: +14 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 166 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:10  Setka Cup          Yevhenii Holoborodko vs Oleksandr Zhyrnov    | Ambos ganan set:  79.1%  [P(Yevhenii Holoborodko)=87.0% · P(Oleksandr Zhyrnov)=90.9%] (H2H n=39)
+🟢 18:30  Czech Liga Pro     Radim Urbaniec       vs Ondrej Svacha        | Ambos ganan set:  75.7%  [P(Radim Urbaniec)=88.9% · P(Ondrej Svacha)=85.1%] (H2H n=50)
+🟢 21:40  TT Elite Series    Krystian Kolodziej   vs Krzysztof Kapik      | Ambos ganan set:  79.4%  [P(Krystian Kolodziej)=90.1% · P(Krzysztof Kapik)=88.0%] (H2H n=67)
