@@ -1,1 +1,22 @@
-{}
+{
+  "13113611": {
+    "liga": "TT Elite Series",
+    "home": "Jacek Oracz",
+    "away": "Michal Natkaniec",
+    "favorito": "Jacek Oracz",
+    "probabilidad": 0.7296613933782076,
+    "score": 0.7927208488332439,
+    "color": "AMARILLO",
+    "n_h2h": 20,
+    "p_home_individual": 0.7296613933782076,
+    "p_away_individual": 0.29434621154366375,
+    "hora": "20:45",
+    "event_id": "13113611",
+    "hora_ts": 1789152300,
+    "racha_home": 1,
+    "racha_away": 1,
+    "tasa_home": 0.6660682226211849,
+    "tasa_away": 0.38562091503267976,
+    "h2h_ultima_fecha": "11/07/2026"
+  }
+}
