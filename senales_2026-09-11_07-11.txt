@@ -1,0 +1,54 @@
+Señales generadas el 11/09/2026 a las 07:11
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  TT Elite Series: 200 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 17, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 18)
+  Setka Cup: 846 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  Czech Liga Pro: 421 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 9, reintento)
+ (aviso: tiempo de espera agotado en pagina 9 tras reintento, me detengo aqui)
+  TT Cup: 398 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 340267
+Jugadores con rating calculado: 2412
+
+Buscando proximos partidos...
+   (busqueda directa de Rafal Komandzik: +20 partidos anadidos)
+   (busqueda directa de Nikita Priadko: +99 partidos anadidos)
+   (busqueda directa de Artem Azarov: +20 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 296 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 08:45  TT Elite Series    Sebastian Szostok    vs Jakub Pruszkowski    | Ambos ganan set:  76.9%  [P(Sebastian Szostok)=87.7% · P(Jakub Pruszkowski)=87.6%] (H2H n=37)
+🟢 09:45  Setka Cup          Ladislav Dobias      vs Lukas Adam           | Ambos ganan set:  78.6%  [P(Ladislav Dobias)=88.6% · P(Lukas Adam)=88.7%] (H2H n=40)
+🟢 11:30  Setka Cup          Marian Melisek       vs Adam Dvoracek        | Ambos ganan set:  76.4%  [P(Marian Melisek)=86.1% · P(Adam Dvoracek)=88.8%] (H2H n=22)
+🟢 12:00  TT Elite Series    Karol Strowski       vs Krystian Kolodziej   | Ambos ganan set:  78.2%  [P(Karol Strowski)=87.7% · P(Krystian Kolodziej)=89.2%] (H2H n=59)
+🟢 12:30  Setka Cup          Marian Melisek       vs Josef Hanacek        | Ambos ganan set:  78.0%  [P(Marian Melisek)=89.4% · P(Josef Hanacek)=87.3%] (H2H n=17)
+🟢 12:55  TT Cup             Vaclav Hejda Jr      vs Adam Martin Rek      | Ambos ganan set:  78.3%  [P(Vaclav Hejda Jr)=82.8% · P(Adam Martin Rek)=94.5%] (H2H n=54)
+🟢 13:05  Setka Cup          Dmytro Shchegelskyi  vs Yaroslav Vorsuliak   | Ambos ganan set:  79.2%  [P(Dmytro Shchegelskyi)=87.4% · P(Yaroslav Vorsuliak)=90.7%] (H2H n=25)
+🟢 13:15  Setka Cup          Pavel Oplt           vs Petr Semrad          | Ambos ganan set:  75.3%  [P(Pavel Oplt)=85.6% · P(Petr Semrad)=88.0%] (H2H n=10)
+🟢 13:40  TT Elite Series    Marcin Jadczyk       vs Krystian Kolodziej   | Ambos ganan set:  83.6%  [P(Marcin Jadczyk)=90.8% · P(Krystian Kolodziej)=92.1%] (H2H n=12)
+🟢 14:00  Setka Cup          Roman Horokh         vs Serhii Balabei       | Ambos ganan set:  76.1%  [P(Roman Horokh)=88.3% · P(Serhii Balabei)=86.2%] (H2H n=140)
+🟢 14:10  Setka Cup          Vladimir Voronenko   vs Artem Yurkov         | Ambos ganan set:  77.6%  [P(Vladimir Voronenko)=82.2% · P(Artem Yurkov)=94.4%] (H2H n=51)
+🟢 15:00  TT Elite Series    Dawid Kosmal         vs Maciej Kolek         | Ambos ganan set:  76.0%  [P(Dawid Kosmal)=84.9% · P(Maciej Kolek)=89.5%] (H2H n=23)
+🟢 15:10  Setka Cup          Vitalii S Marushchak vs Andrii Hrabskyi      | Ambos ganan set:  76.0%  [P(Vitalii S Marushchak)=87.0% · P(Andrii Hrabskyi)=87.4%] (H2H n=50)
+🟢 15:30  Setka Cup          Adam Pavlik          vs Vladimir Lopata      | Ambos ganan set:  80.6%  [P(Adam Pavlik)=86.9% · P(Vladimir Lopata)=92.7%] (H2H n=0)
+🟢 16:00  Setka Cup          Ondrej Horak         vs Pavel Hala           | Ambos ganan set:  75.5%  [P(Ondrej Horak)=85.2% · P(Pavel Hala)=88.6%] (H2H n=10)
+🟢 16:10  Setka Cup          Andrii Hrabskyi      vs Artem Yurkov         | Ambos ganan set:  78.7%  [P(Andrii Hrabskyi)=85.4% · P(Artem Yurkov)=92.2%] (H2H n=81)
+🟢 16:15  Setka Cup          Ales Brandtl Snr     vs Lukas Adam           | Ambos ganan set:  78.1%  [P(Ales Brandtl Snr)=90.0% · P(Lukas Adam)=86.7%] (H2H n=0)
+🟢 16:45  Setka Cup          David Gasparovic     vs Michal Makara        | Ambos ganan set:  79.2%  [P(David Gasparovic)=92.8% · P(Michal Makara)=85.3%] (H2H n=15)
+🟢 17:00  Setka Cup          Roman Horokh         vs Vadim Komar          | Ambos ganan set:  75.6%  [P(Roman Horokh)=92.0% · P(Vadim Komar)=82.2%] (H2H n=40)
+🟢 17:15  Setka Cup          Ales Brandtl Snr     vs David Gasparovic     | Ambos ganan set:  80.2%  [P(Ales Brandtl Snr)=87.1% · P(David Gasparovic)=92.1%] (H2H n=1)
+🟢 17:30  Setka Cup          Serhii Kushnirenko   vs Dmytro Kryshtal      | Ambos ganan set:  80.5%  [P(Serhii Kushnirenko)=87.0% · P(Dmytro Kryshtal)=92.5%] (H2H n=78)
