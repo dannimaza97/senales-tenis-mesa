@@ -5,18 +5,18 @@
     "away": "Michal Natkaniec",
     "favorito": "Jacek Oracz",
     "probabilidad": 0.7299343765774862,
-    "score": 0.7930020215285009,
+    "score": 0.7929752650176679,
     "color": "AMARILLO",
     "n_h2h": 20,
     "p_home_individual": 0.7299343765774862,
-    "p_away_individual": 0.29434621154366375,
+    "p_away_individual": 0.29523809523809524,
     "hora": "20:45",
     "event_id": "13113611",
     "hora_ts": 1789152300,
     "racha_home": 2,
-    "racha_away": 1,
+    "racha_away": 2,
     "tasa_home": 0.6666666666666666,
-    "tasa_away": 0.38562091503267976,
+    "tasa_away": 0.38762214983713356,
     "h2h_ultima_fecha": "11/07/2026"
   }
 }
