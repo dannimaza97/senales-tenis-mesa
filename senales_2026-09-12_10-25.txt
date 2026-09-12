@@ -1,0 +1,38 @@
+Señales generadas el 12/09/2026 a las 10:25
+
+Cargando historico acumulado guardado...
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  TT Elite Series: 100 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Setka Cup: 50 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 3, reintento)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  Czech Liga Pro: 394 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 10)
+  TT Cup: 450 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339396
+Jugadores con rating calculado: 2409
+
+Buscando proximos partidos...
+   (busqueda directa de Artem Zozulia: +20 partidos anadidos)
+   (busqueda directa de Mykyta Kornijchuk: +3 partidos anadidos)
+   (busqueda directa de Jan Kucharcik: +4 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 102 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 12:45  Setka Cup          Volodymyr Burylov    vs Michal Makara        | Ambos ganan set:  75.7%  [P(Volodymyr Burylov)=85.9% · P(Michal Makara)=88.2%] (H2H n=7)
+🟡 15:15  Setka Cup          Ondrej Chadima       vs Vladimir Lopata      | Ambos ganan set:  74.2%  [P(Ondrej Chadima)=82.3% · P(Vladimir Lopata)=90.1%] (H2H n=5)
+🟢 16:00  Czech Liga Pro     Samuel Byrtus        vs David Heczko         | Ambos ganan set:  79.1%  [P(Samuel Byrtus)=88.4% · P(David Heczko)=89.5%] (H2H n=29)
+🟢 16:30  Czech Liga Pro     Dalimil Machander    vs Adrian Walek         | Ambos ganan set:  80.5%  [P(Dalimil Machander)=91.1% · P(Adrian Walek)=88.4%] (H2H n=28)
+🟢 16:30  Czech Liga Pro     Jan Kanera           vs Jiri Ruzicka         | Ambos ganan set:  79.0%  [P(Jan Kanera)=89.9% · P(Jiri Ruzicka)=87.9%] (H2H n=36)
+🟢 16:35  Setka Cup          Oleksii Mitla        vs Anton Shypilov       | Ambos ganan set:  83.4%  [P(Oleksii Mitla)=87.6% · P(Anton Shypilov)=95.3%] (H2H n=80)
+🟢 16:45  Setka Cup          Vit Herrmann         vs Vladimir Lopata      | Ambos ganan set:  79.1%  [P(Vit Herrmann)=85.3% · P(Vladimir Lopata)=92.7%] (H2H n=0)
+🟢 17:30  Czech Liga Pro     Adrian Walek         vs Samuel Byrtus        | Ambos ganan set:  77.6%  [P(Adrian Walek)=85.8% · P(Samuel Byrtus)=90.4%] (H2H n=19)
+🟢 17:45  Setka Cup          Ludek Stoces         vs Vladimir Lopata      | Ambos ganan set:  84.2%  [P(Ludek Stoces)=90.8% · P(Vladimir Lopata)=92.7%] (H2H n=0)
