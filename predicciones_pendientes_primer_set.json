@@ -45,18 +45,18 @@
     "away": "Dmytro Kryshtal",
     "favorito": "Serhii Ponomarenko",
     "probabilidad": 0.7999611008460566,
-    "score": 0.8669233278853605,
+    "score": 0.8669200427890694,
     "color": "VERDE",
     "n_h2h": 96,
     "p_home_individual": 0.7999611008460566,
-    "p_away_individual": 0.23455353286926228,
+    "p_away_individual": 0.2346630360789653,
     "hora": "11:30",
     "event_id": "13116826",
     "hora_ts": 1789205400,
     "racha_home": -4,
     "racha_away": 1,
     "tasa_home": 0.7606837606837606,
-    "tasa_away": 0.4727838258164852,
+    "tasa_away": 0.4735202492211838,
     "h2h_ultima_fecha": "24/07/2026"
   }
 }
