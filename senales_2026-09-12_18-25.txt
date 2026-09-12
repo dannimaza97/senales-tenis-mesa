@@ -1,0 +1,41 @@
+Señales generadas el 12/09/2026 a las 18:25
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 9)
+  TT Elite Series: 400 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: respuesta no valida de la API, esperando y continuando)
+  Setka Cup: 97 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+ (aviso: tiempo de espera agotado en pagina 5 tras reintento, me detengo aqui)
+  Czech Liga Pro: 198 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 2, reintento)
+ (aviso: tiempo de espera agotado en pagina 4, reintento)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 7)
+  TT Cup: 298 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 339395
+Jugadores con rating calculado: 2407
+
+Buscando proximos partidos...
+   (busqueda directa de Mykyta Kornijchuk: +3 partidos anadidos)
+   (busqueda directa de Krystof Lahodny: +31 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 64 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 21:00  Czech Liga Pro     Richard Skacelik     vs Dalimil Machander    | Ambos ganan set:  91.7%  [P(Richard Skacelik)=95.8% · P(Dalimil Machander)=95.7%] (H2H n=57)
+🟢 21:00  Czech Liga Pro     Ondrej Svacha        vs Oleksandr Kolisnyk   | Ambos ganan set:  77.4%  [P(Ondrej Svacha)=89.3% · P(Oleksandr Kolisnyk)=86.6%] (H2H n=50)
+🟢 21:15  Setka Cup          David Gasparovic     vs Jan Krames Sr        | Ambos ganan set:  77.4%  [P(David Gasparovic)=86.6% · P(Jan Krames Sr)=89.4%] (H2H n=13)
+🟢 21:40  TT Elite Series    Jakub Kuzmicz        vs Patryk Jendrzejewski | Ambos ganan set:  78.7%  [P(Jakub Kuzmicz)=90.1% · P(Patryk Jendrzejewski)=87.3%] (H2H n=40)
+🟢 22:00  Czech Liga Pro     Daniel Langer        vs Dalimil Machander    | Ambos ganan set:  83.5%  [P(Daniel Langer)=93.0% · P(Dalimil Machander)=89.8%] (H2H n=0)
+🟢 22:30  TT Elite Series    Marcin Marchlewski   vs Tomasz Filbrandt     | Ambos ganan set:  77.1%  [P(Marcin Marchlewski)=87.4% · P(Tomasz Filbrandt)=88.2%] (H2H n=21)
+🟢 22:30  Czech Liga Pro     Ondrej Svacha        vs Radim Urbaniec       | Ambos ganan set:  76.6%  [P(Ondrej Svacha)=86.3% · P(Radim Urbaniec)=88.8%] (H2H n=49)
+🟢 22:30  Czech Liga Pro     Michal Cabis         vs Radovan Polasek      | Ambos ganan set:  76.1%  [P(Michal Cabis)=86.7% · P(Radovan Polasek)=87.8%] (H2H n=52)
+🟢 22:45  TT Elite Series    Pawel Gasiorski      vs Krzysztof Schaniel   | Ambos ganan set:  82.8%  [P(Pawel Gasiorski)=96.6% · P(Krzysztof Schaniel)=85.7%] (H2H n=1)
