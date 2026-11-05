@@ -40,6 +40,23 @@ jobs:
           BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
         run: python diagnostico_betsapi.py
 
+      - name: Publicar diagnostico BetsAPI antes del motor
+        if: always()
+        continue-on-error: true
+        run: |
+          if [ -f estado_betsapi.json ]; then
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git add -f estado_betsapi.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Actualizar diagnostico BetsAPI"
+              git pull --rebase
+              git push
+            fi
+          else
+            echo "No se genero estado_betsapi.json; revisar instalacion y diagnostico"
+          fi
+
       - name: Ejecutar motor de senales
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
