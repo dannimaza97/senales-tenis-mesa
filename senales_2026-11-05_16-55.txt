@@ -1,0 +1,50 @@
+Señales generadas el 05/11/2026 a las 16:55
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 12, reintento)
+ (aviso: tiempo de espera agotado en pagina 44, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 45)
+  TT Elite Series: 2200 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 30, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 31)
+  Setka Cup: 1485 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 8, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 22)
+  Czech Liga Pro: 1019 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 20, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 23)
+  TT Cup: 1096 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 344202
+Jugadores con rating calculado: 2441
+
+Buscando proximos partidos...
+   (busqueda directa de Denys Boltenkov: +97 partidos anadidos)
+   (busqueda directa de Artem Zozulia: +87 partidos anadidos)
+   (busqueda directa de Ivan Yelfimov: +77 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 128 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 18:00  Czech Liga Pro     Michal Jezek         vs Jan Kanera           | Ambos ganan set:  80.8%  [P(Michal Jezek)=88.7% · P(Jan Kanera)=91.1%] (H2H n=22)
+🟢 18:00  Setka Cup          Tomas Liska          vs Radovan Pisa         | Ambos ganan set:  79.8%  [P(Tomas Liska)=87.7% · P(Radovan Pisa)=91.1%] (H2H n=30)
+🟢 18:30  Czech Liga Pro     Martin Biolek        vs Jan Szotkowski       | Ambos ganan set:  77.6%  [P(Martin Biolek)=90.4% · P(Jan Szotkowski)=85.9%] (H2H n=32)
+🟢 18:30  Czech Liga Pro     Michal Cabis         vs Matyas Navedla       | Ambos ganan set:  76.7%  [P(Michal Cabis)=88.8% · P(Matyas Navedla)=86.4%] (H2H n=57)
+🟢 18:55  TT Cup             Filip Strejc         vs Tomas Flicek         | Ambos ganan set:  78.6%  [P(Filip Strejc)=87.4% · P(Tomas Flicek)=89.9%] (H2H n=34)
+🟢 19:20  TT Elite Series    Andriej Fomin        vs Jerzy Michalik       | Ambos ganan set:  78.3%  [P(Andriej Fomin)=91.4% · P(Jerzy Michalik)=85.7%] (H2H n=37)
+🟢 19:30  Setka Cup          Jan Simecek Jnr      vs Jachym Juppa         | Ambos ganan set:  76.1%  [P(Jan Simecek Jnr)=89.1% · P(Jachym Juppa)=85.4%] (H2H n=18)
+🟢 19:40  Setka Cup          Oleksandr Blashkun   vs Yevhenii Holoborodko | Ambos ganan set:  78.0%  [P(Oleksandr Blashkun)=86.8% · P(Yevhenii Holoborodko)=89.9%] (H2H n=28)
+🟢 19:45  TT Cup             Tomas Ogrocki        vs Patrik Jokiel        | Ambos ganan set:  76.9%  [P(Tomas Ogrocki)=90.1% · P(Patrik Jokiel)=85.3%] (H2H n=36)
+🟢 19:45  Setka Cup          Lukas Rulc           vs Stepan Rejent        | Ambos ganan set:  77.0%  [P(Lukas Rulc)=87.0% · P(Stepan Rejent)=88.5%] (H2H n=24)
+🟢 20:00  Setka Cup          Zdenek Kuksa         vs Tadeas Bertho        | Ambos ganan set:  83.1%  [P(Zdenek Kuksa)=91.2% · P(Tadeas Bertho)=91.1%] (H2H n=26)
+🟢 20:00  Czech Liga Pro     Radomir Revay        vs Michal Vavrecka      | Ambos ganan set:  79.1%  [P(Radomir Revay)=88.0% · P(Michal Vavrecka)=89.9%] (H2H n=26)
+🟢 20:00  Czech Liga Pro     Lukas Kern           vs Michal Chalupa       | Ambos ganan set:  77.9%  [P(Lukas Kern)=89.1% · P(Michal Chalupa)=87.4%] (H2H n=18)
+🟢 20:15  Setka Cup          Roman Durovic        vs Stepan Rejent        | Ambos ganan set:  76.8%  [P(Roman Durovic)=85.6% · P(Stepan Rejent)=89.7%] (H2H n=10)
+🟢 20:30  TT Elite Series    Andriej Fomin        vs Zbigniew Nocun       | Ambos ganan set:  79.0%  [P(Andriej Fomin)=84.7% · P(Zbigniew Nocun)=93.2%] (H2H n=31)
+🟢 21:00  Setka Cup          Zdenek Kuksa         vs Jachym Juppa         | Ambos ganan set:  76.6%  [P(Zdenek Kuksa)=90.1% · P(Jachym Juppa)=85.1%] (H2H n=10)
+🟢 21:45  Setka Cup          Stepan Rejent        vs Vojtech Grubr        | Ambos ganan set:  80.4%  [P(Stepan Rejent)=90.5% · P(Vojtech Grubr)=88.8%] (H2H n=13)
+🟢 22:00  Czech Liga Pro     Daniel Tuma          vs Tomas Janata         | Ambos ganan set:  79.8%  [P(Daniel Tuma)=86.0% · P(Tomas Janata)=92.8%] (H2H n=85)
