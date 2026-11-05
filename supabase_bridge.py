@@ -118,12 +118,14 @@ def guardar_senales_supabase(seleccion):
             timeout=20,
         )
         if resp.status_code >= 300:
-            print(f" (aviso: Supabase respondio {resp.status_code} al guardar señales: {resp.text[:300]})")
+            _registrar_estado_publicacion("error_http", len(filas), resp.status_code)
+            print(f" (aviso: Supabase devolvio HTTP {resp.status_code} al guardar senales)")
         else:
             _registrar_estado_publicacion("ok", len(filas), resp.status_code)
-            print(f" Guardadas {len(filas)} señales en Supabase.")
+            print(f" Guardadas {len(filas)} senales en Supabase.")
     except requests.exceptions.RequestException as e:
-        print(f" (aviso: error de red guardando señales en Supabase: {e})")
+        _registrar_estado_publicacion("error_red", len(filas))
+        print(f" (aviso: error de red guardando senales: {type(e).__name__})")
 
 
 def guardar_estadisticas_supabase(estadisticas):
