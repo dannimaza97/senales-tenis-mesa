@@ -19,6 +19,19 @@ y `daily_stats`, que están bloqueadas para cualquier otro cliente.
 import os
 import datetime
 import requests
+import json
+
+
+def _registrar_estado_publicacion(estado, filas=0, http=None):
+    informe = {
+        "fecha_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "estado": estado,
+        "filas_intentadas": filas,
+        "http": http,
+    }
+    with open("estado_publicacion_supabase.json", "w", encoding="utf-8") as archivo:
+        json.dump(informe, archivo, indent=2)
+        archivo.write("\\n")
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
@@ -46,7 +59,11 @@ def guardar_senales_supabase(seleccion):
     """Recibe la misma lista `seleccion` que genera main() en
     senales_reales.py y la sube (upsert por event_id) a la tabla
     `signals` de Supabase."""
-    if not _habilitado() or not seleccion:
+    if not seleccion:
+        _registrar_estado_publicacion("sin_senales")
+        return
+    if not _habilitado():
+        _registrar_estado_publicacion("sin_credenciales", len(seleccion))
         return
 
     filas = []
@@ -89,6 +106,7 @@ def guardar_senales_supabase(seleccion):
         })
 
     if not filas:
+        _registrar_estado_publicacion("sin_filas_validas")
         return
 
     try:
@@ -102,6 +120,7 @@ def guardar_senales_supabase(seleccion):
         if resp.status_code >= 300:
             print(f" (aviso: Supabase respondio {resp.status_code} al guardar señales: {resp.text[:300]})")
         else:
+            _registrar_estado_publicacion("ok", len(filas), resp.status_code)
             print(f" Guardadas {len(filas)} señales en Supabase.")
     except requests.exceptions.RequestException as e:
         print(f" (aviso: error de red guardando señales en Supabase: {e})")
