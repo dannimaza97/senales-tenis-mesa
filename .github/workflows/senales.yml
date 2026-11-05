@@ -30,6 +30,12 @@ jobs:
         run: |
           curl -s -m 10 -o /dev/null -w "Codigo HTTP: %{http_code}\nTiempo: %{time_total}s\n" "https://api.b365api.com/v1/events/upcoming?token=${BETSAPI_TOKEN}&sport_id=92&league_id=29097&page=1" || echo "FALLO: no se pudo conectar en 10 segundos"
 
+      - name: Diagnostico detallado BetsAPI por liga
+        continue-on-error: true
+        env:
+          BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
+        run: python diagnostico_betsapi.py
+
       - name: Ejecutar motor de senales
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
