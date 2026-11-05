@@ -1,0 +1,30 @@
+{
+  "fecha_utc": "2026-11-05T13:04:56.376487+00:00",
+  "token_configurado": true,
+  "ligas": {
+    "TT Elite Series": {
+      "estado": "ok",
+      "http": 200,
+      "partidos": 50,
+      "codigo_error": ""
+    },
+    "Setka Cup": {
+      "estado": "ok",
+      "http": 200,
+      "partidos": 50,
+      "codigo_error": ""
+    },
+    "Czech Liga Pro": {
+      "estado": "ok",
+      "http": 200,
+      "partidos": 50,
+      "codigo_error": ""
+    },
+    "TT Cup": {
+      "estado": "ok",
+      "http": 200,
+      "partidos": 50,
+      "codigo_error": ""
+    }
+  }
+}
