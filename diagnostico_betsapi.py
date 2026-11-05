@@ -7,6 +7,7 @@ import requests
 BASE = "https://api.b365api.com/v1/events/upcoming"
 LIGAS = {"TT Elite Series": 29128, "Setka Cup": 22307, "Czech Liga Pro": 22742, "TT Cup": 29097}
 DESTINO = "estado_betsapi.json"
+DESTINO_PARTIDOS = "proximos_partidos.json"
 
 
 def main():
@@ -16,6 +17,8 @@ def main():
         "token_configurado": bool(token),
         "ligas": {},
     }
+    partidos_futuros = []
+    ahora_ts = datetime.datetime.now(datetime.timezone.utc).timestamp()
     if not token:
         print("ERROR: BETSAPI_TOKEN no configurado")
     for nombre, league_id in LIGAS.items():
@@ -31,6 +34,26 @@ def main():
             datos = respuesta.json()
             resultados = datos.get("results")
             cantidad = len(resultados) if isinstance(resultados, list) else 0
+            if isinstance(resultados, list):
+                for evento in resultados:
+                    try:
+                        ts = int(evento.get("time"))
+                        if ts <= ahora_ts or ts > ahora_ts + 48 * 3600:
+                            continue
+                        home = str((evento.get("home") or {}).get("name") or "")[:120]
+                        away = str((evento.get("away") or {}).get("name") or "")[:120]
+                        if home and away:
+                            partidos_futuros.append({
+                                "event_id": str(evento.get("id") or "")[:30],
+                                "liga": nombre,
+                                "home": home,
+                                "away": away,
+                                "hora_utc": datetime.datetime.fromtimestamp(
+                                    ts, datetime.timezone.utc
+                                ).isoformat(),
+                            })
+                    except (TypeError, ValueError, OverflowError):
+                        continue
             ok = respuesta.ok and str(datos.get("success")).lower() in ("1", "true")
             estado["ligas"][nombre] = {
                 "estado": "ok" if ok else "error_api",
@@ -45,7 +68,16 @@ def main():
     with open(DESTINO, "w", encoding="utf-8") as salida:
         json.dump(estado, salida, ensure_ascii=False, indent=2)
         salida.write("\n")
-    print(f"Diagnóstico guardado en {DESTINO}")
+    partidos_futuros.sort(key=lambda x: x["hora_utc"])
+    with open(DESTINO_PARTIDOS, "w", encoding="utf-8") as salida:
+        json.dump({
+            "fecha_utc": estado["fecha_utc"],
+            "origen": "BetsAPI upcoming, primera pagina por liga",
+            "nota": "Partidos sin prediccion ni recomendacion",
+            "partidos": partidos_futuros,
+        }, salida, ensure_ascii=False, indent=2)
+        salida.write("\\n")
+    print(f"Diagnostico guardado; proximos partidos: {len(partidos_futuros)}")
     return 0
 
 
