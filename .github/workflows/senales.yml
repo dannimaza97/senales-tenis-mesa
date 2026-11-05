@@ -14,6 +14,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  diagnosticar_api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar dependencia de diagnostico
+        run: python -m pip install requests
+      - name: Comprobar las cuatro ligas sin publicar credenciales
+        env:
+          BETSAPI_TOKEN: ${{ secrets.BETSAPI_TOKEN }}
+        run: python diagnostico_betsapi.py
+      - name: Guardar informe independiente
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: estado-betsapi
+          path: estado_betsapi.json
+          if-no-files-found: warn
+          retention-days: 7
+
   ejecutar:
     runs-on: ubuntu-latest
     steps:
