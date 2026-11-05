@@ -68,7 +68,7 @@ jobs:
           # pendientes y volvia a mandar los avisos de Telegram ya enviados. Se sigue
           # escribiendo localmente en cada run (para Elo/H2H de esa ejecucion) pero deja de
           # versionarse hasta que tenga poda de tamano o se migre a otro almacenamiento.
-          for f in predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json ultima_actualizacion.json seleccion_diaria.json backfill_estado.json \
+          for f in estado_betsapi.json predicciones_pendientes.json resultados_notificados.json avisos_enviados.json estadisticas.json ultima_actualizacion.json seleccion_diaria.json backfill_estado.json \
                    predicciones_pendientes_primer_set.json resultados_notificados_primer_set.json avisos_enviados_primer_set.json estadisticas_primer_set.json ultima_actualizacion_primer_set.json seleccion_diaria_primer_set.json resumen_diario_enviado_primer_set.json; do
             if [ -f "$f" ]; then
               git add -f "$f"
