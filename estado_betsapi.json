@@ -1,5 +1,5 @@
 {
-  "fecha_utc": "2026-11-06T02:44:33.426723+00:00",
+  "fecha_utc": "2026-11-06T09:56:08.156144+00:00",
   "token_configurado": true,
   "ligas": {
     "TT Elite Series": {
@@ -23,7 +23,7 @@
     "TT Cup": {
       "estado": "ok",
       "http": 200,
-      "partidos": 46,
+      "partidos": 50,
       "codigo_error": ""
     }
   }
