@@ -61,3 +61,31 @@ def metricas_calibracion(registros, intervalos=10):
             for i, b in enumerate(bandas) if b
         ],
     }
+
+def evaluar_calidad_senal(probabilidad, *, muestra, antiguedad_horas,
+                         discrepancia=False, umbral=0.75,
+                         muestra_minima=30, max_antiguedad_horas=72):
+    """Filtro conservador de calidad, independiente del calculo de probabilidades.
+
+    Nunca eleva una probabilidad por tener mas datos. Devuelve decision
+    y motivos auditables; no implica que la señal vaya a acertar.
+    """
+    p = validar_probabilidad(probabilidad)
+    if isinstance(muestra, bool) or not isinstance(muestra, int) or muestra < 0:
+        raise ValueError("muestra invalida")
+    from math import isfinite
+    if (isinstance(antiguedad_horas, bool) or
+            not isinstance(antiguedad_horas, (float, int)) or
+            not isfinite(antiguedad_horas) or antiguedad_horas < 0):
+        raise ValueError("antiguedad invalida")
+    motivos = []
+    if p < umbral:
+        motivos.append("probabilidad_baja")
+    if muestra < muestra_minima:
+        motivos.append("muestra_insuficiente")
+    if antiguedad_horas > max_antiguedad_horas:
+        motivos.append("datos_desactualizados")
+    if discrepancia:
+        motivos.append("datos_contradictorios")
+    return {"publicable": not motivos, "probabilidad": p,
+            "muestra": muestra, "motivos": motivos}
