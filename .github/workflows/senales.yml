@@ -43,6 +43,7 @@ jobs:
 
   ejecutar:
     runs-on: ubuntu-latest
+    timeout-minutes: 13
     steps:
       - uses: actions/checkout@v4
         with:
