@@ -1,0 +1,61 @@
+Señales generadas el 06/11/2026 a las 10:18
+
+Cargando historico acumulado guardado...
+ (aviso: tiempo de espera agotado en pagina 34, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 51)
+  TT Elite Series: 2500 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 6, reintento)
+ (aviso: tiempo de espera agotado en pagina 26, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 37)
+  Setka Cup: 1784 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 26, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 27)
+  Czech Liga Pro: 1265 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 7, reintento)
+ (aviso: tiempo de espera agotado en pagina 16, reintento)
+ (aviso: presupuesto de tiempo agotado para esta liga, corto en pagina 34)
+  TT Cup: 1646 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 345597
+Jugadores con rating calculado: 2448
+
+Buscando proximos partidos...
+   (busqueda directa de Rafal Dlugaj: +40 partidos anadidos)
+   (busqueda directa de Pavlo Ostrovskyi: +54 partidos anadidos)
+   (busqueda directa de Artem Azarov: +91 partidos anadidos)
+   (busqueda directa de Pavel Schneider: +8 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 322 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 11:45  TT Cup             Tomas Krenek         vs Jan Skvrna           | Ambos ganan set:  79.7%  [P(Tomas Krenek)=84.3% · P(Jan Skvrna)=94.6%] (H2H n=64)
+🟢 11:45  Setka Cup          Tadeas Bertho        vs Matej Svitac         | Ambos ganan set:  77.8%  [P(Tadeas Bertho)=88.4% · P(Matej Svitac)=88.0%] (H2H n=5)
+🟢 11:55  Setka Cup          Oleksandr Storozhenko vs Ivan Fashchevskyi    | Ambos ganan set:  79.4%  [P(Oleksandr Storozhenko)=91.1% · P(Ivan Fashchevskyi)=87.1%] (H2H n=31)
+🟢 12:15  TT Cup             Jan Krupnik          vs Radek Benes          | Ambos ganan set:  78.2%  [P(Jan Krupnik)=87.0% · P(Radek Benes)=89.9%] (H2H n=68)
+🟢 12:50  TT Elite Series    Krystian Kolodziej   vs Marcin Jadczyk       | Ambos ganan set:  84.9%  [P(Krystian Kolodziej)=92.6% · P(Marcin Jadczyk)=91.7%] (H2H n=16)
+🟢 13:00  Setka Cup          Oleksandr Ziakun     vs Oleksandr Lyman      | Ambos ganan set:  80.0%  [P(Oleksandr Ziakun)=89.5% · P(Oleksandr Lyman)=89.4%] (H2H n=35)
+🟢 13:05  Setka Cup          Yurii Volkov         vs Valerii Kolesnykov   | Ambos ganan set:  77.9%  [P(Yurii Volkov)=86.8% · P(Valerii Kolesnykov)=89.7%] (H2H n=24)
+🟢 13:15  TT Cup             Jan Skvrna           vs Jan Krupnik          | Ambos ganan set:  88.9%  [P(Jan Skvrna)=96.4% · P(Jan Krupnik)=92.2%] (H2H n=51)
+🟢 13:40  TT Elite Series    Marcin Jadczyk       vs Jakub Folwarski      | Ambos ganan set:  79.7%  [P(Marcin Jadczyk)=84.5% · P(Jakub Folwarski)=94.3%] (H2H n=24)
+🟢 14:15  TT Cup             Radek Benes          vs Jan Skvrna           | Ambos ganan set:  82.9%  [P(Radek Benes)=85.8% · P(Jan Skvrna)=96.6%] (H2H n=85)
+🟢 14:25  TT Cup             David Sykora         vs Adam Kral            | Ambos ganan set:  76.8%  [P(David Sykora)=93.6% · P(Adam Kral)=82.0%] (H2H n=37)
+🟢 14:55  TT Cup             Martin Filipek       vs Adam Kral            | Ambos ganan set:  77.7%  [P(Martin Filipek)=90.2% · P(Adam Kral)=86.2%] (H2H n=69)
+🟢 14:55  Setka Cup          Nazar Danyliuk       vs Dmytro Zeniuk        | Ambos ganan set:  78.1%  [P(Nazar Danyliuk)=92.2% · P(Dmytro Zeniuk)=84.7%] (H2H n=34)
+🟢 15:45  Setka Cup          Petr Semrad          vs Lukas Provaznik      | Ambos ganan set:  80.9%  [P(Petr Semrad)=89.9% · P(Lukas Provaznik)=89.9%] (H2H n=36)
+🟢 16:15  Setka Cup          Ondrej Mezera        vs Lukas Provaznik      | Ambos ganan set:  80.7%  [P(Ondrej Mezera)=86.0% · P(Lukas Provaznik)=93.8%] (H2H n=24)
+🟢 16:30  Setka Cup          Zdenek Kuksa         vs Jachym Juppa         | Ambos ganan set:  77.1%  [P(Zdenek Kuksa)=90.2% · P(Jachym Juppa)=85.5%] (H2H n=11)
+🟢 17:00  Czech Liga Pro     Samuel Byrtus        vs David Heczko         | Ambos ganan set:  80.9%  [P(Samuel Byrtus)=90.4% · P(David Heczko)=89.5%] (H2H n=29)
+🟢 17:00  TT Elite Series    Maciej Nowalinski    vs Marcin Jadczyk       | Ambos ganan set:  79.3%  [P(Maciej Nowalinski)=84.3% · P(Marcin Jadczyk)=94.1%] (H2H n=48)
+🟢 17:10  TT Elite Series    Cezary Pawlik        vs Jacek Oracz          | Ambos ganan set:  86.7%  [P(Cezary Pawlik)=91.5% · P(Jacek Oracz)=94.7%] (H2H n=42)
+🟢 17:30  Czech Liga Pro     Jiri Zuzanek         vs Michal Vondrak       | Ambos ganan set:  82.6%  [P(Jiri Zuzanek)=92.7% · P(Michal Vondrak)=89.0%] (H2H n=78)
+🟢 17:45  Setka Cup          Lukas Provaznik      vs Dominik Marasek      | Ambos ganan set:  77.8%  [P(Lukas Provaznik)=86.8% · P(Dominik Marasek)=89.6%] (H2H n=14)
+🟢 18:25  Setka Cup          Dmytro Zeniuk        vs Nazar Danyliuk       | Ambos ganan set:  78.1%  [P(Dmytro Zeniuk)=84.7% · P(Nazar Danyliuk)=92.2%] (H2H n=34)
+🟢 18:30  Setka Cup          Vadim Komar          vs Roman Horokh         | Ambos ganan set:  75.9%  [P(Vadim Komar)=82.5% · P(Roman Horokh)=92.1%] (H2H n=41)
+🟢 20:00  Czech Liga Pro     Martin Huk           vs Jan Mecl Jr          | Ambos ganan set:  77.9%  [P(Martin Huk)=86.3% · P(Jan Mecl Jr)=90.3%] (H2H n=59)
+🟢 20:15  Setka Cup          Jakub Nemecek Snr    vs Ladislav Tuma        | Ambos ganan set:  83.7%  [P(Jakub Nemecek Snr)=94.2% · P(Ladislav Tuma)=88.8%] (H2H n=0)
+🟢 21:15  Setka Cup          Jakub Nemecek Snr    vs Karel Polak          | Ambos ganan set:  81.6%  [P(Jakub Nemecek Snr)=94.2% · P(Karel Polak)=86.6%] (H2H n=0)
+🟢 21:25  Setka Cup          Vitalii Sydorenko    vs Valentyn Chumak      | Ambos ganan set:  75.1%  [P(Vitalii Sydorenko)=86.3% · P(Valentyn Chumak)=87.0%] (H2H n=24)
