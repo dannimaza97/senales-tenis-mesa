@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime, timezone, timedelta
-from pulsopro2.core import validar_partido, validar_probabilidad, metricas_calibracion
+from pulsopro2.core import validar_partido, validar_probabilidad, metricas_calibracion, evaluar_calidad_senal
 from pulsopro2.historial import guardar_partidos_finalizados
 
 AHORA = datetime(2026, 11, 5, 12, tzinfo=timezone.utc)
@@ -71,6 +71,29 @@ class TestHistorial(unittest.TestCase):
                 "hora_ts": 100, "sets_home": 2, "sets_away": 2}
         self.assertEqual(guardar_partidos_finalizados([fila], url="https://test.supabase.co",
                            clave="falsa", sesion=sesion), 0)
+
+
+class TestFiltroCalidad(unittest.TestCase):
+    def test_acepta_senal_con_datos_suficientes(self):
+        r = evaluar_calidad_senal(0.8, muestra=40, antiguedad_horas=12)
+        self.assertTrue(r["publicable"])
+
+    def test_rechaza_muestra_pequena(self):
+        r = evaluar_calidad_senal(0.95, muestra=4, antiguedad_horas=12)
+        self.assertFalse(r["publicable"])
+        self.assertIn("muestra_insuficiente", r["motivos"])
+
+    def test_rechaza_datos_viejos_y_contradictorios(self):
+        r = evaluar_calidad_senal(0.9, muestra=100, antiguedad_horas=90, discrepancia=True)
+        self.assertEqual(r["motivos"], ["datos_desactualizados", "datos_contradictorios"])
+
+    def test_rechaza_probabilidad_baja(self):
+        r = evaluar_calidad_senal(0.7, muestra=100, antiguedad_horas=1)
+        self.assertIn("probabilidad_baja", r["motivos"])
+
+    def test_rechaza_antiguedad_invalida(self):
+        with self.assertRaises(ValueError):
+            evaluar_calidad_senal(0.9, muestra=100, antiguedad_horas=float("nan"))
 
 if __name__ == "__main__":
     unittest.main()
