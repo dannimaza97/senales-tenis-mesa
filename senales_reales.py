@@ -812,7 +812,10 @@ def main():
     print("Cargando historico acumulado guardado...")
     historico_guardado = cargar_historico()
     primera_vez = len(historico_guardado) == 0
-    paginas_por_liga = 150
+    # El historico de >100 MB no persiste entre ejecuciones. Consultar 150
+    # paginas x 4 ligas en cada ciclo de 15 min puede bloquear el cron.
+    # Priorizar datos recientes hasta migrar el historial a Supabase.
+    paginas_por_liga = 20
     if primera_vez:
         print("  (reconstruyendo historico con detalle de sets, puede tardar varios minutos)")
 
