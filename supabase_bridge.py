@@ -31,7 +31,7 @@ def _registrar_estado_publicacion(estado, filas=0, http=None):
     }
     with open("estado_publicacion_supabase.json", "w", encoding="utf-8") as archivo:
         json.dump(informe, archivo, indent=2)
-        archivo.write("\\n")
+        archivo.write("\n")
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
