@@ -1,0 +1,62 @@
+Señales generadas el 09/11/2026 a las 17:01
+
+Cargando historico acumulado guardado...
+  TT Elite Series: 999 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+  Setka Cup: 980 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+  Czech Liga Pro: 995 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+  TT Cup: 997 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342373
+Jugadores con rating calculado: 2437
+
+Buscando proximos partidos...
+   (busqueda directa de Rafal Komandzik: +60 partidos anadidos)
+   (busqueda directa de Artem Azarov: +94 partidos anadidos)
+   (busqueda directa de Vsevolod Lytvyn: +19 partidos anadidos)
+   (busqueda directa de Ivan Yelfimov: +92 partidos anadidos)
+   (busqueda directa de Vojtech Kuba: +28 partidos anadidos)
+   (busqueda directa de Petr Dalecky: +13 partidos anadidos)
+   (busqueda directa de Matej Srubar: +22 partidos anadidos)
+
+======================================================================
+SELECCION DE HOY: 35/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 130 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟡 17:00  TT Elite Series    Miroslaw Piecowski   vs Mikolaj Lukaszewski  | Ambos ganan set:  74.4%  [P(Miroslaw Piecowski)=91.8% · P(Mikolaj Lukaszewski)=81.0%] (H2H n=52)
+🟢 18:00  Czech Liga Pro     Roman Hudeczek       vs Michal Chalupa       | Ambos ganan set:  80.6%  [P(Roman Hudeczek)=91.4% · P(Michal Chalupa)=88.2%] (H2H n=37)
+🟢 18:00  Czech Liga Pro     Martin Skotnica      vs Michal Cabis         | Ambos ganan set:  75.4%  [P(Martin Skotnica)=90.9% · P(Michal Cabis)=83.0%] (H2H n=12)
+🟡 18:00  Czech Liga Pro     Tomas Holik          vs Denis Hofman         | Ambos ganan set:  72.4%  [P(Tomas Holik)=85.2% · P(Denis Hofman)=84.9%] (H2H n=7)
+🟡 18:00  Setka Cup          Roman Boklah         vs Serhii Priadko       | Ambos ganan set:  73.8%  [P(Roman Boklah)=86.3% · P(Serhii Priadko)=85.5%] (H2H n=61)
+🟢 18:30  Czech Liga Pro     Radovan Polasek      vs Radomir Revay        | Ambos ganan set:  77.5%  [P(Radovan Polasek)=89.7% · P(Radomir Revay)=86.4%] (H2H n=94)
+🟡 18:30  Czech Liga Pro     Radim Pavelka        vs Tomas Dousa          | Ambos ganan set:  75.0%  [P(Radim Pavelka)=84.6% · P(Tomas Dousa)=88.6%] (H2H n=50)
+🟡 18:30  Setka Cup          Vladyslav Mishchenko vs Andrii Hrabskyi      | Ambos ganan set:  73.1%  [P(Vladyslav Mishchenko)=83.3% · P(Andrii Hrabskyi)=87.7%] (H2H n=28)
+🟢 18:30  Czech Liga Pro     Jan Svoboda          vs Petr Dalecky         | Ambos ganan set:  76.3%  [P(Jan Svoboda)=86.6% · P(Petr Dalecky)=88.1%] (H2H n=0)
+🟢 18:35  Setka Cup          Ivan Yelfimov        vs Vitalii Kaganovych   | Ambos ganan set:  75.3%  [P(Ivan Yelfimov)=91.4% · P(Vitalii Kaganovych)=82.4%] (H2H n=12)
+🟢 19:15  Setka Cup          Petr Orlowski        vs Zdenek Kuksa         | Ambos ganan set:  78.5%  [P(Petr Orlowski)=87.7% · P(Zdenek Kuksa)=89.5%] (H2H n=1)
+🟢 19:30  TT Elite Series    Pawel Adamus         vs Oliver Vincenec      | Ambos ganan set:  77.4%  [P(Pawel Adamus)=91.7% · P(Oliver Vincenec)=84.4%] (H2H n=14)
+🟢 19:30  Setka Cup          Ondrej Karpisek      vs Ladislav Hendrych    | Ambos ganan set:  79.7%  [P(Ondrej Karpisek)=86.1% · P(Ladislav Hendrych)=92.6%] (H2H n=0)
+🟢 19:40  TT Cup             Tomas Ogrocki        vs Karel Zeman          | Ambos ganan set:  75.3%  [P(Tomas Ogrocki)=85.4% · P(Karel Zeman)=88.1%] (H2H n=18)
+🟡 19:45  Setka Cup          Marek Cizek          vs Tomas Hanke          | Ambos ganan set:  74.4%  [P(Marek Cizek)=83.2% · P(Tomas Hanke)=89.4%] (H2H n=1)
+🟢 19:55  TT Elite Series    Mariusz Adamus       vs Jakub Nowak          | Ambos ganan set:  75.9%  [P(Mariusz Adamus)=84.9% · P(Jakub Nowak)=89.5%] (H2H n=23)
+🟢 20:00  Setka Cup          Martin Drabek        vs Jakub Nemecek Snr    | Ambos ganan set:  76.6%  [P(Martin Drabek)=83.6% · P(Jakub Nemecek Snr)=91.6%] (H2H n=2)
+🟢 20:05  TT Elite Series    Adam Linek           vs Michal Minda         | Ambos ganan set:  80.3%  [P(Adam Linek)=90.4% · P(Michal Minda)=88.9%] (H2H n=56)
+🟢 20:15  Setka Cup          Petr Orlowski        vs Tomas Hanke          | Ambos ganan set:  76.8%  [P(Petr Orlowski)=86.1% · P(Tomas Hanke)=89.3%] (H2H n=7)
+🟢 20:30  Czech Liga Pro     Michal Cabis         vs Radovan Polasek      | Ambos ganan set:  76.7%  [P(Michal Cabis)=87.0% · P(Radovan Polasek)=88.1%] (H2H n=54)
+🟢 20:30  Setka Cup          Ondrej Karpisek      vs Jakub Nemecek Snr    | Ambos ganan set:  81.1%  [P(Ondrej Karpisek)=86.1% · P(Jakub Nemecek Snr)=94.2%] (H2H n=0)
+🟡 20:30  Czech Liga Pro     Denis Hofman         vs Karel Brozhik        | Ambos ganan set:  71.8%  [P(Denis Hofman)=87.5% · P(Karel Brozhik)=82.0%] (H2H n=21)
+🟢 20:35  Setka Cup          Oleksii Korobov      vs Ivan Yelfimov        | Ambos ganan set:  79.4%  [P(Oleksii Korobov)=88.4% · P(Ivan Yelfimov)=89.9%] (H2H n=5)
+🟢 20:45  Setka Cup          Marek Cizek          vs Zdenek Kuksa         | Ambos ganan set:  76.9%  [P(Marek Cizek)=84.4% · P(Zdenek Kuksa)=91.1%] (H2H n=0)
+🟢 20:50  TT Cup             Bohuslav Budik       vs Jaroslav Dohnal      | Ambos ganan set:  86.0%  [P(Bohuslav Budik)=89.1% · P(Jaroslav Dohnal)=96.6%] (H2H n=59)
+🟡 20:50  TT Elite Series    Maciej Kolek         vs Adam Linek           | Ambos ganan set:  73.9%  [P(Maciej Kolek)=92.8% · P(Adam Linek)=79.6%] (H2H n=30)
+🟢 21:00  Czech Liga Pro     Matyas Navedla       vs Michal Cabis         | Ambos ganan set:  75.8%  [P(Matyas Navedla)=85.3% · P(Michal Cabis)=88.9%] (H2H n=58)
+🟢 21:30  Czech Liga Pro     Tomas Zahradnik      vs Ondrej Cmerda        | Ambos ganan set:  80.1%  [P(Tomas Zahradnik)=87.2% · P(Ondrej Cmerda)=91.9%] (H2H n=20)
+🟡 21:30  Setka Cup          Ondrej Karpisek      vs Martin Drabek        | Ambos ganan set:  73.4%  [P(Ondrej Karpisek)=86.1% · P(Martin Drabek)=85.2%] (H2H n=0)
+🟢 21:45  Setka Cup          Tomas Hanke          vs Zdenek Kuksa         | Ambos ganan set:  75.6%  [P(Tomas Hanke)=86.9% · P(Zdenek Kuksa)=87.0%] (H2H n=9)
+🟢 22:00  Czech Liga Pro     Jiri Louda           vs Marcel Pikous        | Ambos ganan set:  77.5%  [P(Jiri Louda)=89.2% · P(Marcel Pikous)=86.9%] (H2H n=107)
+🟢 22:00  Setka Cup          Jakub Nemecek Snr    vs Ladislav Hendrych    | Ambos ganan set:  79.5%  [P(Jakub Nemecek Snr)=91.2% · P(Ladislav Hendrych)=87.2%] (H2H n=5)
+🟢 22:25  Setka Cup          Dmytro Derevynskyi   vs Hryhorii Kulishov    | Ambos ganan set:  84.0%  [P(Dmytro Derevynskyi)=91.2% · P(Hryhorii Kulishov)=92.1%] (H2H n=0)
+🟢 22:30  TT Elite Series    Maciej Kolek         vs Michal Minda         | Ambos ganan set:  81.3%  [P(Maciej Kolek)=91.9% · P(Michal Minda)=88.5%] (H2H n=36)
+🟡 22:30  Czech Liga Pro     Matyas Navedla       vs Radovan Polasek      | Ambos ganan set:  73.5%  [P(Matyas Navedla)=88.3% · P(Radovan Polasek)=83.2%] (H2H n=44)
