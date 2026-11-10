@@ -1,1288 +1,1232 @@
 {
-  "fecha_utc": "2026-11-09T16:52:56.780627+00:00",
+  "fecha_utc": "2026-11-10T21:53:13.487587+00:00",
   "origen": "BetsAPI upcoming, primera pagina por liga",
   "nota": "Partidos sin prediccion ni recomendacion",
   "partidos": [
     {
-      "event_id": "13431592",
-      "liga": "TT Elite Series",
-      "home": "Pawel Kurek",
-      "away": "Wojciech Tobiasz",
-      "hora_utc": "2026-11-09T16:55:00+00:00"
-    },
-    {
-      "event_id": "13427944",
-      "liga": "Setka Cup",
-      "home": "Ivan Kozachuk",
-      "away": "Ivan Romaniak",
-      "hora_utc": "2026-11-09T16:55:00+00:00"
-    },
-    {
-      "event_id": "13428205",
-      "liga": "Setka Cup",
-      "home": "Kostiantyn Hrynenko",
-      "away": "Vitalii Kobets",
-      "hora_utc": "2026-11-09T16:55:00+00:00"
-    },
-    {
-      "event_id": "13431258",
+      "event_id": "13435236",
       "liga": "TT Cup",
-      "home": "Filip Strejc",
-      "away": "David Jicha",
-      "hora_utc": "2026-11-09T16:55:00+00:00"
+      "home": "Ondrej Fiklik",
+      "away": "Martin Sulc",
+      "hora_utc": "2026-11-10T21:55:00+00:00"
     },
     {
-      "event_id": "13425413",
+      "event_id": "13434783",
       "liga": "TT Elite Series",
-      "home": "Piotr Gesiarz",
-      "away": "Arkadiusz Skupinski",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
+      "home": "Krzysztof Juszczyk",
+      "away": "Jakub Nowak",
+      "hora_utc": "2026-11-10T22:00:00+00:00"
     },
     {
-      "event_id": "13427927",
-      "liga": "Setka Cup",
-      "home": "Roman Boklah",
-      "away": "Serhii Priadko",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13427942",
-      "liga": "Setka Cup",
-      "home": "Viacheslav Simchuk",
-      "away": "Sergii Sideltsev",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13427964",
-      "liga": "Setka Cup",
-      "home": "Maksym Mrykh",
-      "away": "Vladimir Voronenko",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13428007",
-      "liga": "Setka Cup",
-      "home": "Tomas Hybl",
-      "away": "Roman Merkl",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13426378",
-      "liga": "Czech Liga Pro",
-      "home": "Jaroslav Prokupek",
-      "away": "Patrik Klusacek",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13426432",
-      "liga": "Czech Liga Pro",
-      "home": "Tomas Holik",
-      "away": "Denis Hofman",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13426502",
-      "liga": "Czech Liga Pro",
-      "home": "Roman Hudeczek",
-      "away": "Michal Chalupa",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13426536",
-      "liga": "Czech Liga Pro",
-      "home": "Martin Skotnica",
-      "away": "Michal Cabis",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13426652",
-      "liga": "Czech Liga Pro",
-      "home": "Tomas Janata",
-      "away": "Jan Trefny",
-      "hora_utc": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "event_id": "13426819",
+      "event_id": "13435029",
       "liga": "TT Elite Series",
-      "home": "Maciej Kolek",
-      "away": "Bartosz Kwodawski",
-      "hora_utc": "2026-11-09T17:05:00+00:00"
+      "home": "Kamil Rudomina",
+      "away": "Jakub Chmielowski",
+      "hora_utc": "2026-11-10T22:00:00+00:00"
     },
     {
-      "event_id": "13428144",
+      "event_id": "13432435",
       "liga": "Setka Cup",
-      "home": "Valentyn Chumak",
-      "away": "Artem Azarov",
-      "hora_utc": "2026-11-09T17:05:00+00:00"
+      "home": "Bohdan Chaikovskyi",
+      "away": "Serhii Maksymiv",
+      "hora_utc": "2026-11-10T22:00:00+00:00"
     },
     {
-      "event_id": "13428184",
-      "liga": "Setka Cup",
-      "home": "Anton Molochko",
-      "away": "Bohdan Kohut",
-      "hora_utc": "2026-11-09T17:05:00+00:00"
-    },
-    {
-      "event_id": "13430304",
-      "liga": "TT Cup",
-      "home": "Tomas Beran 2000",
-      "away": "Tomas Trnka",
-      "hora_utc": "2026-11-09T17:05:00+00:00"
-    },
-    {
-      "event_id": "13428220",
-      "liga": "Setka Cup",
-      "home": "Volodymyr Savoliuk",
-      "away": "Vsevolod Lytvyn",
-      "hora_utc": "2026-11-09T17:10:00+00:00"
-    },
-    {
-      "event_id": "13429780",
-      "liga": "TT Cup",
-      "home": "Lukas Kantor",
-      "away": "Matej Srubar",
-      "hora_utc": "2026-11-09T17:10:00+00:00"
-    },
-    {
-      "event_id": "13430142",
+      "event_id": "13431517",
       "liga": "TT Elite Series",
-      "home": "Miroslaw Lewczuk",
-      "away": "Marian Brunner",
-      "hora_utc": "2026-11-09T17:15:00+00:00"
-    },
-    {
-      "event_id": "13431653",
-      "liga": "TT Elite Series",
-      "home": "Miroslaw Piecowski",
-      "away": "Mariusz Zwolinski",
-      "hora_utc": "2026-11-09T17:15:00+00:00"
-    },
-    {
-      "event_id": "13429904",
-      "liga": "TT Cup",
-      "home": "Petr Vicherek",
-      "away": "Filip Sikora",
-      "hora_utc": "2026-11-09T17:15:00+00:00"
-    },
-    {
-      "event_id": "13431663",
-      "liga": "TT Elite Series",
-      "home": "Yurij Fomin",
-      "away": "Grzegorz Wichowski",
-      "hora_utc": "2026-11-09T17:20:00+00:00"
-    },
-    {
-      "event_id": "13431185",
-      "liga": "TT Cup",
-      "home": "Zdenek Zahradka",
-      "away": "Jan Hendrych",
-      "hora_utc": "2026-11-09T17:20:00+00:00"
-    },
-    {
-      "event_id": "13428086",
-      "liga": "Setka Cup",
-      "home": "Oleh Bindas",
-      "away": "Serhii Rak",
-      "hora_utc": "2026-11-09T17:25:00+00:00"
-    },
-    {
-      "event_id": "13428152",
-      "liga": "Setka Cup",
-      "home": "Serhii Khandetskyi",
-      "away": "Dmytro Derevynskyi",
-      "hora_utc": "2026-11-09T17:25:00+00:00"
-    },
-    {
-      "event_id": "13430565",
-      "liga": "TT Cup",
-      "home": "Maksim Ovcharenko",
-      "away": "Martin Stusek",
-      "hora_utc": "2026-11-09T17:25:00+00:00"
-    },
-    {
-      "event_id": "13428556",
-      "liga": "TT Elite Series",
-      "home": "Adam Linek",
-      "away": "Jakub Glanowski",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13427907",
-      "liga": "Setka Cup",
-      "home": "Vladyslav Mishchenko",
-      "away": "Andrii Hrabskyi",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13428069",
-      "liga": "Setka Cup",
-      "home": "Denis Aldayev",
-      "away": "Volodymyr Ivnytskyi",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13428142",
-      "liga": "Setka Cup",
-      "home": "Ihor Dubinin",
-      "away": "Yurii Zvolynskyi",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13431055",
-      "liga": "Setka Cup",
-      "home": "Ihor Dubinin",
-      "away": "Serhii Honcharenko",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13425477",
-      "liga": "Czech Liga Pro",
-      "home": "Radim Pavelka",
-      "away": "Tomas Dousa",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13426244",
-      "liga": "Czech Liga Pro",
-      "home": "Radovan Polasek",
-      "away": "Radomir Revay",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13426500",
-      "liga": "Czech Liga Pro",
-      "home": "Yurii Holovatiuk",
-      "away": "Vojtech Kuba",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13426665",
-      "liga": "Czech Liga Pro",
-      "home": "Jan Svoboda",
-      "away": "Petr Dalecky",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13426754",
-      "liga": "Czech Liga Pro",
-      "home": "Michal Bazalka",
-      "away": "David Szotek",
-      "hora_utc": "2026-11-09T17:30:00+00:00"
-    },
-    {
-      "event_id": "13430152",
-      "liga": "TT Elite Series",
-      "home": "Michal Kumor",
+      "home": "Dominik Bartosik",
       "away": "Andrzej Krezel",
-      "hora_utc": "2026-11-09T17:35:00+00:00"
+      "hora_utc": "2026-11-10T22:05:00+00:00"
     },
     {
-      "event_id": "13428133",
-      "liga": "Setka Cup",
-      "home": "Ivan Yelfimov",
-      "away": "Vitalii Kaganovych",
-      "hora_utc": "2026-11-09T17:35:00+00:00"
-    },
-    {
-      "event_id": "13428320",
-      "liga": "Setka Cup",
-      "home": "Vitalii Levshyn",
-      "away": "Dmytro Zeniuk",
-      "hora_utc": "2026-11-09T17:35:00+00:00"
-    },
-    {
-      "event_id": "13429834",
-      "liga": "TT Cup",
-      "home": "Jan Ruzicka",
-      "away": "David Hons",
-      "hora_utc": "2026-11-09T17:35:00+00:00"
-    },
-    {
-      "event_id": "13428196",
-      "liga": "Setka Cup",
-      "home": "Evhenii Hrytsenko",
-      "away": "Anatolii Nazarov",
-      "hora_utc": "2026-11-09T17:40:00+00:00"
-    },
-    {
-      "event_id": "13431218",
-      "liga": "TT Cup",
-      "home": "Frantisek Balcar",
-      "away": "Milan Dvorak",
-      "hora_utc": "2026-11-09T17:50:00+00:00"
-    },
-    {
-      "event_id": "13429860",
-      "liga": "TT Elite Series",
-      "home": "Milosz Kukawka",
-      "away": "Michal Minda",
-      "hora_utc": "2026-11-09T17:55:00+00:00"
-    },
-    {
-      "event_id": "13429867",
-      "liga": "TT Elite Series",
-      "home": "Zbigniew Nocun",
-      "away": "Jacek Zelezik",
-      "hora_utc": "2026-11-09T17:55:00+00:00"
-    },
-    {
-      "event_id": "13427961",
-      "liga": "Setka Cup",
-      "home": "Ivan Kozachuk",
-      "away": "Dmytro Neborak",
-      "hora_utc": "2026-11-09T17:55:00+00:00"
-    },
-    {
-      "event_id": "13428104",
+      "event_id": "13432269",
       "liga": "Setka Cup",
       "home": "Vitalii Kobets",
-      "away": "Hryhorii Kulishov",
-      "hora_utc": "2026-11-09T17:55:00+00:00"
+      "away": "Dmytro Derevynskyi",
+      "hora_utc": "2026-11-10T22:05:00+00:00"
     },
     {
-      "event_id": "13431257",
-      "liga": "TT Cup",
-      "home": "Filip Strejc",
-      "away": "Martin Stusek",
-      "hora_utc": "2026-11-09T17:55:00+00:00"
-    },
-    {
-      "event_id": "13428127",
-      "liga": "Setka Cup",
-      "home": "Maksym Mrykh",
-      "away": "Vitalii S Marushchak",
-      "hora_utc": "2026-11-09T18:00:00+00:00"
-    },
-    {
-      "event_id": "13427872",
-      "liga": "Setka Cup",
-      "home": "Oleksii Korobov",
-      "away": "Valentyn Chumak",
-      "hora_utc": "2026-11-09T18:05:00+00:00"
-    },
-    {
-      "event_id": "13427882",
-      "liga": "Setka Cup",
-      "home": "Anton Molochko",
-      "away": "Nazar Danyliuk",
-      "hora_utc": "2026-11-09T18:05:00+00:00"
-    },
-    {
-      "event_id": "13428004",
-      "liga": "Setka Cup",
-      "home": "Yehor Riadynskyi",
-      "away": "Vsevolod Lytvyn",
-      "hora_utc": "2026-11-09T18:10:00+00:00"
-    },
-    {
-      "event_id": "13428020",
-      "liga": "Setka Cup",
-      "home": "Petr Orlowski",
-      "away": "Zdenek Kuksa",
-      "hora_utc": "2026-11-09T18:15:00+00:00"
-    },
-    {
-      "event_id": "13429865",
+      "event_id": "13431006",
       "liga": "TT Elite Series",
-      "home": "Bartosz Kwodawski",
-      "away": "Jakub Glanowski",
-      "hora_utc": "2026-11-09T18:20:00+00:00"
+      "home": "Robert Szymik",
+      "away": "Oliwier Sokolowski",
+      "hora_utc": "2026-11-10T22:10:00+00:00"
     },
     {
-      "event_id": "13430066",
-      "liga": "TT Elite Series",
-      "home": "Marian Brunner",
-      "away": "Andrzej Krezel",
-      "hora_utc": "2026-11-09T18:20:00+00:00"
-    },
-    {
-      "event_id": "13428156",
+      "event_id": "13432229",
       "liga": "Setka Cup",
-      "home": "Kostiantyn Hrynenko",
-      "away": "Yevhenii Sokoltsov",
-      "hora_utc": "2026-11-09T18:25:00+00:00"
+      "home": "Valerii Vlasenko",
+      "away": "Oleh Napirko",
+      "hora_utc": "2026-11-10T22:15:00+00:00"
     },
     {
-      "event_id": "13428229",
-      "liga": "Setka Cup",
-      "home": "Denys Shcherbak",
-      "away": "Ivan Romaniak",
-      "hora_utc": "2026-11-09T18:25:00+00:00"
-    },
-    {
-      "event_id": "13430564",
-      "liga": "TT Cup",
-      "home": "David Jicha",
-      "away": "Maksim Ovcharenko",
-      "hora_utc": "2026-11-09T18:25:00+00:00"
-    },
-    {
-      "event_id": "13425426",
+      "event_id": "13436880",
       "liga": "TT Elite Series",
-      "home": "Pawel Adamus",
+      "home": "Kamil Durak",
       "away": "Oliver Vincenec",
-      "hora_utc": "2026-11-09T18:30:00+00:00"
+      "hora_utc": "2026-11-10T22:20:00+00:00"
     },
     {
-      "event_id": "13428292",
-      "liga": "Setka Cup",
-      "home": "Ondrej Karpisek",
-      "away": "Ladislav Hendrych",
-      "hora_utc": "2026-11-09T18:30:00+00:00"
-    },
-    {
-      "event_id": "13428310",
-      "liga": "Setka Cup",
-      "home": "Anatolii Lievshin",
-      "away": "Vladimir Voronenko",
-      "hora_utc": "2026-11-09T18:30:00+00:00"
-    },
-    {
-      "event_id": "13428067",
-      "liga": "Setka Cup",
-      "home": "Ivan Yelfimov",
-      "away": "Volodymyr Hainiuk",
-      "hora_utc": "2026-11-09T18:35:00+00:00"
-    },
-    {
-      "event_id": "13428210",
-      "liga": "Setka Cup",
-      "home": "Vasily Verbyany",
-      "away": "Bohdan Kohut",
-      "hora_utc": "2026-11-09T18:35:00+00:00"
-    },
-    {
-      "event_id": "13426818",
+      "event_id": "13435018",
       "liga": "TT Elite Series",
-      "home": "Maciej Kolek",
-      "away": "Milosz Kukawka",
-      "hora_utc": "2026-11-09T18:40:00+00:00"
+      "home": "Lukasz Pietraszko",
+      "away": "Szymon Brud",
+      "hora_utc": "2026-11-10T22:25:00+00:00"
     },
     {
-      "event_id": "13428014",
+      "event_id": "13432267",
       "liga": "Setka Cup",
-      "home": "Oleksandr Strutinskiy",
-      "away": "Volodymyr Savoliuk",
-      "hora_utc": "2026-11-09T18:40:00+00:00"
+      "home": "Serhii Skachenko",
+      "away": "Vitalii Khamurda",
+      "hora_utc": "2026-11-10T22:25:00+00:00"
     },
     {
-      "event_id": "13429592",
+      "event_id": "13435400",
       "liga": "TT Cup",
-      "home": "Tomas Ogrocki",
-      "away": "Karel Zeman",
-      "hora_utc": "2026-11-09T18:40:00+00:00"
+      "home": "Marek Kulisek",
+      "away": "Adam Kosacky",
+      "hora_utc": "2026-11-10T22:25:00+00:00"
     },
     {
-      "event_id": "13430156",
+      "event_id": "13432029",
+      "liga": "Setka Cup",
+      "home": "Ihor Sukovatyi",
+      "away": "Gregory Kuzmenko",
+      "hora_utc": "2026-11-10T22:30:00+00:00"
+    },
+    {
+      "event_id": "13435021",
       "liga": "TT Elite Series",
-      "home": "Miroslaw Lewczuk",
-      "away": "Zbigniew Nocun",
-      "hora_utc": "2026-11-09T18:45:00+00:00"
+      "home": "Grzegorz Jurowicz",
+      "away": "Marian Lebek",
+      "hora_utc": "2026-11-10T22:35:00+00:00"
     },
     {
-      "event_id": "13428171",
+      "event_id": "13432003",
       "liga": "Setka Cup",
-      "home": "Marek Cizek",
-      "away": "Tomas Hanke",
-      "hora_utc": "2026-11-09T18:45:00+00:00"
+      "home": "Dmytro Rehotun",
+      "away": "Kostiantyn Hrynenko",
+      "hora_utc": "2026-11-10T22:35:00+00:00"
     },
     {
-      "event_id": "13429928",
-      "liga": "TT Cup",
-      "home": "Rene Kowal",
-      "away": "Antonin Baros",
-      "hora_utc": "2026-11-09T18:45:00+00:00"
+      "event_id": "13434333",
+      "liga": "TT Elite Series",
+      "home": "Lukasz Oracz",
+      "away": "Mariusz Adamus",
+      "hora_utc": "2026-11-10T22:45:00+00:00"
     },
     {
-      "event_id": "13425654",
+      "event_id": "13432039",
+      "liga": "Setka Cup",
+      "home": "Ruslan Lazebnyi",
+      "away": "Nazar Kovalchuk",
+      "hora_utc": "2026-11-10T22:45:00+00:00"
+    },
+    {
+      "event_id": "13432499",
+      "liga": "Setka Cup",
+      "home": "Anton Shypilov",
+      "away": "Orest Hura",
+      "hora_utc": "2026-11-10T22:45:00+00:00"
+    },
+    {
+      "event_id": "13431548",
+      "liga": "TT Elite Series",
+      "home": "Lukasz Pietraszko",
+      "away": "Radoslaw Malinowski",
+      "hora_utc": "2026-11-10T22:50:00+00:00"
+    },
+    {
+      "event_id": "13431942",
+      "liga": "Setka Cup",
+      "home": "Roman Gnoevoy",
+      "away": "Oleksandr Naida",
+      "hora_utc": "2026-11-10T22:55:00+00:00"
+    },
+    {
+      "event_id": "13432540",
+      "liga": "Setka Cup",
+      "home": "Serhii Maksymiv",
+      "away": "Andrii Romanenko",
+      "hora_utc": "2026-11-10T23:00:00+00:00"
+    },
+    {
+      "event_id": "13430082",
+      "liga": "Czech Liga Pro",
+      "home": "Zdenek Bilek",
+      "away": "Martin Huk",
+      "hora_utc": "2026-11-10T23:00:00+00:00"
+    },
+    {
+      "event_id": "13430449",
+      "liga": "Czech Liga Pro",
+      "home": "Ales Hlawatschke",
+      "away": "Vladimir Cermak",
+      "hora_utc": "2026-11-10T23:00:00+00:00"
+    },
+    {
+      "event_id": "13431451",
+      "liga": "Czech Liga Pro",
+      "home": "Patrik Klusacek",
+      "away": "Dmitro Parhomenko",
+      "hora_utc": "2026-11-10T23:00:00+00:00"
+    },
+    {
+      "event_id": "13432533",
+      "liga": "Setka Cup",
+      "home": "Serhii Khandetskyi",
+      "away": "Tymur Ponomarenko",
+      "hora_utc": "2026-11-10T23:05:00+00:00"
+    },
+    {
+      "event_id": "13434772",
+      "liga": "TT Elite Series",
+      "home": "Jakub Chmielowski",
+      "away": "Szymon Brud",
+      "hora_utc": "2026-11-10T23:10:00+00:00"
+    },
+    {
+      "event_id": "13435009",
+      "liga": "TT Elite Series",
+      "home": "Krzysztof Juszczyk",
+      "away": "Kamil Durak",
+      "hora_utc": "2026-11-10T23:10:00+00:00"
+    },
+    {
+      "event_id": "13431936",
+      "liga": "Setka Cup",
+      "home": "Valerii Vlasenko",
+      "away": "Orest Hura",
+      "hora_utc": "2026-11-10T23:15:00+00:00"
+    },
+    {
+      "event_id": "13432505",
+      "liga": "Setka Cup",
+      "home": "Oleksandr Melashenko",
+      "away": "Spartak Abalmaz",
+      "hora_utc": "2026-11-10T23:25:00+00:00"
+    },
+    {
+      "event_id": "13432273",
+      "liga": "Setka Cup",
+      "home": "Vitaliy Zharskiy",
+      "away": "Bohdan Chaikovskyi",
+      "hora_utc": "2026-11-10T23:30:00+00:00"
+    },
+    {
+      "event_id": "13429712",
+      "liga": "Czech Liga Pro",
+      "home": "Jakub Vales",
+      "away": "Lukas Zeman",
+      "hora_utc": "2026-11-10T23:30:00+00:00"
+    },
+    {
+      "event_id": "13429790",
+      "liga": "Czech Liga Pro",
+      "home": "Ales Bayer",
+      "away": "Martin Vizek",
+      "hora_utc": "2026-11-10T23:30:00+00:00"
+    },
+    {
+      "event_id": "13431122",
+      "liga": "Czech Liga Pro",
+      "home": "Jiri Plachy",
+      "away": "Yurii Holovatiuk",
+      "hora_utc": "2026-11-10T23:30:00+00:00"
+    },
+    {
+      "event_id": "13434841",
       "liga": "TT Elite Series",
       "home": "Mariusz Adamus",
       "away": "Jakub Nowak",
-      "hora_utc": "2026-11-09T18:55:00+00:00"
+      "hora_utc": "2026-11-10T23:35:00+00:00"
     },
     {
-      "event_id": "13428066",
+      "event_id": "13434946",
+      "liga": "TT Elite Series",
+      "home": "Radoslaw Malinowski",
+      "away": "Jakub Chmielowski",
+      "hora_utc": "2026-11-10T23:35:00+00:00"
+    },
+    {
+      "event_id": "13432698",
       "liga": "Setka Cup",
-      "home": "Oleh Bindas",
-      "away": "Ivan Kozachuk",
-      "hora_utc": "2026-11-09T18:55:00+00:00"
+      "home": "Vitalii Kobets",
+      "away": "Kostiantyn Hrynenko",
+      "hora_utc": "2026-11-10T23:35:00+00:00"
     },
     {
-      "event_id": "13428162",
+      "event_id": "13431516",
+      "liga": "TT Elite Series",
+      "home": "Andrzej Krezel",
+      "away": "Artur Zmijewski",
+      "hora_utc": "2026-11-10T23:40:00+00:00"
+    },
+    {
+      "event_id": "13432297",
+      "liga": "Setka Cup",
+      "home": "Nazar Kovalchuk",
+      "away": "Oleh Napirko",
+      "hora_utc": "2026-11-10T23:45:00+00:00"
+    },
+    {
+      "event_id": "13435171",
+      "liga": "TT Elite Series",
+      "home": "Kamil Rudomina",
+      "away": "Szymon Brud",
+      "hora_utc": "2026-11-10T23:55:00+00:00"
+    },
+    {
+      "event_id": "13435212",
+      "liga": "TT Elite Series",
+      "home": "Lukasz Oracz",
+      "away": "Oliver Vincenec",
+      "hora_utc": "2026-11-10T23:55:00+00:00"
+    },
+    {
+      "event_id": "13432167",
+      "liga": "Setka Cup",
+      "home": "Serhii Skachenko",
+      "away": "Oleksandr Naida",
+      "hora_utc": "2026-11-10T23:55:00+00:00"
+    },
+    {
+      "event_id": "13431998",
+      "liga": "Setka Cup",
+      "home": "Ihor Sukovatyi",
+      "away": "Serhii Maksymiv",
+      "hora_utc": "2026-11-11T00:00:00+00:00"
+    },
+    {
+      "event_id": "13431044",
+      "liga": "Czech Liga Pro",
+      "home": "Vladimir Cermak",
+      "away": "Sebastian Kasnik",
+      "hora_utc": "2026-11-11T00:00:00+00:00"
+    },
+    {
+      "event_id": "13431085",
+      "liga": "Czech Liga Pro",
+      "home": "Dmitro Parhomenko",
+      "away": "Adam Svoboda",
+      "hora_utc": "2026-11-11T00:00:00+00:00"
+    },
+    {
+      "event_id": "13431177",
+      "liga": "Czech Liga Pro",
+      "home": "Martin Huk",
+      "away": "Erik Mares",
+      "hora_utc": "2026-11-11T00:00:00+00:00"
+    },
+    {
+      "event_id": "13432068",
+      "liga": "Setka Cup",
+      "home": "Tymur Ponomarenko",
+      "away": "Dmytro Derevynskyi",
+      "hora_utc": "2026-11-11T00:05:00+00:00"
+    },
+    {
+      "event_id": "13432275",
+      "liga": "Setka Cup",
+      "home": "Anton Shypilov",
+      "away": "Nazar Kovalchuk",
+      "hora_utc": "2026-11-11T00:15:00+00:00"
+    },
+    {
+      "event_id": "13432532",
+      "liga": "Setka Cup",
+      "home": "Ruslan Lazebnyi",
+      "away": "Orest Hura",
+      "hora_utc": "2026-11-11T00:15:00+00:00"
+    },
+    {
+      "event_id": "13435329",
+      "liga": "TT Elite Series",
+      "home": "Lukasz Pietraszko",
+      "away": "Jakub Chmielowski",
+      "hora_utc": "2026-11-11T00:20:00+00:00"
+    },
+    {
+      "event_id": "13435413",
+      "liga": "TT Elite Series",
+      "home": "Kamil Durak",
+      "away": "Jakub Nowak",
+      "hora_utc": "2026-11-11T00:20:00+00:00"
+    },
+    {
+      "event_id": "13432293",
+      "liga": "Setka Cup",
+      "home": "Spartak Abalmaz",
+      "away": "Vitalii Khamurda",
+      "hora_utc": "2026-11-11T00:25:00+00:00"
+    },
+    {
+      "event_id": "13432431",
+      "liga": "Setka Cup",
+      "home": "Bohdan Chaikovskyi",
+      "away": "Gregory Kuzmenko",
+      "hora_utc": "2026-11-11T00:30:00+00:00"
+    },
+    {
+      "event_id": "13431105",
+      "liga": "Czech Liga Pro",
+      "home": "Zdenek Bilek",
+      "away": "Jakub Vales",
+      "hora_utc": "2026-11-11T00:30:00+00:00"
+    },
+    {
+      "event_id": "13431152",
+      "liga": "Czech Liga Pro",
+      "home": "Ales Hlawatschke",
+      "away": "Ales Bayer",
+      "hora_utc": "2026-11-11T00:30:00+00:00"
+    },
+    {
+      "event_id": "13431153",
+      "liga": "Czech Liga Pro",
+      "home": "Patrik Klusacek",
+      "away": "Jiri Plachy",
+      "hora_utc": "2026-11-11T00:30:00+00:00"
+    },
+    {
+      "event_id": "13432384",
+      "liga": "Setka Cup",
+      "home": "Dmytro Rehotun",
+      "away": "Serhii Khandetskyi",
+      "hora_utc": "2026-11-11T00:35:00+00:00"
+    },
+    {
+      "event_id": "13434913",
+      "liga": "TT Elite Series",
+      "home": "Krzysztof Juszczyk",
+      "away": "Lukasz Oracz",
+      "hora_utc": "2026-11-11T00:45:00+00:00"
+    },
+    {
+      "event_id": "13435088",
+      "liga": "TT Elite Series",
+      "home": "Kamil Rudomina",
+      "away": "Radoslaw Malinowski",
+      "hora_utc": "2026-11-11T00:45:00+00:00"
+    },
+    {
+      "event_id": "13432113",
+      "liga": "Setka Cup",
+      "home": "Valerii Vlasenko",
+      "away": "Nazar Kovalchuk",
+      "hora_utc": "2026-11-11T00:45:00+00:00"
+    },
+    {
+      "event_id": "13432277",
+      "liga": "Setka Cup",
+      "home": "Roman Gnoevoy",
+      "away": "Oleksandr Melashenko",
+      "hora_utc": "2026-11-11T00:55:00+00:00"
+    },
+    {
+      "event_id": "13432061",
+      "liga": "Setka Cup",
+      "home": "Vitaliy Zharskiy",
+      "away": "Andrii Romanenko",
+      "hora_utc": "2026-11-11T01:00:00+00:00"
+    },
+    {
+      "event_id": "13431038",
+      "liga": "Czech Liga Pro",
+      "home": "Sebastian Kasnik",
+      "away": "Martin Vizek",
+      "hora_utc": "2026-11-11T01:00:00+00:00"
+    },
+    {
+      "event_id": "13431137",
+      "liga": "Czech Liga Pro",
+      "home": "Erik Mares",
+      "away": "Lukas Zeman",
+      "hora_utc": "2026-11-11T01:00:00+00:00"
+    },
+    {
+      "event_id": "13431223",
+      "liga": "Czech Liga Pro",
+      "home": "Adam Svoboda",
+      "away": "Yurii Holovatiuk",
+      "hora_utc": "2026-11-11T01:00:00+00:00"
+    },
+    {
+      "event_id": "13432153",
+      "liga": "Setka Cup",
+      "home": "Vitalii Kobets",
+      "away": "Tymur Ponomarenko",
+      "hora_utc": "2026-11-11T01:05:00+00:00"
+    },
+    {
+      "event_id": "13434990",
+      "liga": "TT Elite Series",
+      "home": "Lukasz Pietraszko",
+      "away": "Kamil Rudomina",
+      "hora_utc": "2026-11-11T01:10:00+00:00"
+    },
+    {
+      "event_id": "13435033",
+      "liga": "TT Elite Series",
+      "home": "Mariusz Adamus",
+      "away": "Oliver Vincenec",
+      "hora_utc": "2026-11-11T01:10:00+00:00"
+    },
+    {
+      "event_id": "13431923",
+      "liga": "Setka Cup",
+      "home": "Orest Hura",
+      "away": "Oleh Napirko",
+      "hora_utc": "2026-11-11T01:15:00+00:00"
+    },
+    {
+      "event_id": "13431515",
+      "liga": "TT Elite Series",
+      "home": "Andrzej Krezel",
+      "away": "Marcin Zielinski",
+      "hora_utc": "2026-11-11T01:20:00+00:00"
+    },
+    {
+      "event_id": "13432161",
+      "liga": "Setka Cup",
+      "home": "Serhii Skachenko",
+      "away": "Spartak Abalmaz",
+      "hora_utc": "2026-11-11T01:25:00+00:00"
+    },
+    {
+      "event_id": "13432090",
+      "liga": "Setka Cup",
+      "home": "Ihor Sukovatyi",
+      "away": "Bohdan Chaikovskyi",
+      "hora_utc": "2026-11-11T01:30:00+00:00"
+    },
+    {
+      "event_id": "13431052",
+      "liga": "Czech Liga Pro",
+      "home": "Dmitro Parhomenko",
+      "away": "Jiri Plachy",
+      "hora_utc": "2026-11-11T01:30:00+00:00"
+    },
+    {
+      "event_id": "13431156",
+      "liga": "Czech Liga Pro",
+      "home": "Martin Huk",
+      "away": "Jakub Vales",
+      "hora_utc": "2026-11-11T01:30:00+00:00"
+    },
+    {
+      "event_id": "13431261",
+      "liga": "Czech Liga Pro",
+      "home": "Vladimir Cermak",
+      "away": "Ales Bayer",
+      "hora_utc": "2026-11-11T01:30:00+00:00"
+    },
+    {
+      "event_id": "13435402",
+      "liga": "TT Elite Series",
+      "home": "Radoslaw Malinowski",
+      "away": "Szymon Brud",
+      "hora_utc": "2026-11-11T01:35:00+00:00"
+    },
+    {
+      "event_id": "13436879",
+      "liga": "TT Elite Series",
+      "home": "Kamil Durak",
+      "away": "Lukasz Oracz",
+      "hora_utc": "2026-11-11T01:35:00+00:00"
+    },
+    {
+      "event_id": "13432561",
       "liga": "Setka Cup",
       "home": "Serhii Khandetskyi",
-      "away": "Vitalii Kobets",
-      "hora_utc": "2026-11-09T18:55:00+00:00"
+      "away": "Kostiantyn Hrynenko",
+      "hora_utc": "2026-11-11T01:35:00+00:00"
     },
     {
-      "event_id": "13427911",
+      "event_id": "13432024",
       "liga": "Setka Cup",
-      "home": "Martin Drabek",
-      "away": "Jakub Nemecek Snr",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
+      "home": "Anton Shypilov",
+      "away": "Ruslan Lazebnyi",
+      "hora_utc": "2026-11-11T01:45:00+00:00"
     },
     {
-      "event_id": "13428313",
+      "event_id": "13432566",
       "liga": "Setka Cup",
-      "home": "Vladyslav Mishchenko",
-      "away": "Maksym Mrykh",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
+      "home": "Valerii Vlasenko",
+      "away": "Ruslan Lazebnyi",
+      "hora_utc": "2026-11-11T01:45:00+00:00"
     },
     {
-      "event_id": "13426092",
-      "liga": "Czech Liga Pro",
-      "home": "Ondrej Cmerda",
-      "away": "Petr Saleny",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
+      "event_id": "13432202",
+      "liga": "Setka Cup",
+      "home": "Oleksandr Melashenko",
+      "away": "Oleksandr Naida",
+      "hora_utc": "2026-11-11T01:55:00+00:00"
     },
     {
-      "event_id": "13426095",
-      "liga": "Czech Liga Pro",
-      "home": "Tadeas Zika",
-      "away": "Matyas Navedla",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
-    },
-    {
-      "event_id": "13426451",
-      "liga": "Czech Liga Pro",
-      "home": "Jiri Louda",
-      "away": "Jakub Stolfa",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
-    },
-    {
-      "event_id": "13426756",
-      "liga": "Czech Liga Pro",
-      "home": "Libor Jemelka",
-      "away": "Jakub Hrachovec",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
-    },
-    {
-      "event_id": "13426794",
-      "liga": "Czech Liga Pro",
-      "home": "Tomas Janata",
-      "away": "Matej Volf",
-      "hora_utc": "2026-11-09T19:00:00+00:00"
-    },
-    {
-      "event_id": "13428555",
+      "event_id": "13435305",
       "liga": "TT Elite Series",
-      "home": "Adam Linek",
-      "away": "Michal Minda",
-      "hora_utc": "2026-11-09T19:05:00+00:00"
+      "home": "Krzysztof Juszczyk",
+      "away": "Mariusz Adamus",
+      "hora_utc": "2026-11-11T02:00:00+00:00"
     },
     {
-      "event_id": "13428139",
+      "event_id": "13431953",
       "liga": "Setka Cup",
-      "home": "Vitalii Levshyn",
-      "away": "Anton Molochko",
-      "hora_utc": "2026-11-09T19:05:00+00:00"
+      "home": "Vitaliy Zharskiy",
+      "away": "Serhii Maksymiv",
+      "hora_utc": "2026-11-11T02:00:00+00:00"
     },
     {
-      "event_id": "13428209",
+      "event_id": "13431124",
+      "liga": "Czech Liga Pro",
+      "home": "Lukas Zeman",
+      "away": "Zdenek Bilek",
+      "hora_utc": "2026-11-11T02:00:00+00:00"
+    },
+    {
+      "event_id": "13431132",
+      "liga": "Czech Liga Pro",
+      "home": "Martin Vizek",
+      "away": "Ales Hlawatschke",
+      "hora_utc": "2026-11-11T02:00:00+00:00"
+    },
+    {
+      "event_id": "13431270",
+      "liga": "Czech Liga Pro",
+      "home": "Yurii Holovatiuk",
+      "away": "Patrik Klusacek",
+      "hora_utc": "2026-11-11T02:00:00+00:00"
+    },
+    {
+      "event_id": "13432087",
       "liga": "Setka Cup",
-      "home": "Artem Azarov",
-      "away": "Vitalii Kaganovych",
-      "hora_utc": "2026-11-09T19:05:00+00:00"
+      "home": "Dmytro Rehotun",
+      "away": "Dmytro Derevynskyi",
+      "hora_utc": "2026-11-11T02:05:00+00:00"
     },
     {
-      "event_id": "13429878",
-      "liga": "TT Cup",
-      "home": "Jirasek Martin",
-      "away": "Simon Mezlik",
-      "hora_utc": "2026-11-09T19:05:00+00:00"
-    },
-    {
-      "event_id": "13430138",
+      "event_id": "13434767",
       "liga": "TT Elite Series",
-      "home": "Michal Kumor",
-      "away": "Jacek Zelezik",
-      "hora_utc": "2026-11-09T19:10:00+00:00"
+      "home": "Oliver Vincenec",
+      "away": "Jakub Nowak",
+      "hora_utc": "2026-11-11T02:25:00+00:00"
     },
     {
-      "event_id": "13429577",
-      "liga": "TT Cup",
-      "home": "Ondrej Kus",
-      "away": "Jiri Vanous",
-      "hora_utc": "2026-11-09T19:10:00+00:00"
-    },
-    {
-      "event_id": "13428418",
+      "event_id": "13432318",
       "liga": "Setka Cup",
-      "home": "Petr Orlowski",
-      "away": "Tomas Hanke",
-      "hora_utc": "2026-11-09T19:15:00+00:00"
+      "home": "Roman Gnoevoy",
+      "away": "Vitalii Khamurda",
+      "hora_utc": "2026-11-11T02:25:00+00:00"
     },
     {
-      "event_id": "13430178",
-      "liga": "TT Cup",
-      "home": "David Sarganek",
-      "away": "Jaroslav Baca",
-      "hora_utc": "2026-11-09T19:15:00+00:00"
-    },
-    {
-      "event_id": "13430452",
+      "event_id": "13431514",
       "liga": "TT Elite Series",
-      "home": "Grzegorz Marud",
-      "away": "Rafal Komandzik",
-      "hora_utc": "2026-11-09T19:20:00+00:00"
+      "home": "Andrzej Krezel",
+      "away": "Jacek Oracz",
+      "hora_utc": "2026-11-11T02:30:00+00:00"
     },
     {
-      "event_id": "13429827",
-      "liga": "TT Cup",
-      "home": "Tomas Rein",
-      "away": "Ondrej Knazik",
-      "hora_utc": "2026-11-09T19:20:00+00:00"
-    },
-    {
-      "event_id": "13428081",
+      "event_id": "13432552",
       "liga": "Setka Cup",
-      "home": "Serhii Rak",
-      "away": "Ivan Romaniak",
-      "hora_utc": "2026-11-09T19:25:00+00:00"
+      "home": "Gregory Kuzmenko",
+      "away": "Andrii Romanenko",
+      "hora_utc": "2026-11-11T02:30:00+00:00"
     },
     {
-      "event_id": "13428173",
+      "event_id": "13431109",
+      "liga": "Czech Liga Pro",
+      "home": "Jiri Plachy",
+      "away": "Adam Svoboda",
+      "hora_utc": "2026-11-11T02:30:00+00:00"
+    },
+    {
+      "event_id": "13431129",
+      "liga": "Czech Liga Pro",
+      "home": "Ales Bayer",
+      "away": "Sebastian Kasnik",
+      "hora_utc": "2026-11-11T02:30:00+00:00"
+    },
+    {
+      "event_id": "13431214",
+      "liga": "Czech Liga Pro",
+      "home": "Jakub Vales",
+      "away": "Erik Mares",
+      "hora_utc": "2026-11-11T02:30:00+00:00"
+    },
+    {
+      "event_id": "13432531",
+      "liga": "Setka Cup",
+      "home": "Vitalii Kobets",
+      "away": "Serhii Khandetskyi",
+      "hora_utc": "2026-11-11T02:35:00+00:00"
+    },
+    {
+      "event_id": "13434980",
+      "liga": "TT Elite Series",
+      "home": "Kamil Durak",
+      "away": "Mariusz Adamus",
+      "hora_utc": "2026-11-11T02:45:00+00:00"
+    },
+    {
+      "event_id": "13432547",
+      "liga": "Setka Cup",
+      "home": "Serhii Skachenko",
+      "away": "Oleksandr Melashenko",
+      "hora_utc": "2026-11-11T02:55:00+00:00"
+    },
+    {
+      "event_id": "13432079",
+      "liga": "Setka Cup",
+      "home": "Ihor Sukovatyi",
+      "away": "Vitaliy Zharskiy",
+      "hora_utc": "2026-11-11T03:00:00+00:00"
+    },
+    {
+      "event_id": "13431019",
+      "liga": "Czech Liga Pro",
+      "home": "Martin Vizek",
+      "away": "Vladimir Cermak",
+      "hora_utc": "2026-11-11T03:00:00+00:00"
+    },
+    {
+      "event_id": "13431281",
+      "liga": "Czech Liga Pro",
+      "home": "Lukas Zeman",
+      "away": "Martin Huk",
+      "hora_utc": "2026-11-11T03:00:00+00:00"
+    },
+    {
+      "event_id": "13431322",
+      "liga": "Czech Liga Pro",
+      "home": "Yurii Holovatiuk",
+      "away": "Dmitro Parhomenko",
+      "hora_utc": "2026-11-11T03:00:00+00:00"
+    },
+    {
+      "event_id": "13432385",
+      "liga": "Setka Cup",
+      "home": "Dmytro Rehotun",
+      "away": "Tymur Ponomarenko",
+      "hora_utc": "2026-11-11T03:05:00+00:00"
+    },
+    {
+      "event_id": "13435120",
+      "liga": "TT Elite Series",
+      "home": "Lukasz Oracz",
+      "away": "Jakub Nowak",
+      "hora_utc": "2026-11-11T03:10:00+00:00"
+    },
+    {
+      "event_id": "13431857",
+      "liga": "Setka Cup",
+      "home": "Anton Shypilov",
+      "away": "Valerii Vlasenko",
+      "hora_utc": "2026-11-11T03:15:00+00:00"
+    },
+    {
+      "event_id": "13431513",
+      "liga": "TT Elite Series",
+      "home": "Piotr Gesiarz",
+      "away": "Andrzej Krezel",
+      "hora_utc": "2026-11-11T03:20:00+00:00"
+    },
+    {
+      "event_id": "13432200",
+      "liga": "Setka Cup",
+      "home": "Roman Gnoevoy",
+      "away": "Spartak Abalmaz",
+      "hora_utc": "2026-11-11T03:25:00+00:00"
+    },
+    {
+      "event_id": "13432538",
+      "liga": "Setka Cup",
+      "home": "Bohdan Chaikovskyi",
+      "away": "Andrii Romanenko",
+      "hora_utc": "2026-11-11T03:30:00+00:00"
+    },
+    {
+      "event_id": "13431037",
+      "liga": "Czech Liga Pro",
+      "home": "Adam Svoboda",
+      "away": "Patrik Klusacek",
+      "hora_utc": "2026-11-11T03:30:00+00:00"
+    },
+    {
+      "event_id": "13431057",
+      "liga": "Czech Liga Pro",
+      "home": "Sebastian Kasnik",
+      "away": "Ales Hlawatschke",
+      "hora_utc": "2026-11-11T03:30:00+00:00"
+    },
+    {
+      "event_id": "13431230",
+      "liga": "Czech Liga Pro",
+      "home": "Erik Mares",
+      "away": "Zdenek Bilek",
+      "hora_utc": "2026-11-11T03:30:00+00:00"
+    },
+    {
+      "event_id": "13435003",
+      "liga": "TT Elite Series",
+      "home": "Krzysztof Juszczyk",
+      "away": "Oliver Vincenec",
+      "hora_utc": "2026-11-11T03:35:00+00:00"
+    },
+    {
+      "event_id": "13432268",
       "liga": "Setka Cup",
       "home": "Kostiantyn Hrynenko",
       "away": "Dmytro Derevynskyi",
-      "hora_utc": "2026-11-09T19:25:00+00:00"
+      "hora_utc": "2026-11-11T03:35:00+00:00"
     },
     {
-      "event_id": "13429870",
+      "event_id": "13432112",
+      "liga": "Setka Cup",
+      "home": "Oleksandr Naida",
+      "away": "Vitalii Khamurda",
+      "hora_utc": "2026-11-11T03:55:00+00:00"
+    },
+    {
+      "event_id": "13435056",
       "liga": "TT Elite Series",
-      "home": "Marian Brunner",
-      "away": "Zbigniew Nocun",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
+      "home": "Jakub Lamperski",
+      "away": "Karol Sulkowski",
+      "hora_utc": "2026-11-11T04:00:00+00:00"
     },
     {
-      "event_id": "13430159",
+      "event_id": "13435061",
       "liga": "TT Elite Series",
-      "home": "Bartosz Kwodawski",
-      "away": "Milosz Kukawka",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
+      "home": "Grzegorz Poliniewicz",
+      "away": "Konrad Staszczyk",
+      "hora_utc": "2026-11-11T04:00:00+00:00"
     },
     {
-      "event_id": "13428160",
-      "liga": "Setka Cup",
-      "home": "Andrii Hrabskyi",
-      "away": "Vladimir Voronenko",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13428198",
-      "liga": "Setka Cup",
-      "home": "Ondrej Karpisek",
-      "away": "Jakub Nemecek Snr",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13425011",
-      "liga": "Czech Liga Pro",
-      "home": "Roman Guliak",
-      "away": "Filip Zurek",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13426102",
-      "liga": "Czech Liga Pro",
-      "home": "Matej Nohejl",
-      "away": "Tomas Zahradnik",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13426520",
-      "liga": "Czech Liga Pro",
-      "home": "Denis Hofman",
-      "away": "Karel Brozhik",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13426538",
-      "liga": "Czech Liga Pro",
-      "home": "Michal Cabis",
-      "away": "Radovan Polasek",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13426697",
-      "liga": "Czech Liga Pro",
-      "home": "Marcel Pikous",
-      "away": "Sebastian Kasnik",
-      "hora_utc": "2026-11-09T19:30:00+00:00"
-    },
-    {
-      "event_id": "13427859",
-      "liga": "Setka Cup",
-      "home": "Oleksii Korobov",
-      "away": "Ivan Yelfimov",
-      "hora_utc": "2026-11-09T19:35:00+00:00"
-    },
-    {
-      "event_id": "13428089",
-      "liga": "Setka Cup",
-      "home": "Dmytro Zeniuk",
-      "away": "Bohdan Kohut",
-      "hora_utc": "2026-11-09T19:35:00+00:00"
-    },
-    {
-      "event_id": "13429826",
-      "liga": "TT Cup",
-      "home": "Martin Chmelicek",
-      "away": "Jan Vidourek",
-      "hora_utc": "2026-11-09T19:35:00+00:00"
-    },
-    {
-      "event_id": "13429791",
-      "liga": "TT Cup",
-      "home": "Tomas Ogrocki",
-      "away": "Jiri Vanous",
-      "hora_utc": "2026-11-09T19:40:00+00:00"
-    },
-    {
-      "event_id": "13428213",
-      "liga": "Setka Cup",
-      "home": "Marek Cizek",
-      "away": "Zdenek Kuksa",
-      "hora_utc": "2026-11-09T19:45:00+00:00"
-    },
-    {
-      "event_id": "13429848",
-      "liga": "TT Cup",
-      "home": "Rene Kowal",
-      "away": "Jaroslav Baca",
-      "hora_utc": "2026-11-09T19:45:00+00:00"
-    },
-    {
-      "event_id": "13426817",
+      "event_id": "13435241",
       "liga": "TT Elite Series",
-      "home": "Maciej Kolek",
-      "away": "Adam Linek",
-      "hora_utc": "2026-11-09T19:50:00+00:00"
+      "home": "Jakub Kosowski",
+      "away": "Jakub Kuzmicz",
+      "hora_utc": "2026-11-11T04:00:00+00:00"
     },
     {
-      "event_id": "13429747",
-      "liga": "TT Cup",
-      "home": "Bohuslav Budik",
-      "away": "Jaroslav Dohnal",
-      "hora_utc": "2026-11-09T19:50:00+00:00"
-    },
-    {
-      "event_id": "13430015",
+      "event_id": "13435485",
       "liga": "TT Elite Series",
-      "home": "Miroslaw Lewczuk",
-      "away": "Michal Kumor",
-      "hora_utc": "2026-11-09T19:55:00+00:00"
+      "home": "Oskar Jadach",
+      "away": "Piotr Brozek",
+      "hora_utc": "2026-11-11T04:00:00+00:00"
     },
     {
-      "event_id": "13427587",
+      "event_id": "13436688",
+      "liga": "TT Elite Series",
+      "home": "Igor Szymanski",
+      "away": "Piotr Brozek",
+      "hora_utc": "2026-11-11T04:00:00+00:00"
+    },
+    {
+      "event_id": "13432537",
       "liga": "Setka Cup",
-      "home": "Dmytro Neborak",
-      "away": "Denys Shcherbak",
-      "hora_utc": "2026-11-09T19:55:00+00:00"
+      "home": "Serhii Maksymiv",
+      "away": "Gregory Kuzmenko",
+      "hora_utc": "2026-11-11T04:00:00+00:00"
     },
     {
-      "event_id": "13428043",
-      "liga": "Setka Cup",
-      "home": "Hryhorii Kulishov",
-      "away": "Yevhenii Sokoltsov",
-      "hora_utc": "2026-11-09T19:55:00+00:00"
+      "event_id": "13431512",
+      "liga": "TT Elite Series",
+      "home": "Dominik Bartosik",
+      "away": "Andrzej Krezel",
+      "hora_utc": "2026-11-11T04:05:00+00:00"
     },
     {
-      "event_id": "13430447",
+      "event_id": "13435755",
+      "liga": "TT Elite Series",
+      "home": "Pawel Adamus",
+      "away": "Oliwier Sokolowski",
+      "hora_utc": "2026-11-11T04:10:00+00:00"
+    },
+    {
+      "event_id": "13435055",
+      "liga": "TT Elite Series",
+      "home": "Karol Wisniewski",
+      "away": "Krzysztof Kapik",
+      "hora_utc": "2026-11-11T04:20:00+00:00"
+    },
+    {
+      "event_id": "13434869",
+      "liga": "TT Elite Series",
+      "home": "Dawid Michna",
+      "away": "Adrian Wiecek",
+      "hora_utc": "2026-11-11T04:25:00+00:00"
+    },
+    {
+      "event_id": "13435417",
+      "liga": "TT Elite Series",
+      "home": "Michal Guzik",
+      "away": "Rafal Gajda",
+      "hora_utc": "2026-11-11T04:25:00+00:00"
+    },
+    {
+      "event_id": "13436418",
+      "liga": "TT Elite Series",
+      "home": "Radoslaw Malinowski",
+      "away": "Dawid Kotwica",
+      "hora_utc": "2026-11-11T04:25:00+00:00"
+    },
+    {
+      "event_id": "13435054",
+      "liga": "TT Elite Series",
+      "home": "Krzysztof Wloczko",
+      "away": "Krystian Kolodziej",
+      "hora_utc": "2026-11-11T04:40:00+00:00"
+    },
+    {
+      "event_id": "13435333",
+      "liga": "TT Elite Series",
+      "home": "Jan Zandecki",
+      "away": "Marcin Jadczyk",
+      "hora_utc": "2026-11-11T04:45:00+00:00"
+    },
+    {
+      "event_id": "13434982",
+      "liga": "TT Elite Series",
+      "home": "Jacek Przewlocki",
+      "away": "Dariusz Wrobel",
+      "hora_utc": "2026-11-11T04:50:00+00:00"
+    },
+    {
+      "event_id": "13435559",
+      "liga": "TT Elite Series",
+      "home": "Kamil Smolka",
+      "away": "Igor Szymanski",
+      "hora_utc": "2026-11-11T04:50:00+00:00"
+    },
+    {
+      "event_id": "13437564",
+      "liga": "TT Elite Series",
+      "home": "Kamil Smolka",
+      "away": "Oskar Jadach",
+      "hora_utc": "2026-11-11T04:50:00+00:00"
+    },
+    {
+      "event_id": "13438041",
       "liga": "TT Cup",
-      "home": "Tomas Krejci",
-      "away": "Marek Dlask",
-      "hora_utc": "2026-11-09T19:55:00+00:00"
+      "home": "Mateusz Burkacki",
+      "away": "Jan Masternak",
+      "hora_utc": "2026-11-11T06:30:00+00:00"
     },
     {
-      "event_id": "13426422",
+      "event_id": "13438049",
+      "liga": "TT Cup",
+      "home": "Petr Chlad",
+      "away": "Filip Mandrysz",
+      "hora_utc": "2026-11-11T06:40:00+00:00"
+    },
+    {
+      "event_id": "13434991",
+      "liga": "Czech Liga Pro",
+      "home": "Jiri Grohsgott",
+      "away": "Ladislav Novotny",
+      "hora_utc": "2026-11-11T07:00:00+00:00"
+    },
+    {
+      "event_id": "13435011",
+      "liga": "Czech Liga Pro",
+      "home": "Alfred Rinka",
+      "away": "Petr Danko",
+      "hora_utc": "2026-11-11T07:00:00+00:00"
+    },
+    {
+      "event_id": "13435266",
+      "liga": "Czech Liga Pro",
+      "home": "Tomas Nohejl",
+      "away": "Mihail Trinta",
+      "hora_utc": "2026-11-11T07:00:00+00:00"
+    },
+    {
+      "event_id": "13435360",
+      "liga": "Czech Liga Pro",
+      "home": "Milan Klement",
+      "away": "Michal Regner",
+      "hora_utc": "2026-11-11T07:00:00+00:00"
+    },
+    {
+      "event_id": "13435442",
+      "liga": "Czech Liga Pro",
+      "home": "Radomir Revay",
+      "away": "Matyas Navedla",
+      "hora_utc": "2026-11-11T07:00:00+00:00"
+    },
+    {
+      "event_id": "13438079",
+      "liga": "TT Cup",
+      "home": "Ales Drozd",
+      "away": "Patrik Jokiel",
+      "hora_utc": "2026-11-11T07:10:00+00:00"
+    },
+    {
+      "event_id": "13434863",
+      "liga": "Czech Liga Pro",
+      "home": "Alexander Hejduk",
+      "away": "Milan Vrabec",
+      "hora_utc": "2026-11-11T07:30:00+00:00"
+    },
+    {
+      "event_id": "13434864",
+      "liga": "Czech Liga Pro",
+      "home": "Richard Skacelik",
+      "away": "Radomir Vavrecka",
+      "hora_utc": "2026-11-11T07:30:00+00:00"
+    },
+    {
+      "event_id": "13435359",
+      "liga": "Czech Liga Pro",
+      "home": "Viktor Vejvoda",
+      "away": "Jiri Zuzanek",
+      "hora_utc": "2026-11-11T07:30:00+00:00"
+    },
+    {
+      "event_id": "13435418",
+      "liga": "Czech Liga Pro",
+      "home": "Vaclav Dolezal",
+      "away": "Ladislav Havel 1956",
+      "hora_utc": "2026-11-11T07:30:00+00:00"
+    },
+    {
+      "event_id": "13435453",
+      "liga": "Czech Liga Pro",
+      "home": "Tomas Dousek",
+      "away": "Tadeas Zika",
+      "hora_utc": "2026-11-11T07:30:00+00:00"
+    },
+    {
+      "event_id": "13438114",
+      "liga": "TT Cup",
+      "home": "Petr Chlad",
+      "away": "Patrik Jokiel",
+      "hora_utc": "2026-11-11T07:40:00+00:00"
+    },
+    {
+      "event_id": "13438111",
+      "liga": "TT Cup",
+      "home": "Patrik Sturma",
+      "away": "Jiri Matus",
+      "hora_utc": "2026-11-11T07:45:00+00:00"
+    },
+    {
+      "event_id": "13438067",
+      "liga": "TT Cup",
+      "home": "Petr Chlumsky",
+      "away": "Ondrej Fiklik",
+      "hora_utc": "2026-11-11T07:55:00+00:00"
+    },
+    {
+      "event_id": "13435283",
+      "liga": "Czech Liga Pro",
+      "home": "Petr Danko",
+      "away": "Richard Skacelik",
+      "hora_utc": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "event_id": "13435443",
+      "liga": "Czech Liga Pro",
+      "home": "Mihail Trinta",
+      "away": "Vaclav Dolezal",
+      "hora_utc": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "event_id": "13436056",
+      "liga": "Czech Liga Pro",
+      "home": "Michal Regner",
+      "away": "Viktor Vejvoda",
+      "hora_utc": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "event_id": "13436126",
+      "liga": "Czech Liga Pro",
+      "home": "Ladislav Novotny",
+      "away": "Alexander Hejduk",
+      "hora_utc": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "event_id": "13436129",
       "liga": "Czech Liga Pro",
       "home": "Matyas Navedla",
-      "away": "Michal Cabis",
-      "hora_utc": "2026-11-09T20:00:00+00:00"
+      "away": "Tomas Dousek",
+      "hora_utc": "2026-11-11T08:00:00+00:00"
     },
     {
-      "event_id": "13426501",
+      "event_id": "13438115",
+      "liga": "TT Cup",
+      "home": "Radek Zajac",
+      "away": "Lukas Krupnik Snr",
+      "hora_utc": "2026-11-11T08:15:00+00:00"
+    },
+    {
+      "event_id": "13438071",
+      "liga": "TT Cup",
+      "home": "Martin Filipek",
+      "away": "Robert Jamrich",
+      "hora_utc": "2026-11-11T08:25:00+00:00"
+    },
+    {
+      "event_id": "13435264",
       "liga": "Czech Liga Pro",
-      "home": "Jakub Stolfa",
-      "away": "Marcel Pikous",
-      "hora_utc": "2026-11-09T20:00:00+00:00"
+      "home": "Ladislav Havel 1956",
+      "away": "Tomas Nohejl",
+      "hora_utc": "2026-11-11T08:30:00+00:00"
     },
     {
-      "event_id": "13426521",
-      "liga": "Czech Liga Pro",
-      "home": "Petr Saleny",
-      "away": "Matej Nohejl",
-      "hora_utc": "2026-11-09T20:00:00+00:00"
-    },
-    {
-      "event_id": "13426822",
-      "liga": "Czech Liga Pro",
-      "home": "Matej Volf",
-      "away": "Denis Hofman",
-      "hora_utc": "2026-11-09T20:00:00+00:00"
-    },
-    {
-      "event_id": "13430106",
-      "liga": "TT Cup",
-      "home": "Jirasek Martin",
-      "away": "Jan Vidourek",
-      "hora_utc": "2026-11-09T20:05:00+00:00"
-    },
-    {
-      "event_id": "13429997",
-      "liga": "TT Cup",
-      "home": "Karel Zeman",
-      "away": "Ondrej Kus",
-      "hora_utc": "2026-11-09T20:10:00+00:00"
-    },
-    {
-      "event_id": "13430166",
-      "liga": "TT Elite Series",
-      "home": "Michal Minda",
-      "away": "Jakub Glanowski",
-      "hora_utc": "2026-11-09T20:15:00+00:00"
-    },
-    {
-      "event_id": "13430063",
-      "liga": "TT Cup",
-      "home": "Antonin Baros",
-      "away": "David Sarganek",
-      "hora_utc": "2026-11-09T20:15:00+00:00"
-    },
-    {
-      "event_id": "13430103",
-      "liga": "TT Elite Series",
-      "home": "Jacek Zelezik",
-      "away": "Andrzej Krezel",
-      "hora_utc": "2026-11-09T20:20:00+00:00"
-    },
-    {
-      "event_id": "13430576",
-      "liga": "TT Cup",
-      "home": "Tomas Rein",
-      "away": "Jaroslav Dohnal",
-      "hora_utc": "2026-11-09T20:20:00+00:00"
-    },
-    {
-      "event_id": "13429584",
-      "liga": "TT Cup",
-      "home": "Ondrej Sebek",
-      "away": "Michal Nemec",
-      "hora_utc": "2026-11-09T20:25:00+00:00"
-    },
-    {
-      "event_id": "13426437",
-      "liga": "Czech Liga Pro",
-      "home": "Radovan Polasek",
-      "away": "Tadeas Zika",
-      "hora_utc": "2026-11-09T20:30:00+00:00"
-    },
-    {
-      "event_id": "13426513",
-      "liga": "Czech Liga Pro",
-      "home": "Sebastian Kasnik",
-      "away": "Jiri Louda",
-      "hora_utc": "2026-11-09T20:30:00+00:00"
-    },
-    {
-      "event_id": "13426526",
-      "liga": "Czech Liga Pro",
-      "home": "Tomas Zahradnik",
-      "away": "Ondrej Cmerda",
-      "hora_utc": "2026-11-09T20:30:00+00:00"
-    },
-    {
-      "event_id": "13426758",
-      "liga": "Czech Liga Pro",
-      "home": "Karel Brozhik",
-      "away": "Tomas Janata",
-      "hora_utc": "2026-11-09T20:30:00+00:00"
-    },
-    {
-      "event_id": "13426834",
-      "liga": "Czech Liga Pro",
-      "home": "Filip Zurek",
-      "away": "Libor Jemelka",
-      "hora_utc": "2026-11-09T20:30:00+00:00"
-    },
-    {
-      "event_id": "13430202",
-      "liga": "TT Cup",
-      "home": "Simon Mezlik",
-      "away": "Martin Chmelicek",
-      "hora_utc": "2026-11-09T20:35:00+00:00"
-    },
-    {
-      "event_id": "13428554",
-      "liga": "TT Elite Series",
-      "home": "Bartosz Kwodawski",
-      "away": "Adam Linek",
-      "hora_utc": "2026-11-09T20:40:00+00:00"
-    },
-    {
-      "event_id": "13430107",
-      "liga": "TT Elite Series",
-      "home": "Marian Brunner",
-      "away": "Michal Kumor",
-      "hora_utc": "2026-11-09T20:40:00+00:00"
-    },
-    {
-      "event_id": "13429845",
-      "liga": "TT Cup",
-      "home": "Tomas Ogrocki",
-      "away": "Ondrej Kus",
-      "hora_utc": "2026-11-09T20:40:00+00:00"
-    },
-    {
-      "event_id": "13429880",
-      "liga": "TT Cup",
-      "home": "Rene Kowal",
-      "away": "David Sarganek",
-      "hora_utc": "2026-11-09T20:45:00+00:00"
-    },
-    {
-      "event_id": "13430500",
-      "liga": "TT Cup",
-      "home": "Tomas Krejci",
-      "away": "Michal Nemec",
-      "hora_utc": "2026-11-09T20:55:00+00:00"
-    },
-    {
-      "event_id": "13426436",
+      "event_id": "13435451",
       "liga": "Czech Liga Pro",
       "home": "Tadeas Zika",
-      "away": "Michal Cabis",
-      "hora_utc": "2026-11-09T21:00:00+00:00"
+      "away": "Radomir Revay",
+      "hora_utc": "2026-11-11T08:30:00+00:00"
     },
     {
-      "event_id": "13426472",
+      "event_id": "13436115",
       "liga": "Czech Liga Pro",
-      "home": "Ondrej Cmerda",
-      "away": "Matej Nohejl",
-      "hora_utc": "2026-11-09T21:00:00+00:00"
+      "home": "Jiri Zuzanek",
+      "away": "Milan Klement",
+      "hora_utc": "2026-11-11T08:30:00+00:00"
     },
     {
-      "event_id": "13426535",
+      "event_id": "13436116",
       "liga": "Czech Liga Pro",
-      "home": "Jiri Louda",
-      "away": "Marcel Pikous",
-      "hora_utc": "2026-11-09T21:00:00+00:00"
+      "home": "Radomir Vavrecka",
+      "away": "Alfred Rinka",
+      "hora_utc": "2026-11-11T08:30:00+00:00"
     },
     {
-      "event_id": "13426571",
+      "event_id": "13436139",
       "liga": "Czech Liga Pro",
-      "home": "Libor Jemelka",
-      "away": "Roman Guliak",
-      "hora_utc": "2026-11-09T21:00:00+00:00"
+      "home": "Milan Vrabec",
+      "away": "Jiri Grohsgott",
+      "hora_utc": "2026-11-11T08:30:00+00:00"
     },
     {
-      "event_id": "13426768",
-      "liga": "Czech Liga Pro",
-      "home": "Tomas Janata",
-      "away": "Denis Hofman",
-      "hora_utc": "2026-11-09T21:00:00+00:00"
-    },
-    {
-      "event_id": "13429915",
-      "liga": "TT Elite Series",
-      "home": "Milosz Kukawka",
-      "away": "Jakub Glanowski",
-      "hora_utc": "2026-11-09T21:05:00+00:00"
-    },
-    {
-      "event_id": "13430092",
-      "liga": "TT Elite Series",
-      "home": "Zbigniew Nocun",
-      "away": "Andrzej Krezel",
-      "hora_utc": "2026-11-09T21:05:00+00:00"
-    },
-    {
-      "event_id": "13429943",
+      "event_id": "13438154",
       "liga": "TT Cup",
-      "home": "Jirasek Martin",
-      "away": "Martin Chmelicek",
-      "hora_utc": "2026-11-09T21:05:00+00:00"
+      "home": "Petr Chlad",
+      "away": "Ales Drozd",
+      "hora_utc": "2026-11-11T08:40:00+00:00"
     },
     {
-      "event_id": "13430196",
+      "event_id": "13438076",
       "liga": "TT Cup",
-      "home": "Jiri Vanous",
-      "away": "Karel Zeman",
-      "hora_utc": "2026-11-09T21:10:00+00:00"
+      "home": "Patrik Jokiel",
+      "away": "Filip Mandrysz",
+      "hora_utc": "2026-11-11T09:10:00+00:00"
     },
     {
-      "event_id": "13429996",
+      "event_id": "13437983",
       "liga": "TT Cup",
-      "home": "Jaroslav Baca",
-      "away": "Antonin Baros",
-      "hora_utc": "2026-11-09T21:15:00+00:00"
+      "home": "Jiri Matus",
+      "away": "Radek Zajac",
+      "hora_utc": "2026-11-11T09:15:00+00:00"
     },
     {
-      "event_id": "13430479",
+      "event_id": "13438065",
       "liga": "TT Cup",
-      "home": "Marek Dlask",
-      "away": "Ondrej Sebek",
-      "hora_utc": "2026-11-09T21:25:00+00:00"
+      "home": "Ondrej Fiklik",
+      "away": "Martin Filipek",
+      "hora_utc": "2026-11-11T09:25:00+00:00"
     },
     {
-      "event_id": "13426816",
-      "liga": "TT Elite Series",
-      "home": "Maciej Kolek",
-      "away": "Michal Minda",
-      "hora_utc": "2026-11-09T21:30:00+00:00"
-    },
-    {
-      "event_id": "13430036",
-      "liga": "TT Elite Series",
-      "home": "Miroslaw Lewczuk",
-      "away": "Jacek Zelezik",
-      "hora_utc": "2026-11-09T21:30:00+00:00"
-    },
-    {
-      "event_id": "13426449",
-      "liga": "Czech Liga Pro",
-      "home": "Matej Volf",
-      "away": "Karel Brozhik",
-      "hora_utc": "2026-11-09T21:30:00+00:00"
-    },
-    {
-      "event_id": "13426508",
-      "liga": "Czech Liga Pro",
-      "home": "Matyas Navedla",
-      "away": "Radovan Polasek",
-      "hora_utc": "2026-11-09T21:30:00+00:00"
-    },
-    {
-      "event_id": "13426537",
-      "liga": "Czech Liga Pro",
-      "home": "Jakub Stolfa",
-      "away": "Sebastian Kasnik",
-      "hora_utc": "2026-11-09T21:30:00+00:00"
-    },
-    {
-      "event_id": "13426555",
-      "liga": "Czech Liga Pro",
-      "home": "Petr Saleny",
-      "away": "Tomas Zahradnik",
-      "hora_utc": "2026-11-09T21:30:00+00:00"
-    },
-    {
-      "event_id": "13430255",
+      "event_id": "13438082",
       "liga": "TT Cup",
-      "home": "Jan Vidourek",
-      "away": "Simon Mezlik",
-      "hora_utc": "2026-11-09T21:35:00+00:00"
+      "home": "Petr Chlumsky",
+      "away": "Martin Filipek",
+      "hora_utc": "2026-11-11T09:55:00+00:00"
     },
     {
-      "event_id": "13430543",
+      "event_id": "13438066",
       "liga": "TT Cup",
-      "home": "Jaroslav Dohnal",
+      "home": "Daniel Vitasek",
+      "away": "Radek Benes",
+      "hora_utc": "2026-11-11T10:45:00+00:00"
+    },
+    {
+      "event_id": "13437991",
+      "liga": "TT Cup",
+      "home": "Patrik Jokiel",
+      "away": "Filip Mandrysz",
+      "hora_utc": "2026-11-11T11:10:00+00:00"
+    },
+    {
+      "event_id": "13438150",
+      "liga": "TT Cup",
+      "home": "Jan Skvrna",
+      "away": "Jan Krupnik",
+      "hora_utc": "2026-11-11T11:15:00+00:00"
+    },
+    {
+      "event_id": "13438128",
+      "liga": "TT Cup",
+      "home": "Frantisek Dvorak",
       "away": "Ondrej Knazik",
-      "hora_utc": "2026-11-09T21:50:00+00:00"
+      "hora_utc": "2026-11-11T11:20:00+00:00"
     },
     {
-      "event_id": "13430485",
+      "event_id": "13438152",
       "liga": "TT Cup",
-      "home": "Tomas Krejci",
-      "away": "Ondrej Sebek",
-      "hora_utc": "2026-11-09T21:55:00+00:00"
+      "home": "Jaroslav Sindler",
+      "away": "Filip Mandrysz",
+      "hora_utc": "2026-11-11T11:40:00+00:00"
     },
     {
-      "event_id": "13426815",
-      "liga": "TT Elite Series",
-      "home": "Jakub Glanowski",
-      "away": "Maciej Kolek",
-      "hora_utc": "2026-11-09T22:00:00+00:00"
-    },
-    {
-      "event_id": "13431523",
-      "liga": "TT Elite Series",
-      "home": "Michal Kumor",
-      "away": "Andrzej Krezel",
-      "hora_utc": "2026-11-09T22:00:00+00:00"
-    },
-    {
-      "event_id": "13426844",
-      "liga": "TT Elite Series",
-      "home": "Jerzy Michalik",
-      "away": "Jakub Skorupa",
-      "hora_utc": "2026-11-09T22:10:00+00:00"
-    },
-    {
-      "event_id": "13430200",
-      "liga": "TT Elite Series",
-      "home": "Marian Brunner",
-      "away": "Jacek Zelezik",
-      "hora_utc": "2026-11-09T22:20:00+00:00"
-    },
-    {
-      "event_id": "13428553",
-      "liga": "TT Elite Series",
-      "home": "Adam Linek",
-      "away": "Bartosz Kwodawski",
-      "hora_utc": "2026-11-09T22:25:00+00:00"
-    },
-    {
-      "event_id": "13430451",
+      "event_id": "13437997",
       "liga": "TT Cup",
-      "home": "Michal Nemec",
-      "away": "Marek Dlask",
-      "hora_utc": "2026-11-09T22:25:00+00:00"
+      "home": "Jan Srnka",
+      "away": "Tomas Rein",
+      "hora_utc": "2026-11-11T11:50:00+00:00"
     },
     {
-      "event_id": "13430053",
-      "liga": "TT Elite Series",
-      "home": "Zbigniew Nocun",
-      "away": "Miroslaw Lewczuk",
-      "hora_utc": "2026-11-09T22:45:00+00:00"
+      "event_id": "13437980",
+      "liga": "TT Cup",
+      "home": "Radek Benes",
+      "away": "Jan Skvrna",
+      "hora_utc": "2026-11-11T12:15:00+00:00"
     },
     {
-      "event_id": "13428552",
-      "liga": "TT Elite Series",
-      "home": "Adam Linek",
-      "away": "Milosz Kukawka",
-      "hora_utc": "2026-11-09T22:50:00+00:00"
+      "event_id": "13437989",
+      "liga": "TT Cup",
+      "home": "Jan Vonasek",
+      "away": "Pavel Benes",
+      "hora_utc": "2026-11-11T12:25:00+00:00"
     },
     {
-      "event_id": "13427712",
-      "liga": "TT Elite Series",
-      "home": "Michal Machelski",
-      "away": "Miroslaw Warzecha",
-      "hora_utc": "2026-11-09T23:00:00+00:00"
+      "event_id": "13437987",
+      "liga": "TT Cup",
+      "home": "Jaroslav Sindler",
+      "away": "Patrik Jokiel",
+      "hora_utc": "2026-11-11T12:40:00+00:00"
     },
     {
-      "event_id": "13424878",
-      "liga": "Czech Liga Pro",
-      "home": "Radek Bartunek",
-      "away": "Ondrej Kucirek",
-      "hora_utc": "2026-11-09T23:00:00+00:00"
+      "event_id": "13438055",
+      "liga": "TT Cup",
+      "home": "Ondrej Knazik",
+      "away": "Jan Srnka",
+      "hora_utc": "2026-11-11T12:50:00+00:00"
     },
     {
-      "event_id": "13425150",
-      "liga": "Czech Liga Pro",
-      "home": "Frantisek Just",
-      "away": "Pavel Fojt",
-      "hora_utc": "2026-11-09T23:00:00+00:00"
+      "event_id": "13438080",
+      "liga": "TT Cup",
+      "home": "Vaclav Hejda Jr",
+      "away": "Pavel Benes",
+      "hora_utc": "2026-11-11T12:55:00+00:00"
     },
     {
-      "event_id": "13426442",
-      "liga": "Czech Liga Pro",
-      "home": "Matous Klimenta",
-      "away": "Ondrej Svacha",
-      "hora_utc": "2026-11-09T23:00:00+00:00"
+      "event_id": "13438113",
+      "liga": "TT Cup",
+      "home": "David Sochor",
+      "away": "Jan Vonasek",
+      "hora_utc": "2026-11-11T13:25:00+00:00"
     },
     {
-      "event_id": "13426814",
-      "liga": "TT Elite Series",
-      "home": "Maciej Kolek",
-      "away": "Bartosz Kwodawski",
-      "hora_utc": "2026-11-09T23:10:00+00:00"
-    },
-    {
-      "event_id": "13431581",
-      "liga": "TT Elite Series",
-      "home": "Michal Kumor",
-      "away": "Marian Brunner",
-      "hora_utc": "2026-11-09T23:10:00+00:00"
-    },
-    {
-      "event_id": "13426843",
-      "liga": "TT Elite Series",
-      "home": "Jerzy Michalik",
-      "away": "Jakub Cyndera",
-      "hora_utc": "2026-11-09T23:25:00+00:00"
-    },
-    {
-      "event_id": "13430102",
-      "liga": "TT Elite Series",
-      "home": "Miroslaw Lewczuk",
-      "away": "Andrzej Krezel",
-      "hora_utc": "2026-11-09T23:30:00+00:00"
-    },
-    {
-      "event_id": "13424854",
-      "liga": "Czech Liga Pro",
-      "home": "Radim Urbaniec",
-      "away": "Martin Skakal",
-      "hora_utc": "2026-11-09T23:30:00+00:00"
-    },
-    {
-      "event_id": "13424875",
-      "liga": "Czech Liga Pro",
-      "home": "Petr Picek",
-      "away": "Martin Stefek",
-      "hora_utc": "2026-11-09T23:30:00+00:00"
-    },
-    {
-      "event_id": "13426418",
-      "liga": "Czech Liga Pro",
-      "home": "Jiri Dedek",
-      "away": "Daniel Kouble",
-      "hora_utc": "2026-11-09T23:30:00+00:00"
-    },
-    {
-      "event_id": "13426813",
-      "liga": "TT Elite Series",
-      "home": "Milosz Kukawka",
-      "away": "Maciej Kolek",
-      "hora_utc": "2026-11-09T23:35:00+00:00"
-    },
-    {
-      "event_id": "13430111",
-      "liga": "TT Elite Series",
-      "home": "Zbigniew Nocun",
-      "away": "Jacek Zelezik",
-      "hora_utc": "2026-11-09T23:50:00+00:00"
-    },
-    {
-      "event_id": "13430146",
-      "liga": "TT Elite Series",
-      "home": "Jakub Glanowski",
-      "away": "Bartosz Kwodawski",
-      "hora_utc": "2026-11-09T23:55:00+00:00"
-    },
-    {
-      "event_id": "13426503",
-      "liga": "Czech Liga Pro",
-      "home": "Ondrej Svacha",
-      "away": "Richard Wagner",
-      "hora_utc": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "event_id": "13426572",
-      "liga": "Czech Liga Pro",
-      "home": "Ondrej Kucirek",
-      "away": "Marek Placek",
-      "hora_utc": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "event_id": "13426573",
-      "liga": "Czech Liga Pro",
-      "home": "Pavel Fojt",
-      "away": "Jan Trefny",
-      "hora_utc": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "event_id": "13426433",
-      "liga": "Czech Liga Pro",
-      "home": "Matous Klimenta",
-      "away": "Radim Urbaniec",
-      "hora_utc": "2026-11-10T00:30:00+00:00"
-    },
-    {
-      "event_id": "13426655",
-      "liga": "Czech Liga Pro",
-      "home": "Frantisek Just",
-      "away": "Jiri Dedek",
-      "hora_utc": "2026-11-10T00:30:00+00:00"
-    },
-    {
-      "event_id": "13426723",
-      "liga": "Czech Liga Pro",
-      "home": "Radek Bartunek",
-      "away": "Petr Picek",
-      "hora_utc": "2026-11-10T00:30:00+00:00"
+      "event_id": "13438136",
+      "liga": "TT Cup",
+      "home": "Tomas Rein",
+      "away": "Ondrej Knazik",
+      "hora_utc": "2026-11-11T13:50:00+00:00"
     }
   ]
 }\n

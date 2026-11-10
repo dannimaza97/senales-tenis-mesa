@@ -1,0 +1,23 @@
+Señales generadas el 10/11/2026 a las 21:56
+
+Cargando historico acumulado guardado...
+  TT Elite Series: 999 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+  Setka Cup: 982 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+  Czech Liga Pro: 980 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+  TT Cup: 998 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342361
+Jugadores con rating calculado: 2435
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 3/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 3 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟡 22:15  Setka Cup          Anton Shypilov       vs Oleh Napirko         | Ambos ganan set:  73.4%  [P(Anton Shypilov)=82.8% · P(Oleh Napirko)=88.7%] (H2H n=36)
+🟢 22:45  TT Elite Series    Piotr Gesiarz        vs Jacek Oracz          | Ambos ganan set:  77.1%  [P(Piotr Gesiarz)=83.4% · P(Jacek Oracz)=92.5%] (H2H n=2)
+🔴 22:45  TT Elite Series    Jan Orszulik         vs Piotr Kaczynski      | Ambos ganan set:  66.5%  [P(Jan Orszulik)=79.3% · P(Piotr Kaczynski)=83.9%] (H2H n=2)
