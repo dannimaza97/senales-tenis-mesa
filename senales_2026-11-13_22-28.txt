@@ -1,0 +1,22 @@
+Señales generadas el 13/11/2026 a las 22:28
+
+Cargando historico acumulado guardado...
+  TT Elite Series: 988 partidos nuevos anadidos
+  TT Elite Series: backfill anadio 0 partidos historicos (pagina 2874, agotado=True)
+ (aviso: tiempo de espera agotado en pagina 5, reintento)
+  Setka Cup: 974 partidos nuevos anadidos
+  Setka Cup: backfill anadio 0 partidos historicos (pagina 2666, agotado=True)
+  Czech Liga Pro: 963 partidos nuevos anadidos
+  Czech Liga Pro: backfill anadio 0 partidos historicos (pagina 3667, agotado=True)
+  TT Cup: 994 partidos nuevos anadidos
+  TT Cup: backfill anadio 0 partidos historicos (pagina 3301, agotado=True)
+
+Total partidos historicos acumulados: 342321
+Jugadores con rating calculado: 2428
+
+Buscando proximos partidos...
+
+======================================================================
+SELECCION DE HOY: 1/35 partidos bloqueados para el dia (primeros 25 intocables + hasta 10 extra si aparecen mejores candidatos; de 1 candidatas esta ejecucion, umbral >=65%)
+======================================================================
+🟢 22:30  Setka Cup          Valerii Vlasenko     vs Orest Hura           | Ambos ganan set:  78.3%  [P(Valerii Vlasenko)=86.0% · P(Orest Hura)=91.0%] (H2H n=29)
