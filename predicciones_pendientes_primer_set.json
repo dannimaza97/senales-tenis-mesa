@@ -1,1 +1,22 @@
-{}
+{
+  "13477466": {
+    "liga": "TT Elite Series",
+    "home": "Dariusz Molenda",
+    "away": "Marcin Zielinski",
+    "favorito": "Dariusz Molenda",
+    "probabilidad": 0.723189997907512,
+    "score": 0.7270499415276727,
+    "color": "AMARILLO",
+    "n_h2h": 1,
+    "p_home_individual": 0.723189997907512,
+    "p_away_individual": 0.6778585439021576,
+    "hora": "22:45",
+    "event_id": "13477466",
+    "hora_ts": 1795124700,
+    "racha_home": 17,
+    "racha_away": 1,
+    "tasa_home": 0.7412280701754386,
+    "tasa_away": 0.7070707070707071,
+    "h2h_ultima_fecha": "29/10/2026"
+  }
+}
