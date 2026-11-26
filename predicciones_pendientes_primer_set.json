@@ -1,1 +1,22 @@
-{}
+{
+  "13516758": {
+    "liga": "TT Elite Series",
+    "home": "Dariusz Molenda",
+    "away": "Andriej Fomin",
+    "favorito": "Dariusz Molenda",
+    "probabilidad": 0.7221171526136064,
+    "score": 0.729849717783537,
+    "color": "AMARILLO",
+    "n_h2h": 1,
+    "p_home_individual": 0.7221171526136064,
+    "p_away_individual": 0.5476983136159166,
+    "hora": "22:45",
+    "event_id": "13516758",
+    "hora_ts": 1795729500,
+    "racha_home": 16,
+    "racha_away": -2,
+    "tasa_home": 0.7400881057268722,
+    "tasa_away": 0.5544715447154471,
+    "h2h_ultima_fecha": "04/06/2026"
+  }
+}
